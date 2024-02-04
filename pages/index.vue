@@ -9,8 +9,9 @@
     <OurMediaAssets />
     <DataStrategy />
     <CertificationsAwards />
+    <LetsWorkTogether />
+    <LocateUs />
     <HomeCTA />
-    <Location />
   </LayoutOne>
 </template>
 
@@ -25,11 +26,12 @@ import DeliveryChannels from "~/components/index/DeliveryChannels.vue";
 import OurMediaAssets from '~/components/index/OurMediaAssets.vue';
 import DataStrategy from "~/components/index/DataStrategy";
 import CertificationsAwards from '~/components/index/CertificationsAwards.vue';
+import LetsWorkTogether from '~/components/index/LetsWorkTogether.vue';
+import LocateUs from "~/components/index/LocateUs.vue";
 import HomeCTA from "~/components/index/HomeCTA.vue";
-import Location from "~/components/index/Location.vue";
 
 useHead({
-  title: "EvolveBPM - Revenue Impact Solution in USA",
+  title: "Dot Global Technologies - ",
 });
 
 </script>
