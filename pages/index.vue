@@ -1,12 +1,12 @@
 <template>
   <LayoutOne>
     <HomeHero />
-    <TailoredServices />
+    <!-- <TailoredServices />
     <Statistics />
     <OurProducts />
     <DeliveryChannels />
     <OurMediaAssets />
-    <DataStrategy />
+    <DataStrategy /> -->
 
     <GlobalBrands />
     <CertificationsAwards />
@@ -23,12 +23,12 @@
 <script setup>
 import LayoutOne from '~/layouts/LayoutOne.vue';
 import HomeHero from '~/components/index/HomeHero.vue'
-import TailoredServices from '~/components/index/TailoredServices.vue';
-import Statistics from '~/components/index/Statistics.vue';
-import OurProducts from "~/components/index/OurProducts.vue";
-import DeliveryChannels from "~/components/index/DeliveryChannels.vue";
-import OurMediaAssets from '~/components/index/OurMediaAssets.vue';
-import DataStrategy from "~/components/index/DataStrategy";
+// import TailoredServices from '~/components/index/TailoredServices.vue';
+// import Statistics from '~/components/index/Statistics.vue';
+// import OurProducts from "~/components/index/OurProducts.vue";
+// import DeliveryChannels from "~/components/index/DeliveryChannels.vue";
+// import OurMediaAssets from '~/components/index/OurMediaAssets.vue';
+// import DataStrategy from "~/components/index/DataStrategy";
 
 import GlobalBrands from '~~/components/index/GlobalBrands.vue';
 import CertificationsAwards from '~/components/index/CertificationsAwards.vue';
