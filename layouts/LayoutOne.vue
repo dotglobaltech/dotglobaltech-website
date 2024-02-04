@@ -7,7 +7,7 @@
     </main>
 
     <Footer />
-    <BackToTop />
+    <BackToTop/>
   </div>
 </template>
 

@@ -59,7 +59,7 @@
                 <div class="main-menu pl-55 main-menu-ff-space">
                   <nav id="mobile-menu">
                     <!-- menus start -->
-                    <!-- <menus /> -->
+                    <menus />
                     <!-- menus end -->
                   </nav>
                 </div>
@@ -70,7 +70,7 @@
                 >
                   <div class="header__action d-none d-xl-block">
                     <ul>
-                      <!-- <li>
+                      <li>
                         <a
                           @click.prevent="handleSearch"
                           href="#"
@@ -99,7 +99,7 @@
                             />
                           </svg>
                         </a>
-                      </li> -->
+                      </li>
                       <li>
                         <button
                         @click="handleOffCanvas"
@@ -137,7 +137,7 @@
     </div>
 
     <!-- search popup start -->
-    <!-- <SearchPopup ref="SearchPopup" /> -->
+    <SearchPopup ref="SearchPopup" />
     <!-- search popup end -->
   </header>
 
@@ -151,10 +151,10 @@
 </template>
 
 <script>
-// import menus from "./menus.vue";
-// import HeaderInfo from "./component/HeaderInfo.vue";
-// import Language from "./component/Language.vue";
-// import SearchPopup from "./component/SearchPopup.vue";
+import menus from "./menus.vue";
+import HeaderInfo from "./component/HeaderInfo.vue";
+import Language from "./component/Language.vue";
+import SearchPopup from "./component/SearchPopup.vue";
 import { useUtilsStore } from '~~/store/utils';
 import OffCanvasMain from '~~/components/common/off-canvas/OffCanvasMain.vue';
 import OffCanvasSix from '~~/components/common/off-canvas/OffCanvasSix.vue';
@@ -192,10 +192,10 @@ export default {
     },
   },
   components: {
-    // menus,
-    // HeaderInfo,
-    // Language,
-    // SearchPopup,
+    menus,
+    HeaderInfo,
+    Language,
+    SearchPopup,
     OffCanvasMain,
     OffCanvasSix,
   },
