@@ -7,7 +7,7 @@
         renderBullet: renderBullet,
       }">
       <SwiperSlide v-for="(item, i) in slider_data" :key="i"
-        class="slider__item slider__height slider__overlay include-bg pt-100 pb-100 d-flex align-items-center">
+        class="slider__item slider__height include-bg pt-100 pb-100 d-flex align-items-center">
         <div class="slider__bg p-relative include-bg" :style="{ backgroundImage: `url(${item.bg})` }"></div>
         <div class="container">
           <div class="row justify-content-center">
