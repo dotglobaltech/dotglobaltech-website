@@ -18,9 +18,9 @@
       </div>
       <div class="offcanvas__content">
         <div class="offcanvas__top mb-10 d-flex justify-content-between align-items-center">
-          <div class="offcanvas__logo logo">
+          <div class="offcanvas__logo logo pb-30">
             <nuxt-link href="/">
-              <img src="~/assets/img/logo/logo.png" alt="logo">
+              <img src="~/assets/img/logo/logo-white-solid.svg" alt="logo">
             </nuxt-link>
           </div>
         </div>
