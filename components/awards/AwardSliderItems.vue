@@ -1,23 +1,13 @@
 <template>
-  <Swiper
-    :slidesPerView="4"
-    :spaceBetween="30"
-    class="award__item-wrapper"
-    :loop="true"
-    :breakpoints="{
-      576: {
-        slidesPerView: 4,
-      },
-      0: {
-        slidesPerView: 3,
-      },
-    }"
-  >
-    <SwiperSlide
-      v-for="(img, i) in award_data"
-      :key="i"
-      class="award__item-4 mr-30"
-    >
+  <Swiper :slidesPerView="4" :spaceBetween="30" class="award__item-wrapper" :loop="true" :breakpoints="{
+    576: {
+      slidesPerView: 4,
+    },
+    0: {
+      slidesPerView: 3,
+    },
+  }">
+    <SwiperSlide v-for="(img, i) in award_data" :key="i" class="award__item-4 mr-30">
       <img :src="img" alt="image" />
     </SwiperSlide>
   </Swiper>

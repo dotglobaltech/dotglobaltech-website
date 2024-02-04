@@ -6,11 +6,13 @@
           <div class="footer__top-9-inner">
             <div class="row align-items-center">
               <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-4">
-                <div class="footer__widget footer__widget-9">
-                  <div class="footer__logo">
-                    <nuxt-link href="/">
-                      <img src="~/assets/img/logo/logo-black.svg" alt="logo" />
-                    </nuxt-link>
+                <div class="footer__widget-content">
+                  <div class="footer__info">
+                    <h5>Top App Development Companies</h5>
+                    <p>News letter dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Enter
+                      your email</p>
+                    <div class="footer__opening d-flex align-items-start">
+                    </div>
                   </div>
                 </div>
               </div>
