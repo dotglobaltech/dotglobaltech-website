@@ -7,7 +7,10 @@
     <DeliveryChannels />
     <OurMediaAssets />
     <DataStrategy />
+
+    <GlobalBrands />
     <CertificationsAwards />
+    <TrustedClients />
     <EmergingTechnologies />
     <FunFact />
     <WhyChooseUs />
@@ -26,7 +29,10 @@ import OurProducts from "~/components/index/OurProducts.vue";
 import DeliveryChannels from "~/components/index/DeliveryChannels.vue";
 import OurMediaAssets from '~/components/index/OurMediaAssets.vue';
 import DataStrategy from "~/components/index/DataStrategy";
+
+import GlobalBrands from '~~/components/index/GlobalBrands.vue';
 import CertificationsAwards from '~/components/index/CertificationsAwards.vue';
+import TrustedClients from '~~/components/index/TrustedClients.vue';
 import EmergingTechnologies from '~~/components/index/EmergingTechnologies.vue';
 import FunFact from '~~/components/index/FunFact.vue';
 import WhyChooseUs from '~/components/index/WhyChooseUs.vue';
