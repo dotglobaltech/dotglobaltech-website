@@ -1,5 +1,5 @@
 <template>
-    <section class="award__area pb-90">
+    <section class="award__area  pt-40 pb-40" data-bg-color="footer-bg-grey">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-xl-4 col-xl-4 col-lg-4 col-md-4">
