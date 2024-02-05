@@ -1,5 +1,5 @@
 <template>
-    <section :class="`brand__area award-bg ${spacing ? 'pb-120' : ''} ${el_style ? 'pt-110 pb-120' : ''
+    <section :class="`brand__area award-bg pb-100 ${spacing ? '' : ''} ${el_style ? '' : ''
         }`">
         <div class="container-fluid g-0">
             <div v-if="el_style" class="row gx-0">
@@ -56,54 +56,6 @@
                                     },
                                 }">
                                 <swiper-slide v-for="(brand, i) in brand_1_data" :key="i">
-                                    <div class="brand__item-5">
-                                        <img :src="brand.brand" alt="brand" />
-                                    </div>
-                                </swiper-slide>
-                            </swiper>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xxl-12">
-                    <div :class="`services__area ${style_2 ? 'pt-120' : ''} ${el_style ? 'pt-110' : ''} `">
-                        <div class="container">
-                            <div v-if="!style_2 && !el_style" class="row align-items-end">
-                                <div class="col-xxl-7 col-xl-5 col-lg-8 col-md-8 col-sm-8">
-                                    <div class="section__title-wrapper pt-50 mb-60">
-                                        <h4 class="section__title">Awards
-                                        </h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div :class="`brand__slider-5-1 ${square ? square : 'pb-120'}`">
-                        <div class="brand__slider-5">
-                            <swiper ref="swiper_slide" class="brand__slider-active-5-1" :freeMode="true" :loop="true"
-                                :autoplay="{
-                                    delay: 1,
-                                    disableOnInteraction: true,
-                                    reverseDirection: true,
-                                }" :slidesPerView="1" :centeredSlides="true" :speed="5000" :modules="modules"
-                                :shortSwipes="false" :longSwipes="false" :allowTouchMove="false" :grabCursor="false"
-                                :breakpoints="{
-                                    '0': {
-                                        slidesPerView: 1,
-                                    },
-                                    '576': {
-                                        slidesPerView: 2,
-                                    },
-                                    '768': {
-                                        slidesPerView: 4,
-                                    },
-                                    '991': {
-                                        slidesPerView: 5,
-                                    },
-                                    '1200': {
-                                        slidesPerView: 7,
-                                    },
-                                }">
-                                <swiper-slide v-for="(brand, i) in brand_2_data" :key="i">
                                     <div class="brand__item-5">
                                         <img :src="brand.brand" alt="brand" />
                                     </div>
