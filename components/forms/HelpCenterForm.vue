@@ -35,9 +35,13 @@
           </label>
         </div>
       </div>
-      <div class="col-md-5">
-        <div class="contact__btn-2">
-          <button type="submit" class="tp-btn">Send Message</button>
+      <div class="col-md-8">
+        <div class="cta__btn-2 text-lg-end">
+          <nuxt-link href="/" class="tp-btn btn-cta bg-btn lnk">
+            Send Message
+            <i class="fas fa-chevron-right fa-icon"></i>
+            <span class="circle"></span>
+          </nuxt-link>
         </div>
       </div>
       <div v-if="style_2" class="col-md-7">
@@ -46,7 +50,7 @@
           <span>Call for Consultation</span>
           <p>
             <a href="tel:2236-384-870">
-              <i class="fa-solid fa-phone-flip"></i> 
+              <i class="fa-solid fa-phone-flip"></i>
               +2236 384 8700
             </a>
           </p>
@@ -59,10 +63,10 @@
 <script>
 
 export default {
-  props:{
-    style_2:{
-      type:Boolean,
-      default:false,
+  props: {
+    style_2: {
+      type: Boolean,
+      default: false,
     }
   },
   data() {

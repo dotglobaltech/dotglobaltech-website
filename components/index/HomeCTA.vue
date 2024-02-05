@@ -16,12 +16,12 @@
                             <div class="cta__input-13">
                                 <input type="email" placeholder="Enter Your Email">
                                 <div class="cta__btn-5 text-lg-end">
-                        <nuxt-link href="/" class="tp-btn btn-cta bg-btn lnk">
-                            Subscribe
-                            <i class="fas fa-chevron-right fa-icon"></i>
-                            <span class="circle"></span>
-                        </nuxt-link>
-                    </div>
+                                    <nuxt-link href="/" class="tp-btn btn-cta bg-btn lnk">
+                                        Subscribe
+                                        <i class="fas fa-chevron-right fa-icon"></i>
+                                        <span class="circle"></span>
+                                    </nuxt-link>
+                                </div>
                                 <!-- <button type="submit" class="tp-btn">Subscribe</button> -->
                             </div>
                         </form>
