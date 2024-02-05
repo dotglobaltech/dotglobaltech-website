@@ -41,8 +41,6 @@ export default {
         award_img_2,
         award_img_3,
         award_img_4,
-        award_img_1,
-        award_img_2,
       ],
     };
   },
