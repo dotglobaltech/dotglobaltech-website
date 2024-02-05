@@ -8,7 +8,7 @@
               <div class="footer__copyright-9">
                 <p>
                   Copyright © {{ new Date().getFullYear() }} by
-                  <nuxt-link href="/">Harry</nuxt-link> All Rights Reserved.
+                  <nuxt-link href="/">Dot Global Tech</nuxt-link> All Rights Reserved.
                 </p>
               </div>
             </div>
