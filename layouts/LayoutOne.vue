@@ -16,8 +16,8 @@
 <script>
 import HeaderOne from "./headers/HeaderOne.vue";
 import Footer from "./footers/FooterFour.vue";
-import BrandStyle from '~/components/index/BrandStyle.vue';
 import FooterEight from './footers/FooterEight.vue';
+import BrandStyle from '~/components/index/BrandStyle.vue';
 import BackToTop from "./footers/component/BackToTop.vue";
 
 export default {

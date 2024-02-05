@@ -1,12 +1,23 @@
 <template>
-  <Swiper :slidesPerView="4" :spaceBetween="30" class="award__item-wrapper" :loop="true" :breakpoints="{
-    576: {
-      slidesPerView: 4,
-    },
-    0: {
-      slidesPerView: 3,
-    },
-  }">
+  <Swiper :slidesPerView="3" :spaceBetween="100" class="award__item-wrapper" :loop="true"
+  :breakpoints="{
+                1200: {
+                  slidesPerView: 3,
+                },
+                992: {
+                  slidesPerView: 2,
+                },
+                768: {
+                  slidesPerView: 2,
+                },
+                576: {
+                  slidesPerView: 1,
+                },
+                0: {
+                  slidesPerView: 1,
+                },
+              }"
+  >
     <SwiperSlide v-for="(img, i) in award_data" :key="i" class="award__item-4 mr-30">
       <img :src="img" alt="image" />
     </SwiperSlide>
@@ -17,10 +28,10 @@
 // external
 import { Swiper, SwiperSlide } from "swiper/vue";
 // internal
-import award_img_1 from "~/assets/img/award/4/award-icon-1.png";
-import award_img_2 from "~/assets/img/award/4/award-icon-2.png";
-import award_img_3 from "~/assets/img/award/4/award-icon-3.png";
-import award_img_4 from "~/assets/img/award/4/award-icon-4.png";
+import award_img_1 from "~/assets/img/award/badges-a.png";
+import award_img_2 from "~/assets/img/award/badges-b.png";
+import award_img_3 from "~/assets/img/award/badges-c.png";
+import award_img_4 from "~/assets/img/award/badges-d.png";
 
 export default {
   data() {
