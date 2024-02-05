@@ -47,7 +47,7 @@
           <p>
             <a href="tel:2236-384-870">
               <i class="fa-solid fa-phone-flip"></i> 
-              +2236 384 870
+              +2236 384 8700
             </a>
           </p>
         </div>
