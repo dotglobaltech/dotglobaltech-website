@@ -3,7 +3,7 @@
       class="counter__area p-relative z-index-1 green-light-bg-4 pt-145 pb-110 fix"
     >
       <div class="counter__border-animation"></div>
-      <div v-if="!el_style" class="counter__shape">
+      <!-- <div v-if="!el_style" class="counter__shape">
         <img
           class="counter__shape-13"
           src="~/assets/img/counter/7/counter-shape-1.png"
@@ -19,30 +19,8 @@
           src="~/assets/img/counter/7/counter-shape-3.png"
           alt="counter__shape"
         />
-      </div>
+      </div> -->
       <div class="container">
-        <div v-if="!el_style" class="row justify-content-center">
-          <div class="col-xxl-8 col-xl-8 col-lg-9">
-            <div class="section__title-wrapper-7 mb-60 text-center">
-              <span class="section__title-pre-7">Join 0ur Community</span>
-              <h3 class="section__title-7">
-                Qu'est-ce qui est inclus dans
-                <span class="section__title-7-highlight">
-                  Startup Harry
-                  <svg width="240" height="22" viewBox="0 0 240 22" fill="none">
-                    <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
-                      d="M0.440833 21.1152C78.9497 6.16225 158.05 4.53412 235.949 13.8239C237.497 14.0088 239.796 12.4065 239.988 9.93474C240.181 7.4176 238.026 5.44088 236.474 5.2332C157.99 -5.31675 79.1936 0.359501 0.316568 19.7785C-0.184784 19.9023 -0.0511379 21.2092 0.440833 21.1152Z"
-                      fill="currentColor"
-                    />
-                  </svg>
-                </span>
-                ?
-              </h3>
-            </div>
-          </div>
-        </div>
         <div v-if="el_style" class="row">
           <div class="col-xxl-12">
             <div class="tp-section-wrapper-3 mb-60 text-center">
