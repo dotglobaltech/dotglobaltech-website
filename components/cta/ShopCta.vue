@@ -6,7 +6,7 @@
         <div class="row align-items-center">
           <div class="col-xl-6 col-lg-6">
             <div class="cta__content-13">
-              <h3 class="cta__title-13">Subscribe for <br>Latest Trends & Offers</h3>
+              <h3 class="cta__title-13">Subscribe for <br>LLatest Trends & Offers</h3>
             </div>
           </div>
           <div class="col-xl-6 col-lg-6">
