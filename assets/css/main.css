@@ -41186,6 +41186,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   font-size: 15px;
   font-family: var(--tp-ff-roboto);
   padding-right: 170px;
+  border-radius: 50px;
 }
 
 [dir=rtl] .cta__input-13 input {
@@ -41227,14 +41228,14 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .cta__input-13 .tp-btn {
   position: absolute;
-  top: 10px;
-  right: 10px;
+  top: 4px;
+  right: 4px;
   font-family: var(--tp-ff-roboto);
   font-weight: 500;
   font-size: 16px;
   color: var(--tp-common-white);
   background-color: var(--tp-common-black);
-  padding: 10px 42px;
+  padding: 0px 50px;
 }
 
 [dir=rtl] .cta__input-13 .tp-btn {
