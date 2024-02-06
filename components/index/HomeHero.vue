@@ -22,27 +22,33 @@
                   <SliderForm />
                 </div> -->
 
-              
+
                 <div class="sb-title-wrap">
-                <h1 class="sb-heading">
-                  Software Consulting and Development
-                </h1>
+                  <h1 class="sb-heading">
+                    Software Consulting and Development
+                  </h1>
 
-                <div class="sb-title-row">
-                  <div class="sb-title">
-                    <p>We</p>
-                  </div>
+                  <div class="sb-title-row">
+                    <div class="sb-title">
+                      <p>We</p>
+                    </div>
 
-                  <div class="sb-animated-inner" style="width: 195.262px;">
-                    <div class="sb-animated-label">Action</div>
-                    <div class="sb-animated-word printed printer">Power</div>
-                  </div>
-
-                  <div class="sb-title">
-                    <p>digital success</p>
+                    <div class="sb-animated-inner" style="width: 195.262px;">
+                      <div class="sb-animated-label">Action</div>
+                      <div class="sb-animated wrapper">
+                        <ul class="dynamic-txts">
+                          <li><span>YouTuber</span></li>
+                          <li><span>Designer</span></li>
+                          <li><span>Developer</span></li>
+                          <li><span>Freelancer</span></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="sb-title">
+                      <p>digital success</p>
+                    </div>
                   </div>
                 </div>
-              </div>  
               </div>
             </div>
           </div>
