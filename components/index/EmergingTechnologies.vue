@@ -4,9 +4,11 @@
       <div class="row">
         <div class="col-xxl-12">
           <div class="section__title-wrapper-2 text-center mb-40">
-            <span class="section__title-pre-2">All Creative Works</span>
-            <h3 class="section__title-2">Creative Works</h3>
-            <p>Featured projects, which my best projects be choice to show</p>
+            <span class="section__title-pre-2">OUR</span>
+            <h3 class="section__title-2">Emerging Technologies</h3>
+            <p>Customer satisfaction is our greatest achievement. We take pride in our commitment to excellence and
+              delivering exceptional service. Catch a glimpse of our customers' stories and the exceptional experiences
+              they've had with us.</p>
           </div>
         </div>
       </div>
@@ -94,7 +96,7 @@
                   </div>
                 </div>
               </Slide>
-              
+
             </Carousel>
 
           </div>
