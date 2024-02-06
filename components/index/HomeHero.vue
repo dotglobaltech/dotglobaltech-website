@@ -35,13 +35,12 @@
 
                   <div class="sb-animated-inner" style="width: 195.262px;">
                     <div class="sb-animated-label">Action</div>
-                    <div class="sb-animated-word printed">Power</div>
+                    <div class="sb-animated-word printed printer">Power</div>
                   </div>
-                
+
                   <div class="sb-title">
                     <p>digital success</p>
                   </div>
-                  
                 </div>
               </div>  
               </div>
