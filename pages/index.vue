@@ -8,10 +8,10 @@
     <OurMediaAssets />
     <DataStrategy /> -->
 
-    <!-- <GlobalBrands /> -->
+    <GlobalBrands />
     <CertificationsAwards />
     <TrustedClients />
-    <!-- <EmergingTechnologies /> -->
+    <EmergingTechnologies />
     <!-- <FunFact /> -->
     <WhyChooseUs />
     <LetsWorkTogether />
