@@ -13,18 +13,44 @@
           <div class="row justify-content-center">
             <div class="col-xxl-12">
               <div class="slider__content text-center">
-                <span class="slider__title-pre">
+
+                <!-- <span class="slider__title-pre">
                   {{ item.pre_title }}
-                </span>
-                <h3 class="slider__title" v-html="item.title"></h3>
+                </span> -->
+                <!-- <h3 class="slider__title" v-html="item.title"></h3> -->
                 <!-- <div class="slider__form">
                   <SliderForm />
                 </div> -->
+
+              
+                <div class="sb-title-wrap">
+                <h1 class="sb-heading">
+                  Software Consulting and Development
+                </h1>
+
+                <div class="sb-title-row">
+                  <div class="sb-title">
+                    <p>We</p>
+                  </div>
+
+                  <div class="sb-animated-inner" style="width: 195.262px;">
+                    <div class="sb-animated-label">Action</div>
+                    <div class="sb-animated-word printed">Power</div>
+
+                  </div>
+
+                  <div class="sb-title">
+                    <p>digital success</p>
+                  </div>
+                </div>
+              </div>    
               </div>
             </div>
           </div>
         </div>
       </SwiperSlide>
+
+
 
       <div class="main-slider-dot d-none d-lg-flex"></div>
     </Swiper>
