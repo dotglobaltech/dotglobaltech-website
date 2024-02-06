@@ -18263,7 +18263,7 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
   height: 54px;
   margin: 0 17px 0 13px;
   min-width: 190px;
-  padding: 7px 14px 4px;
+  padding: 7px 19px 4px;
   position: relative
 }
 
@@ -19160,7 +19160,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 }
 
 .slider__content p {
-  font-size: px;
+  font-size: 32px;
   line-height: 28px;
   color: var(--tp-common-white);
   /* margin-bottom: 45px; */

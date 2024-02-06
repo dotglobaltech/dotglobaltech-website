@@ -30,22 +30,23 @@
 
                   <div class="sb-title-row">
                     <div class="sb-title">
-                      <p>We</p>
+                      <p>Dot</p>
                     </div>
 
-                    <div class="sb-animated-inner" style="width: 195.262px;">
+                    <div class="sb-animated-inner">
                       <div class="sb-animated-label">Action</div>
                       <div class="sb-animated wrapper">
                         <ul class="dynamic-txts">
-                          <li><span>YouTuber</span></li>
-                          <li><span>Designer</span></li>
-                          <li><span>Developer</span></li>
-                          <li><span>Freelancer</span></li>
+                          <li><span>Drive</span></li>
+                          <li><span>Ensure</span></li>
+                          <li><span>Empower</span></li>
+                          <li><span>Enhance</span></li>
+                          <li><span>Inspire</span></li>
                         </ul>
                       </div>
                     </div>
                     <div class="sb-title">
-                      <p>digital success</p>
+                      <p>Digital Transformation</p>
                     </div>
                   </div>
                 </div>
