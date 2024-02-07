@@ -32284,7 +32284,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .portfolio__item-2.has-green {
-  background-color: var(--tp-common-green-light-2);
+  background: linear-gradient(to bottom,#e2f3ff 0,#fffbef 100%);
 }
 
 .portfolio__item-2.has-purple {
