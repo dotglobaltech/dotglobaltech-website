@@ -6774,11 +6774,11 @@ span.circle2{background: rgba(255, 255, 255, 0.2); display: block; position: abs
 }
 
 .award-bg {
-  background: linear-gradient(to bottom, #fffaf5 0%, #f8ecff 100%);
+  background: linear-gradient(to bottom,#e4fffe 0,#ffedf3 100%);
 }
 
 .homecta-bg {
-  background: linear-gradient(to bottom, #fffdf2 0%,#ffeff5 100%)
+  background: linear-gradient(to bottom,#e4fffe 0,#ffedf3 100%)
 }
 
 .topnotch-bg {
@@ -6984,7 +6984,7 @@ span.circle2{background: rgba(255, 255, 255, 0.2); display: block; position: abs
 }
 
 [data-bg-color=footer-bg-grey] {
-  background-color: var(--tp-common-footer-bg-grey);
+  background: linear-gradient(to bottom,#fff6f3 0,#fffefb 100%);
 }
 
 [data-bg-color=footer-bg-grey-4] {
