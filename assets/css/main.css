@@ -6762,7 +6762,7 @@ span.circle2{background: rgba(255, 255, 255, 0.2); display: block; position: abs
 }
 
 .form-bg-4 {
-  background-color: var(--tp-grey-4);
+  background: linear-gradient(to bottom,#e4fffe 0,#ffedf3 100%);
 }
 
 .grey-bg-7 {
@@ -11026,10 +11026,10 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 
 .section__title-6 {
   font-size: 36px;
-  color: var(--tp-common-black);
+  color: #050748;
   font-weight: var(--tp-fw-bold);
   line-height: 1;
-  font-family: var(--tp-ff-roboto);
+  font-family: var(--tp-ff-poppins);
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
@@ -11068,7 +11068,7 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 }
 
 .section__title-6-highlight {
-  color: var(--tp-theme-6);
+  color: #662D91;
   position: relative;
   display: inline-block;
 }
@@ -11763,6 +11763,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .tp-section-wrapper-3 p {
   font-size: 16px;
+  font-family: var(--tp-ff-poppins);
 }
 
 .tp-section-wrapper-5 p {
@@ -25324,7 +25325,8 @@ only screen and (min-width: 576px) and (max-width: 767px),
   -o-transform: translateY(-50%);
   transform: translateY(-50%);
   padding: 40px 48px;
-  background-color: var(--tp-common-blue-4);
+  background: linear-gradient(to bottom,#ff2d8d 0,#653db9 100%);
+  border-radius: 10px 10px 0px 0px;
   z-index: 1;
 }
 
@@ -27859,7 +27861,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   background-image: -moz-linear-gradient(329deg, #FF91FA 13.55%, #FA6490 48.54%, #F7D86A 86.44%);
   background-image: -ms-linear-gradient(329deg, #FF91FA 13.55%, #FA6490 48.54%, #F7D86A 86.44%);
   background-image: -o-linear-gradient(329deg, #FF91FA 13.55%, #FA6490 48.54%, #F7D86A 86.44%);
-  background-image: linear-gradient(329deg, #FF91FA 13.55%, #FA6490 48.54%, #F7D86A 86.44%);
+  background-image: linear-gradient(to bottom,#ff2d8d 0,#653db9 100%);
   z-index: -1;
 }
 
@@ -41573,7 +41575,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .cta__input-13 input {
   height: 64px;
   background: #FFFFFF;
-  border: 1px solid var(--tp-common-black);
+  border: 1px solid var(--tp-ff-poppins);
   font-size: 15px;
   font-family: var(--tp-ff-roboto);
   padding-right: 170px;
@@ -41621,7 +41623,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   position: absolute;
   top: 4px;
   right: 4px;
-  font-family: var(--tp-ff-roboto);
+  font-family: var(--tp-ff-poppins);
   font-weight: 500;
   font-size: 16px;
   color: var(--tp-common-white);
@@ -41869,7 +41871,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .cta__content-5 span {
-  font-family: 'Open Sans', sans-serif;
+  font-family: var(--tp-ff-poppins);
   font-weight: 400;
   font-size: 17px;
   line-height: 28px;
@@ -46042,16 +46044,17 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .contact__content-2 p {
+  font-family: var(--tp-ff-poppins);
   font-size: 15px;
   line-height: 1.6;
 }
 
-.contact__info-box {
+/* .contact__info-box {
   padding: 40px 30px 35px;
-  background: #ffffff96;
-  box-shadow: 0px 2px 4px rgba(3, 4, 28, 0.1);
-  border-radius: 20px;
-}
+  background: #ffffff96; */
+  /* box-shadow: 0px 2px 4px rgba(3, 4, 28, 0.1); */
+  /* border-radius: 20px;
+} */
 
 .contact__info-box-title {
   font-size: 24px;
@@ -46142,7 +46145,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .contact__info-content p {
   font-family: var(--tp-ff-poppins);
   font-weight: 500;
-  font-size: 13px;
+  font-size: 14px;
   letter-spacing: -0.02em;
   color: var(--tp-common-black);
 }
@@ -61074,13 +61077,13 @@ blockquote cite::before {
 
 .footer__info-icon span {
   display: inline-block;
-  color: var(--tp-common-white);
+  color: #6A6A8E;
   font-size: 16px;
   width: 46px;
   height: 46px;
   line-height: 46px;
   text-align: center;
-  background-color: #6A6A8E;
+  background: linear-gradient(to bottom,#e4fffe 0,#ffedf3 100%);
   border-radius: 8px;
 }
 
@@ -61719,7 +61722,7 @@ blockquote cite::before {
 }
 
 .footer__copyright-9 p {
-  font-family: var(--tp-ff-syne);
+  font-family: var(--tp-ff-poppins);
   font-weight: 400;
   font-size: 16px;
   color: #626272;
@@ -61991,9 +61994,10 @@ blockquote cite::before {
   line-height: 44px;
   text-align: center;
   color: rgba(5, 18, 20, 0.7);
-  margin-right: 6px;
-  background-color: #fff;
+  margin-right: 8px;
+  background: linear-gradient(to bottom,#e4fffe 0,#ffedf3 100%);
   box-shadow: 0px 1px 2px rgba(3, 4, 28, 0.08);
+  border-radius: 10px;
 }
 
 [dir=rtl] .footer__social-9 a {

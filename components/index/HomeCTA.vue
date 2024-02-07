@@ -7,7 +7,7 @@
                 <div class="col-xxl-6 col-xl-6 col-lg-8">
                     <h3 class="cta__title-5">Get New Insights Weekly</h3>
                     <div class="cta__content-5"><span>Newsletter dolor sit amet, consectetur adipiscing elit,
-                            sed do eiusmod <br>tempor incididunt. Enter your email.</span>
+                            sed do eiusmod tempor incididunt. Enter your email.</span>
                     </div>
                 </div>
                 <div class="col-xxl-6 col-xl-6 col-lg-4">

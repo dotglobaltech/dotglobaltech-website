@@ -1,5 +1,5 @@
 <template>
-    <section class="features__area p-relative z-index-1 pb-50 pt-125">
+    <section class="features__area p-relative z-index-1 pb-50 pt-80">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xxl-7 col-xl-8 col-lg-9">

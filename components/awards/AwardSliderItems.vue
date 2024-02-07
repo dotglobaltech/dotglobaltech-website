@@ -1,5 +1,5 @@
 <template>
-  <Swiper :slidesPerView="3" :spaceBetween="100" class="award__item-wrapper" :loop="true"
+  <Swiper :slidesPerView="4" :spaceBetween="50" class="award__item-wrapper" :loop="true"
   :breakpoints="{
                 1200: {
                   slidesPerView: 3,

@@ -1,15 +1,15 @@
 <template>
   <div>
     <section class="about__area pt-110 pb-120 p-relative">
-      <div class="about__shape">
+      <!-- <div class="about__shape">
         <img class="about__shape-3" src="~/assets/img/about/6/shape/about-shape-1.png" alt="shape">
         <img class="about__shape-4" src="~/assets/img/about/6/shape/about-shape-2.png" alt="shape">
         <img class="about__shape-5" src="~/assets/img/about/6/shape/about-shape-3.png" alt="shape">
         <img class="about__shape-6" src="~/assets/img/about/6/shape/about-shape-4.png" alt="shape">
-      </div>
+      </div> -->
       <div class="container">
         <div class="row">
-          <div class="col-xxl-5 col-xl-7 col-lg-6">
+          <div class="col-xxl-6 col-xl-6 col-lg-6">
             <div class="about__section-wrapper-6">
               <div class="section__title-wrapper-6 mb-125">
                 <h3 class="section__title-6">
@@ -24,7 +24,7 @@
               </div>
             </div>
           </div>
-          <div class="col-xxl-6 offset-xxl-1 col-xl-5 offset-xl-0 col-lg-5 offset-lg-1">
+          <div class="col-xxl-6 col-xl-6 offset-xl-0 col-lg-6 offset-lg-1">
             <div class="section__title-wrapper-6">
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit honcus a turpis sit amet Donec nec elementum
                 ipsum elementum.</p>

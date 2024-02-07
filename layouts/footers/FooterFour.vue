@@ -5,7 +5,7 @@
       <div class="footer__top footer__top-5">
         <div class="container">
           <div class="row">
-            <div class="col-xxl-3 col-xl-3 col-lg-5 col-md-6">
+            <div class="col-xxl-4 col-xl-4 col-lg-5 col-md-6">
               <div class="footer__widget footer__widget-5 footer-col-5-1">
                 <div class="footer__logo">
                   <nuxt-link href="/">
@@ -21,7 +21,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-xxl-3 col-xl-3 col-lg-7 col-md-6 ">
+            <div class="col-xxl-2 col-xl-2 col-lg-7 col-md-6 ">
               <div class="footer__widget footer__widget-5">
                 <h3 class="footer__widget-title">Useful Links</h3>
                 <div class="footer__widget-content">
