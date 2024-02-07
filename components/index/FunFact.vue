@@ -1,6 +1,6 @@
 <template>
     <section
-      class="counter__area p-relative z-index-1 green-light-bg-4 pt-145 pb-110 fix"
+      class="counter__area p-relative z-index-1 funfact-bg-4 pt-100 pb-50 fix"
     >
       <div class="counter__border-animation"></div>
       <!-- <div v-if="!el_style" class="counter__shape">

@@ -12,7 +12,7 @@
     <CertificationsAwards />
     <TrustedClients />
     <EmergingTechnologies />
-    <!-- <FunFact /> -->
+    <FunFact />
     <WhyChooseUs />
     <LetsWorkTogether />
     <LocateUs />
