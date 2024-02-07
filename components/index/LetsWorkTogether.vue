@@ -16,7 +16,7 @@
               <p>We love working with new people and companies. please take a moment to tell us about your project. Your
                 messages will be responded to within ONE BUSINESS DAY.</p>
             </div>
-            <div class="contact__info-box">
+            <div class="contact__info">
               <div class="row align-items-center">
                 <div class="col-xl-6 col-xl-6 col-lg-6 col-md-6">
                   <div class="contact__info-item">
