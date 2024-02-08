@@ -1,5 +1,5 @@
 <template>
-  <section class="testimonial__area pt-130 pb-135">
+  <section class="testimonial__area services-bg pt-100 pb-100">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-xxl-8 col-xl-8 col-lg-9">
@@ -66,8 +66,6 @@
 
 
                 </div>
-
-                
               </Slide>
             </Carousel>
 
