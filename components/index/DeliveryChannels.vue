@@ -5,6 +5,68 @@
       <img class="counter__shape-13" src="~/assets/img/counter/7/counter-shape-1.png" alt="counter__shape" />
       <img class="counter__shape-14" src="~/assets/img/counter/7/counter-shape-2.png" alt="counter__shape" />
       <img class="counter__shape-15" src="~/assets/img/counter/7/counter-shape-3.png" alt="counter__shape" />
+
+
+        <div class="contact__item text-center transition-3 white-bg contact__content features__shape-3">
+          <img class="contact__icon" src="~/assets/img/home/event.svg" alt="">
+          <p>Event</p>
+        </div>
+
+        <div class="contact__item text-center transition-3 white-bg contact__content features__shape-13">
+          <img class="contact__icon" src="~/assets/img/home/event.svg" alt="">
+          <p>Event</p>
+        </div>
+
+        <div class="contact__item text-center transition-3 white-bg contact__content features__shape-14">
+          <img class="contact__icon" src="~/assets/img/home/event.svg" alt="">
+          <p>Event</p>
+        </div>
+
+        <div class="contact__item text-center transition-3 white-bg contact__content features__shape-15">
+          <img class="contact__icon" src="~/assets/img/home/event.svg" alt="">
+          <p>Event</p>
+        </div>
+
+        <div class="contact__item text-center transition-3 white-bg contact__content features__shape-16">
+          <img class="contact__icon" src="~/assets/img/home/event.svg" alt="">
+          <p>Event</p>
+        </div>
+
+        <div class="contact__item text-center transition-3 white-bg contact__content features__shape-17">
+          <img class="contact__icon" src="~/assets/img/home/event.svg" alt="">
+          <p>Event</p>
+        </div>
+
+        <div class="contact__item text-center transition-3 white-bg contact__content features__shape-18">
+          <img class="contact__icon" src="~/assets/img/home/event.svg" alt="">
+          <p>Event</p>
+        </div>
+
+        <div class="contact__item text-center transition-3 white-bg contact__content features__shape-19">
+          <img class="contact__icon" src="~/assets/img/home/event.svg" alt="">
+          <p>Event</p>
+        </div>
+
+        <div class="contact__item text-center transition-3 white-bg contact__content features__shape-20">
+          <img class="contact__icon" src="~/assets/img/home/event.svg" alt="">
+          <p>Event</p>
+        </div>
+
+        <div class="contact__item text-center transition-3 white-bg contact__content features__shape-21">
+          <img class="contact__icon" src="~/assets/img/home/event.svg" alt="">
+          <p>Event</p>
+        </div>
+
+        <div class="contact__item text-center transition-3 white-bg contact__content features__shape-22">
+          <img class="contact__icon" src="~/assets/img/home/event.svg" alt="">
+          <p>Event</p>
+        </div>
+
+        <div class="contact__item text-center transition-3 white-bg contact__content features__shape-23">
+          <img class="contact__icon" src="~/assets/img/home/event.svg" alt="">
+          <p>Event</p>
+        </div>
+
     </div>
     <div class="container">
       <div v-if="!el_style" class="row justify-content-center">
