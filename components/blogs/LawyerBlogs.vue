@@ -109,23 +109,15 @@
                 <div class="features__item-7 text-center white-bg">
                   <div class="features__icon-17">
                     <span>
-                      <img src="~/assets/img/home/bmc.svg" alt="Top-Notch Global Brands" />
+                      <img src="~/assets/img/home/oracle.svg" alt="Top-Notch Global Brands" />
                     </span>
                   </div>
                   <div class="features__content-7">
-                    <h3 class="features__title-7">BMC</h3>
+                    <h3 class="features__title-7">Oracle</h3>
                     <div class="pricing__feature-5">
                       <ul>
-                        <li>BMC Helix ITSM</li>
-                        <li>BMC Remedyforce</li>
-                        <li>BMC Helix Discovery</li>
-                        <li>BMC TrueSight</li>
-                        <li>BMC Control-M</li>
-                        <li>BMC Smart Reporting</li>
-                        <li>BMC Client Management</li>
-                        <li>BMC Helix DWP</li>
-                        <li>BMC BladeLogic</li>
-                        <li>BMC Training</li>
+                        <li>Oracle EBS</li>
+                        <li>Oracle Cloud</li>
                       </ul>
                     </div>
                     <div class="features__btn-7">
@@ -144,23 +136,19 @@
                 <div class="features__item-7 text-center white-bg">
                   <div class="features__icon-17">
                     <span>
-                      <img src="~/assets/img/home/bmc.svg" alt="Top-Notch Global Brands" />
+                      <img src="~/assets/img/home/salesforce.svg" alt="Top-Notch Global Brands" />
                     </span>
                   </div>
                   <div class="features__content-7">
-                    <h3 class="features__title-7">BMC</h3>
+                    <h3 class="features__title-7">Saleforce</h3>
                     <div class="pricing__feature-5">
                       <ul>
-                        <li>BMC Helix ITSM</li>
-                        <li>BMC Remedyforce</li>
-                        <li>BMC Helix Discovery</li>
-                        <li>BMC TrueSight</li>
-                        <li>BMC Control-M</li>
-                        <li>BMC Smart Reporting</li>
-                        <li>BMC Client Management</li>
-                        <li>BMC Helix DWP</li>
-                        <li>BMC BladeLogic</li>
-                        <li>BMC Training</li>
+                        <li>Salesforce Sales Cloud</li>
+                        <li>Salesforce Service Clou</li>
+                        <li>Salesforce Commerce Cloud</li>
+                        <li>Salesforce Marketing Cloud</li>
+                        <li>Salesforce Community Cloud</li>
+                        <li>Salesforce Integration Cloud</li>
                       </ul>
                     </div>
                     <div class="features__btn-7">
@@ -179,23 +167,18 @@
                 <div class="features__item-7 text-center white-bg">
                   <div class="features__icon-17">
                     <span>
-                      <img src="~/assets/img/home/bmc.svg" alt="Top-Notch Global Brands" />
+                      <img src="~/assets/img/home/servicenow.svg" alt="Top-Notch Global Brands" />
                     </span>
                   </div>
                   <div class="features__content-7">
-                    <h3 class="features__title-7">BMC</h3>
+                    <h3 class="features__title-7">Saleforce</h3>
                     <div class="pricing__feature-5">
                       <ul>
-                        <li>BMC Helix ITSM</li>
-                        <li>BMC Remedyforce</li>
-                        <li>BMC Helix Discovery</li>
-                        <li>BMC TrueSight</li>
-                        <li>BMC Control-M</li>
-                        <li>BMC Smart Reporting</li>
-                        <li>BMC Client Management</li>
-                        <li>BMC Helix DWP</li>
-                        <li>BMC BladeLogic</li>
-                        <li>BMC Training</li>
+                        <li>IT Service Management</li>
+                        <li>IT Workflows</li>
+                        <li>Knowledge Management</li>
+                        <li>Audit Management</li>
+                        <li>Configuration Compliance</li>
                       </ul>
                     </div>
                     <div class="features__btn-7">
@@ -214,23 +197,19 @@
                 <div class="features__item-7 text-center white-bg">
                   <div class="features__icon-17">
                     <span>
-                      <img src="~/assets/img/home/bmc.svg" alt="Top-Notch Global Brands" />
+                      <img src="~/assets/img/home/aws.svg" alt="Top-Notch Global Brands" />
                     </span>
                   </div>
                   <div class="features__content-7">
-                    <h3 class="features__title-7">BMC</h3>
+                    <h3 class="features__title-7">AWS</h3>
                     <div class="pricing__feature-5">
                       <ul>
-                        <li>BMC Helix ITSM</li>
-                        <li>BMC Remedyforce</li>
-                        <li>BMC Helix Discovery</li>
-                        <li>BMC TrueSight</li>
-                        <li>BMC Control-M</li>
-                        <li>BMC Smart Reporting</li>
-                        <li>BMC Client Management</li>
-                        <li>BMC Helix DWP</li>
-                        <li>BMC BladeLogic</li>
-                        <li>BMC Training</li>
+                        <li>AWS Consulting</li>
+                        <li>AWS Cloud Migration</li>
+                        <li>AWS Cloud Security</li>
+                        <li>Managed Cloud Services</li>
+                        <li>Serverless Computing</li>
+                        <li>AWS Market Enablement</li>
                       </ul>
                     </div>
                     <div class="features__btn-7">
@@ -249,23 +228,19 @@
                 <div class="features__item-7 text-center white-bg">
                   <div class="features__icon-17">
                     <span>
-                      <img src="~/assets/img/home/bmc.svg" alt="Top-Notch Global Brands" />
+                      <img src="~/assets/img/home/sap.svg" alt="Top-Notch Global Brands" />
                     </span>
                   </div>
                   <div class="features__content-7">
-                    <h3 class="features__title-7">BMC</h3>
+                    <h3 class="features__title-7">SAP</h3>
                     <div class="pricing__feature-5">
                       <ul>
-                        <li>BMC Helix ITSM</li>
-                        <li>BMC Remedyforce</li>
-                        <li>BMC Helix Discovery</li>
-                        <li>BMC TrueSight</li>
-                        <li>BMC Control-M</li>
-                        <li>BMC Smart Reporting</li>
-                        <li>BMC Client Management</li>
-                        <li>BMC Helix DWP</li>
-                        <li>BMC BladeLogic</li>
-                        <li>BMC Training</li>
+                        <li>SAP HANA</li>
+                        <li>SAP CRM</li>
+                        <li>SAP ERP</li>
+                        <li>SAP HR</li>
+                        <li>SAP PLM</li>
+                        <li>SAP PLM</li>
                       </ul>
                     </div>
                     <div class="features__btn-7">
@@ -284,23 +259,22 @@
                 <div class="features__item-7 text-center white-bg">
                   <div class="features__icon-17">
                     <span>
-                      <img src="~/assets/img/home/bmc.svg" alt="Top-Notch Global Brands" />
+                      <img src="~/assets/img/home/dynamic.svg" alt="Top-Notch Global Brands" />
                     </span>
                   </div>
                   <div class="features__content-7">
-                    <h3 class="features__title-7">BMC</h3>
+                    <h3 class="features__title-7">Microsoft Dynamics 365</h3>
                     <div class="pricing__feature-5">
                       <ul>
-                        <li>BMC Helix ITSM</li>
-                        <li>BMC Remedyforce</li>
-                        <li>BMC Helix Discovery</li>
-                        <li>BMC TrueSight</li>
-                        <li>BMC Control-M</li>
-                        <li>BMC Smart Reporting</li>
-                        <li>BMC Client Management</li>
-                        <li>BMC Helix DWP</li>
-                        <li>BMC BladeLogic</li>
-                        <li>BMC Training</li>
+                        <li>Business Central</li>
+                        <li>Finance</li>
+                        <li>Supply Chain Management</li>
+                        <li>Sales</li>
+                        <li>Customer Service</li>
+                        <li>Field Service</li>
+                        <li>Project Operations</li>
+                        <li>Marketing</li>
+                        <li>Human Resource</li>
                       </ul>
                     </div>
                     <div class="features__btn-7">
@@ -319,23 +293,18 @@
                 <div class="features__item-7 text-center white-bg">
                   <div class="features__icon-17">
                     <span>
-                      <img src="~/assets/img/home/bmc.svg" alt="Top-Notch Global Brands" />
+                      <img src="~/assets/img/home/analytics.svg" alt="Top-Notch Global Brands" />
                     </span>
                   </div>
                   <div class="features__content-7">
-                    <h3 class="features__title-7">BMC</h3>
+                    <h3 class="features__title-7">Analytics and Reporting</h3>
                     <div class="pricing__feature-5">
                       <ul>
-                        <li>BMC Helix ITSM</li>
-                        <li>BMC Remedyforce</li>
-                        <li>BMC Helix Discovery</li>
-                        <li>BMC TrueSight</li>
-                        <li>BMC Control-M</li>
-                        <li>BMC Smart Reporting</li>
-                        <li>BMC Client Management</li>
-                        <li>BMC Helix DWP</li>
-                        <li>BMC BladeLogic</li>
-                        <li>BMC Training</li>
+                        <li>QlikView</li>
+                        <li>Tableau</li>
+                        <li>Power BI</li>
+                        <li>Qlik Sense</li>
+                        <li>SAP Analytics</li>
                       </ul>
                     </div>
                     <div class="features__btn-7">
@@ -349,8 +318,6 @@
                   </div>
                 </div>
               </SwiperSlide>
-
-
 
             </Swiper>
             <div class="blog-slider-4 tp-swiper-dot text-center d-sm-none"></div>

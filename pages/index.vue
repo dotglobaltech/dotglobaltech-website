@@ -10,8 +10,8 @@
     <GlobalBrandsDemo />
     <!-- <GlobalBrands /> -->
     <CertificationsAwards />
-    <TrustedClients />
-    <EmergingTechnologies />
+    <!-- <TrustedClients /> -->
+    <!-- <EmergingTechnologies /> -->
     <FunFact />
     <WhyChooseUs />
     <LetsWorkTogether />
