@@ -1,5 +1,5 @@
 <template>
-  <section class="testimonial__area services-bg pt-100 pb-100">
+  <section class="testimonial__area services-bg pt-100 pb-50">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-xxl-8 col-xl-8 col-lg-9">

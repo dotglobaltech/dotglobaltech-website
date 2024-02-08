@@ -10845,12 +10845,12 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .section__title-4 {
-  font-size: 60px;
-  font-weight: 700;
-  font-family: var(--tp-ff-space);
-  color: var(--tp-common-black-solid);
-  letter-spacing: -0.04em;
+  font-family: var(--tp-ff-poppins);
+  font-size: 40px;
   line-height: 1;
+  letter-spacing: 0.05rem;
+  color: #050748;
+  font-weight: 600;
 }
 
 .section__title-4 p {
@@ -10919,7 +10919,7 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
   text-transform: uppercase;
   font-family: var(--tp-ff-space);
   display: inline-block;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   position: relative;
   letter-spacing: 0.1em;
 }
