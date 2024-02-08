@@ -52,19 +52,19 @@
                   <h4 class="testimonial-heading">{{ item.heading }}</h4>
                   <p v-html="item.desc"></p>
                   <div class="testimonial__avater-info-9">
-                    <!-- <h3 class="testimonial__avater-title-9">{{ item.name }}</h3> -->
+                    <h3 class="testimonial__avater-title-9">{{ item.name }}</h3>
                   </div>
+
 
                   <div class="testimonial__avater-3 mb-35 d-sm-flex align-items-center">
-                  <div class="testimonial__avater-thumb-3"><img src="/_nuxt/user-10.8bda1191.jpg" alt="user"></div>
-                  <div class="tesimonial__avater-info-3">
-                    <h4 class="testimonial__avater-title-3">Douglas Lyphe</h4><span
-                      class="testimonial__avater-designation-3">Director at Kickstarter.</span>
+                    <div class="testimonial__avater-thumb-3">
+                      <img src="~/assets/img/users/user-1.jpg" alt="user" />
+                    </div>
+                    <div class="tesimonial__avater-info-3">
+                      <h4 class="testimonial__avater-title-3">Douglas Lyphe</h4><span
+                        class="testimonial__avater-designation-3">Director at Kickstarter.</span>
+                    </div>
                   </div>
-                </div>
-
-
-
                 </div>
               </Slide>
             </Carousel>
