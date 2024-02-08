@@ -11843,6 +11843,11 @@ only screen and (min-width: 576px) and (max-width: 767px),
   margin-bottom: 17px;
 }
 
+.d-sm-flex {
+display: flex !important;
+justify-content: center;
+}
+
 .tp-section-title {
   font-size: 34px;
   line-height: 1;
@@ -38025,8 +38030,8 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .testimonial__avater-thumb-3 img {
-  width: 100px;
-  height: 100px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
   margin-right: 25px;
   mix-blend-mode: luminosity;
@@ -38159,9 +38164,10 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .testimonial__avater-title-3 {
   font-size: 20px;
   font-weight: 700;
-  color: var(--tp-common-white);
+  color: #050748;
   font-family: var(--tp-ff-space);
   margin-bottom: 0;
+  text-align: left;
 }
 
 .testimonial__avater-title-4 {
@@ -38249,7 +38255,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .testimonial__avater-designation-3 {
   font-size: 16px;
-  color: var(--tp-common-white);
+  color: #050748;
   font-family: var(--tp-ff-space);
 }
 

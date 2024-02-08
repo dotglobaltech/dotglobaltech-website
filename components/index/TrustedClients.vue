@@ -1,15 +1,21 @@
 <template>
   <section class="testimonial__area pt-130 pb-135">
     <div class="container">
-      <div class="row">
-        <div class="col-xxl-12">
-          <div class="section__title-wrapper-9 is-center mb-60">
-            <h3 class="section__title-9">Trusted Clientele</h3>
-            <span class="section__title-pre-9">DGT Offers services, including implementation, customization, integration,
-              up gradation, and migrations.</span>
+      <div class="row justify-content-center">
+        <div class="col-xxl-8 col-xl-8 col-lg-9">
+          <div class="section__title-wrapper-7 text-center mb-60">
+            <h3 class="section__title-7"><span class="section__title-7-highlight">Trusted Clienteles<svg width="240"
+                  height="22" viewBox="0 0 240 22" fill="none">
+                  <path class="wow" fill-rule="evenodd" clip-rule="evenodd"
+                    d="M0.440833 21.1152C78.9497 6.16225 158.05 4.53412 235.949 13.8239C237.497 14.0088 239.796 12.4065 239.988 9.93474C240.181 7.4176 238.026 5.44088 236.474 5.2332C157.99 -5.31675 79.1936 0.359501 0.316568 19.7785C-0.184784 19.9023 -0.0511379 21.2092 0.440833 21.1152Z"
+                    fill="currentColor"></path>
+                </svg></span></h3>
+            <p>DGT Offers services, including implementation, customization, integration, up gradation, and migrations.
+            </p>
           </div>
         </div>
       </div>
+
       <div class="row justify-content-center">
         <div class="col-xxl-12">
           <div class="testimonial__slider-9 p-relative">
@@ -46,9 +52,22 @@
                   <h4 class="testimonial-heading">{{ item.heading }}</h4>
                   <p v-html="item.desc"></p>
                   <div class="testimonial__avater-info-9">
-                    <h3 class="testimonial__avater-title-9">{{ item.name }}</h3>
+                    <!-- <h3 class="testimonial__avater-title-9">{{ item.name }}</h3> -->
+                  </div>
+
+                  <div class="testimonial__avater-3 mb-35 d-sm-flex align-items-center">
+                  <div class="testimonial__avater-thumb-3"><img src="/_nuxt/user-10.8bda1191.jpg" alt="user"></div>
+                  <div class="tesimonial__avater-info-3">
+                    <h4 class="testimonial__avater-title-3">Douglas Lyphe</h4><span
+                      class="testimonial__avater-designation-3">Director at Kickstarter.</span>
                   </div>
                 </div>
+
+
+
+                </div>
+
+                
               </Slide>
             </Carousel>
 
