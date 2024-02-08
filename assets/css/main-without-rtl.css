@@ -36110,7 +36110,7 @@ div.team__details-shape-4 img {
   font-size: 80px;
   color: var(--tp-common-yellow-3);
   min-height: 100px;
-  margin-bottom: 25px;
+  /* margin-bottom: 25px; */
 }
 .features__icon-10 span {
   display: inline-block;

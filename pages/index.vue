@@ -7,8 +7,8 @@
     <DeliveryChannels />
     <OurMediaAssets />
     <DataStrategy /> -->
-
-    <GlobalBrands />
+    <GlobalBrandsDemo />
+    <!-- <GlobalBrands /> -->
     <CertificationsAwards />
     <TrustedClients />
     <EmergingTechnologies />
@@ -29,8 +29,8 @@ import HomeHero from '~/components/index/HomeHero.vue'
 // import DeliveryChannels from "~/components/index/DeliveryChannels.vue";
 // import OurMediaAssets from '~/components/index/OurMediaAssets.vue';
 // import DataStrategy from "~/components/index/DataStrategy";
-
-import GlobalBrands from '~~/components/index/GlobalBrands.vue';
+import GlobalBrandsDemo from '~~/components/blogs/LawyerBlogs.vue';
+// import GlobalBrands from '~~/components/index/GlobalBrands.vue';
 import CertificationsAwards from '~/components/index/CertificationsAwards.vue';
 import TrustedClients from '~/components/index/TrustedClients.vue';
 import EmergingTechnologies from '~/components/index/EmergingTechnologies.vue';
