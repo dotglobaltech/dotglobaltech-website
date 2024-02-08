@@ -1,14 +1,9 @@
 <template>
   <LayoutOne>
     <HomeHero />
-    <!-- <TailoredServices />
-    <Statistics />
     <OurProducts />
     <DeliveryChannels />
-    <OurMediaAssets />
-    <DataStrategy /> -->
     <GlobalBrandsDemo />
-    <!-- <GlobalBrands /> -->
     <CertificationsAwards />
     <TrustedClients />
     <EmergingTechnologies />
@@ -23,14 +18,9 @@
 <script setup>
 import LayoutOne from '~/layouts/LayoutOne.vue';
 import HomeHero from '~/components/index/HomeHero.vue'
-// import TailoredServices from '~/components/index/TailoredServices.vue';
-// import Statistics from '~/components/index/Statistics.vue';
-// import OurProducts from "~/components/index/OurProducts.vue";
-// import DeliveryChannels from "~/components/index/DeliveryChannels.vue";
-// import OurMediaAssets from '~/components/index/OurMediaAssets.vue';
-// import DataStrategy from "~/components/index/DataStrategy";
+import OurProducts from "~/components/index/OurProducts.vue";
+import DeliveryChannels from "~/components/index/DeliveryChannels.vue";
 import GlobalBrandsDemo from '~~/components/blogs/LawyerBlogs.vue';
-// import GlobalBrands from '~~/components/index/GlobalBrands.vue';
 import CertificationsAwards from '~/components/index/CertificationsAwards.vue';
 import TrustedClients from '~/components/index/TrustedClients.vue';
 import EmergingTechnologies from '~/components/index/EmergingTechnologies.vue';

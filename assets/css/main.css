@@ -6846,6 +6846,12 @@ span.circle2{background: rgba(255, 255, 255, 0.2); display: block; position: abs
   border-radius: 20px;
 }
 
+.circle-bg-5 {
+  background: linear-gradient(to bottom,#e4fffe 0,#ffedf3 100%);
+  border-radius: 200px;
+  border: 2px solid #abd8d2;
+}
+
 .black-bg-12 {
   background-color: var(--tp-common-black-12);
 }
@@ -10927,6 +10933,63 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 .section__title-pre-4-white {
   color: var(--tp-common-white);
 }
+
+
+
+
+.circle {
+  position: relative;
+  display: block;
+  margin: 2em 0;
+  background-color: transparent;
+  color: #222;
+  text-align: center;
+}
+
+.circle:after {
+  display: block;
+  padding-bottom: 100%;
+  width: 100%;
+  height: 0;
+  border-radius: 50%;
+  background-color: #ddd;
+  content: "";
+}
+
+.circle__inner {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.circle__wrapper {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+.circle__content {
+  display: table-cell;
+  padding: 1em;
+  vertical-align: middle;
+}
+
+@media (min-width: 480px) {
+  .circle__content {
+    font-size: 2em;
+  }
+}
+
+@media (min-width: 768px) {
+  .circle__content {
+    font-size: 4em;
+  }
+}
+
+
 
 .section__title-5 {
   font-family: var(--tp-ff-poppins);
@@ -27250,7 +27313,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .counter__border-animation {
   position: absolute;
-  top: 50%;
+  top: 44%;
   left: 50%;
   display: inline-block;
   height: 700px;
