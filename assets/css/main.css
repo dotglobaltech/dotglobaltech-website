@@ -6841,7 +6841,8 @@ span.circle2{background: rgba(255, 255, 255, 0.2); display: block; position: abs
 }
 
 .black-bg-5 {
-  background-color: var(--tp-common-black-5);
+  background: linear-gradient(to bottom,#e4fffe 0,#ffedf3 100%);
+  border-radius: 20px;
 }
 
 .black-bg-12 {
@@ -11921,7 +11922,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .tp-section-title-3 {
-  font-size: 23px;
+  font-size: 40px;
   line-height: 1;
   letter-spacing: -0.04em;
   margin-bottom: 11px;

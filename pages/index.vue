@@ -11,7 +11,7 @@
     <!-- <GlobalBrands /> -->
     <CertificationsAwards />
     <!-- <TrustedClients /> -->
-    <!-- <EmergingTechnologies /> -->
+    <EmergingTechnologies />
     <FunFact />
     <WhyChooseUs />
     <LetsWorkTogether />
