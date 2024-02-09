@@ -2,70 +2,70 @@
   <section class="counter__area p-relative z-index-1 green-light-bg-4 pt-200 pb-200 fix">
     <div class="counter__border-animation"></div>
     <div v-if="!el_style" class="counter__shape">
-      <img class="counter__shape-13" src="~/assets/img/counter/7/counter-shape-1.png" alt="counter__shape" />
+      <!-- <img class="counter__shape-13" src="~/assets/img/counter/7/counter-shape-1.png" alt="counter__shape" />
       <img class="counter__shape-14" src="~/assets/img/counter/7/counter-shape-2.png" alt="counter__shape" />
-      <img class="counter__shape-15" src="~/assets/img/counter/7/counter-shape-3.png" alt="counter__shape" />
+      <img class="counter__shape-15" src="~/assets/img/counter/7/counter-shape-3.png" alt="counter__shape" /> -->
 
 
-        <div class="contact__item text-center transition-3 white-bg contact__content features__shape-3">
-          <img class="contact__icon" src="~/assets/img/home/event.svg" alt="">
-          <p>Event</p>
-        </div>
+      <div class="contact__item text-center transition-3 white-bg contact__content features__shape-3">
+        <img class="contact__icon" src="~/assets/img/home/event.svg" alt="">
+        <p>Event</p>
+      </div>
 
-        <div class="contact__item text-center transition-3 white-bg contact__content features__shape-13">
-          <img class="contact__icon" src="~/assets/img/home/event.svg" alt="">
-          <p>Event</p>
-        </div>
+      <div class="contact__item text-center transition-3 white-bg contact__content features__shape-13">
+        <img class="contact__icon" src="~/assets/img/home/event.svg" alt="">
+        <p>Event</p>
+      </div>
 
-        <div class="contact__item text-center transition-3 white-bg contact__content features__shape-14">
-          <img class="contact__icon" src="~/assets/img/home/event.svg" alt="">
-          <p>Event</p>
-        </div>
+      <div class="contact__item text-center transition-3 white-bg contact__content features__shape-14">
+        <img class="contact__icon" src="~/assets/img/home/event.svg" alt="">
+        <p>Event</p>
+      </div>
 
-        <div class="contact__item text-center transition-3 white-bg contact__content features__shape-15">
-          <img class="contact__icon" src="~/assets/img/home/event.svg" alt="">
-          <p>Event</p>
-        </div>
+      <div class="contact__item text-center transition-3 white-bg contact__content features__shape-15">
+        <img class="contact__icon" src="~/assets/img/home/event.svg" alt="">
+        <p>Event</p>
+      </div>
 
-        <div class="contact__item text-center transition-3 white-bg contact__content features__shape-16">
-          <img class="contact__icon" src="~/assets/img/home/event.svg" alt="">
-          <p>Event</p>
-        </div>
+      <div class="contact__item text-center transition-3 white-bg contact__content features__shape-16">
+        <img class="contact__icon" src="~/assets/img/home/event.svg" alt="">
+        <p>Event</p>
+      </div>
 
-        <div class="contact__item text-center transition-3 white-bg contact__content features__shape-17">
-          <img class="contact__icon" src="~/assets/img/home/event.svg" alt="">
-          <p>Event</p>
-        </div>
+      <div class="contact__item text-center transition-3 white-bg contact__content features__shape-17">
+        <img class="contact__icon" src="~/assets/img/home/event.svg" alt="">
+        <p>Event</p>
+      </div>
 
-        <div class="contact__item text-center transition-3 white-bg contact__content features__shape-18">
-          <img class="contact__icon" src="~/assets/img/home/event.svg" alt="">
-          <p>Event</p>
-        </div>
+      <div class="contact__item text-center transition-3 white-bg contact__content features__shape-18">
+        <img class="contact__icon" src="~/assets/img/home/event.svg" alt="">
+        <p>Event</p>
+      </div>
 
-        <div class="contact__item text-center transition-3 white-bg contact__content features__shape-19">
-          <img class="contact__icon" src="~/assets/img/home/event.svg" alt="">
-          <p>Event</p>
-        </div>
+      <div class="contact__item text-center transition-3 white-bg contact__content features__shape-19">
+        <img class="contact__icon" src="~/assets/img/home/event.svg" alt="">
+        <p>Event</p>
+      </div>
 
-        <div class="contact__item text-center transition-3 white-bg contact__content features__shape-20">
-          <img class="contact__icon" src="~/assets/img/home/event.svg" alt="">
-          <p>Event</p>
-        </div>
+      <div class="contact__item text-center transition-3 white-bg contact__content features__shape-20">
+        <img class="contact__icon" src="~/assets/img/home/event.svg" alt="">
+        <p>Event</p>
+      </div>
 
-        <div class="contact__item text-center transition-3 white-bg contact__content features__shape-21">
-          <img class="contact__icon" src="~/assets/img/home/event.svg" alt="">
-          <p>Event</p>
-        </div>
+      <div class="contact__item text-center transition-3 white-bg contact__content features__shape-21">
+        <img class="contact__icon" src="~/assets/img/home/event.svg" alt="">
+        <p>Event</p>
+      </div>
 
-        <div class="contact__item text-center transition-3 white-bg contact__content features__shape-22">
-          <img class="contact__icon" src="~/assets/img/home/event.svg" alt="">
-          <p>Event</p>
-        </div>
+      <div class="contact__item text-center transition-3 white-bg contact__content features__shape-22">
+        <img class="contact__icon" src="~/assets/img/home/event.svg" alt="">
+        <p>Event</p>
+      </div>
 
-        <div class="contact__item text-center transition-3 white-bg contact__content features__shape-23">
-          <img class="contact__icon" src="~/assets/img/home/event.svg" alt="">
-          <p>Event</p>
-        </div>
+      <div class="contact__item text-center transition-3 white-bg contact__content features__shape-23">
+        <img class="contact__icon" src="~/assets/img/home/event.svg" alt="">
+        <p>Event</p>
+      </div>
 
     </div>
     <div class="container">
@@ -76,9 +76,12 @@
               <div class="circle__inner">
                 <div class="circle__wrapper">
                   <div class="circle__content circle-bg-5">
-                    <h3 class="services__title-7"><a href="/service-details" class="">Beautiful Pages</a></h3>
-                    <p>Understand the business model of your product. Know your customers, value propositions.</p>
-                    <div class="services__btn-7"><a href="/service-details" class="tp-link-btn-3"> Learn More
+                    <h3 class="services__title-7"><a href="/service-details" class="">Our Solutions</a></h3>
+                    <h5>We Have Worked Across Multiple Industries</h5>
+                    <p>Discover a suite of cutting-edge software solutions tailored to meet your diverse needs. Our
+                      software solutions elevate your digital experience from streamlined efficiency to enhanced security.
+                      Explore innovation, reliability, and performance in every solution we offer.</p>
+                    <div class="services__btn-7"><a href="/" class="tp-link-btn-3">View all
                         <span><i class="fa-regular fa-arrow-right"></i></span></a></div>
                   </div>
                 </div>

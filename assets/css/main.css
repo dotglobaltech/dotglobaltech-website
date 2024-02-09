@@ -10985,7 +10985,8 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 
 @media (min-width: 768px) {
   .circle__content {
-    font-size: 4em;
+    /* font-size: 4em; */
+    padding: 25px;
   }
 }
 
