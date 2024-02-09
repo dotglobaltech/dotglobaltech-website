@@ -10940,7 +10940,7 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 .circle {
   position: relative;
   display: block;
-  margin: 2em 0;
+  /* margin: 2em 0; */
   background-color: transparent;
   color: #222;
   text-align: center;
@@ -10952,7 +10952,7 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
   width: 100%;
   height: 0;
   border-radius: 50%;
-  background-color: #ddd;
+  /* background-color: #ddd; */
   content: "";
 }
 
@@ -10969,6 +10969,7 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
   display: table;
   width: 100%;
   height: 100%;
+  margin-top: 40px;
 }
 
 .circle__content {
@@ -27314,7 +27315,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .counter__border-animation {
   position: absolute;
-  top: 44%;
+  top: 47%;
   left: 50%;
   display: inline-block;
   height: 700px;

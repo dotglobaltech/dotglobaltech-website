@@ -13,58 +13,58 @@
       </div>
 
       <div class="contact__item text-center transition-3 white-bg contact__content features__shape-13">
-        <img class="contact__icon" src="~/assets/img/home/event.svg" alt="">
-        <p>Event</p>
+        <img class="contact__icon" src="~/assets/img/home/ecommerce.svg" alt="">
+        <p>Retail<br>Ecommerce</p>
       </div>
 
       <div class="contact__item text-center transition-3 white-bg contact__content features__shape-14">
-        <img class="contact__icon" src="~/assets/img/home/event.svg" alt="">
-        <p>Event</p>
+        <img class="contact__icon" src="~/assets/img/home/education.svg" alt="">
+        <p>Education<br>& e-learning</p>
       </div>
 
       <div class="contact__item text-center transition-3 white-bg contact__content features__shape-15">
-        <img class="contact__icon" src="~/assets/img/home/event.svg" alt="">
-        <p>Event</p>
+        <img class="contact__icon" src="~/assets/img/home/healthcare.svg" alt="">
+        <p>Healthcare<br>& Fitness</p>
       </div>
 
       <div class="contact__item text-center transition-3 white-bg contact__content features__shape-16">
-        <img class="contact__icon" src="~/assets/img/home/event.svg" alt="">
-        <p>Event</p>
+        <img class="contact__icon" src="~/assets/img/home/logistics-distribution.svg" alt="">
+        <p>Logistics<br>& Distribution</p>
       </div>
 
       <div class="contact__item text-center transition-3 white-bg contact__content features__shape-17">
-        <img class="contact__icon" src="~/assets/img/home/event.svg" alt="">
-        <p>Event</p>
+        <img class="contact__icon" src="~/assets/img/home/social-etworking.svg" alt="">
+        <p>Social<br>Networking</p>
       </div>
 
       <div class="contact__item text-center transition-3 white-bg contact__content features__shape-18">
-        <img class="contact__icon" src="~/assets/img/home/event.svg" alt="">
-        <p>Event</p>
+        <img class="contact__icon" src="~/assets/img/home/gaming.svg" alt="">
+        <p>Gaming</p>
       </div>
 
       <div class="contact__item text-center transition-3 white-bg contact__content features__shape-19">
-        <img class="contact__icon" src="~/assets/img/home/event.svg" alt="">
-        <p>Event</p>
+        <img class="contact__icon" src="~/assets/img/home/real-estate.svg" alt="">
+        <p>Real<br>Estate</p>
       </div>
 
       <div class="contact__item text-center transition-3 white-bg contact__content features__shape-20">
-        <img class="contact__icon" src="~/assets/img/home/event.svg" alt="">
-        <p>Event</p>
+        <img class="contact__icon" src="~/assets/img/home/finance.svg" alt="">
+        <p>Finance</p>
       </div>
 
       <div class="contact__item text-center transition-3 white-bg contact__content features__shape-21">
-        <img class="contact__icon" src="~/assets/img/home/event.svg" alt="">
-        <p>Event</p>
+        <img class="contact__icon" src="~/assets/img/home/ondemand.svg" alt="">
+        <p>On-Demand<br>Solutions</p>
       </div>
 
       <div class="contact__item text-center transition-3 white-bg contact__content features__shape-22">
-        <img class="contact__icon" src="~/assets/img/home/event.svg" alt="">
-        <p>Event</p>
+        <img class="contact__icon" src="~/assets/img/home/hospitality.svg" alt="">
+        <p>Travel<br>& Hospitality</p>
       </div>
 
       <div class="contact__item text-center transition-3 white-bg contact__content features__shape-23">
-        <img class="contact__icon" src="~/assets/img/home/event.svg" alt="">
-        <p>Event</p>
+        <img class="contact__icon" src="~/assets/img/home/restaurant.svg" alt="">
+        <p>Food<br>& Restaurant</p>
       </div>
 
     </div>
