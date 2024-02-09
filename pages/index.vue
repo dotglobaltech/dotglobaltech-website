@@ -2,7 +2,7 @@
   <LayoutOne>
     <HomeHero />
     <OurProducts />
-    <DeliveryChannels />
+    <OurSolutions />
     <GlobalBrandsDemo />
     <CertificationsAwards />
     <TrustedClients />
@@ -19,7 +19,7 @@
 import LayoutOne from '~/layouts/LayoutOne.vue';
 import HomeHero from '~/components/index/HomeHero.vue'
 import OurProducts from "~/components/index/OurProducts.vue";
-import DeliveryChannels from "~/components/index/DeliveryChannels.vue";
+import OurSolutions from "~/components/index/OurSolutions.vue";
 import GlobalBrandsDemo from '~~/components/blogs/LawyerBlogs.vue';
 import CertificationsAwards from '~/components/index/CertificationsAwards.vue';
 import TrustedClients from '~/components/index/TrustedClients.vue';
