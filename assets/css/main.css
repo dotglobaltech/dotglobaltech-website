@@ -6805,6 +6805,15 @@ span.circle2{background: rgba(255, 255, 255, 0.2); display: block; position: abs
   background-size: contain, cover;
 }
 
+.whatwedo-bg {
+  background: url(../img/home/whatwedo.png);
+  background-repeat: no-repeat, repeat;
+  background-position: center top, center top;
+  background-size: contain, cover;
+  padding: 240px;
+}
+
+
 .grey-bg-10 {
   background-color: var(--tp-grey-10);
 }
