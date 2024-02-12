@@ -17,7 +17,7 @@
           info@dotglobaltech.com
         </a>
       </li>
-      <li>
+      <!-- <li>
         <a href="tel:+91 96060 28218">
           <span>
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -33,7 +33,7 @@
           </span>
           +91 96060 28218
         </a>
-      </li>
+      </li> -->
       <!-- <li>
         <span>
           <span>
