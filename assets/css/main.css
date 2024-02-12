@@ -47129,7 +47129,7 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 }
 
 .features__icon-13 span {
-  margin-right: 16px;
+  margin-right: 30px;
   display: inline-block;
   width: 60px;
   height: 60px;
@@ -47245,7 +47245,7 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 .features__title-13 {
   font-family: var(--tp-ff-roboto);
   font-weight: 500;
-  font-size: 18px;
+  font-size: 16px;
   color: var(--tp-common-black-solid);
   margin-bottom: 5px;
 }
@@ -47489,8 +47489,9 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 
 .features__content-13 p {
   font-family: var(--tp-ff-roboto);
-  font-size: 15px;
+  font-size: 12px;
   line-height: 1.33;
+  margin-bottom: 10px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
