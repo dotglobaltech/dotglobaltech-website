@@ -1,6 +1,6 @@
 <template>
-  <section class="elements__carousel-area topbrands-bg pt-110 pb-70">
-    <div class="container justify-content-top">
+  <section class="elements__carousel-area pt-110">
+    <div class="container">
       <div class="row">
         <div class="col-xxl-12">
           <div class="tp-section-wrapper-3 mb-30 text-center">
@@ -34,9 +34,8 @@
               }" class="elements__carousel-active">
 
               <Slide class="elements__carousel-item w-img">
-                <div class="features__item-7 text-center mb-30 white-bg transition-3" data-sal="slide-up"
-                  data-sal-duration="1000">
-                  <div class="features__icon-10">
+                <div class="features__item-7 text-center white-bg">
+                  <div class="features__icon-17">
                     <span>
                       <img src="~/assets/img/home/bmc.svg" alt="Top-Notch Global Brands" />
                     </span>
@@ -78,8 +77,8 @@
                     </span>
                   </div>
                   <div class="features__content-7">
-                    <div class="features__item-10 pricing__feature-5">
-                      <h3 class="features__title-7">Oracle</h3>
+                    <h3 class="features__title-7">Oracle</h3>
+                    <div class="pricing__feature-5">
                       <ul>
                         <li>Oracle EBS</li>
                         <li>Oracle Cloud</li>
@@ -106,8 +105,8 @@
                     </span>
                   </div>
                   <div class="features__content-7">
-                    <div class="features__item-10 pricing__feature-5">
-                      <h3 class="features__title-7">Saleforce</h3>
+                    <h3 class="features__title-7">Saleforce</h3>
+                    <div class="pricing__feature-5">
                       <ul>
                         <li>Salesforce Sales Cloud</li>
                         <li>Salesforce Service Clou</li>
@@ -138,8 +137,8 @@
                     </span>
                   </div>
                   <div class="features__content-7">
-                    <div class="features__item-10 pricing__feature-5">
-                      <h3 class="features__title-7">Saleforce</h3>
+                    <h3 class="features__title-7">Saleforce</h3>
+                    <div class="pricing__feature-5">
                       <ul>
                         <li>IT Service Management</li>
                         <li>IT Workflows</li>
@@ -169,8 +168,8 @@
                     </span>
                   </div>
                   <div class="features__content-7">
-                    <div class="features__item-10 pricing__feature-5">
-                      <h3 class="features__title-7">AWS</h3>
+                    <h3 class="features__title-7">AWS</h3>
+                    <div class="pricing__feature-5">
                       <ul>
                         <li>AWS Consulting</li>
                         <li>AWS Cloud Migration</li>
@@ -201,8 +200,8 @@
                     </span>
                   </div>
                   <div class="features__content-7">
-                    <div class="features__item-10 pricing__feature-5">
-                      <h3 class="features__title-7">SAP</h3>
+                    <h3 class="features__title-7">SAP</h3>
+                    <div class="pricing__feature-5">
                       <ul>
                         <li>SAP HANA</li>
                         <li>SAP CRM</li>
@@ -233,8 +232,8 @@
                     </span>
                   </div>
                   <div class="features__content-7">
-                    <div class="features__item-10 pricing__feature-5">
-                      <h3 class="features__title-7">Microsoft Dynamics 365</h3>
+                    <h3 class="features__title-7">Microsoft Dynamics 365</h3>
+                    <div class="pricing__feature-5">
                       <ul>
                         <li>Business Central</li>
                         <li>Finance</li>
@@ -268,8 +267,8 @@
                     </span>
                   </div>
                   <div class="features__content-7">
-                    <div class="features__item-10 pricing__feature-5">
-                      <h3 class="features__title-7">Analytics and Reporting</h3>
+                    <h3 class="features__title-7">Analytics and Reporting</h3>
+                    <div class="pricing__feature-5">
                       <ul>
                         <li>QlikView</li>
                         <li>Tableau</li>

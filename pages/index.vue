@@ -3,7 +3,7 @@
     <HomeHero />
     <OurProducts />
     <OurSolutions />
-    <GlobalBrandsDemo />
+    <GlobalBrands />
     <CertificationsAwards />
     <TrustedClients />
     <EmergingTechnologies />
@@ -19,8 +19,8 @@
 import LayoutOne from '~/layouts/LayoutOne.vue';
 import HomeHero from '~/components/index/HomeHero.vue'
 import OurProducts from "~/components/index/OurProducts.vue";
+import GlobalBrands from "~/components/index/GlobalBrands.vue";
 import OurSolutions from "~/components/index/OurSolutions.vue";
-import GlobalBrandsDemo from '~~/components/blogs/LawyerBlogs.vue';
 import CertificationsAwards from '~/components/index/CertificationsAwards.vue';
 import TrustedClients from '~/components/index/TrustedClients.vue';
 import EmergingTechnologies from '~/components/index/EmergingTechnologies.vue';
