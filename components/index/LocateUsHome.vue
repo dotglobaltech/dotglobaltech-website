@@ -46,7 +46,7 @@
                 </span>
               </div>
               <div class="features__content-13">
-                <h3 class="features__title-13">INDIA (HQ)</h3>
+                <h3 class="features__title-13">USA</h3>
                 <p>C-106/B, Ganesh Meridian, Opp. Gujarat High Court, S. G. Highway, Ahmedabad, Gujarat, 380061</p>
                 <p><strong>+91 96060 28218</strong></p>
               </div>
@@ -61,7 +61,7 @@
                 </span>
               </div>
               <div class="features__content-13">
-                <h3 class="features__title-13">INDIA (HQ)</h3>
+                <h3 class="features__title-13">UK</h3>
                 <p>C-106/B, Ganesh Meridian, Opp. Gujarat High Court, S. G. Highway, Ahmedabad, Gujarat, 380061</p>
                 <p><strong>+91 96060 28218</strong></p>
               </div>
@@ -76,7 +76,7 @@
                 </span>
               </div>
               <div class="features__content-13">
-                <h3 class="features__title-13">INDIA (HQ)</h3>
+                <h3 class="features__title-13">UAE</h3>
                 <p>C-106/B, Ganesh Meridian, Opp. Gujarat High Court, S. G. Highway, Ahmedabad, Gujarat, 380061</p>
                 <p><strong>+91 96060 28218</strong></p>
               </div>
