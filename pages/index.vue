@@ -1,7 +1,7 @@
 <template>
   <LayoutOne>
     <HomeHero />
-    <OurProducts />
+    <WhatWeDo />
     <OurSolutions />
     <GlobalBrands />
     <CertificationsAwards />
@@ -19,7 +19,7 @@
 <script setup>
 import LayoutOne from '~/layouts/LayoutOne.vue';
 import HomeHero from '~/components/index/HomeHero.vue'
-import OurProducts from "~/components/index/OurProducts.vue";
+import WhatWeDo from "~/components/index/WhatWeDo.vue";
 import GlobalBrands from "~/components/index/GlobalBrands.vue";
 import OurSolutions from "~/components/index/OurSolutions.vue";
 import CertificationsAwards from '~/components/index/CertificationsAwards.vue';
