@@ -16,20 +16,19 @@
 <script>
 import HeaderOne from "~~/layouts/headers/HeaderOne.vue";
 import ServiceBreadcrumb from '~~/components/breadcrumb/ServiceBreadcrumb.vue';
-import BackToTop from '~~/layouts/footers/component/BackToTop.vue';
-import HomeServices from '~~/components/services/HomeServices.vue';
+import HomeServices from '~~/components/bmc-helix-itsm/HomeServices.vue';
 import ServicesAbout from '~~/components/abouts/ServicesAbout.vue';
 import ServicesVision from '~~/components/vision/ServicesVision.vue';
 import HomePortfolio from '~~/components/portfolios/HomePortfolio.vue';
 import ServicesSupportArea from '~~/components/supports/ServicesSupportArea.vue';
 import FooterFour from '~~/layouts/footers/FooterFour.vue';
 import FooterEight from '~~/layouts/footers/FooterEight.vue';
+import BackToTop from '~~/layouts/footers/component/BackToTop.vue';
 
 export default {
   components: {
     HeaderOne,
     ServiceBreadcrumb,
-    BackToTop,
     HomeServices,
     ServicesAbout,
     ServicesVision,
@@ -37,7 +36,9 @@ export default {
     ServicesSupportArea,
     FooterFour,
     FooterEight,
+    BackToTop,
   },
+  
   setup() {
     useHead({
       title: "Services - Creative Agency & Portfolio Vue Nuxt 3 Template",
