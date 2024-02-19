@@ -41,12 +41,12 @@ export default {
               title: "ServiceNow",
               link: "#",
               submenus: [
-                { title: "ServiceNow It Service Management", link: "/it-service-management" },
-                { title: "IT Workflows", link: "/it-workflows" },
-                { title: "Knowledge Management", link: "/knowledge-management" },
-                { title: "Audit Management", link: "/audit-management" },
-                { title: "Configuration Compliance", link: "/configuration-compliance" },
-                { title: "IT-Operations-Management", link: "/it-operations-management" },
+                { title: "ServiceNow It Service Management", link: "/servicenow-it-service-management" },
+                { title: "ServiceNow IT Workflows", link: "/servicenow-it-workflows" },
+                { title: "ServiceNow Knowledge Management", link: "/servicenow-knowledge-management" },
+                { title: "ServiceNow Audit Management", link: "/servicenow-audit-management" },
+                { title: "ServiceNow Configuration Compliance", link: "/servicenow-configuration-compliance" },
+                { title: "ServiceNow IT Operations Management", link: "/servicenow-it-operations-management" },
               ],
             },
             {
