@@ -103,7 +103,6 @@ export default {
               title: "Oracle",
               link: "#",
               submenus: [
-                { title: "Tabs", link: "/implementation-and-consulting" },
                 { title: "OCI AI Services", link: "/oci-ai-services" },
                 { title: "Application Development", link: "/application-development" },
                 { title: "OCI Solutions", link: "/oci-solutions" },
