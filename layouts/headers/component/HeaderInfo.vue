@@ -1,7 +1,7 @@
 <template>
   <div class="header__info">
     <ul>
-      <li>
+      <!-- <li>
         <a href="mailto:info@dotglobaltech.com">
           <span>
             <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -16,7 +16,7 @@
           </span>
           info@dotglobaltech.com
         </a>
-      </li>
+      </li> -->
       <!-- <li>
         <a href="tel:+91 96060 28218">
           <span>

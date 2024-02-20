@@ -2,14 +2,14 @@
   <header>
     <div :class="`header__area ${header_solid ? 'header__white-solid' : 'header__transparent'
       } ${header_solid_2 ? 'header__white-solid-2 header__transparent' : ''} 
-          ${header_black ? 'header__black' : ''}`">
+              ${header_black ? 'header__black' : ''}`">
       <div v-if="top_bar" class="header__top header__border d-none d-lg-block">
         <div class="container">
           <div class="row align-items-center">
-            <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-10">
+            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-2">
               <header-info />
             </div>
-            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-2">
+            <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-10">
               <div class="header__top-right d-flex justify-content-end align-items-center">
                 <div class="header__lang ml-30">
                   <Language />
@@ -38,8 +38,8 @@
                   </nuxt-link>
                 </div>
               </div>
-              <div class="col-xxl-8 col-xl-8 col-lg-8 d-none d-lg-block">
-                <div class="main-menu pl-55 main-menu-ff-space">
+              <div class="col-xxl-7 col-xl-7 col-lg-7 d-none d-lg-block">
+                <div class="main-menu pl-0 main-menu-ff-space">
                   <nav id="mobile-menu">
                     <!-- menus start -->
                     <menus />
@@ -47,19 +47,23 @@
                   </nav>
                 </div>
               </div>
-              <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-8 col-sm-7 col-4">
-                <div class="header__bottom-right d-flex justify-content-end align-items-center pl-30">
+              <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-8 col-sm-7 col-4">
+                <div class="header__bottom-right d-flex justify-content-end align-items-center pl-0">
+
                   <div class="header__action d-none d-xl-block">
                     <ul>
+                      <div class="tp-header-transparent">
+                        <a @click.prevent="handleSearch" href="#" class="router-link-active router-link-exact-active tp-btn btn-project bg-btn lnk">
+                          Start a Project
+                          <i class="fas fa-chevron-right fa-icon"></i>
+                        <span class="circle"></span>
+                        </a>
+                      </div>
                       <!-- <li>
-                        <a @click.prevent="handleSearch" href="#" class="search-open-btn">
-                          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                              d="M9.55 18.1C14.272 18.1 18.1 14.272 18.1 9.55C18.1 4.82797 14.272 1 9.55 1C4.82797 1 1 4.82797 1 9.55C1 14.272 4.82797 18.1 9.55 18.1Z"
-                              stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                            <path d="M19.0002 19.0002L17.2002 17.2002" stroke="currentColor" stroke-width="1.5"
-                              stroke-linecap="round" stroke-linejoin="round" />
-                          </svg>
+                        <a @click.prevent="handleSearch" href="#" class="router-link-active router-link-exact-active tp-btn btn-project bg-btn lnk">
+                          Start a Project
+                          <i class="fas fa-chevron-right fa-icon"></i>
+                        <span class="circle"></span>
                         </a>
                       </li> -->
                       <li>
@@ -89,7 +93,7 @@
     </div>
 
     <!-- search popup start -->
-    <!-- <SearchPopup ref="SearchPopup" /> -->
+    <SearchPopup ref="SearchPopup" />
     <!-- search popup end -->
   </header>
 
@@ -106,7 +110,7 @@
 import menus from "./menus.vue";
 import HeaderInfo from "./component/HeaderInfo.vue";
 import Language from "./component/Language.vue";
-// import SearchPopup from "./component/SearchPopup.vue";
+import SearchPopup from "./component/SearchPopup.vue";
 import { useUtilsStore } from '~~/store/utils';
 import OffCanvasFive from '~~/components/common/off-canvas/OffCanvasFive.vue';
 import OffCanvasSix from '~~/components/common/off-canvas/OffCanvasSix.vue';
@@ -147,14 +151,14 @@ export default {
     menus,
     HeaderInfo,
     Language,
-    // SearchPopup,
+    SearchPopup,
     OffCanvasFive,
     OffCanvasSix,
   },
   methods: {
-    // handleSearch() {
-    //   this.$refs.SearchPopup.show();
-    // },
+    handleSearch() {
+      this.$refs.SearchPopup.show();
+    },
     handleOffCanvas() {
       this.$refs.off_canvas.openOffcanvas();
     },
