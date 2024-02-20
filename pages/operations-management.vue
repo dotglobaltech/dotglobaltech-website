@@ -17,11 +17,11 @@
 <script>
 import HeaderOne from "~~/layouts/headers/HeaderOne.vue";
 import ServiceBreadcrumb from '~~/components/breadcrumb/ServiceBreadcrumb.vue';
-import HomeServices from '~~/components/bmc-helix-itsm/HomeServices.vue';
-import BMCServicesAbout from '~~/components/bmc-helix-itsm/BMCServicesAbout.vue';
-import ServicesVision from '~~/components/vision/ServicesVision.vue';
-import HomePortfolio from '~~/components/portfolios/HomePortfolio.vue';
-import ServicesSupportArea from '~~/components/supports/ServicesSupportArea.vue';
+import HomeServices from '~~/components/operations-management/HomeServices.vue';
+import BMCServicesAbout from '~~/components/operations-management/BMCServicesAbout.vue';
+import ServicesVision from '~~/components/operations-management/ServicesVision.vue';
+import HomePortfolio from '~~/components/operations-management/HomePortfolio.vue';
+import ServicesSupportArea from '~~/components/operations-management/ServicesSupportArea.vue';
 import HomeCTA from "~/components/index/HomeCTA.vue";
 import FooterFour from '~~/layouts/footers/FooterFour.vue';
 import FooterEight from '~~/layouts/footers/FooterEight.vue';
