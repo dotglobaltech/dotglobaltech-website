@@ -16,17 +16,16 @@
 
 <script>
 import HeaderOne from "~~/layouts/headers/HeaderOne.vue";
-import ServiceBreadcrumb from '~~/components/bmc-helix-remedyforce/ServiceBreadcrumb.vue';
-import HomeServices from '~~/components/bmc-helix-remedyforce/HomeServices.vue';
-import BMCServicesAbout from '~~/components/bmc-helix-remedyforce/BMCServicesAbout.vue';
-import ServicesVision from '~~/components/bmc-helix-remedyforce/ServicesVision.vue';
-import HomePortfolio from '~~/components/bmc-helix-remedyforce/HomePortfolio.vue';
-import ServicesSupportArea from '~~/components/bmc-helix-remedyforce/ServicesSupportArea.vue';
-import HomeCTA from "~/components/subscribe/SubscribeNow.vue";
+import ServiceBreadcrumb from '~~/components/breadcrumb/ServiceBreadcrumb.vue';
+import HomeServices from '~~/components/bmc-blade-logic/HomeServices.vue';
+import BMCServicesAbout from '~~/components/bmc-blade-logic/BMCServicesAbout.vue';
+import ServicesVision from '~~/components/vision/ServicesVision.vue';
+import HomePortfolio from '~~/components/portfolios/HomePortfolio.vue';
+import ServicesSupportArea from '~~/components/supports/ServicesSupportArea.vue';
+import HomeCTA from "~/components/index/HomeCTA.vue";
 import FooterFour from '~~/layouts/footers/FooterFour.vue';
 import FooterEight from '~~/layouts/footers/FooterEight.vue';
 import BackToTop from '~~/layouts/footers/component/BackToTop.vue';
-
 
 export default {
   components: {
