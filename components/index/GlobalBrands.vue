@@ -50,11 +50,6 @@
                         <li>BMC Helix Discovery</li>
                         <li>BMC TrueSight</li>
                         <li>BMC Control-M</li>
-                        <li>BMC Smart Reporting</li>
-                        <li>BMC Client Management</li>
-                        <li>BMC Helix DWP</li>
-                        <li>BMC BladeLogic</li>
-                        <li>BMC Training</li>
                       </ul>
                     </div>
                     <div class="features__btn-7">
@@ -81,8 +76,11 @@
                     <div class="features__item-10 pricing__feature-5">
                       <h3 class="features__title-7">Oracle</h3>
                       <ul>
-                        <li>Oracle EBS</li>
+                        <li>Implementation and Consulting</li>
+                        <li>OCI AI Services</li>
+                        <li>Application Development</li>
                         <li>Oracle Cloud</li>
+                        <li>Oracle Managed services</li>
                       </ul>
                     </div>
                     <div class="features__btn-7">
@@ -110,11 +108,10 @@
                       <h3 class="features__title-7">Saleforce</h3>
                       <ul>
                         <li>Salesforce Sales Cloud</li>
-                        <li>Salesforce Service Clou</li>
+                        <li>Salesforce Service Cloud</li>
                         <li>Salesforce Commerce Cloud</li>
                         <li>Salesforce Marketing Cloud</li>
                         <li>Salesforce Community Cloud</li>
-                        <li>Salesforce Integration Cloud</li>
                       </ul>
                     </div>
                     <div class="features__btn-7">
@@ -177,7 +174,6 @@
                         <li>AWS Cloud Security</li>
                         <li>Managed Cloud Services</li>
                         <li>Serverless Computing</li>
-                        <li>AWS Market Enablement</li>
                       </ul>
                     </div>
                     <div class="features__btn-7">
@@ -209,7 +205,6 @@
                         <li>SAP ERP</li>
                         <li>SAP HR</li>
                         <li>SAP PLM</li>
-                        <li>SAP PLM</li>
                       </ul>
                     </div>
                     <div class="features__btn-7">
@@ -238,13 +233,9 @@
                       <ul>
                         <li>Business Central</li>
                         <li>Finance</li>
-                        <li>Supply Chain Management</li>
                         <li>Sales</li>
                         <li>Customer Service</li>
                         <li>Field Service</li>
-                        <li>Project Operations</li>
-                        <li>Marketing</li>
-                        <li>Human Resource</li>
                       </ul>
                     </div>
                     <div class="features__btn-7">
