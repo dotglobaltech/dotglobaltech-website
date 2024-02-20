@@ -153,7 +153,7 @@ export default {
                 { title: "UI/UX Design", link: "/ui-ux-design" },
                 { title: "Infrastructure Services", link: "/infrastructure-services" },
                 { title: "Digital Transformation", link: "/digital-transformation" },
-                { title: "Managed IT Services", link: "/managed-iy-services" },
+                { title: "Managed IT Services", link: "/managed-it-services" },
                 { title: "IT Outsourcing", link: "/it-outsourcing" },
                 { title: "IT Consulting", link: "/it-consulting" },
                 { title: "IT Support", link: "/it-support" },
