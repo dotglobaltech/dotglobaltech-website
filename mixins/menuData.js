@@ -93,7 +93,7 @@ export default {
                 { title: "Supply Chain Management", link: "/supply-chain-management" },
                 { title: "Sales", link: "/sales" },
                 { title: "Customer Service", link: "/customer-service" },
-                { title: "Project Operations", link: "/field-service" },
+                { title: "Project Operations", link: "/project-opertations" },
                 { title: "Marketing", link: "/marketing" },
                 { title: "Human Resource", link: "/human-resource" },
 
