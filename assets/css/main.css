@@ -3407,6 +3407,25 @@ only screen and (min-width: 576px) and (max-width: 767px),
   box-shadow: 0 10px 15px 0px rgba(175, 0, 87, .2);
 }
 
+.btn-project {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  padding: 0px 32px;
+  line-height: 56px;
+  text-align: center;
+  outline: none;
+  color: #fff;
+  background: linear-gradient(to right, #673AB7 0%,#2196F3 100%);
+  border: none;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
+  display: inline-block;
+  position: relative;
+  -webkit-box-shadow: 0 10px 15px 0px rgba(233, 30, 99, .15);
+  box-shadow: 0 10px 15px 0px rgba(233, 30, 99, .15);
+}
+
 .btn-cta {
   font-size: 16px;
   font-weight: 400;
@@ -3515,6 +3534,12 @@ span.circle2{background: rgba(255, 255, 255, 0.2); display: block; position: abs
   background-color: var(--tp-theme-5);
 }
 
+.tp-header-transparent {
+  display: inline-block;
+  padding: 9px 8px 2px;
+  background-color: transparent;
+}
+
 .tp-header-btn {
   display: inline-block;
   font-size: 16px;
@@ -3522,8 +3547,8 @@ span.circle2{background: rgba(255, 255, 255, 0.2); display: block; position: abs
   color: var(--tp-common-white);
   font-family: var(--tp-ff-space);
   text-transform: capitalize;
-  padding: 22px 36px 23px;
-  background-color: var(--tp-theme-3);
+  padding: 9px 8px 2px;
+  background-color: transparent;
 }
 
 .tp-header-btn:hover {
@@ -61519,7 +61544,7 @@ blockquote cite::before {
 }
 
 .footer__info-text-6 a:hover {
-  color: var(--tp-common-white);
+  color: #fd5257;
 }
 
 .footer__info-text-8 h4 {
