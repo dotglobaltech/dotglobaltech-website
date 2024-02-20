@@ -1,6 +1,7 @@
 <template>
   <LayoutOne>
     <HomeHero />
+    <job-area :style_2="true"/>
     <WhatWeDo />
     <OurSolutions />
     <GlobalBrands />
@@ -19,6 +20,7 @@
 <script setup>
 import LayoutOne from '~/layouts/LayoutOne.vue';
 import HomeHero from '~/components/index/HomeHero.vue'
+import JobArea from '~~/components/index/JobArea.vue';
 import WhatWeDo from "~/components/index/WhatWeDo.vue";
 import GlobalBrands from "~/components/index/GlobalBrands.vue";
 import OurSolutions from "~/components/index/OurSolutions.vue";
