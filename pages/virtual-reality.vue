@@ -16,7 +16,7 @@
 
 <script>
 import HeaderOne from "~~/layouts/headers/HeaderOne.vue";
-import ServiceBreadcrumb from '~~/components/breadcrumb/ServiceBreadcrumb.vue';
+import ServiceBreadcrumb from '~~/components/virtual-reality/ServiceBreadcrumb.vue';
 import HomeServices from '~~/components/virtual-reality/HomeServices.vue';
 import BMCServicesAbout from '~~/components/virtual-reality/BMCServicesAbout.vue';
 import ServicesVision from '~~/components/virtual-reality/ServicesVision.vue';
