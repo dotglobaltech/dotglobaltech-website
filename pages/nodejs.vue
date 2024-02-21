@@ -16,7 +16,7 @@
 
 <script>
 import HeaderOne from "~~/layouts/headers/HeaderOne.vue";
-import ServiceBreadcrumb from '~~/components/breadcrumb/ServiceBreadcrumb.vue';
+import ServiceBreadcrumb from '~~/components/nodejs/ServiceBreadcrumb.vue';
 import HomeServices from '~~/components/nodejs/HomeServices.vue';
 import BMCServicesAbout from '~~/components/nodejs/BMCServicesAbout.vue';
 import ServicesVision from '~~/components/nodejs/ServicesVision.vue';

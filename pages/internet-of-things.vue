@@ -16,7 +16,7 @@
 
 <script>
 import HeaderOne from "~~/layouts/headers/HeaderOne.vue";
-import ServiceBreadcrumb from '~~/components/breadcrumb/ServiceBreadcrumb.vue';
+import ServiceBreadcrumb from '~~/components/internet-of-things/ServiceBreadcrumb.vue';
 import HomeServices from '~~/components/internet-of-things/HomeServices.vue';
 import BMCServicesAbout from '~~/components/internet-of-things/BMCServicesAbout.vue';
 import ServicesVision from '~~/components/internet-of-things/ServicesVision.vue';

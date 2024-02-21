@@ -16,7 +16,7 @@
 
 <script>
 import HeaderOne from "~~/layouts/headers/HeaderOne.vue";
-import ServiceBreadcrumb from '~~/components/breadcrumb/ServiceBreadcrumb.vue';
+import ServiceBreadcrumb from '~~/components/salesforce-sales-cloud/ServiceBreadcrumb.vue';
 import HomeServices from '~~/components/salesforce-sales-cloud/HomeServices.vue';
 import BMCServicesAbout from '~~/components/salesforce-sales-cloud/BMCServicesAbout.vue';
 import ServicesVision from '~~/components/salesforce-sales-cloud/ServicesVision.vue';

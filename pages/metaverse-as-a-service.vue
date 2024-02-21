@@ -16,7 +16,7 @@
 
 <script>
 import HeaderOne from "~~/layouts/headers/HeaderOne.vue";
-import ServiceBreadcrumb from '~~/components/breadcrumb/ServiceBreadcrumb.vue';
+import ServiceBreadcrumb from '~~/components/metaverse-as-a-service/ServiceBreadcrumb.vue';
 import HomeServices from '~~/components/metaverse-as-a-service/HomeServices.vue';
 import BMCServicesAbout from '~~/components/metaverse-as-a-service/BMCServicesAbout.vue';
 import ServicesVision from '~~/components/metaverse-as-a-service/ServicesVision.vue';

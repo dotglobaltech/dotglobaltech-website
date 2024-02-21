@@ -16,7 +16,7 @@
 
 <script>
 import HeaderOne from "~~/layouts/headers/HeaderOne.vue";
-import ServiceBreadcrumb from '~~/components/breadcrumb/ServiceBreadcrumb.vue';
+import ServiceBreadcrumb from '~~/components/sap-hr/ServiceBreadcrumb.vue';
 import HomeServices from '~~/components/sap-hr/HomeServices.vue';
 import BMCServicesAbout from '~~/components/sap-hr/BMCServicesAbout.vue';
 import ServicesVision from '~~/components/sap-hr/ServicesVision.vue';

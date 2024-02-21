@@ -16,7 +16,7 @@
 
 <script>
 import HeaderOne from "~~/layouts/headers/HeaderOne.vue";
-import ServiceBreadcrumb from '~~/components/breadcrumb/ServiceBreadcrumb.vue';
+import ServiceBreadcrumb from '~~/components/kiosk-software/ServiceBreadcrumb.vue';
 import HomeServices from '~~/components/kiosk-software/HomeServices.vue';
 import BMCServicesAbout from '~~/components/kiosk-software/BMCServicesAbout.vue';
 import ServicesVision from '~~/components/kiosk-software/ServicesVision.vue';

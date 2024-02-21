@@ -16,7 +16,7 @@
 
 <script>
 import HeaderOne from "~~/layouts/headers/HeaderOne.vue";
-import ServiceBreadcrumb from '~~/components/breadcrumb/ServiceBreadcrumb.vue';
+import ServiceBreadcrumb from '~~/components/react-native/ServiceBreadcrumb.vue';
 import HomeServices from '~~/components/react-native/HomeServices.vue';
 import BMCServicesAbout from '~~/components/react-native/BMCServicesAbout.vue';
 import ServicesVision from '~~/components/react-native/ServicesVision.vue';

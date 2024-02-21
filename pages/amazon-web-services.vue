@@ -16,7 +16,7 @@
 
 <script>
 import HeaderOne from "~~/layouts/headers/HeaderOne.vue";
-import ServiceBreadcrumb from '~~/components/breadcrumb/ServiceBreadcrumb.vue';
+import ServiceBreadcrumb from '~~/components/amzon-web-services/ServiceBreadcrumb.vue';
 import HomeServices from '~~/components/amzon-web-services/HomeServices.vue';
 import BMCServicesAbout from '~~/components/amzon-web-services/BMCServicesAbout.vue';
 import ServicesVision from '~~/components/amzon-web-services/ServicesVision.vue';
