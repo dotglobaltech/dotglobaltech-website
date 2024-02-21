@@ -221,7 +221,7 @@ export default {
             { title: "Dynamics 365", link: "/dynamics-three-sixty-five" },
             { title: "Sharepoint and Office 365", link: "/sharepoint-and-office-three-sixty-five" },
             { title: "PowerBI", link: "/power-bi" },
-            { title: "Aamzon Web Services", link: "/aamzon-web-services" },
+            { title: "Aamzon Web Services", link: "/amazon-web-services" },
             { title: "Adobe Commerce", link: "/adobe-commerce" },
             { title: "Pimcore", link: "/pimcore" },
             { title: "Metaverse as a Service (MAAS)", link: "/metaverse-as-a-service" },
