@@ -1,5 +1,5 @@
 <template>
-  <section class="counter__area p-relative z-index-1 green-light-bg-4 pt-200 pb-200 fix">
+  <section class="counter__area p-relative z-index-1 solutions-bg pt-200 pb-200 fix">
     <div class="counter__border-animation"></div>
     <div v-if="!el_style" class="counter__shape">
       <!-- <img class="counter__shape-13" src="~/assets/img/counter/7/counter-shape-1.png" alt="counter__shape" />

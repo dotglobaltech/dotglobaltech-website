@@ -6796,6 +6796,10 @@ span.circle2{background: rgba(255, 255, 255, 0.2); display: block; position: abs
   background: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
 }
 
+.wch-bg {
+  background-color: #F6F8FC;
+}
+
 .emerging-bg-4 {
   background: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
 }
@@ -6817,11 +6821,22 @@ span.circle2{background: rgba(255, 255, 255, 0.2); display: block; position: abs
 }
 
 .whatwe-bg {
-  background: linear-gradient(to bottom,#fff6f3 0,#fffefb 100%);
+  background: linear-gradient(69.8deg, rgb(25, 49, 108) 2.8%, rgb(1, 179, 201) 97.8%);
+}
+
+.text-second {
+  color: #E91E63;
+}
+.f-bold, .text-bold {
+  font-weight: 700;
 }
 
 .award-bg {
   background: linear-gradient(to bottom,#e4fffe 0,#ffedf3 100%);
+}
+
+.wide-bg {
+  background: linear-gradient(to top,#e4fffe 0,#ffedf3 100%);
 }
 
 .homecta-bg {
@@ -7028,6 +7043,10 @@ html .mt20 {
 
 .green-light-bg-4 {
   background-color: var(--tp-common-green-light-4);
+}
+
+.solutions-bg {
+  background: linear-gradient (to top, #cd9cf2 0%, #f6f3ff 100%);
 }
 
 .funfact-bg-4 {

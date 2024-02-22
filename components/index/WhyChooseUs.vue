@@ -1,6 +1,5 @@
 <template>
-  <div>
-    <section class="about__area pt-110 pb-120 p-relative">
+    <section class="about__area wch-bg pt-110 pb-120 p-relative">
       <!-- <div class="about__shape">
         <img class="about__shape-3" src="~/assets/img/about/6/shape/about-shape-1.png" alt="shape">
         <img class="about__shape-4" src="~/assets/img/about/6/shape/about-shape-2.png" alt="shape">
@@ -26,13 +25,13 @@
           </div>
           <div class="col-xxl-6 col-xl-6 offset-xl-0 col-lg-6 offset-lg-1">
             <div class="section__title-wrapper-6">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit honcus a turpis sit amet Donec nec elementum
-                ipsum elementum.</p>
+              <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit honcus a turpis sit amet Donec nec elementum
+                ipsum elementum.</p> -->
             </div>
           </div>
         </div>
         <div class="row">
-          <div class="col-xxl-3 col-xl-3 col-lg-4">
+          <div class="col-xxl-4 col-xl-4 col-lg-4">
             <div class="about__features">
               <div class="about__features-item d-flex align-items-start" data-sal="slide-up" data-sal-delay="130"
                 data-sal-duration="1000">
@@ -52,8 +51,8 @@
                   </span>
                 </div>
                 <div class="about__features-content">
-                  <h3 class="about__features-title">Streamlined Project Management</h3>
-                  <p>Fully committed to the success company</p>
+                  <!-- <h3 class="about__features-title">Streamlined Project Management</h3> -->
+                  <p>At Dot Global Technologies (DGT), we are a leading force in providing innovative IT solutions and services.</p>
                 </div>
               </div>
               <div class="about__features-item d-flex align-items-start" data-sal="slide-up" data-sal-delay="150"
@@ -79,8 +78,8 @@
                   </span>
                 </div>
                 <div class="about__features-content">
-                  <h3 class="about__features-title">A Dedicated Team of Experts</h3>
-                  <p>Employees will always be my top prioty</p>
+                  <!-- <h3 class="about__features-title">A Dedicated Team of Experts</h3> -->
+                  <p>With expertise spanning software development, IT infrastructure, cybersecurity, and more, we empower businesses to thrive in the digital age.</p>
                 </div>
               </div>
               <div class="about__features-item d-flex align-items-start" data-sal="slide-up" data-sal-delay="170"
@@ -96,13 +95,13 @@
                   </span>
                 </div>
                 <div class="about__features-content">
-                  <h3 class="about__features-title">Completion of Project in Given Time</h3>
-                  <p>The ability to switch is an important skill</p>
+                  <!-- <h3 class="about__features-title">Completion of Project in Given Time</h3> -->
+                  <p>Our commitment to excellence is reflected in our track record of successfully delivering over 100+ projects to satisfied clients worldwide.</p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-xxl-9 col-xl-9 col-lg-8">
+          <div class="col-xxl-8 col-xl-8 col-lg-8">
             <div class="about__video-wrapper" data-sal="slide-up" data-sal-delay="150" data-sal-duration="1000">
               <div class="about__video-counter d-sm-flex align-items-center">
                 <div class="about__video-counter-item d-flex align-items-center">
@@ -132,7 +131,6 @@
     <!-- video modal start -->
     <video-modal ref="video_modal" video-url="https://www.youtube.com/embed/z4dQmpf5PLM" />
     <!-- video modal end -->
-  </div>
 </template>
   
 <script>
