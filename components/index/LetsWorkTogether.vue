@@ -9,10 +9,11 @@
           </div>
         </div> -->
       <div class="row row contact__form-3">
-        <div class="col-xl-5 col-lg-5">
+        <div class="col-xl-6 col-lg-6">
           <div class="contact__wrapper-2">
             <div class="contact__content-2">
-              <h3 class="contact-title">Let’s Work Together</h3>
+              <h3 class="contact-title">Ready to collaborate?</h3>
+              <h5>We would love to hear from you!</h5>
               <p>At Dot Global Technologies, we are always excited to connect with new people and companies who share our
                 passion for innovation. Do you have a specific project in mind or just some general questions? Do not
                 hesitate to reach out!
@@ -92,7 +93,7 @@
 
           </div>
         </div>
-        <div class="col-xl-7 col-lg-7">
+        <div class="col-xl-6 col-lg-6">
           <div class="contact__form-3 ml-30">
             <!-- form start -->
             <help-center-form />
