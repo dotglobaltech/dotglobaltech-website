@@ -45,8 +45,8 @@
                     <div class="features__item-10 pricing__feature-5">
                       <h3 class="features__title-7">BMC</h3>
                       <ul>
-                        <li>BMC Helix ITSM</li>
-                        <li>BMC Remedyforce</li>
+                        <li><i class="fas fa-badge-check" style="color: #231d1d;"></i> BMC Helix ITSM</li>
+                        <li><nuxt-link href="/">BMC Remedyforce</nuxt-link></li>
                         <li>BMC Helix Discovery</li>
                         <li>BMC TrueSight</li>
                         <li>BMC Control-M</li>
@@ -107,7 +107,7 @@
                     <div class="features__item-10 pricing__feature-5">
                       <h3 class="features__title-7">Saleforce</h3>
                       <ul>
-                        <li>Salesforce Sales Cloud</li>
+                        <li><i class="fas fa-badge-check" style="color: #ffffff;"></i> Salesforce Sales Cloud</li>
                         <li>Salesforce Service Cloud</li>
                         <li>Salesforce Commerce Cloud</li>
                         <li>Salesforce Marketing Cloud</li>

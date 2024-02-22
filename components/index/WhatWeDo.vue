@@ -35,7 +35,8 @@ you wide array of services.
 
               <Slide class="elements__carousel-item w-img">
                 <div class="service-card-app hoshd">
-                  <h4 class="features__title-7"><nuxt-link href="/">App Development</nuxt-link></h4>
+                  <h4 class="features__title-7">
+                    <nuxt-link href="/">App Development</nuxt-link></h4>
                   <ul class="-service-list">
                     <li> <nuxt-link href="/">UI/UX</nuxt-link> </li>
                     <li> <nuxt-link href="/">PHP</nuxt-link> </li>
