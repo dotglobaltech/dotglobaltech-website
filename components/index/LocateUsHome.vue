@@ -4,7 +4,7 @@
         <div class="row justify-content-center">
                 <div class="col-xxl-7 col-xl-8 col-lg-9">
                     <div class="section__title-wrapper-7 text-center mb-60">
-                        <span class="section__title-pre-7"></span>
+                        <span class="section__title-pre-2">Locate Us</span>
                         <h3 class="section__title-7">
                             <span class="section__title-7-highlight">
                                 Locate Us
