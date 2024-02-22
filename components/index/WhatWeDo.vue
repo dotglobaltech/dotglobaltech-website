@@ -34,12 +34,7 @@
 
               <Slide class="elements__carousel-item w-img">
                 <div class="service-card-app hoshd">
-<<<<<<< HEAD
-                  <h4 class="features__title-7">
-                    <nuxt-link href="/">App Development</nuxt-link></h4>
-=======
                   <h4 class="features__title-7"><nuxt-link href="/software-development">Software Development</nuxt-link></h4>
->>>>>>> 6abc01181093c8d9f88327a9e216224c3184bfa8
                   <ul class="-service-list">
                     <li> <nuxt-link href="/">UI/UX</nuxt-link> </li>
                     <li> <nuxt-link href="/">PHP</nuxt-link> </li>
