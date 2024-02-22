@@ -13,8 +13,13 @@
           <div class="contact__wrapper-2">
             <div class="contact__content-2">
               <h3 class="contact-title">Let’s Work Together</h3>
-              <p>We love working with new people and companies. please take a moment to tell us about your project. Your
-                messages will be responded to within ONE BUSINESS DAY.</p>
+              <p>At Dot Global Technologies, we are always excited to connect with new people and companies who share our
+                passion for innovation. Do you have a specific project in mind or just some general questions? Do not
+                hesitate to reach out!
+              </p>
+              <p>Quick Response Guaranteed We value your time and promise to respond to your messages within ONE BUSINESS
+                DAY.
+              </p>
             </div>
             <div class="contact__info">
               <div class="row align-items-center">
@@ -26,8 +31,10 @@
                       </span>
                     </div>
                     <div class="contact__info-content">
-                      <h5>Call Enquiry Assistance</h5>
-                      <p>We are always available on call to assist you with any questions you may have.</p>
+                      <h5>Talk to a Real Person</h5>
+                      <p>Feeling stuck or have a burning question? Give us a call! Our friendly team is available to
+                        answer your questions and provide support.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -39,8 +46,9 @@
                       </span>
                     </div>
                     <div class="contact__info-content">
-                      <h5>Schedule Your Appointment</h5>
-                      <p>We assist you in scheduling appointments whenever you wish to meet us.</p>
+                      <h5>Expert Consultation</h5>
+                      <p>Need some technical guidance for your project? We offer expert consultations to help you navigate
+                        the complexity and find the best solution.</p>
                     </div>
                   </div>
                 </div>
@@ -52,8 +60,10 @@
                       </span>
                     </div>
                     <div class="contact__info-content">
-                      <h5>Project Consultation</h5>
-                      <p>We provide you with all technical consultations for your project.</p>
+                      <h5>Free Estimates</h5>
+                      <p>Got a project idea but unsure of the cost? No problem! Let us know the details, and we will
+                        happily provide a free, no-obligation estimate.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -65,17 +75,18 @@
                       </span>
                     </div>
                     <div class="contact__info-content">
-                      <h5>Project Estimation</h5>
-                      <p>You come to us with your project, and we do all of the planning and costing for you.</p>
+                      <h5>Schedule a Meeting</h5>
+                      <p>Ready to take things to the next level? Schedule an appointment to meet with our team and discuss your project in more detail.</p>
                     </div>
                   </div>
                 </div>
               </div>
 
               <div class="contact__info-box-refund">
-                <p>See our Refund <nuxt-link href="/policy">Policies</nuxt-link> or
+                <p>So, what are you waiting for? Drop us a line, call us, or book an appointment today! Looking forward to a long-lasting relationship built on trust. We are excited to bring your ideas to life.</p>
+                <!-- <p>See our Refund <nuxt-link href="/policy">Policies</nuxt-link> or
                   <nuxt-link href="/faq">FAQ</nuxt-link>
-                </p>
+                </p> -->
               </div>
             </div>
 

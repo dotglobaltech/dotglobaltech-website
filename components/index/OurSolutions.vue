@@ -77,10 +77,8 @@
                 <div class="circle__wrapper">
                   <div class="circle__content circle-bg-5">
                     <h3 class="services__title-7"><a href="/service-details" class="">Our Solutions</a></h3>
-                    <h5>We Have Worked Across Multiple Industries</h5>
-                    <p>Discover a suite of cutting-edge software solutions tailored to meet your diverse needs. Our
-                      software solutions elevate your digital experience from streamlined efficiency to enhanced security.
-                      Explore innovation, reliability, and performance in every solution we offer.</p>
+                    <!-- <h5>We Have Worked Across Multiple Industries</h5> -->
+                    <p>Discover a suite of cutting-edge software solutions tailored to meet your diverse needs. Our software solutions elevate your digital experience from streamlined efficiency to enhanced security. Explore innovation, reliability, and performance in every solution we offer.</p>
                     <div class="services__btn-7"><a href="/" class="tp-link-btn-3">View all
                         <span><i class="fa-regular fa-arrow-right"></i></span></a></div>
                   </div>

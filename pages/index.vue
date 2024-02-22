@@ -6,8 +6,8 @@
     <OurSolutions />
     <GlobalBrands />
     <CertificationsAwards />
-    <TrustedClients />
     <EmergingTechnologies />
+    <TrustedClients />
     <FunFact />
     <WhyChooseUs />
     <LetsWorkTogether />

@@ -50,6 +50,11 @@
                         <li>BMC Helix Discovery</li>
                         <li>BMC TrueSight</li>
                         <li>BMC Control-M</li>
+                        <li><nuxt-link href="/bmc-helix-itsm">BMC Helix ITSM</nuxt-link></li>
+                        <li><nuxt-link href="/bmc-helix-remedyforce">BMC Remedyforce</nuxt-link></li>
+                        <li><nuxt-link href="/bmc-helix-discovery">BMC Helix Discovery</nuxt-link></li>
+                        <li><nuxt-link href="/bmc-truesight">BMC TrueSight</nuxt-link></li>
+                        <li><nuxt-link href="/bmc-control-m">BMC Control-M</nuxt-link></li>
                       </ul>
                     </div>
                     <div class="features__btn-7">
@@ -76,11 +81,11 @@
                     <div class="features__item-10 pricing__feature-5">
                       <h3 class="features__title-7">Oracle</h3>
                       <ul>
-                        <li>Implementation and Consulting</li>
-                        <li>OCI AI Services</li>
-                        <li>Application Development</li>
-                        <li>Oracle Cloud</li>
-                        <li>Oracle Managed services</li>
+                        <li><nuxt-link href="/">Implementation and Consulting</nuxt-link></li>
+                        <li><nuxt-link href="/oci-ai-services">OCI AI Services</nuxt-link></li>
+                        <li><nuxt-link href="/application-development">Application Development</nuxt-link></li>
+                        <li><nuxt-link href="/">Oracle Cloud</nuxt-link></li>
+                        <li><nuxt-link href="/oracle-managed-services">Oracle Managed services</nuxt-link></li>
                       </ul>
                     </div>
                     <div class="features__btn-7">
@@ -107,7 +112,7 @@
                     <div class="features__item-10 pricing__feature-5">
                       <h3 class="features__title-7">Saleforce</h3>
                       <ul>
-                        <li><i class="fas fa-badge-check" style="color: #ffffff;"></i> Salesforce Sales Cloud</li>
+                        <li>Salesforce Sales Cloud</li>
                         <li>Salesforce Service Cloud</li>
                         <li>Salesforce Commerce Cloud</li>
                         <li>Salesforce Marketing Cloud</li>
@@ -136,13 +141,13 @@
                   </div>
                   <div class="features__content-7">
                     <div class="features__item-10 pricing__feature-5">
-                      <h3 class="features__title-7">Saleforce</h3>
+                      <h3 class="features__title-7">ServiceNow</h3>
                       <ul>
-                        <li>IT Service Management</li>
-                        <li>IT Workflows</li>
-                        <li>Knowledge Management</li>
-                        <li>Audit Management</li>
-                        <li>Configuration Compliance</li>
+                        <li><nuxt-link href="/servicenow-it-service-management">IT Service Management</nuxt-link></li>
+                        <li><nuxt-link href="/servicenow-it-workflows">IT Workflows</nuxt-link></li>
+                        <li><nuxt-link href="/servicenow-knowledge-management">Knowledge Management</nuxt-link></li>
+                        <li><nuxt-link href="/servicenow-audit-management">Audit Management</nuxt-link></li>
+                        <li><nuxt-link href="/servicenow-configuration-compliance">Configuration Compliance</nuxt-link></li>
                       </ul>
                     </div>
                     <div class="features__btn-7">
@@ -169,11 +174,11 @@
                     <div class="features__item-10 pricing__feature-5">
                       <h3 class="features__title-7">AWS</h3>
                       <ul>
-                        <li>AWS Consulting</li>
-                        <li>AWS Cloud Migration</li>
-                        <li>AWS Cloud Security</li>
-                        <li>Managed Cloud Services</li>
-                        <li>Serverless Computing</li>
+                        <li><nuxt-link href="/aws-consulting">AWS Consulting</nuxt-link></li>
+                        <li><nuxt-link href="/aws-cloud-migration">AWS Cloud Migration</nuxt-link></li>
+                        <li><nuxt-link href="/aws-cloud-security">AWS Cloud Security</nuxt-link></li>
+                        <li><nuxt-link href="/managed-cloud-services">Managed Cloud Services</nuxt-link></li>
+                        <li><nuxt-link href="/serverless-computing">Serverless Computing</nuxt-link></li>
                       </ul>
                     </div>
                     <div class="features__btn-7">
@@ -200,11 +205,11 @@
                     <div class="features__item-10 pricing__feature-5">
                       <h3 class="features__title-7">SAP</h3>
                       <ul>
-                        <li>SAP HANA</li>
-                        <li>SAP CRM</li>
-                        <li>SAP ERP</li>
-                        <li>SAP HR</li>
-                        <li>SAP PLM</li>
+                        <li><nuxt-link href="/sap-hana">SAP HANA</nuxt-link></li>
+                        <li><nuxt-link href="/sap-crm">SAP CRM</nuxt-link></li>
+                        <li><nuxt-link href="/sap-erp">SAP ERP</nuxt-link></li>
+                        <li><nuxt-link href="/sap-hr">SAP HR</nuxt-link></li>
+                        <li><nuxt-link href="/sap-plm">SAP PLM</nuxt-link></li>
                       </ul>
                     </div>
                     <div class="features__btn-7">
@@ -231,11 +236,11 @@
                     <div class="features__item-10 pricing__feature-5">
                       <h3 class="features__title-7">Microsoft Dynamics 365</h3>
                       <ul>
-                        <li>Business Central</li>
-                        <li>Finance</li>
-                        <li>Sales</li>
-                        <li>Customer Service</li>
-                        <li>Field Service</li>
+                        <li><nuxt-link href="/business-central">Business Central</nuxt-link></li>
+                        <li><nuxt-link href="/finance">Finance</nuxt-link></li>
+                        <li><nuxt-link href="/sales">Sales</nuxt-link></li>
+                        <li><nuxt-link href="/customer-service">Customer Service</nuxt-link></li>
+                        <li><nuxt-link href="/">Field Service</nuxt-link></li>
                       </ul>
                     </div>
                     <div class="features__btn-7">
@@ -262,11 +267,11 @@
                     <div class="features__item-10 pricing__feature-5">
                       <h3 class="features__title-7">Analytics and Reporting</h3>
                       <ul>
-                        <li>QlikView</li>
-                        <li>Tableau</li>
-                        <li>Power BI</li>
-                        <li>Qlik Sense</li>
-                        <li>SAP Analytics</li>
+                        <li><nuxt-link href="/qlikview">QlikView</nuxt-link></li>
+                        <li><nuxt-link href="/tableau">Tableau</nuxt-link></li>
+                        <li><nuxt-link href="/power-bi">Power BI</nuxt-link></li>
+                        <li><nuxt-link href="/qliksense">Qlik Sense</nuxt-link></li>
+                        <li><nuxt-link href="/sap-analytics">SAP Analytics</nuxt-link></li>
                       </ul>
                     </div>
                     <div class="features__btn-7">
