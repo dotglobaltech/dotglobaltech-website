@@ -38,6 +38,18 @@ export default {
           icon: "fa-brands fa-youtube",
           name: "Youtube",
         },
+        {
+          link: "https://www.youtube.com/",
+          target: "_blank",
+          icon: "fa-brands fa-instagram",
+          name: "Youtube",
+        },
+        {
+          link: "https://www.youtube.com/",
+          target: "_blank",
+          icon: "fa-brands fa-pinterest",
+          name: "Youtube",
+        },
       ],
     };
   },
