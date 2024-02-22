@@ -43424,6 +43424,10 @@ only screen and (min-width: 576px) and (max-width: 767px),
   margin-bottom: 15px;
 }
 
+.fa-inverse {
+    color: #fff;
+}
+
 .pricing__feature-5 ul li {
   font-family: var(--tp-ff-roboto);
   font-weight: 500;

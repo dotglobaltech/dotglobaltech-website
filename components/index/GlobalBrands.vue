@@ -45,12 +45,11 @@
                     <div class="features__item-10 pricing__feature-5">
                       <h3 class="features__title-7">BMC</h3>
                       <ul>
-                        <li><i class="fas fa-badge-check" style="color: #231d1d;"></i> BMC Helix ITSM</li>
-                        <li><nuxt-link href="/">BMC Remedyforce</nuxt-link></li>
-                        <li>BMC Helix Discovery</li>
-                        <li>BMC TrueSight</li>
-                        <li>BMC Control-M</li>
-                        <li><nuxt-link href="/bmc-helix-itsm">BMC Helix ITSM</nuxt-link></li>
+                        <li>BMC Helix ITSM</li>
+                        <li> <span class="fa-stack fa-1x" style="flex-shrink: 0;"><i
+                              class="fas fa-circle fa-stack-2x"></i> <i class="fas fa-badge-check fa-stack-1x fa-inverse"
+                              style="--fa-inverse: var(--fa-navy);"></i></span><nuxt-link href="/bmc-helix-itsm">BMC Helix
+                            ITSM</nuxt-link></li>
                         <li><nuxt-link href="/bmc-helix-remedyforce">BMC Remedyforce</nuxt-link></li>
                         <li><nuxt-link href="/bmc-helix-discovery">BMC Helix Discovery</nuxt-link></li>
                         <li><nuxt-link href="/bmc-truesight">BMC TrueSight</nuxt-link></li>
@@ -147,7 +146,8 @@
                         <li><nuxt-link href="/servicenow-it-workflows">IT Workflows</nuxt-link></li>
                         <li><nuxt-link href="/servicenow-knowledge-management">Knowledge Management</nuxt-link></li>
                         <li><nuxt-link href="/servicenow-audit-management">Audit Management</nuxt-link></li>
-                        <li><nuxt-link href="/servicenow-configuration-compliance">Configuration Compliance</nuxt-link></li>
+                        <li><nuxt-link href="/servicenow-configuration-compliance">Configuration Compliance</nuxt-link>
+                        </li>
                       </ul>
                     </div>
                     <div class="features__btn-7">
