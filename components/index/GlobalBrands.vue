@@ -52,23 +52,11 @@
                         <li><nuxt-link href="/bmc-control-m">BMC Control-M</nuxt-link></li>
                       </ul>
                     </div>
-                    <div class="tp-button-demo"><a href="#" class="tp-btn-blue-2 tp-link-btn-3">Read More</a></div>
-
-                    <div class="cta__btn-2 text-lg-end">
-          <nuxt-link href="/" class="tp-btn btn-cta bg-btn lnk">
-            Send Message
-            <i class="fas fa-chevron-right fa-icon"></i>
-            <span class="circle"></span>
-          </nuxt-link>
-        </div>
-
-
-                    <div class="features__btn-7">
-                      <nuxt-link href="/" class="tp-link-btn-3">
+                    <div class="cta__btn-2 text-lg-center">
+                      <nuxt-link href="/" class="tp-btn btn-cta bg-btn lnk">
                         Read More
-                        <span>
-                          <i class="fa-regular fa-arrow-right"></i>
-                        </span>
+                        <i class="fas fa-chevron-right fa-icon"></i>
+                        <span class="circle"></span>
                       </nuxt-link>
                     </div>
                   </div>
@@ -94,12 +82,11 @@
                         <li><nuxt-link href="/oracle-managed-services">Oracle Managed services</nuxt-link></li>
                       </ul>
                     </div>
-                    <div class="features__btn-7">
-                      <nuxt-link href="/" class="tp-link-btn-3">
+                    <div class="cta__btn-2 text-lg-center">
+                      <nuxt-link href="/" class="tp-btn btn-cta bg-btn lnk">
                         Read More
-                        <span>
-                          <i class="fa-regular fa-arrow-right"></i>
-                        </span>
+                        <i class="fas fa-chevron-right fa-icon"></i>
+                        <span class="circle"></span>
                       </nuxt-link>
                     </div>
                   </div>
@@ -125,12 +112,11 @@
                         <li>Salesforce Community Cloud</li>
                       </ul>
                     </div>
-                    <div class="features__btn-7">
-                      <nuxt-link href="/" class="tp-link-btn-3">
+                    <div class="cta__btn-2 text-lg-center">
+                      <nuxt-link href="/" class="tp-btn btn-cta bg-btn lnk">
                         Read More
-                        <span>
-                          <i class="fa-regular fa-arrow-right"></i>
-                        </span>
+                        <i class="fas fa-chevron-right fa-icon"></i>
+                        <span class="circle"></span>
                       </nuxt-link>
                     </div>
                   </div>
@@ -157,12 +143,11 @@
                         </li>
                       </ul>
                     </div>
-                    <div class="features__btn-7">
-                      <nuxt-link href="/" class="tp-link-btn-3">
+                    <div class="cta__btn-2 text-lg-center">
+                      <nuxt-link href="/" class="tp-btn btn-cta bg-btn lnk">
                         Read More
-                        <span>
-                          <i class="fa-regular fa-arrow-right"></i>
-                        </span>
+                        <i class="fas fa-chevron-right fa-icon"></i>
+                        <span class="circle"></span>
                       </nuxt-link>
                     </div>
                   </div>
@@ -188,12 +173,11 @@
                         <li><nuxt-link href="/serverless-computing">Serverless Computing</nuxt-link></li>
                       </ul>
                     </div>
-                    <div class="features__btn-7">
-                      <nuxt-link href="/" class="tp-link-btn-3">
+                    <div class="cta__btn-2 text-lg-center">
+                      <nuxt-link href="/" class="tp-btn btn-cta bg-btn lnk">
                         Read More
-                        <span>
-                          <i class="fa-regular fa-arrow-right"></i>
-                        </span>
+                        <i class="fas fa-chevron-right fa-icon"></i>
+                        <span class="circle"></span>
                       </nuxt-link>
                     </div>
                   </div>
@@ -219,12 +203,11 @@
                         <li><nuxt-link href="/sap-plm">SAP PLM</nuxt-link></li>
                       </ul>
                     </div>
-                    <div class="features__btn-7">
-                      <nuxt-link href="/" class="tp-link-btn-3">
+                    <div class="cta__btn-2 text-lg-center">
+                      <nuxt-link href="/" class="tp-btn btn-cta bg-btn lnk">
                         Read More
-                        <span>
-                          <i class="fa-regular fa-arrow-right"></i>
-                        </span>
+                        <i class="fas fa-chevron-right fa-icon"></i>
+                        <span class="circle"></span>
                       </nuxt-link>
                     </div>
                   </div>
@@ -250,12 +233,11 @@
                         <li><nuxt-link href="/">Field Service</nuxt-link></li>
                       </ul>
                     </div>
-                    <div class="features__btn-7">
-                      <nuxt-link href="/" class="tp-link-btn-3">
+                    <div class="cta__btn-2 text-lg-center">
+                      <nuxt-link href="/" class="tp-btn btn-cta bg-btn lnk">
                         Read More
-                        <span>
-                          <i class="fa-regular fa-arrow-right"></i>
-                        </span>
+                        <i class="fas fa-chevron-right fa-icon"></i>
+                        <span class="circle"></span>
                       </nuxt-link>
                     </div>
                   </div>
@@ -281,12 +263,11 @@
                         <li><nuxt-link href="/sap-analytics">SAP Analytics</nuxt-link></li>
                       </ul>
                     </div>
-                    <div class="features__btn-7">
-                      <nuxt-link href="/" class="tp-link-btn-3">
+                    <div class="cta__btn-2 text-lg-center">
+                      <nuxt-link href="/" class="tp-btn btn-cta bg-btn lnk">
                         Read More
-                        <span>
-                          <i class="fa-regular fa-arrow-right"></i>
-                        </span>
+                        <i class="fas fa-chevron-right fa-icon"></i>
+                        <span class="circle"></span>
                       </nuxt-link>
                     </div>
                   </div>
