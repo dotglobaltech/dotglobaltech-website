@@ -8,7 +8,7 @@
     <CertificationsAwards />
     <EmergingTechnologies />
     <TrustedClients />
-    <FunFact />
+    <!-- <FunFact /> -->
     <WhyChooseUs />
     <LetsWorkTogether />
     <LocateUsHome />
@@ -27,7 +27,7 @@ import OurSolutions from "~/components/index/OurSolutions.vue";
 import CertificationsAwards from '~/components/index/CertificationsAwards.vue';
 import TrustedClients from '~/components/index/TrustedClients.vue';
 import EmergingTechnologies from '~/components/index/EmergingTechnologies.vue';
-import FunFact from '~/components/index/FunFact.vue';
+// import FunFact from '~/components/index/FunFact.vue';
 import WhyChooseUs from '~/components/index/WhyChooseUs.vue';
 import LetsWorkTogether from '~/components/index/LetsWorkTogether.vue';
 import LocateUsHome from "~/components/index/LocateUsHome.vue";
