@@ -15311,7 +15311,7 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 
 .main-menu ul li .mega-menu li {
   float: left;
-  width: 25%;
+  width: 12.5%;
   margin-right: 0;
   text-align: left;
 }
@@ -15350,7 +15350,7 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 
 .main-menu ul li .mega-menu li ul li a {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   color: var(--tp-common-black);
   padding: 0;
   position: relative;
@@ -46254,7 +46254,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .contact__item {
   padding: 20px 20px 20px;
-  box-shadow: 0px 20px 30px rgba(3, 4, 28, 0.06);
+  box-shadow: 0 4px 8px 0px #662d9169, 5px 8px 30px 0 #0664a47a;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px),
@@ -47048,6 +47048,7 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 .features__item-7:hover {
   background-color: #F3F7F4;
   border-color: #f8dfba;
+  box-shadow: 0 4px 8px 0px #662d9169, 5px 8px 30px 0 #0664a47a;
 }
 
 .me-choose-content .choose-inner-card-pbw i {
@@ -47635,6 +47636,11 @@ only screen and (min-width: 576px) and (max-width: 767px),
   animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
   border-radius: 15px;
   background: linear-gradient(to bottom,#fdffed 0,#effff8 100%);
+}
+
+.features__shape-13:hover {
+  background-color: #f8f4ee;
+  border-color: #f8f4ee;
 }
 
 .features__shape-14 {
