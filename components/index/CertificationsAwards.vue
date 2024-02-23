@@ -73,13 +73,19 @@ import { Swiper, SwiperSlide } from "swiper/vue";
 import { Autoplay } from 'swiper';
 // internal
 import brand_1 from "~/assets/img/brand/5/apache.png";
-import brand_2 from "~/assets/img/brand/5/brand-2.png";
-import brand_3 from "~/assets/img/brand/5/brand-3.png";
-import brand_4 from "~/assets/img/brand/5/brand-4.png";
-import brand_5 from "~/assets/img/brand/5/brand-5.png";
-import brand_6 from "~/assets/img/brand/5/brand-6.png";
-import brand_7 from "~/assets/img/brand/5/brand-7.png";
-import brand_8 from "~/assets/img/brand/5/brand-8.png";
+import brand_2 from "~/assets/img/brand/5/dell-technologies-logo.png";
+import brand_3 from "~/assets/img/brand/5/googlecloudlogo.png";
+import brand_4 from "~/assets/img/brand/5/microsoft-logo.png";
+import brand_5 from "~/assets/img/brand/5/nutanix-logo.png";
+import brand_6 from "~/assets/img/brand/5/vmware.png";
+import brand_7 from "~/assets/img/brand/5/red-hat-logo.png";
+import brand_8 from "~/assets/img/brand/5/ibm_logo.png";
+import brand_9 from "~/assets/img/brand/5/cisco_logo.png";
+import brand_10 from "~/assets/img/brand/5/hp_logo.png";
+import brand_11 from "~/assets/img/brand/5/att-business-logo.png";
+
+
+
 
 export default {
     components: { Swiper, SwiperSlide },
@@ -111,22 +117,28 @@ export default {
                 { brand: brand_5 },
                 { brand: brand_6 },
                 { brand: brand_7 },
+                { brand: brand_8 },
+                { brand: brand_9 },
+                { brand: brand_10 },
+                { brand: brand_11 },
                 { brand: brand_2 },
                 { brand: brand_4 },
                 { brand: brand_6 },
-                { brand: brand_1 },
             ],
             brand_2_data: [
-                { brand: brand_1 },
+            { brand: brand_1 },
+                { brand: brand_2 },
                 { brand: brand_3 },
+                { brand: brand_4 },
+                { brand: brand_5 },
                 { brand: brand_6 },
-                { brand: brand_5 },
-                { brand: brand_8 },
-                { brand: brand_2 },
                 { brand: brand_7 },
+                { brand: brand_8 },
+                { brand: brand_9 },
+                { brand: brand_10 },
+                { brand: brand_11 },
                 { brand: brand_2 },
-                { brand: brand_5 },
-                { brand: brand_1 },
+                { brand: brand_4 },
                 { brand: brand_6 },
             ],
         };
