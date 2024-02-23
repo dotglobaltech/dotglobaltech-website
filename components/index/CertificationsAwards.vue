@@ -72,7 +72,7 @@
 import { Swiper, SwiperSlide } from "swiper/vue";
 import { Autoplay } from 'swiper';
 // internal
-import brand_1 from "~/assets/img/brand/5/brand-1.png";
+import brand_1 from "~/assets/img/brand/5/apache.png";
 import brand_2 from "~/assets/img/brand/5/brand-2.png";
 import brand_3 from "~/assets/img/brand/5/brand-3.png";
 import brand_4 from "~/assets/img/brand/5/brand-4.png";
