@@ -24,7 +24,7 @@
               <swiper
                 class="testimonial__slider-active-10 swiper-container"
                 :centeredSlides="true"
-                :slidesPerView="1"
+                :slidesPerView="3"
                 :spaceBetween="0"
                 :modules="modules"
                 :loop="true"
