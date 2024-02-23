@@ -33353,7 +33353,7 @@ div.team__details-shape-4 img {
 .pricing__feature-5 ul li:last-child {
   margin-bottom: 0;
 }
-.pricing__feature-5 ul li::after {
+.pricing__feature-5 ull li::after {
   position: absolute;
   content: "\f00c";
   left: 0;

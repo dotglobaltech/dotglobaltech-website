@@ -45,11 +45,7 @@
                     <div class="features__item-10 pricing__feature-5">
                       <h3 class="features__title-7">BMC</h3>
                       <ul>
-                        <li>BMC Helix ITSM</li>
-                        <li> <span class="fa-stack fa-1x" style="flex-shrink: 0;"><i
-                              class="fas fa-circle fa-stack-2x"></i> <i class="fas fa-badge-check fa-stack-1x fa-inverse"
-                              style="--fa-inverse: var(--fa-navy);"></i></span><nuxt-link href="/bmc-helix-itsm">BMC Helix
-                            ITSM</nuxt-link></li>
+                        <li><nuxt-link href="/bmc-helix-itsm">BMC Helix ITSM</nuxt-link></li>
                         <li><nuxt-link href="/bmc-helix-remedyforce">BMC Remedyforce</nuxt-link></li>
                         <li><nuxt-link href="/bmc-helix-discovery">BMC Helix Discovery</nuxt-link></li>
                         <li><nuxt-link href="/bmc-truesight">BMC TrueSight</nuxt-link></li>
