@@ -52,6 +52,17 @@
                         <li><nuxt-link href="/bmc-control-m">BMC Control-M</nuxt-link></li>
                       </ul>
                     </div>
+                    <div class="tp-button-demo"><a href="#" class="tp-btn-blue-2 tp-link-btn-3">Read More</a></div>
+
+                    <div class="cta__btn-2 text-lg-end">
+          <nuxt-link href="/" class="tp-btn btn-cta bg-btn lnk">
+            Send Message
+            <i class="fas fa-chevron-right fa-icon"></i>
+            <span class="circle"></span>
+          </nuxt-link>
+        </div>
+
+
                     <div class="features__btn-7">
                       <nuxt-link href="/" class="tp-link-btn-3">
                         Read More
