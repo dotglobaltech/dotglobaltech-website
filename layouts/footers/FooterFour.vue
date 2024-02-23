@@ -40,11 +40,11 @@
                 <h3 class="footer__widget-title">Upcoming Technologies</h3>
                 <div class="footer__widget-content">
                   <ul>
-                    <li><nuxt-link href="/">What We Do</nuxt-link></li>
-                    <li><nuxt-link href="/">Offering</nuxt-link></li>
-                    <li><nuxt-link href="/">Innovation</nuxt-link></li>
-                    <li><nuxt-link href="/">Staff Augmentation</nuxt-link></li>
-                    <li><nuxt-link href="/">Company</nuxt-link></li>
+                    <li><nuxt-link href="/">Unity 3D</nuxt-link></li>
+                    <li><nuxt-link href="/">Unreal Engine</nuxt-link></li>
+                    <li><nuxt-link href="/">Augmented Reality</nuxt-link></li>
+                    <li><nuxt-link href="/">Casual Games</nuxt-link></li>
+                    <li><nuxt-link href="/">Metaverse</nuxt-link></li>
                   </ul>
                 </div>
               </div>
