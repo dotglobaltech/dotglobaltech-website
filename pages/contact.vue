@@ -2,7 +2,8 @@
   <div>
     <header-one :top_bar="false" :header_solid="true" :commonOffcanvas="true" />
     <contact-area/>
-    <footer-six :style_2="true"/>
+    <FooterFour />
+    <footer-eight/>
     <back-to-top/>
   </div>
 </template>
@@ -10,14 +11,16 @@
 <script>
 import HeaderOne from "~~/layouts/headers/HeaderOne.vue";
 import ContactArea from '~~/components/contact/ContactArea.vue';
-import FooterSix from '~~/layouts/footers/FooterSix.vue';
+import FooterFour from '~~/layouts/footers/FooterFour.vue';
+import FooterEight from '~~/layouts/footers/FooterEight.vue';
 import BackToTop from '~~/layouts/footers/component/BackToTop.vue';
 
 export default {
   components: {
     HeaderOne,
     ContactArea,
-    FooterSix,
+    FooterFour,
+    FooterEight,
     BackToTop,
   },
   setup() {
