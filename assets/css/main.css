@@ -10565,7 +10565,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 /*----------------------------------------*/
 .section__title {
   font-size: 40px !important;
-  color: var(--tp-common-black);
+  color: var(--tp-common-white);
   line-height: 1;
   font-family: var(--tp-ff-poppins);
   letter-spacing: 0em;
@@ -10574,7 +10574,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .section__title p {
   font-size: 18px !important;
-  color: var(--tp-common-black);
+  color: var(--tp-common-white);
   line-height: 1;
   font-family: var(--tp-ff-poppins);
   letter-spacing: 0em;
@@ -10641,7 +10641,9 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .section__title-highlight {
-  color: var(--tp-theme-1);
+  background: -webkit-linear-gradient(0deg, #ffbd84 0%, #ff1f8e 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   position: relative;
 }
 
@@ -11255,11 +11257,12 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 }
 
 .section__title-6 {
-  font-size: 36px;
-  color: #050748;
-  font-weight: var(--tp-fw-bold);
-  line-height: 1;
   font-family: var(--tp-ff-poppins);
+  font-size: 40px;
+  line-height: 1;
+  letter-spacing: 0.05rem;
+  color: #050748;
+  font-weight: 600;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
