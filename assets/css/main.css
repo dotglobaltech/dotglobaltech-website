@@ -3408,11 +3408,11 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .btn-project {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 400;
   font-family: 'Poppins', sans-serif;
-  padding: 0px 32px;
-  line-height: 56px;
+  padding: 0px 15px;
+  line-height: 45px;
   text-align: center;
   outline: none;
   color: #fff;
@@ -7046,7 +7046,7 @@ html .mt20 {
 }
 
 .solutions-bg {
-  background: linear-gradient (to top, #cd9cf2 0%, #f6f3ff 100%);
+  background: linear-gradient(to top, #cd9cf2 0%, #f6f3ff 100%);
 }
 
 .funfact-bg-4 {
@@ -7660,7 +7660,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .offcanvas__wrapper-3 {
-  padding: 50px 50px 57px;
+  /* padding: 50px 50px 57px; */
 }
 
 @media (max-width: 575px) {
@@ -26892,7 +26892,7 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
   background: linear-gradient(to top,#e8fffc 0,#fff4f4 100%);
   box-shadow: 0px 30px 50px rgba(129, 51, 10, 0.2);
   border-radius: 20px;
-  padding: 58px 0 30px 0;
+  padding: 50px 0 10px 0;
   position: relative;
   z-index: 1;
   overflow: hidden;
@@ -27265,15 +27265,17 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .counter__content-10 h4 {
-  font-size: 50px;
+  font-size: 30px;
   letter-spacing: -0.02em;
   color: #050748;
+  font-weight: 600;
+  font-family: var(--tp-ff-poppins);
   line-height: 1;
   margin-bottom: 8px;
 }
 
 .counter__content-10 p {
-  font-family: var(--tp-ff-space);
+  font-family: var(--tp-ff-poppins);
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
@@ -27434,7 +27436,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .counter__icon-7 {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .counter__icon-7 span {
@@ -62427,7 +62429,7 @@ blockquote cite::before {
   line-height: 44px;
   text-align: center;
   color: rgba(5, 18, 20, 0.7);
-  margin-right: 20px;
+  margin-right: 10px;
   background: linear-gradient(to bottom,#e4fffe 0,#ffedf3 100%);
   box-shadow: 0px 1px 2px rgba(3, 4, 28, 0.08);
   border-radius: 10px;
@@ -62447,7 +62449,7 @@ blockquote cite::before {
 }
 
 .footer__social-9 a:hover {
-  color: #c90a0f;
+  color: #6364db;
   background-color: var(--tp-common-black);
 }
 

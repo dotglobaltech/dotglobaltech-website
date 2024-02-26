@@ -1,11 +1,5 @@
 <template>
-  <section class="counter__area counter__overlay-10 about__area wch-bg pb-120 p-relative">
-      <!-- <div class="about__shape">
-        <img class="about__shape-3" src="~/assets/img/about/6/shape/about-shape-1.png" alt="shape">
-        <img class="about__shape-4" src="~/assets/img/about/6/shape/about-shape-2.png" alt="shape">
-        <img class="about__shape-5" src="~/assets/img/about/6/shape/about-shape-3.png" alt="shape">
-        <img class="about__shape-6" src="~/assets/img/about/6/shape/about-shape-4.png" alt="shape">
-      </div> -->
+  <section class="counter__area counter__overlay-10 about__area wch-bg pb-100 pt-100 p-relative">
       <div class="container">
         <div class="counter__inner-10">
         <div class="counter__inner-10-shape include-bg" :style="{ backgroundImage: `url(${bg})` }">
@@ -32,10 +26,10 @@
           </div>
         </div>
       </div>
-        <div class="row pt-110">
+        <div class="row pt-80">
           <div class="col-xxl-6 col-xl-6 col-lg-6">
             <div class="about__section-wrapper-6">
-              <div class="section__title-wrapper-6 mb-125">
+              <div class="section__title-wrapper-6 mb-50">
                 <h3 class="section__title-6">
                   Why Choose <span class="section__title-6-highlight"> Dot GlobalTech.
                     <svg width="201" height="11" viewBox="0 0 201 11" fill="none">

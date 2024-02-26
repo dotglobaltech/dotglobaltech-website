@@ -2,7 +2,7 @@
     <section :class="`team__area ${style_2 ? 'pt-100 pb-110' : 'pb-50 pt-50'}`">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-xxl-8 col-xl-8 col-lg-9">
+                <div class="col-xxl-10 col-xl-10 col-lg-10">
                     <div class="section__title-wrapper-7 text-center mb-60"><span class="section__title-pre-7">Our</span>
                         <h3 class="section__title-7"><span class="section__title-7-highlight">Emerging Technologies<svg
                                     width="240" height="22" viewBox="0 0 240 22" fill="none">
