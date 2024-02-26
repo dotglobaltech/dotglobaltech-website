@@ -85,13 +85,13 @@
                 tel="+91 96060 28217"
               />
               <contact-location-item
-                title=" Sharja, UAE."
+                title=" Sharja, UAE"
                 :icon="location_icon_2"
                 location="info@dotglobaltech.com"
                 tel="+91 96060 28217"
               />
               <contact-location-item
-                title="Saudi Arebia"
+                title="Saudi Arabia"
                 :icon="location_icon_3"
                 location="info@dotglobaltech.com"
                 tel="+91 96060 28217"
