@@ -3,8 +3,7 @@
     <div class="container-fluid">
       <div class="row justify-content-center">
         <div v-for="item in services_data" :key="item.id" class="col-xxl-1 col-lg-1 col-md-1">
-          <div class="services__item-4 mb-30 transition-3 fix" 
-          data-sal="slide-up" :data-sal-delay="item.delay" data-sal-duration="1000">
+          <div class="services__item-4 mb-30 transition-3 fix">
             <div class="services__thumb-4 include-bg transition-3" 
             :style="{ backgroundImage: `url(${item.bg})` }">
             </div>

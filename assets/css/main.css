@@ -6862,14 +6862,24 @@ span.circle2{background: rgba(255, 255, 255, 0.2); display: block; position: abs
 
 .service-card-app {
   display: block;
+  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  padding: 30px;
+  border-radius: 40px 8px;
+}
+
+.service-card-app:hover {
+  display: block;
   background: #fff;
   padding: 30px;
   border-radius: 40px 8px;
 }
+
 .service-card-app, .tcd {
   font-weight: 400;
   font-size: 14px;
+  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
 }
+
 
 .-service-list li:first-child {
   padding-left: 0;
@@ -12000,6 +12010,12 @@ only screen and (min-width: 576px) and (max-width: 767px),
   font-family: var(--tp-ff-poppins);
 }
 
+.tp-section-wrapper-3-big p {
+  font-size: 16px;
+  color: var(--tp-common-white);
+  font-family: var(--tp-ff-poppins);
+}
+
 .tp-section-wrapper-5 p {
   font-size: 18px;
 }
@@ -12146,6 +12162,26 @@ justify-content: center;
 @media (max-width: 575px) {
   .tp-section-title-2.font-40 {
     font-size: 30px;
+  }
+}
+
+.tp-section-title-3-big {
+  font-size: 30px;
+  line-height: 1;
+  color: var(--tp-common-white);
+  letter-spacing: -0.04em;
+  margin-bottom: 11px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .tp-section-title-3-big {
+    font-size: 43px;
+  }
+}
+
+@media (max-width: 575px) {
+  .tp-section-title-3-big {
+    font-size: 40px;
   }
 }
 
@@ -43421,6 +43457,74 @@ only screen and (min-width: 576px) and (max-width: 767px),
   }
 }
 
+.pricing__feature-5-big {
+  margin-bottom: 25px;
+}
+
+.pricing__feature-5-big>p {
+  font-family: var(--tp-ff-inter);
+  font-weight: 400;
+  font-size: 14px;
+  color: #84858D;
+  margin-bottom: 15px;
+}
+
+.pricing__feature-5-big>p {
+  font-family: var(--tp-ff-poppins);
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.fa-inverse {
+    color: #fff;
+    background: linear-gradient(70deg, #0BAADD 20%, #3FBDA4 97%);
+    border-radius: 100%;
+    height: 25px;
+    width: 25px;
+}
+
+.pricing__feature-5-big ul li {
+  font-family: var(--tp-ff-poppins);
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: -0.02em;
+  color: #fff;
+  list-style: none;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  text-align: left;
+}
+
+[dir=rtl] .pricing__feature-5-big ul li {
+  padding-left: 0;
+  padding-right: 35px;
+}
+
+.pricing__feature-5-big ul li:last-child {
+  margin-bottom: 0;
+}
+
+.pricing__feature-5-big ul li::after {
+  position: absolute;
+  content: "\f336";
+  left: 0;
+  top: 0px;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  font-family: var(--tp-ff-fontawesome);
+  color: var(--tp-common-white);
+  background: linear-gradient(70deg, #0BAADD 20%, #3FBDA4 97%);
+  box-shadow: 0px 1px 2px rgba(6, 138, 75, 0.3);
+  border-radius: 50%;
+  font-size: 12px;
+  font-weight: 500;
+}
+
 .pricing__feature-5 {
   margin-bottom: 25px;
 }
@@ -47635,6 +47739,10 @@ only screen and (min-width: 576px) and (max-width: 767px),
   background: linear-gradient(to bottom,#fdffed 0,#effff8 100%);
 }
 
+.features__shape-3:hover {
+  background: #fff;
+}
+
 .features__shape-13 {
   position: absolute;
   left: 32%;
@@ -47648,8 +47756,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .features__shape-13:hover {
-  background-color: #f8f4ee;
-  border-color: #f8f4ee;
+  background: #fff;
 }
 
 .features__shape-14 {
@@ -47664,6 +47771,10 @@ only screen and (min-width: 576px) and (max-width: 767px),
   background: linear-gradient(to bottom,#fdffed 0,#effff8 100%);
 }
 
+.features__shape-14:hover {
+  background: #fff;
+}
+
 .features__shape-15 {
   position: absolute;
   left: 47%;
@@ -47674,6 +47785,10 @@ only screen and (min-width: 576px) and (max-width: 767px),
   animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
   border-radius: 15px;
   background: linear-gradient(to bottom,#fdffed 0,#effff8 100%);
+}
+
+.features__shape-15:hover {
+  background: #fff;
 }
 
 .features__shape-16 {
@@ -47688,6 +47803,10 @@ only screen and (min-width: 576px) and (max-width: 767px),
   background: linear-gradient(to bottom,#fdffed 0,#effff8 100%);
 }
 
+.features__shape-16:hover {
+  background: #fff;
+}
+
 .features__shape-17 {
   position: absolute;
   left: 13%;
@@ -47698,6 +47817,10 @@ only screen and (min-width: 576px) and (max-width: 767px),
   animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
   border-radius: 15px;
   background: linear-gradient(to bottom,#fdffed 0,#effff8 100%);
+}
+
+.features__shape-17:hover {
+  background: #fff;
 }
 
 .features__shape-18 {
@@ -47712,6 +47835,10 @@ only screen and (min-width: 576px) and (max-width: 767px),
   background: linear-gradient(to bottom,#fdffed 0,#effff8 100%);
 }
 
+.features__shape-18:hover {
+  background: #fff;
+}
+
 .features__shape-19 {
   position: absolute;
   left: 80%;
@@ -47722,6 +47849,10 @@ only screen and (min-width: 576px) and (max-width: 767px),
   animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
   border-radius: 15px;
   background: linear-gradient(to bottom,#fdffed 0,#effff8 100%);
+}
+
+.features__shape-19:hover {
+  background: #fff;
 }
 
 .features__shape-20 {
@@ -47736,6 +47867,10 @@ only screen and (min-width: 576px) and (max-width: 767px),
   background: linear-gradient(to bottom,#fdffed 0,#effff8 100%);
 }
 
+.features__shape-20:hover {
+  background: #fff;
+}
+
 .features__shape-21 {
   position: absolute;
   left: 30%;
@@ -47746,6 +47881,10 @@ only screen and (min-width: 576px) and (max-width: 767px),
   animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
   border-radius: 15px;
   background: linear-gradient(to bottom,#fdffed 0,#effff8 100%);
+}
+
+.features__shape-21:hover {
+  background: #fff;
 }
 
 .features__shape-22 {
@@ -47760,6 +47899,10 @@ only screen and (min-width: 576px) and (max-width: 767px),
   background: linear-gradient(to bottom,#fdffed 0,#effff8 100%);
 }
 
+.features__shape-22:hover {
+  background: #fff;
+}
+
 .features__shape-23 {
   position: absolute;
   left: 68%;
@@ -47770,6 +47913,10 @@ only screen and (min-width: 576px) and (max-width: 767px),
   animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
   border-radius: 15px;
   background: linear-gradient(to bottom,#fdffed 0,#effff8 100%);
+}
+
+.features__shape-23:hover {
+  background: #fff;
 }
 
 .features__shape-4 {
