@@ -11,8 +11,8 @@
                 </div>
                 <div class="contact__content">
                     <span class="contact-item-subtitle">Contact</span>
-                    <p><a href="mailto:location@website.com">location@website.com</a></p>
-                    <p><a href="tel:602-762-472-96">+(602) 762 472 96</a></p>
+                    <p><a href="mailto:info@dotglobaltech.com">info@dotglobaltech.com</a></p>
+                    <p><a href="tel:91 96060 28217">+91 96060 28217</a></p>
                 </div>
               </div>
           </div>
@@ -23,7 +23,7 @@
                 </div>
                 <div class="contact__content">
                     <span class="contact-item-subtitle">Location</span>
-                    <p><a href="https://www.google.com/maps/place/102+Thompson+St,+New+York,+NY+10012,+USA/@40.7255437,-74.004061,17z/data=!3m1!4b1!4m5!3m4!1s0x89c2598c338f691d:0x6d5f394e7a1962cc!8m2!3d40.7255397!4d-74.0018723" target="_blank">88 New South Head Rd, Triple, New York</a></p>
+                    <p><a href="https://www.google.com/maps/place/102+Thompson+St,+New+York,+NY+10012,+USA/@40.7255437,-74.004061,17z/data=!3m1!4b1!4m5!3m4!1s0x89c2598c338f691d:0x6d5f394e7a1962cc!8m2!3d40.7255397!4d-74.0018723" target="_blank">HBR Layout 2nd Block, 1st Stage, HBR Layout, Bengaluru, Karnataka 560043.</a></p>
                 </div>
               </div>
           </div>
@@ -79,22 +79,22 @@
           <div class="col-xl-10 ">
               <div class="contact__location-wrapper">
                 <contact-location-item
-                title="Australia Office"
+                title="India Office"
                 :icon="location_icon_1"
-                location="contact.location@website.com"
-                tel="686-324-6838"
+                location="info@dotglobaltech.com"
+                tel="+91 96060 28217"
               />
               <contact-location-item
-                title="San Francisco Office"
+                title=" Sharja, UAE"
                 :icon="location_icon_2"
-                location="contact.location@website.com"
-                tel="686-324-6810"
+                location="info@dotglobaltech.com"
+                tel="+91 96060 28217"
               />
               <contact-location-item
-                title="Egpyt Office"
+                title="Saudi Arabia"
                 :icon="location_icon_3"
-                location="contact.location@website.com"
-                tel="786-324-6810"
+                location="info@dotglobaltech.com"
+                tel="+91 96060 28217"
               />
               </div>
           </div>

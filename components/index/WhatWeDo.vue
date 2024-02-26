@@ -50,7 +50,7 @@
                   <div class="tec-icon pt-20">
                     <ul class="servc-icon-sldr">
                       <li><nuxt-link href="/">
-                          <div class="img-iconbb"><img src="~/assets/img/icon/ux.svg" alt="img"></div>
+                          <div class="img-iconbb"><img src="~/assets/img/icon/software-consulting.png" alt="img"></div>
                         </nuxt-link></li>
                       <li><nuxt-link href="/">
                           <div class="img-iconbb"><img src="~/assets/img/icon/php.svg" alt="img"></div>
