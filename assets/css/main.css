@@ -11239,6 +11239,7 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 .section__title-wrapper-6>p {
   font-size: 16px;
   line-height: 24px;
+  text-align: center;
   color: var(--tp-text-18);
   font-family: var(--tp-ff-roboto);
 }
@@ -11258,7 +11259,7 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 
 .section__title-6 {
   font-family: var(--tp-ff-poppins);
-  font-size: 40px;
+  font-size: 26px;
   line-height: 1;
   letter-spacing: 0.05rem;
   color: #050748;
@@ -25377,7 +25378,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .about__features-item {
   position: relative;
-  margin-bottom: 60px;
+  margin-bottom: 0px;
   padding-right: 25px;
 }
 
@@ -25492,9 +25493,9 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .about__play-btn {
   display: inline-block;
-  width: 110px;
-  height: 110px;
-  line-height: 110px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
   text-align: center;
   color: var(--tp-common-white);
   font-size: 16px;
@@ -25555,14 +25556,14 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .about__video-counter {
   position: absolute;
-  top: 0;
-  right: 100px;
+  top: -15;
+  right: 42px;
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   -o-transform: translateY(-50%);
   transform: translateY(-50%);
-  padding: 40px 48px;
+  padding: 15px 15px;
   background: linear-gradient(to bottom,#ff2d8d 0,#653db9 100%);
   border-radius: 10px 10px 0px 0px;
   z-index: 1;
