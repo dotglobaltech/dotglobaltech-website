@@ -20,7 +20,7 @@
         <div class="offcanvas__top mb-10 d-flex justify-content-between align-items-center">
           <div class="offcanvas__logo logo pb-30">
             <nuxt-link href="/">
-              <img src="~/assets/img/logo/logo.png" alt="logo">
+              <img src="~/assets/img/logo.png" alt="logo">
             </nuxt-link>
           </div>
         </div>
@@ -114,8 +114,7 @@
                 </div>
                 <div class="footer__info-text-6">
                   <a target="_blank"
-                    href="https://www.google.com/maps/place/Orville+St,+La+Presa,+CA+91977,+USA/@32.7092048,-117.0082772,17z/data=!3m1!4b1!4m5!3m4!1s0x80d9508a9aec8cd1:0x72d1ac1c9527b705!8m2!3d32.7092003!4d-117.0060885">HBR
-                    Industrial Area, Sharja, UAE.
+                    href="#">Industrial Area, Sharja, UAE.
                   </a>
                 </div>
               </div>
@@ -225,7 +224,7 @@
           </div>
         </div>
 
-        <div class="offcanvas__social-3">
+        <div class="footer__social-9">
           <social />
         </div>
         

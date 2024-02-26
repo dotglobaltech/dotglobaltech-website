@@ -3408,11 +3408,11 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .btn-project {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 400;
   font-family: 'Poppins', sans-serif;
-  padding: 0px 32px;
-  line-height: 56px;
+  padding: 0px 15px;
+  line-height: 45px;
   text-align: center;
   outline: none;
   color: #fff;
@@ -7046,7 +7046,7 @@ html .mt20 {
 }
 
 .solutions-bg {
-  background: linear-gradient (to top, #cd9cf2 0%, #f6f3ff 100%);
+  background: linear-gradient(to top, #cd9cf2 0%, #f6f3ff 100%);
 }
 
 .funfact-bg-4 {
@@ -7660,7 +7660,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .offcanvas__wrapper-3 {
-  padding: 50px 50px 57px;
+  /* padding: 50px 50px 57px; */
 }
 
 @media (max-width: 575px) {
@@ -10565,7 +10565,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 /*----------------------------------------*/
 .section__title {
   font-size: 40px !important;
-  color: var(--tp-common-black);
+  color: var(--tp-common-white);
   line-height: 1;
   font-family: var(--tp-ff-poppins);
   letter-spacing: 0em;
@@ -10574,7 +10574,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .section__title p {
   font-size: 18px !important;
-  color: var(--tp-common-black);
+  color: var(--tp-common-white);
   line-height: 1;
   font-family: var(--tp-ff-poppins);
   letter-spacing: 0em;
@@ -10641,7 +10641,9 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .section__title-highlight {
-  color: var(--tp-theme-1);
+  background: -webkit-linear-gradient(0deg, #ffbd84 0%, #ff1f8e 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   position: relative;
 }
 
@@ -11237,6 +11239,7 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 .section__title-wrapper-6>p {
   font-size: 16px;
   line-height: 24px;
+  text-align: center;
   color: var(--tp-text-18);
   font-family: var(--tp-ff-roboto);
 }
@@ -11255,11 +11258,12 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 }
 
 .section__title-6 {
-  font-size: 36px;
-  color: #050748;
-  font-weight: var(--tp-fw-bold);
-  line-height: 1;
   font-family: var(--tp-ff-poppins);
+  font-size: 26px;
+  line-height: 1;
+  letter-spacing: 0.05rem;
+  color: #050748;
+  font-weight: 600;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
@@ -25374,7 +25378,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .about__features-item {
   position: relative;
-  margin-bottom: 60px;
+  margin-bottom: 0px;
   padding-right: 25px;
 }
 
@@ -25489,9 +25493,9 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .about__play-btn {
   display: inline-block;
-  width: 110px;
-  height: 110px;
-  line-height: 110px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
   text-align: center;
   color: var(--tp-common-white);
   font-size: 16px;
@@ -25552,14 +25556,14 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .about__video-counter {
   position: absolute;
-  top: 0;
-  right: 100px;
+  top: -15;
+  right: 42px;
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   -o-transform: translateY(-50%);
   transform: translateY(-50%);
-  padding: 40px 48px;
+  padding: 15px 15px;
   background: linear-gradient(to bottom,#ff2d8d 0,#653db9 100%);
   border-radius: 10px 10px 0px 0px;
   z-index: 1;
@@ -26889,7 +26893,7 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
   background: linear-gradient(to top,#e8fffc 0,#fff4f4 100%);
   box-shadow: 0px 30px 50px rgba(129, 51, 10, 0.2);
   border-radius: 20px;
-  padding: 58px 0 30px 0;
+  padding: 50px 0 10px 0;
   position: relative;
   z-index: 1;
   overflow: hidden;
@@ -27262,15 +27266,17 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .counter__content-10 h4 {
-  font-size: 50px;
+  font-size: 30px;
   letter-spacing: -0.02em;
   color: #050748;
+  font-weight: 600;
+  font-family: var(--tp-ff-poppins);
   line-height: 1;
   margin-bottom: 8px;
 }
 
 .counter__content-10 p {
-  font-family: var(--tp-ff-space);
+  font-family: var(--tp-ff-poppins);
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
@@ -27431,7 +27437,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .counter__icon-7 {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .counter__icon-7 span {
@@ -27831,7 +27837,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .services__item-4 {
   border: 2px solid var(--tp-border-5);
   background-color: var(--tp-common-white);
-  padding: 47px 40px 40px;
+  padding: 25px 10px 10px;
   position: relative;
   z-index: 1;
 }
@@ -27845,10 +27851,10 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .services__item-4::after {
   position: absolute;
   content: "";
-  left: 15px;
-  top: 15px;
-  right: 15px;
-  bottom: 15px;
+  left: 5px;
+  top: 5px;
+  right: 5px;
+  bottom: 5px;
   border: 2px solid rgba(255, 255, 255, 0.1411764706);
   z-index: -1;
   opacity: 0;
@@ -28232,10 +28238,10 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .services__icon-4 span {
-  display: inline-block;
+  display: ruby-text;
   font-size: 40px;
-  color: var(--tp-theme-4);
-  min-height: 52px;
+  color: #ffbd84;
+  min-height: 0px;
 }
 
 .services__icon-7 {
@@ -28398,10 +28404,12 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .services__title-4 {
-  font-family: var(--tp-ff-space);
-  font-size: 24px;
+  font-family: var(--tp-ff-poppins);
+  font-size: 15px;
+  font-weight: 500;
   letter-spacing: -0.02em;
   margin-bottom: 12px;
+  text-align: center;
   transition-duration: 0.4s;
   transition-delay: 0.1s;
 }
@@ -29795,7 +29803,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   text-align: center;
   border: 1px solid rgba(255, 255, 255, 0.3019607843);
   border-radius: 50%;
-  margin-left: 5px;
+  margin-left: -8px;
 }
 
 [dir=rtl] .services-link-btn i {
@@ -62424,7 +62432,7 @@ blockquote cite::before {
   line-height: 44px;
   text-align: center;
   color: rgba(5, 18, 20, 0.7);
-  margin-right: 20px;
+  margin-right: 10px;
   background: linear-gradient(to bottom,#e4fffe 0,#ffedf3 100%);
   box-shadow: 0px 1px 2px rgba(3, 4, 28, 0.08);
   border-radius: 10px;
@@ -62444,7 +62452,7 @@ blockquote cite::before {
 }
 
 .footer__social-9 a:hover {
-  color: #c90a0f;
+  color: #6364db;
   background-color: var(--tp-common-black);
 }
 
