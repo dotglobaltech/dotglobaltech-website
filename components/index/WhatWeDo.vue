@@ -98,18 +98,29 @@
                   </ul>
                   <div class="tec-icon pt-20">
                     <ul class="servc-icon-sldr">
+                      <marquee behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();">
                       <li><nuxt-link href="/">
-                          <div class="img-iconbb"><img src="~/assets/img/icon/ux.svg" alt="img"></div>
+                          <div class="img-iconbb"><img src="~/assets/img/icon/qa_consulting.png" alt="img"></div>
+                        </nuxt-link></li>
+                        <li><nuxt-link href="/">
+                          <div class="img-iconbb"><img src="~/assets/img/icon/qa-outsourcing.png" alt="img"></div>
                         </nuxt-link></li>
                       <li><nuxt-link href="/">
-                          <div class="img-iconbb"><img src="~/assets/img/icon/php.svg" alt="img"></div>
+                          <div class="img-iconbb"><img src="~/assets/img/icon/compliance_assessment.png" alt="img"></div>
                         </nuxt-link></li>
                       <li><nuxt-link href="/">
-                          <div class="img-iconbb"><img src="~/assets/img/icon/java.svg" alt="img"></div>
+                          <div class="img-iconbb"><img src="~/assets/img/icon/team_augmentation.png" alt="img"></div>
                         </nuxt-link></li>
                       <li><nuxt-link href="/">
-                          <div class="img-iconbb"><img src="~/assets/img/icon/wordpress.svg" alt="img"></div>
+                          <div class="img-iconbb"><img src="~/assets/img/icon/functional-testing.png" alt="img"></div>
                         </nuxt-link></li>
+                      <li><nuxt-link href="/">
+                          <div class="img-iconbb"><img src="~/assets/img/icon/usability-testing.png" alt="img"></div>
+                        </nuxt-link></li>
+                        <li><nuxt-link href="/">
+                          <div class="img-iconbb"><img src="~/assets/img/icon/performance-testing.png" alt="img"></div>
+                        </nuxt-link></li>
+                      </marquee>
                     </ul>
                   </div>
                   <p class="mt20">Specializing in compliance assessment, automated testing, and comprehensive quality
@@ -133,17 +144,17 @@
                   <div class="tec-icon pt-20">
                     <ul class="servc-icon-sldr">
                       <li><nuxt-link href="/">
-                          <div class="img-iconbb"><img src="~/assets/img/icon/ux.svg" alt="img"></div>
+                          <div class="img-iconbb"><img src="~/assets/img/icon/application_implementation.png" alt="img"></div>
                         </nuxt-link></li>
                       <li><nuxt-link href="/">
-                          <div class="img-iconbb"><img src="~/assets/img/icon/php.svg" alt="img"></div>
+                          <div class="img-iconbb"><img src="~/assets/img/icon/performance-assessment.png" alt="img"></div>
                         </nuxt-link></li>
                       <li><nuxt-link href="/">
-                          <div class="img-iconbb"><img src="~/assets/img/icon/java.svg" alt="img"></div>
+                          <div class="img-iconbb"><img src="~/assets/img/icon/application-security-services.png" alt="img"></div>
                         </nuxt-link></li>
-                      <li><nuxt-link href="/">
+                      <!-- <li><nuxt-link href="/">
                           <div class="img-iconbb"><img src="~/assets/img/icon/wordpress.svg" alt="img"></div>
-                        </nuxt-link></li>
+                        </nuxt-link></li> -->
                     </ul>
                   </div>
                   <p class="mt20">As a reliable Application Managed Services Provider, we specialize in managing and

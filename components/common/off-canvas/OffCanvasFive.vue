@@ -160,7 +160,7 @@
         </div>
 
         <div class="offcanvas__info-item">
-          <h4 class="offcanvas__info-item-title">Saudi Arebia</h4>
+          <h4 class="offcanvas__info-item-title">Saudi Arabia</h4>
           <div class="footer__widget-content">
             <div class="footer__info">
               <!-- <div class="footer__info-item-6 d-flex align-items-start">
