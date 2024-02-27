@@ -23,7 +23,7 @@
 
 
         <div class="row">
-          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
             <div class="features__item-13 d-flex align-items-start mb-40">
               <div class="features__icon-13">
                 <span>
@@ -38,7 +38,7 @@
             </div>
           </div>
 
-          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
             <div class="features__item-13 d-flex align-items-start mb-40">
               <div class="features__icon-13">
                 <span>
@@ -46,14 +46,14 @@
                 </span>
               </div>
               <div class="features__content-13">
-                <h3 class="features__title-13">USA</h3>
-                <p>C-106/B, Ganesh Meridian, Opp. Gujarat High Court, S. G. Highway, Ahmedabad, Gujarat, 380061</p>
-                <p><strong>+91 96060 28218</strong></p>
+                <h3 class="features__title-13">UAE</h3>
+                <p>Industrial Area, Sharja</p>
+                <p><strong>+971 05048 26491</strong></p>
               </div>
             </div>
           </div>
 
-          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
             <div class="features__item-13 d-flex align-items-start mb-40">
               <div class="features__icon-13">
                 <span>
@@ -61,14 +61,14 @@
                 </span>
               </div>
               <div class="features__content-13">
-                <h3 class="features__title-13">UK</h3>
-                <p>C-106/B, Ganesh Meridian, Opp. Gujarat High Court, S. G. Highway, Ahmedabad, Gujarat, 380061</p>
-                <p><strong>+91 96060 28218</strong></p>
+                <h3 class="features__title-13">Saudi Arabia</h3>
+                <p></p>
+                <p><strong>+966 505522815</strong></p>
               </div>
             </div>
           </div>
 
-          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+          <!-- <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
             <div class="features__item-13 d-flex align-items-start mb-40">
               <div class="features__icon-13">
                 <span>
@@ -81,7 +81,7 @@
                 <p><strong>+91 96060 28218</strong></p>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
