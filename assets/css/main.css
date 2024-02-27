@@ -27874,6 +27874,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   border: 2px solid var(--tp-border-5);
   background-color: var(--tp-common-white);
   padding: 25px 10px 10px;
+  border-radius: 0px 30px;
   position: relative;
   z-index: 1;
 }
@@ -27891,6 +27892,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   top: 5px;
   right: 5px;
   bottom: 5px;
+  border-radius: 0px 30px;
   border: 2px solid rgba(255, 255, 255, 0.1411764706);
   z-index: -1;
   opacity: 0;
