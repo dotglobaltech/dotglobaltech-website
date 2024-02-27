@@ -22,8 +22,8 @@
 
 
 
-        <div class="row">
-          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+        <div class="row justify-content-center">
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
             <div class="features__item-13 d-flex align-items-start mb-40">
               <div class="features__icon-13">
                 <span>
@@ -32,32 +32,32 @@
               </div>
               <div class="features__content-13">
                 <h3 class="features__title-13">INDIA (HQ)</h3>
-                <p>C-106/B, Ganesh Meridian, Opp. Gujarat High Court, S. G. Highway, Ahmedabad, Gujarat, 380061</p>
+                <p>C-106/B, Ganesh Meridian, Opp. Gujarat High Court, S. G. Highway, Ahmedabad, Gujarat, 380061.</p>
                 <p><strong>+91 96060 28218</strong></p>
               </div>
             </div>
           </div>
 
-          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
             <div class="features__item-13 d-flex align-items-start mb-40">
               <div class="features__icon-13">
                 <span>
-                    <img src="~/assets/img/home/india.svg" alt="Top-Notch Global Brands" />
+                    <img src="~/assets/img/home/uae.svg" alt="Top-Notch Global Brands" />
                 </span>
               </div>
               <div class="features__content-13">
                 <h3 class="features__title-13">UAE</h3>
-                <p>Industrial Area, Sharja</p>
+                <p>Industrial Area, Sharja.</p>
                 <p><strong>+971 05048 26491</strong></p>
               </div>
             </div>
           </div>
 
-          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
             <div class="features__item-13 d-flex align-items-start mb-40">
               <div class="features__icon-13">
                 <span>
-                    <img src="~/assets/img/home/india.svg" alt="Top-Notch Global Brands" />
+                    <img src="~/assets/img/home/saudi-arabia.svg" alt="Top-Notch Global Brands" />
                 </span>
               </div>
               <div class="features__content-13">
