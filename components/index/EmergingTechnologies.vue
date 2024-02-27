@@ -131,13 +131,7 @@
                                             <div class="col-xl-6 col-lg-6">
                                                 <div class="about__thumb-15 p-relative z-index-1 w-img" data-sal="slide-up"
                                                     data-sal-delay="130" data-sal-duration="1000">
-                                                    <div class="about__thumb-15-shape">
-                                                        <img src="~/assets/img/about/15/about-thumb-shape.png"
-                                                            alt="shape" />
-                                                    </div>
-                                                    <img class="about__thumb-15-shape-2"
-                                                        src="~/assets/img/about/15/about-thumb-shape-2.png" alt="" />
-                                                    <img src="~/assets/img/about/15/about-img-1.jpg" alt="shape" />
+                                                    <img src="~/assets/img/home/artificial-intelligence.png" alt="shape" />
                                                 </div>
                                             </div>
 
@@ -189,13 +183,7 @@
                                             <div class="col-xl-6 col-lg-6">
                                                 <div class="about__thumb-15 p-relative z-index-1 w-img" data-sal="slide-up"
                                                     data-sal-delay="130" data-sal-duration="1000">
-                                                    <div class="about__thumb-15-shape">
-                                                        <img src="~/assets/img/about/15/about-thumb-shape.png"
-                                                            alt="shape" />
-                                                    </div>
-                                                    <img class="about__thumb-15-shape-2"
-                                                        src="~/assets/img/about/15/about-thumb-shape-2.png" alt="" />
-                                                    <img src="~/assets/img/about/15/about-img-1.jpg" alt="shape" />
+                                                    <img src="~/assets/img/home/computer-vision.png" alt="shape" />
                                                 </div>
                                             </div>
 
@@ -243,16 +231,9 @@
                                             <div class="col-xl-6 col-lg-6">
                                                 <div class="about__thumb-15 p-relative z-index-1 w-img" data-sal="slide-up"
                                                     data-sal-delay="130" data-sal-duration="1000">
-                                                    <div class="about__thumb-15-shape">
-                                                        <img src="~/assets/img/about/15/about-thumb-shape.png"
-                                                            alt="shape" />
-                                                    </div>
-                                                    <img class="about__thumb-15-shape-2"
-                                                        src="~/assets/img/about/15/about-thumb-shape-2.png" alt="" />
-                                                    <img src="~/assets/img/about/15/about-img-1.jpg" alt="shape" />
+                                                    <img src="~/assets/img/home/internet-of-things.png" alt="shape" />
                                                 </div>
                                             </div>
-
                                         </div>
                                     </div>
                                 </section>
@@ -299,16 +280,9 @@
                                             <div class="col-xl-6 col-lg-6">
                                                 <div class="about__thumb-15 p-relative z-index-1 w-img" data-sal="slide-up"
                                                     data-sal-delay="130" data-sal-duration="1000">
-                                                    <div class="about__thumb-15-shape">
-                                                        <img src="~/assets/img/about/15/about-thumb-shape.png"
-                                                            alt="shape" />
-                                                    </div>
-                                                    <img class="about__thumb-15-shape-2"
-                                                        src="~/assets/img/about/15/about-thumb-shape-2.png" alt="" />
-                                                    <img src="~/assets/img/about/15/about-img-1.jpg" alt="shape" />
+                                                    <img src="~/assets/img/home/blockchain.png" alt="shape" />
                                                 </div>
                                             </div>
-
                                         </div>
                                     </div>
                                 </section>
@@ -353,16 +327,9 @@
                                             <div class="col-xl-6 col-lg-6">
                                                 <div class="about__thumb-15 p-relative z-index-1 w-img" data-sal="slide-up"
                                                     data-sal-delay="130" data-sal-duration="1000">
-                                                    <div class="about__thumb-15-shape">
-                                                        <img src="~/assets/img/about/15/about-thumb-shape.png"
-                                                            alt="shape" />
-                                                    </div>
-                                                    <img class="about__thumb-15-shape-2"
-                                                        src="~/assets/img/about/15/about-thumb-shape-2.png" alt="" />
-                                                    <img src="~/assets/img/about/15/about-img-1.jpg" alt="shape" />
+                                                    <img src="~/assets/img/home/mixed-reality.png" alt="shape" />
                                                 </div>
                                             </div>
-
                                         </div>
                                     </div>
                                 </section>
