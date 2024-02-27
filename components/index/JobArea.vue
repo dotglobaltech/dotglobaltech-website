@@ -5,7 +5,7 @@
         <div class="col-xxl-1 col-lg-1 col-md-1">
           <div class="services__item-4 mb-30 transition-3 fix">
             <div class="services__thumb-4 include-bg transition-3">
-            <img src="~/assets/img/services/staffing.svg" alt="">
+              <img src="~/assets/img/services/staffing.svg" alt="">
             </div>
             <div class="services__icon-4 mb-30 transition-3">
               <span><img src="~/assets/img/services/staffing.svg" alt=""></span>
@@ -15,16 +15,15 @@
                 <nuxt-link href="/">Staffing</nuxt-link>
               </h4>
             </div>
-            <nuxt-link href="/" class="services-link-btn"> <i
-                class="fa-regular fa-arrow-right"></i>
-              </nuxt-link>
-            </div>
+            <nuxt-link href="/" class="services-link-btn"> <i class="fa-regular fa-arrow-right"></i>
+            </nuxt-link>
+          </div>
         </div>
 
         <div class="col-xxl-1 col-lg-1 col-md-1">
           <div class="services__item-4 mb-30 transition-3 fix">
             <div class="services__thumb-4 include-bg transition-3">
-            <img src="~/assets/img/services/staffing.svg" alt="">
+              <img src="~/assets/img/services/staffing.svg" alt="">
             </div>
             <div class="services__icon-4 mb-30 transition-3">
               <span><img src="~/assets/img/services/staffing.svg" alt=""></span>
@@ -34,16 +33,15 @@
                 <nuxt-link href="/">AI/ML</nuxt-link>
               </h4>
             </div>
-            <nuxt-link href="/" class="services-link-btn"> <i
-                class="fa-regular fa-arrow-right"></i>
-              </nuxt-link>
-            </div>
+            <nuxt-link href="/" class="services-link-btn"> <i class="fa-regular fa-arrow-right"></i>
+            </nuxt-link>
+          </div>
         </div>
 
         <div class="col-xxl-1 col-lg-1 col-md-1">
           <div class="services__item-4 mb-30 transition-3 fix">
             <div class="services__thumb-4 include-bg transition-3">
-            <img src="~/assets/img/services/staffing.svg" alt="">
+              <img src="~/assets/img/services/staffing.svg" alt="">
             </div>
             <div class="services__icon-4 mb-30 transition-3">
               <span><img src="~/assets/img/services/staffing.svg" alt=""></span>
@@ -53,17 +51,16 @@
                 <nuxt-link href="/">AI/ML</nuxt-link>
               </h4>
             </div>
-            <nuxt-link href="/" class="services-link-btn"> <i
-                class="fa-regular fa-arrow-right"></i>
-              </nuxt-link>
-            </div>
+            <nuxt-link href="/" class="services-link-btn"> <i class="fa-regular fa-arrow-right"></i>
+            </nuxt-link>
+          </div>
         </div>
 
 
         <div class="col-xxl-1 col-lg-1 col-md-1">
           <div class="services__item-4 mb-30 transition-3 fix">
             <div class="services__thumb-4 include-bg transition-3">
-            <img src="~/assets/img/services/staffing.svg" alt="">
+              <img src="~/assets/img/services/staffing.svg" alt="">
             </div>
             <div class="services__icon-4 mb-30 transition-3">
               <span><img src="~/assets/img/services/staffing.svg" alt=""></span>
@@ -73,17 +70,16 @@
                 <nuxt-link href="/">AI/ML</nuxt-link>
               </h4>
             </div>
-            <nuxt-link href="/" class="services-link-btn"> <i
-                class="fa-regular fa-arrow-right"></i>
-              </nuxt-link>
-            </div>
+            <nuxt-link href="/" class="services-link-btn"> <i class="fa-regular fa-arrow-right"></i>
+            </nuxt-link>
+          </div>
         </div>
 
 
         <div class="col-xxl-1 col-lg-1 col-md-1">
           <div class="services__item-4 mb-30 transition-3 fix">
             <div class="services__thumb-4 include-bg transition-3">
-            <img src="~/assets/img/services/staffing.svg" alt="">
+              <img src="~/assets/img/services/staffing.svg" alt="">
             </div>
             <div class="services__icon-4 mb-30 transition-3">
               <span><img src="~/assets/img/services/staffing.svg" alt=""></span>
@@ -93,17 +89,16 @@
                 <nuxt-link href="/">AI/ML</nuxt-link>
               </h4>
             </div>
-            <nuxt-link href="/" class="services-link-btn"> <i
-                class="fa-regular fa-arrow-right"></i>
-              </nuxt-link>
-            </div>
+            <nuxt-link href="/" class="services-link-btn"> <i class="fa-regular fa-arrow-right"></i>
+            </nuxt-link>
+          </div>
         </div>
 
 
         <div class="col-xxl-1 col-lg-1 col-md-1">
           <div class="services__item-4 mb-30 transition-3 fix">
             <div class="services__thumb-4 include-bg transition-3">
-            <img src="~/assets/img/services/staffing.svg" alt="">
+              <img src="~/assets/img/services/staffing.svg" alt="">
             </div>
             <div class="services__icon-4 mb-30 transition-3">
               <span><img src="~/assets/img/services/staffing.svg" alt=""></span>
@@ -113,17 +108,16 @@
                 <nuxt-link href="/">AI/ML</nuxt-link>
               </h4>
             </div>
-            <nuxt-link href="/" class="services-link-btn"> <i
-                class="fa-regular fa-arrow-right"></i>
-              </nuxt-link>
-            </div>
+            <nuxt-link href="/" class="services-link-btn"> <i class="fa-regular fa-arrow-right"></i>
+            </nuxt-link>
+          </div>
         </div>
 
 
         <div class="col-xxl-1 col-lg-1 col-md-1">
           <div class="services__item-4 mb-30 transition-3 fix">
             <div class="services__thumb-4 include-bg transition-3">
-            <img src="~/assets/img/services/staffing.svg" alt="">
+              <img src="~/assets/img/services/staffing.svg" alt="">
             </div>
             <div class="services__icon-4 mb-30 transition-3">
               <span><img src="~/assets/img/services/staffing.svg" alt=""></span>
@@ -133,17 +127,16 @@
                 <nuxt-link href="/">AI/ML</nuxt-link>
               </h4>
             </div>
-            <nuxt-link href="/" class="services-link-btn"> <i
-                class="fa-regular fa-arrow-right"></i>
-              </nuxt-link>
-            </div>
+            <nuxt-link href="/" class="services-link-btn"> <i class="fa-regular fa-arrow-right"></i>
+            </nuxt-link>
+          </div>
         </div>
 
 
         <div class="col-xxl-1 col-lg-1 col-md-1">
           <div class="services__item-4 mb-30 transition-3 fix">
             <div class="services__thumb-4 include-bg transition-3">
-            <img src="~/assets/img/services/staffing.svg" alt="">
+              <img src="~/assets/img/services/staffing.svg" alt="">
             </div>
             <div class="services__icon-4 mb-30 transition-3">
               <span><img src="~/assets/img/services/staffing.svg" alt=""></span>
@@ -153,17 +146,16 @@
                 <nuxt-link href="/">AI/ML</nuxt-link>
               </h4>
             </div>
-            <nuxt-link href="/" class="services-link-btn"> <i
-                class="fa-regular fa-arrow-right"></i>
-              </nuxt-link>
-            </div>
+            <nuxt-link href="/" class="services-link-btn"> <i class="fa-regular fa-arrow-right"></i>
+            </nuxt-link>
+          </div>
         </div>
 
 
         <div class="col-xxl-1 col-lg-1 col-md-1">
           <div class="services__item-4 mb-30 transition-3 fix">
             <div class="services__thumb-4 include-bg transition-3">
-            <img src="~/assets/img/services/staffing.svg" alt="">
+              <img src="~/assets/img/services/staffing.svg" alt="">
             </div>
             <div class="services__icon-4 mb-30 transition-3">
               <span><img src="~/assets/img/services/staffing.svg" alt=""></span>
@@ -173,17 +165,16 @@
                 <nuxt-link href="/">AI/ML</nuxt-link>
               </h4>
             </div>
-            <nuxt-link href="/" class="services-link-btn"> <i
-                class="fa-regular fa-arrow-right"></i>
-              </nuxt-link>
-            </div>
+            <nuxt-link href="/" class="services-link-btn"> <i class="fa-regular fa-arrow-right"></i>
+            </nuxt-link>
+          </div>
         </div>
 
 
         <div class="col-xxl-1 col-lg-1 col-md-1">
           <div class="services__item-4 mb-30 transition-3 fix">
             <div class="services__thumb-4 include-bg transition-3">
-            <img src="~/assets/img/services/staffing.svg" alt="">
+              <img src="~/assets/img/services/staffing.svg" alt="">
             </div>
             <div class="services__icon-4 mb-30 transition-3">
               <span><img src="~/assets/img/services/staffing.svg" alt=""></span>
@@ -193,10 +184,9 @@
                 <nuxt-link href="/">AI/ML</nuxt-link>
               </h4>
             </div>
-            <nuxt-link href="/" class="services-link-btn"> <i
-                class="fa-regular fa-arrow-right"></i>
-              </nuxt-link>
-            </div>
+            <nuxt-link href="/" class="services-link-btn"> <i class="fa-regular fa-arrow-right"></i>
+            </nuxt-link>
+          </div>
         </div>
 
 
@@ -308,7 +298,7 @@ export default {
                     stroke="currentColor" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
                     stroke-linejoin="round" />
                 </svg>`,
-                title: 'AI/ML',
+          title: 'AI/ML',
           subtitle: '',
         },
         {
@@ -341,7 +331,7 @@ export default {
                     stroke="currentColor" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
                     stroke-linejoin="round" />
                 </svg>`,
-                title: 'AR',
+          title: 'AR',
           subtitle: '',
         },
         {
@@ -374,7 +364,7 @@ export default {
                     stroke="currentColor" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
                     stroke-linejoin="round" />
                 </svg>`,
-                title: 'VR',
+          title: 'VR',
           subtitle: '',
         },
         {
@@ -407,7 +397,7 @@ export default {
                     stroke="currentColor" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
                     stroke-linejoin="round" />
                 </svg>`,
-                title: 'Metaverse',
+          title: 'Metaverse',
           subtitle: '',
         },
         {
@@ -440,7 +430,7 @@ export default {
                     stroke="currentColor" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
                     stroke-linejoin="round" />
                 </svg>`,
-                title: 'IoT',
+          title: 'IoT',
           subtitle: '',
         },
         {
@@ -473,7 +463,7 @@ export default {
                     stroke="currentColor" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
                     stroke-linejoin="round" />
                 </svg>`,
-                title: 'BigData',
+          title: 'BigData',
           subtitle: '',
         },
         {
@@ -506,7 +496,7 @@ export default {
                     stroke="currentColor" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
                     stroke-linejoin="round" />
                 </svg>`,
-                title: 'Web',
+          title: 'Web',
           subtitle: '',
         },
         {
@@ -539,7 +529,7 @@ export default {
                     stroke="currentColor" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
                     stroke-linejoin="round" />
                 </svg>`,
-                title: 'Blockchain',
+          title: 'Blockchain',
           subtitle: '',
         },
         {
@@ -572,7 +562,7 @@ export default {
                     stroke="currentColor" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
                     stroke-linejoin="round" />
                 </svg>`,
-                title: 'RPA',
+          title: 'RPA',
           subtitle: '',
         }
       ]
@@ -580,4 +570,3 @@ export default {
   }
 }
 </script>
-
