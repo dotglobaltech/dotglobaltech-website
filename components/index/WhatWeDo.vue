@@ -49,6 +49,7 @@
                   </ul>
                   <div class="tec-icon pt-20">
                     <ul class="servc-icon-sldr">
+                      <marquee behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();">
                       <li><nuxt-link href="/">
                           <div class="img-iconbb"><img src="~/assets/img/icon/software-consulting.png" alt="img"></div>
                         </nuxt-link></li>
@@ -56,11 +57,21 @@
                           <div class="img-iconbb"><img src="~/assets/img/icon/custom-software-developmen.png" alt="img"></div>
                         </nuxt-link></li>
                       <li><nuxt-link href="/">
-                          <div class="img-iconbb"><img src="~/assets/img/icon/java.svg" alt="img"></div>
+                          <div class="img-iconbb"><img src="~/assets/img/icon/software-development-outsourcing.png" alt="img"></div>
                         </nuxt-link></li>
                       <li><nuxt-link href="/">
-                          <div class="img-iconbb"><img src="~/assets/img/icon/wordpress.svg" alt="img"></div>
+                          <div class="img-iconbb"><img src="~/assets/img/icon/software-product-development.png" alt="img"></div>
                         </nuxt-link></li>
+                        <li><nuxt-link href="/">
+                          <div class="img-iconbb"><img src="~/assets/img/icon/team_augmentation.png" alt="img"></div>
+                        </nuxt-link></li>
+                        <!-- <li><nuxt-link href="/">
+                          <div class="img-iconbb"><img src="~/assets/img/icon/software-product-development.svg" alt="img"></div>
+                        </nuxt-link></li> -->
+                        <li><nuxt-link href="/">
+                          <div class="img-iconbb"><img src="~/assets/img/icon/legacy-software_modernization.png" alt="img"></div>
+                        </nuxt-link></li>
+                        </marquee>
                     </ul>
                   </div>
                   <p class="mt20">With more than ten years of industry experience, we offer reliable, scalable, and secure

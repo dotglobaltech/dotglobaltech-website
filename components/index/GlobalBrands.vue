@@ -43,7 +43,7 @@
                   </div>
                   <div class="features__content-7">
                     <div class="features__item-10 pricing__feature-5">
-                      <h3 class="features__title-7">BMC</h3>
+                      <h3 class="features__title-7"><nuxt-link href="/bmc-helix-itsm">BMC</nuxt-link></h3>
                       <ul>
                         <li><nuxt-link href="/bmc-helix-itsm">BMC Helix ITSM</nuxt-link></li>
                         <li><nuxt-link href="/bmc-helix-remedyforce">BMC Remedyforce</nuxt-link></li>
@@ -73,7 +73,7 @@
                   </div>
                   <div class="features__content-7">
                     <div class="features__item-10 pricing__feature-5">
-                      <h3 class="features__title-7">Oracle</h3>
+                      <h3 class="features__title-7"><nuxt-link href="/oracle-managed-services">Oracle</nuxt-link></h3>
                       <ul>
                         <li><nuxt-link href="/">Implementation and Consulting</nuxt-link></li>
                         <li><nuxt-link href="/oci-ai-services">OCI AI Services</nuxt-link></li>
@@ -103,13 +103,13 @@
                   </div>
                   <div class="features__content-7">
                     <div class="features__item-10 pricing__feature-5">
-                      <h3 class="features__title-7">Saleforce</h3>
+                      <h3 class="features__title-7"><nuxt-link href="/salesforce-sales-cloud">Saleforce</nuxt-link></h3>
                       <ul>
-                        <li>Salesforce Sales Cloud</li>
-                        <li>Salesforce Service Cloud</li>
-                        <li>Salesforce Commerce Cloud</li>
-                        <li>Salesforce Marketing Cloud</li>
-                        <li>Salesforce Community Cloud</li>
+                        <li><nuxt-link href="/salesforce-sales-cloud">Salesforce Sales Cloud</nuxt-link></li>
+                        <li><nuxt-link href="/salesforce-service-cloud">Salesforce Service Cloud</nuxt-link></li>
+                        <li><nuxt-link href="/salesforce-commerce-cloud">Salesforce Commerce Cloud</nuxt-link></li>
+                        <li><nuxt-link href="/salesforce-marketing-cloud">Salesforce Marketing Cloud</nuxt-link></li>
+                        <li><nuxt-link href="/salesforce-community-cloud">Salesforce Community Cloud</nuxt-link></li>
                       </ul>
                     </div>
                     <div class="cta__btn-2 text-lg-center">
@@ -133,7 +133,7 @@
                   </div>
                   <div class="features__content-7">
                     <div class="features__item-10 pricing__feature-5">
-                      <h3 class="features__title-7">ServiceNow</h3>
+                      <h3 class="features__title-7"><nuxt-link href="/servicenow-it-service-management">ServiceNow</nuxt-link></h3>
                       <ul>
                         <li><nuxt-link href="/servicenow-it-service-management">IT Service Management</nuxt-link></li>
                         <li><nuxt-link href="/servicenow-it-workflows">IT Workflows</nuxt-link></li>
@@ -164,7 +164,7 @@
                   </div>
                   <div class="features__content-7">
                     <div class="features__item-10 pricing__feature-5">
-                      <h3 class="features__title-7">AWS</h3>
+                      <h3 class="features__title-7"><nuxt-link href="/aws-consulting">AWS</nuxt-link></h3>
                       <ul>
                         <li><nuxt-link href="/aws-consulting">AWS Consulting</nuxt-link></li>
                         <li><nuxt-link href="/aws-cloud-migration">AWS Cloud Migration</nuxt-link></li>
@@ -194,7 +194,7 @@
                   </div>
                   <div class="features__content-7">
                     <div class="features__item-10 pricing__feature-5">
-                      <h3 class="features__title-7">SAP</h3>
+                      <h3 class="features__title-7"><nuxt-link href="/sap-hana">SAP</nuxt-link></h3>
                       <ul>
                         <li><nuxt-link href="/sap-hana">SAP HANA</nuxt-link></li>
                         <li><nuxt-link href="/sap-crm">SAP CRM</nuxt-link></li>
@@ -224,7 +224,7 @@
                   </div>
                   <div class="features__content-7">
                     <div class="features__item-10 pricing__feature-5">
-                      <h3 class="features__title-7">Microsoft Dynamics 365</h3>
+                      <h3 class="features__title-7"><nuxt-link href="/sap-hana">Microsoft Dynamics 365</nuxt-link></h3>
                       <ul>
                         <li><nuxt-link href="/business-central">Business Central</nuxt-link></li>
                         <li><nuxt-link href="/finance">Finance</nuxt-link></li>
@@ -254,7 +254,7 @@
                   </div>
                   <div class="features__content-7">
                     <div class="features__item-10 pricing__feature-5">
-                      <h3 class="features__title-7">Analytics and Reporting</h3>
+                      <h3 class="features__title-7"><nuxt-link href="/power-bi">Analytics and Reporting</nuxt-link></h3>
                       <ul>
                         <li><nuxt-link href="/qlikview">QlikView</nuxt-link></li>
                         <li><nuxt-link href="/tableau">Tableau</nuxt-link></li>
