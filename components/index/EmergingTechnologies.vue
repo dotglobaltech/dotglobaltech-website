@@ -10,7 +10,10 @@
                                         d="M0.440833 21.1152C78.9497 6.16225 158.05 4.53412 235.949 13.8239C237.497 14.0088 239.796 12.4065 239.988 9.93474C240.181 7.4176 238.026 5.44088 236.474 5.2332C157.99 -5.31675 79.1936 0.359501 0.316568 19.7785C-0.184784 19.9023 -0.0511379 21.2092 0.440833 21.1152Z"
                                         fill="currentColor"></path>
                                 </svg></span></h3>
-                        <p>Embark on the future with our implementation of cutting-edge emerging technologies. From artificial intelligence and blockchain to the Internet of Things and beyond, we leverage the latest innovations to propel your business into new realms of efficiency and competitiveness. Explore a transformative journey with the technologies that define tomorrow.</p>
+                        <p>Embark on the future with our implementation of cutting-edge emerging technologies. From
+                            artificial intelligence and blockchain to the Internet of Things and beyond, we leverage the
+                            latest innovations to propel your business into new realms of efficiency and competitiveness.
+                            Explore a transformative journey with the technologies that define tomorrow.</p>
                     </div>
                 </div>
             </div>
@@ -51,15 +54,18 @@
                                             <div class="col-xl-6 col-lg-6">
                                                 <div class="about__wrapper-15 pl-45" data-sal="slide-up"
                                                     data-sal-delay="160" data-sal-duration="1000">
-                                                    <div class="tp-section-wrapper-3 mb-25">
-                                                        <h2 class="tp-section-title-3">
+                                                    <div class="tp-section-wrapper-3-big mb-25">
+                                                        <h2 class="tp-section-title-3-big">
                                                             Big Data
                                                         </h2>
-                                                        <p>We specialize in processing vast datasets, extracting valuable insights for informed decision-making. From integration to advanced analytics, our services empower businesses to navigate big data complexities.</p>
+                                                        <p>We specialize in processing vast datasets, extracting valuable
+                                                            insights for informed decision-making. From integration to
+                                                            advanced analytics, our services empower businesses to navigate
+                                                            big data complexities.</p>
                                                     </div>
                                                     <div
                                                         class="pricing__content-5-inner d-flex flex-column justify-content-between">
-                                                        <div class="pricing__feature-5">
+                                                        <div class="pricing__feature-5-big">
                                                             <p>Services we offer:</p>
                                                             <ul>
                                                                 <li><nuxt-link href="/">Consulting and
@@ -102,15 +108,19 @@
                                             <div class="col-xl-6 col-lg-6">
                                                 <div class="about__wrapper-15 pl-45" data-sal="slide-up"
                                                     data-sal-delay="160" data-sal-duration="1000">
-                                                    <div class="tp-section-wrapper-3 mb-25">
-                                                        <h2 class="tp-section-title-3">
+                                                    <div class="tp-section-wrapper-3-big mb-25">
+                                                        <h2 class="tp-section-title-3-big">
                                                             Artificial Intelligence
                                                         </h2>
-                                                        <p>Harnessing the power of AI, we offer innovative solutions that optimize processes, drive efficiency, and unlock new possibilities. Our services are tailored to transform your operations and propel you into the future of intelligent business solutions.</p>
+                                                        <p>Harnessing the power of AI, we offer innovative solutions that
+                                                            optimize processes, drive efficiency, and unlock new
+                                                            possibilities. Our services are tailored to transform your
+                                                            operations and propel you into the future of intelligent
+                                                            business solutions.</p>
                                                     </div>
                                                     <div
                                                         class="pricing__content-5-inner d-flex flex-column justify-content-between">
-                                                        <div class="pricing__feature-5">
+                                                        <div class="pricing__feature-5-big">
                                                             <p>Services we offer:</p>
                                                             <ul>
                                                                 <li><nuxt-link href="/">Machine learning (including deep
@@ -153,15 +163,20 @@
                                             <div class="col-xl-6 col-lg-6">
                                                 <div class="about__wrapper-15 pl-45" data-sal="slide-up"
                                                     data-sal-delay="160" data-sal-duration="1000">
-                                                    <div class="tp-section-wrapper-3 mb-25">
-                                                        <h2 class="tp-section-title-3">
+                                                    <div class="tp-section-wrapper-3-big mb-25">
+                                                        <h2 class="tp-section-title-3-big">
                                                             Computer Vision
                                                         </h2>
-                                                        <p>We deploy cutting-edge technologies to empower machines to interpret and understand the visual world. From image recognition to object detection, our services redefine possibilities, enabling businesses to extract meaningful insights and enhance decision-making through the lens of advanced visual analytics.</p>
+                                                        <p>We deploy cutting-edge technologies to empower machines to
+                                                            interpret and understand the visual world. From image
+                                                            recognition to object detection, our services redefine
+                                                            possibilities, enabling businesses to extract meaningful
+                                                            insights and enhance decision-making through the lens of
+                                                            advanced visual analytics.</p>
                                                     </div>
                                                     <div
                                                         class="pricing__content-5-inner d-flex flex-column justify-content-between">
-                                                        <div class="pricing__feature-5">
+                                                        <div class="pricing__feature-5-big">
                                                             <p>Services we offer:</p>
                                                             <ul>
                                                                 <li><nuxt-link href="/">Detection of visual defects and
@@ -207,20 +222,25 @@
                                             <div class="col-xl-6 col-lg-6">
                                                 <div class="about__wrapper-15 pl-45" data-sal="slide-up"
                                                     data-sal-delay="160" data-sal-duration="1000">
-                                                    <div class="tp-section-wrapper-3 mb-25">
-                                                        <h2 class="tp-section-title-3">
-                                                             Internet Of Things
+                                                    <div class="tp-section-wrapper-3-big mb-25">
+                                                        <h2 class="tp-section-title-3-big">
+                                                            Internet Of Things
                                                         </h2>
-                                                        <p>Explore the transformative impact of our tailored IoT solutions. Embrace the future of connected possibilities with our Internet of Things (IoT) services. We specialize in creating intelligent ecosystems that seamlessly link devices and data for unprecedented insights and control. </p>
+                                                        <p>Explore the transformative impact of our tailored IoT solutions.
+                                                            Embrace the future of connected possibilities with our Internet
+                                                            of Things (IoT) services. We specialize in creating intelligent
+                                                            ecosystems that seamlessly link devices and data for
+                                                            unprecedented insights and control. </p>
                                                     </div>
                                                     <div
                                                         class="pricing__content-5-inner d-flex flex-column justify-content-between">
-                                                        <div class="pricing__feature-5">
+                                                        <div class="pricing__feature-5-big">
                                                             <p>Services we offer:</p>
                                                             <ul>
                                                                 <li><nuxt-link href="/">IoT consulting</nuxt-link></li>
                                                                 <li><nuxt-link href="/">IoT analytics</nuxt-link></li>
-                                                                <li><nuxt-link href="/">IoT solution deployment </nuxt-link></li>
+                                                                <li><nuxt-link href="/">IoT solution deployment </nuxt-link>
+                                                                </li>
                                                             </ul>
                                                         </div>
                                                     </div>
@@ -256,19 +276,27 @@
                                             <div class="col-xl-6 col-lg-6">
                                                 <div class="about__wrapper-15 pl-45" data-sal="slide-up"
                                                     data-sal-delay="160" data-sal-duration="1000">
-                                                    <div class="tp-section-wrapper-3 mb-25">
-                                                        <h2 class="tp-section-title-3">
+                                                    <div class="tp-section-wrapper-3-big mb-25">
+                                                        <h2 class="tp-section-title-3-big">
                                                             Blockchain
                                                         </h2>
-                                                            <p> We provide secure and decentralized solutions that revolutionize business operations and information exchange. From smart contracts to distributed ledger technology, our services leverage blockchain to enhance security, streamline processes, and create a foundation for innovative, tamper-proof systems..</p>
+                                                        <p> We provide secure and decentralized solutions that revolutionize
+                                                            business operations and information exchange. From smart
+                                                            contracts to distributed ledger technology, our services
+                                                            leverage blockchain to enhance security, streamline processes,
+                                                            and create a foundation for innovative, tamper-proof systems..
+                                                        </p>
                                                     </div>
                                                     <div
                                                         class="pricing__content-5-inner d-flex flex-column justify-content-between">
-                                                        <div class="pricing__feature-5">
+                                                        <div class="pricing__feature-5-big">
                                                             <p>Services we offer:</p>
                                                             <ul>
-                                                                <li><nuxt-link href="/">Blockchain-based product development for product companies</nuxt-link></li>
-                                                                <li><nuxt-link href="/">Blockchain consulting and implementation for non-IT enterprises</nuxt-link></li>
+                                                                <li><nuxt-link href="/">Blockchain-based product development
+                                                                        for product companies</nuxt-link></li>
+                                                                <li><nuxt-link href="/">Blockchain consulting and
+                                                                        implementation for non-IT enterprises</nuxt-link>
+                                                                </li>
                                                             </ul>
                                                         </div>
                                                     </div>
@@ -304,19 +332,25 @@
                                             <div class="col-xl-6 col-lg-6">
                                                 <div class="about__wrapper-15 pl-45" data-sal="slide-up"
                                                     data-sal-delay="160" data-sal-duration="1000">
-                                                    <div class="tp-section-wrapper-3 mb-25">
-                                                        <h2 class="tp-section-title-3">     
-                                                        Mixed Reality
+                                                    <div class="tp-section-wrapper-3-big mb-25">
+                                                        <h2 class="tp-section-title-3-big">
+                                                            Mixed Reality
                                                         </h2>
-                                                        <p>Explore the endless possibilities of Mixed Reality as we transform your ideas into captivating, interactive realities. From augmented to virtual reality, our services push the limits of innovation, offering solutions that enhance training, visualization, and engagement. .</p>
+                                                        <p>Explore the endless possibilities of Mixed Reality as we
+                                                            transform your ideas into captivating, interactive realities.
+                                                            From augmented to virtual reality, our services push the limits
+                                                            of innovation, offering solutions that enhance training,
+                                                            visualization, and engagement. .</p>
                                                     </div>
                                                     <div
                                                         class="pricing__content-5-inner d-flex flex-column justify-content-between">
-                                                        <div class="pricing__feature-5">
+                                                        <div class="pricing__feature-5-big">
                                                             <p>Services we offer:</p>
                                                             <ul>
-                                                                <li><nuxt-link href="/">Virtual Reality development</nuxt-link></li>
-                                                                <li><nuxt-link href="/">Augmented Reality development</nuxt-link></li>
+                                                                <li><nuxt-link href="/">Virtual Reality
+                                                                        development</nuxt-link></li>
+                                                                <li><nuxt-link href="/">Augmented Reality
+                                                                        development</nuxt-link></li>
                                                             </ul>
                                                         </div>
                                                     </div>

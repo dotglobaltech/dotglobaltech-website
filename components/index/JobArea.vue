@@ -2,9 +2,195 @@
   <section class="servivces__area pt-30">
     <div class="container-fluid">
       <div class="row justify-content-center">
-        <div v-for="item in services_data" :key="item.id" class="col-xxl-1 col-lg-1 col-md-1">
-          <div class="services__item-4 mb-30 transition-3 fix" 
-          data-sal="slide-up" :data-sal-delay="item.delay" data-sal-duration="1000">
+        <div class="col-xxl-1 col-lg-1 col-md-1">
+          <div class="services__item-4 mb-30 transition-3 fix">
+            <div class="services__thumb-4 include-bg transition-3">
+              <img src="~/assets/img/services/staffing.svg" alt="">
+            </div>
+            <div class="services__icon-4 mb-30 transition-3">
+              <span><img src="~/assets/img/services/staffing.svg" alt=""></span>
+            </div>
+            <div class="services__content-4 transition-3">
+              <h4 class="services__title-4">
+                <nuxt-link href="/">Staffing</nuxt-link>
+              </h4>
+            </div>
+            <nuxt-link href="/" class="services-link-btn"> <i class="fa-regular fa-arrow-right"></i>
+            </nuxt-link>
+          </div>
+        </div>
+
+        <div class="col-xxl-1 col-lg-1 col-md-1">
+          <div class="services__item-4 mb-30 transition-3 fix">
+            <div class="services__thumb-4 include-bg transition-3">
+              <img src="~/assets/img/services/staffing.svg" alt="">
+            </div>
+            <div class="services__icon-4 mb-30 transition-3">
+              <span><img src="~/assets/img/services/staffing.svg" alt=""></span>
+            </div>
+            <div class="services__content-4 transition-3">
+              <h4 class="services__title-4">
+                <nuxt-link href="/">AI/ML</nuxt-link>
+              </h4>
+            </div>
+            <nuxt-link href="/" class="services-link-btn"> <i class="fa-regular fa-arrow-right"></i>
+            </nuxt-link>
+          </div>
+        </div>
+
+        <div class="col-xxl-1 col-lg-1 col-md-1">
+          <div class="services__item-4 mb-30 transition-3 fix">
+            <div class="services__thumb-4 include-bg transition-3">
+              <img src="~/assets/img/services/staffing.svg" alt="">
+            </div>
+            <div class="services__icon-4 mb-30 transition-3">
+              <span><img src="~/assets/img/services/staffing.svg" alt=""></span>
+            </div>
+            <div class="services__content-4 transition-3">
+              <h4 class="services__title-4">
+                <nuxt-link href="/">AR</nuxt-link>
+              </h4>
+            </div>
+            <nuxt-link href="/" class="services-link-btn"> <i class="fa-regular fa-arrow-right"></i>
+            </nuxt-link>
+          </div>
+        </div>
+
+
+        <div class="col-xxl-1 col-lg-1 col-md-1">
+          <div class="services__item-4 mb-30 transition-3 fix">
+            <div class="services__thumb-4 include-bg transition-3">
+              <img src="~/assets/img/services/staffing.svg" alt="">
+            </div>
+            <div class="services__icon-4 mb-30 transition-3">
+              <span><img src="~/assets/img/services/staffing.svg" alt=""></span>
+            </div>
+            <div class="services__content-4 transition-3">
+              <h4 class="services__title-4">
+                <nuxt-link href="/">VR</nuxt-link>
+              </h4>
+            </div>
+            <nuxt-link href="/" class="services-link-btn"> <i class="fa-regular fa-arrow-right"></i>
+            </nuxt-link>
+          </div>
+        </div>
+
+
+        <div class="col-xxl-1 col-lg-1 col-md-1">
+          <div class="services__item-4 mb-30 transition-3 fix">
+            <div class="services__thumb-4 include-bg transition-3">
+              <img src="~/assets/img/services/staffing.svg" alt="">
+            </div>
+            <div class="services__icon-4 mb-30 transition-3">
+              <span><img src="~/assets/img/services/staffing.svg" alt=""></span>
+            </div>
+            <div class="services__content-4 transition-3">
+              <h4 class="services__title-4">
+                <nuxt-link href="/">Metaverse</nuxt-link>
+              </h4>
+            </div>
+            <nuxt-link href="/" class="services-link-btn"> <i class="fa-regular fa-arrow-right"></i>
+            </nuxt-link>
+          </div>
+        </div>
+
+
+        <div class="col-xxl-1 col-lg-1 col-md-1">
+          <div class="services__item-4 mb-30 transition-3 fix">
+            <div class="services__thumb-4 include-bg transition-3">
+              <img src="~/assets/img/services/staffing.svg" alt="">
+            </div>
+            <div class="services__icon-4 mb-30 transition-3">
+              <span><img src="~/assets/img/services/staffing.svg" alt=""></span>
+            </div>
+            <div class="services__content-4 transition-3">
+              <h4 class="services__title-4">
+                <nuxt-link href="/">IoT</nuxt-link>
+              </h4>
+            </div>
+            <nuxt-link href="/" class="services-link-btn"> <i class="fa-regular fa-arrow-right"></i>
+            </nuxt-link>
+          </div>
+        </div>
+
+
+        <div class="col-xxl-1 col-lg-1 col-md-1">
+          <div class="services__item-4 mb-30 transition-3 fix">
+            <div class="services__thumb-4 include-bg transition-3">
+              <img src="~/assets/img/services/staffing.svg" alt="">
+            </div>
+            <div class="services__icon-4 mb-30 transition-3">
+              <span><img src="~/assets/img/services/staffing.svg" alt=""></span>
+            </div>
+            <div class="services__content-4 transition-3">
+              <h4 class="services__title-4">
+                <nuxt-link href="/">BigData</nuxt-link>
+              </h4>
+            </div>
+            <nuxt-link href="/" class="services-link-btn"> <i class="fa-regular fa-arrow-right"></i>
+            </nuxt-link>
+          </div>
+        </div>
+
+
+        <div class="col-xxl-1 col-lg-1 col-md-1">
+          <div class="services__item-4 mb-30 transition-3 fix">
+            <div class="services__thumb-4 include-bg transition-3">
+              <img src="~/assets/img/services/staffing.svg" alt="">
+            </div>
+            <div class="services__icon-4 mb-30 transition-3">
+              <span><img src="~/assets/img/services/staffing.svg" alt=""></span>
+            </div>
+            <div class="services__content-4 transition-3">
+              <h4 class="services__title-4">
+                <nuxt-link href="/">Web</nuxt-link>
+              </h4>
+            </div>
+            <nuxt-link href="/" class="services-link-btn"> <i class="fa-regular fa-arrow-right"></i>
+            </nuxt-link>
+          </div>
+        </div>
+
+
+        <div class="col-xxl-1 col-lg-1 col-md-1">
+          <div class="services__item-4 mb-30 transition-3 fix">
+            <div class="services__thumb-4 include-bg transition-3">
+              <img src="~/assets/img/services/staffing.svg" alt="">
+            </div>
+            <div class="services__icon-4 mb-30 transition-3">
+              <span><img src="~/assets/img/services/staffing.svg" alt=""></span>
+            </div>
+            <div class="services__content-4 transition-3">
+              <h4 class="services__title-4">
+                <nuxt-link href="/">Blockchain</nuxt-link>
+              </h4>
+            </div>
+            <nuxt-link href="/" class="services-link-btn"> <i class="fa-regular fa-arrow-right"></i>
+            </nuxt-link>
+          </div>
+        </div>
+
+
+        <div class="col-xxl-1 col-lg-1 col-md-1">
+          <div class="services__item-4 mb-30 transition-3 fix">
+            <div class="services__thumb-4 include-bg transition-3">
+              <img src="~/assets/img/services/staffing.svg" alt="">
+            </div>
+            <div class="services__icon-4 mb-30 transition-3">
+              <span><img src="~/assets/img/services/staffing.svg" alt=""></span>
+            </div>
+            <div class="services__content-4 transition-3">
+              <h4 class="services__title-4">
+                <nuxt-link href="/">RPA</nuxt-link>
+              </h4>
+            </div>
+            <nuxt-link href="/" class="services-link-btn"> <i class="fa-regular fa-arrow-right"></i>
+            </nuxt-link>
+          </div>
+        </div>
+
+        <!-- <div v-for="item in services_data" :key="item.id" class="col-xxl-1 col-lg-1 col-md-1">
+          <div class="services__item-4 mb-30 transition-3 fix">
             <div class="services__thumb-4 include-bg transition-3" 
             :style="{ backgroundImage: `url(${item.bg})` }">
             </div>
@@ -13,16 +199,17 @@
             </div>
             <div class="services__content-4 transition-3">
               <h4 class="services__title-4">
-                <nuxt-link href="/">{{ item.title }}</nuxt-link>
+                <nuxt-link href="/">Staffing</nuxt-link>
               </h4>
-              <!-- <p>{{ item.subtitle }}</p> -->
+              <p>{{ item.subtitle }}</p>
 
             </div>
             <nuxt-link href="/" class="services-link-btn"> <i
                 class="fa-regular fa-arrow-right"></i>
               </nuxt-link>
           </div>
-        </div>
+        </div> -->
+
       </div>
     </div>
   </section>
@@ -31,7 +218,7 @@
 <script>
 // bg images lawyer
 import bg_law_1 from '~/assets/img/services/4/services-1.jpg';
-import bg_law_2 from '~/assets/img/services/4/services-2.jpg';
+import staffing from '~/assets/img/services/staffing.svg';
 import bg_law_3 from '~/assets/img/services/4/services-3.jpg';
 import bg_law_4 from '~/assets/img/services/4/services-4.jpg';
 import bg_law_5 from '~/assets/img/services/4/services-5.jpg';
@@ -106,7 +293,7 @@ export default {
                     stroke="currentColor" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
                     stroke-linejoin="round" />
                 </svg>`,
-                title: 'AI/ML',
+          title: 'AI/ML',
           subtitle: '',
         },
         {
@@ -139,7 +326,7 @@ export default {
                     stroke="currentColor" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
                     stroke-linejoin="round" />
                 </svg>`,
-                title: 'AR',
+          title: 'AR',
           subtitle: '',
         },
         {
@@ -172,7 +359,7 @@ export default {
                     stroke="currentColor" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
                     stroke-linejoin="round" />
                 </svg>`,
-                title: 'VR',
+          title: 'VR',
           subtitle: '',
         },
         {
@@ -205,7 +392,7 @@ export default {
                     stroke="currentColor" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
                     stroke-linejoin="round" />
                 </svg>`,
-                title: 'Metaverse',
+          title: 'Metaverse',
           subtitle: '',
         },
         {
@@ -238,7 +425,7 @@ export default {
                     stroke="currentColor" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
                     stroke-linejoin="round" />
                 </svg>`,
-                title: 'IoT',
+          title: 'IoT',
           subtitle: '',
         },
         {
@@ -271,7 +458,7 @@ export default {
                     stroke="currentColor" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
                     stroke-linejoin="round" />
                 </svg>`,
-                title: 'BigData',
+          title: 'BigData',
           subtitle: '',
         },
         {
@@ -304,7 +491,7 @@ export default {
                     stroke="currentColor" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
                     stroke-linejoin="round" />
                 </svg>`,
-                title: 'Web',
+          title: 'Web',
           subtitle: '',
         },
         {
@@ -337,7 +524,7 @@ export default {
                     stroke="currentColor" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
                     stroke-linejoin="round" />
                 </svg>`,
-                title: 'Blockchain',
+          title: 'Blockchain',
           subtitle: '',
         },
         {
@@ -370,7 +557,7 @@ export default {
                     stroke="currentColor" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
                     stroke-linejoin="round" />
                 </svg>`,
-                title: 'RPA',
+          title: 'RPA',
           subtitle: '',
         }
       ]
@@ -378,4 +565,3 @@ export default {
   }
 }
 </script>
-
