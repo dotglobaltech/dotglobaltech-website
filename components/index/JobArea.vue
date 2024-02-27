@@ -155,10 +155,10 @@
         <div class="col-xxl-1 col-lg-1 col-md-1">
           <div class="services__item-4 mb-30 transition-3 fix">
             <div class="services__thumb-4 include-bg transition-3">
-              <img src="~/assets/img/services/staffing.svg" alt="">
+              <img src="~/assets/img/services/blockchain.svg" alt="">
             </div>
             <div class="services__icon-4 mb-30 transition-3">
-              <span><img src="~/assets/img/services/staffing.svg" alt=""></span>
+              <span><img src="~/assets/img/services/blockchain.svg" alt=""></span>
             </div>
             <div class="services__content-4 transition-3">
               <h4 class="services__title-4">
@@ -174,10 +174,10 @@
         <div class="col-xxl-1 col-lg-1 col-md-1">
           <div class="services__item-4 mb-30 transition-3 fix">
             <div class="services__thumb-4 include-bg transition-3">
-              <img src="~/assets/img/services/staffing.svg" alt="">
+              <img src="~/assets/img/services/blockchain.svg" alt="">
             </div>
             <div class="services__icon-4 mb-30 transition-3">
-              <span><img src="~/assets/img/services/staffing.svg" alt=""></span>
+              <span><img src="~/assets/img/services/blockchain.svg" alt=""></span>
             </div>
             <div class="services__content-4 transition-3">
               <h4 class="services__title-4">
