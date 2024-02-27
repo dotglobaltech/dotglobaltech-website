@@ -48,7 +48,7 @@
             </div>
             <div class="services__content-4 transition-3">
               <h4 class="services__title-4">
-                <nuxt-link href="/">AI/ML</nuxt-link>
+                <nuxt-link href="/">AR</nuxt-link>
               </h4>
             </div>
             <nuxt-link href="/" class="services-link-btn"> <i class="fa-regular fa-arrow-right"></i>
@@ -67,7 +67,7 @@
             </div>
             <div class="services__content-4 transition-3">
               <h4 class="services__title-4">
-                <nuxt-link href="/">AI/ML</nuxt-link>
+                <nuxt-link href="/">VR</nuxt-link>
               </h4>
             </div>
             <nuxt-link href="/" class="services-link-btn"> <i class="fa-regular fa-arrow-right"></i>
@@ -86,7 +86,7 @@
             </div>
             <div class="services__content-4 transition-3">
               <h4 class="services__title-4">
-                <nuxt-link href="/">AI/ML</nuxt-link>
+                <nuxt-link href="/">Metaverse</nuxt-link>
               </h4>
             </div>
             <nuxt-link href="/" class="services-link-btn"> <i class="fa-regular fa-arrow-right"></i>
@@ -105,7 +105,7 @@
             </div>
             <div class="services__content-4 transition-3">
               <h4 class="services__title-4">
-                <nuxt-link href="/">AI/ML</nuxt-link>
+                <nuxt-link href="/">IoT</nuxt-link>
               </h4>
             </div>
             <nuxt-link href="/" class="services-link-btn"> <i class="fa-regular fa-arrow-right"></i>
@@ -124,7 +124,7 @@
             </div>
             <div class="services__content-4 transition-3">
               <h4 class="services__title-4">
-                <nuxt-link href="/">AI/ML</nuxt-link>
+                <nuxt-link href="/">BigData</nuxt-link>
               </h4>
             </div>
             <nuxt-link href="/" class="services-link-btn"> <i class="fa-regular fa-arrow-right"></i>
@@ -143,7 +143,7 @@
             </div>
             <div class="services__content-4 transition-3">
               <h4 class="services__title-4">
-                <nuxt-link href="/">AI/ML</nuxt-link>
+                <nuxt-link href="/">Web</nuxt-link>
               </h4>
             </div>
             <nuxt-link href="/" class="services-link-btn"> <i class="fa-regular fa-arrow-right"></i>
@@ -162,7 +162,7 @@
             </div>
             <div class="services__content-4 transition-3">
               <h4 class="services__title-4">
-                <nuxt-link href="/">AI/ML</nuxt-link>
+                <nuxt-link href="/">Blockchain</nuxt-link>
               </h4>
             </div>
             <nuxt-link href="/" class="services-link-btn"> <i class="fa-regular fa-arrow-right"></i>
@@ -181,18 +181,13 @@
             </div>
             <div class="services__content-4 transition-3">
               <h4 class="services__title-4">
-                <nuxt-link href="/">AI/ML</nuxt-link>
+                <nuxt-link href="/">RPA</nuxt-link>
               </h4>
             </div>
             <nuxt-link href="/" class="services-link-btn"> <i class="fa-regular fa-arrow-right"></i>
             </nuxt-link>
           </div>
         </div>
-
-
-
-
-
 
         <!-- <div v-for="item in services_data" :key="item.id" class="col-xxl-1 col-lg-1 col-md-1">
           <div class="services__item-4 mb-30 transition-3 fix">
