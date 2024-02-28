@@ -38,18 +38,14 @@
                   </h4>
                   <ul class="-service-list">
                     <marquee behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();">
-                      <li> <nuxt-link href="/">Software Consulting</nuxt-link></li>
-                      <li> <nuxt-link href="/php">Custom Software Development</nuxt-link></li>
-                      <li> <nuxt-link href="/">Software Development Outsourcing</nuxt-link></li>
-                      <li> <nuxt-link href="/">Software Product Development</nuxt-link></li>
-                      <li> <nuxt-link href="/">Team Augmentation</nuxt-link></li>
-                      <li> <nuxt-link href="/">Cloud Application Development</nuxt-link></li>
-                      <li> <nuxt-link href="/">Legacy Software Modernization</nuxt-link></li>
+                      <li> <nuxt-link href="/">React</nuxt-link></li>
+                      <li> <nuxt-link href="/php">Angular</nuxt-link></li>
+                      <li> <nuxt-link href="/">Python</nuxt-link></li>
+                      <li> <nuxt-link href="/">.Net</nuxt-link></li>
                     </marquee>
                   </ul>
                   <div class="tec-icon pt-20">
                     <ul class="servc-icon-sldr">
-                      <marquee behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();">
                       <li><nuxt-link href="/">
                           <div class="img-iconbb"><img src="~/assets/img/icon/software-consulting.png" alt="img"></div>
                         </nuxt-link></li>
@@ -62,16 +58,6 @@
                       <li><nuxt-link href="/">
                           <div class="img-iconbb"><img src="~/assets/img/icon/software-product-development.png" alt="img"></div>
                         </nuxt-link></li>
-                        <li><nuxt-link href="/">
-                          <div class="img-iconbb"><img src="~/assets/img/icon/team_augmentation.png" alt="img"></div>
-                        </nuxt-link></li>
-                        <!-- <li><nuxt-link href="/">
-                          <div class="img-iconbb"><img src="~/assets/img/icon/software-product-development.svg" alt="img"></div>
-                        </nuxt-link></li> -->
-                        <li><nuxt-link href="/">
-                          <div class="img-iconbb"><img src="~/assets/img/icon/legacy-software_modernization.png" alt="img"></div>
-                        </nuxt-link></li>
-                        </marquee>
                     </ul>
                   </div>
                   <p class="mt20">With more than ten years of industry experience, we offer reliable, scalable, and secure
@@ -86,19 +72,14 @@
                   <h4 class="features__title-7"><nuxt-link href="/testing-qa">Testing & QA</nuxt-link></h4>
                   <ul class="-service-list">
                     <marquee behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();">
-                    <li> <nuxt-link href="/">QA Consulting</nuxt-link> </li>
-                    <li> <nuxt-link href="/">QA Outsourcing</nuxt-link> </li>
-                    <li> <nuxt-link href="/">Compliance Assessment</nuxt-link> </li>
-                    <li> <nuxt-link href="/">Test Automation</nuxt-link> </li>
-                    <li> <nuxt-link href="/">Functional Testing</nuxt-link> </li>
-                    <li> <nuxt-link href="/">Usability Testing</nuxt-link> </li>
-                    <li> <nuxt-link href="/">Performance Testing</nuxt-link> </li>
-                    <li> <nuxt-link href="/">Security Testing</nuxt-link> </li>
+                    <li> <nuxt-link href="/">Selenium</nuxt-link> </li>
+                    <li> <nuxt-link href="/">Appium</nuxt-link> </li>
+                    <li> <nuxt-link href="/">Cypress</nuxt-link> </li>
+                    <li> <nuxt-link href="/">Cucumber</nuxt-link> </li>
                     </marquee>
                   </ul>
                   <div class="tec-icon pt-20">
                     <ul class="servc-icon-sldr">
-                      <marquee behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();">
                       <li><nuxt-link href="/">
                           <div class="img-iconbb"><img src="~/assets/img/icon/qa_consulting.png" alt="img"></div>
                         </nuxt-link></li>
@@ -111,16 +92,6 @@
                       <li><nuxt-link href="/">
                           <div class="img-iconbb"><img src="~/assets/img/icon/team_augmentation.png" alt="img"></div>
                         </nuxt-link></li>
-                      <li><nuxt-link href="/">
-                          <div class="img-iconbb"><img src="~/assets/img/icon/functional-testing.png" alt="img"></div>
-                        </nuxt-link></li>
-                      <li><nuxt-link href="/">
-                          <div class="img-iconbb"><img src="~/assets/img/icon/usability-testing.png" alt="img"></div>
-                        </nuxt-link></li>
-                        <li><nuxt-link href="/">
-                          <div class="img-iconbb"><img src="~/assets/img/icon/performance-testing.png" alt="img"></div>
-                        </nuxt-link></li>
-                      </marquee>
                     </ul>
                   </div>
                   <p class="mt20">Specializing in compliance assessment, automated testing, and comprehensive quality
