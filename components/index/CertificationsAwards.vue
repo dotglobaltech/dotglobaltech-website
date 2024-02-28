@@ -120,12 +120,9 @@ export default {
                 { brand: brand_9 },
                 { brand: brand_10 },
                 { brand: brand_11 },
-                { brand: brand_2 },
-                { brand: brand_4 },
-                { brand: brand_6 },
             ],
             brand_2_data: [
-            { brand: brand_1 },
+                { brand: brand_1 },
                 { brand: brand_2 },
                 { brand: brand_3 },
                 { brand: brand_4 },
@@ -136,9 +133,6 @@ export default {
                 { brand: brand_9 },
                 { brand: brand_10 },
                 { brand: brand_11 },
-                { brand: brand_2 },
-                { brand: brand_4 },
-                { brand: brand_6 },
             ],
         };
     },
