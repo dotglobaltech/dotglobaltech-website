@@ -12435,7 +12435,7 @@ justify-content: center;
 
 .logo-border {
   position: relative;
-  padding: 8px 0;
+  padding: 0px 0;
 }
 
 .logo-border::after {
@@ -25506,6 +25506,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   line-height: 22px;
   color: var(--tp-text-18);
   font-family: var(--tp-ff-roboto);
+  text-align: justify;
 }
 
 .about__features-title {
@@ -27872,7 +27873,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .services__item-4 {
   border: 2px solid var(--tp-border-5);
-  background-color: var(--tp-common-white);
+  background: linear-gradient(to bottom,#fdffed 0,#effff8 100%);
   padding: 25px 10px 10px;
   border-radius: 0px 30px;
   position: relative;
@@ -27938,7 +27939,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .services__item-4:hover .services__title-4 a {
-  color: var(--tp-common-white);
+  color: #050748;
 }
 
 .services__item-4:hover .services__thumb-4 {
@@ -29842,6 +29843,9 @@ only screen and (min-width: 576px) and (max-width: 767px),
   border: 1px solid rgba(255, 255, 255, 0.3019607843);
   border-radius: 50%;
   margin-left: -8px;
+  border-color: var(--tp-common-white);
+  background-color: var(--tp-common-purple);
+  color: #ffffff;
 }
 
 [dir=rtl] .services-link-btn i {
@@ -29851,8 +29855,8 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .services-link-btn:hover i {
   border-color: var(--tp-common-white);
-  background-color: var(--tp-common-white);
-  color: var(--tp-common-black);
+  background: linear-gradient(to right, #ffbd84 0%, #ff1f8e 100%);
+  color: #ffffff;
 }
 
 /*----------------------------------------*/
@@ -42166,7 +42170,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .cta__content-5 span {
   font-family: var(--tp-ff-poppins);
   font-weight: 400;
-  font-size: 17px;
+  font-size: 15px;
   line-height: 28px;
   letter-spacing: 0.0em;
   text-transform: capitalize;
@@ -46417,6 +46421,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   font-family: var(--tp-ff-poppins);
   font-size: 15px;
   line-height: 1.6;
+  text-align: justify;
 }
 
 .contact__info {
@@ -47731,8 +47736,8 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .features__shape-3 {
   position: absolute;
-  left: 61%;
-  top: 16%;
+  left: 62%;
+  top: 14%;
   z-index: -1;
   -moz-animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
   -webkit-animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
@@ -47747,8 +47752,8 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .features__shape-13 {
   position: absolute;
-  left: 32%;
-  top: 16%;
+  left: 30%;
+  top: 12%;
   z-index: -1;
   -moz-animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
   -webkit-animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
@@ -47763,7 +47768,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .features__shape-14 {
   position: absolute;
-  left: 14%;
+  left: 10%;
   top: 30%;
   z-index: -1;
   -moz-animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
@@ -47779,8 +47784,8 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .features__shape-15 {
   position: absolute;
-  left: 47%;
-  top: 7%;
+  left: 46%;
+  top: 4%;
   z-index: -1;
   -moz-animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
   -webkit-animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
@@ -47795,7 +47800,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .features__shape-16 {
   position: absolute;
-  left: 25%;
+  left: 22%;
   top: 40%;
   z-index: -1;
   -moz-animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
@@ -47811,7 +47816,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .features__shape-17 {
   position: absolute;
-  left: 13%;
+  left: 11%;
   top: 60%;
   z-index: -1;
   -moz-animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
@@ -47828,7 +47833,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .features__shape-18 {
   position: absolute;
   left: 47%;
-  top: 78%;
+  top: 80%;
   z-index: -1;
   -moz-animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
   -webkit-animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
@@ -47843,7 +47848,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .features__shape-19 {
   position: absolute;
-  left: 80%;
+  left: 82%;
   top: 30%;
   z-index: -1;
   -moz-animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
@@ -47859,8 +47864,8 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .features__shape-20 {
   position: absolute;
-  left: 64%;
-  top: 62%;
+  left: 65%;
+  top: 70%;
   z-index: -1;
   -moz-animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
   -webkit-animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
@@ -47875,8 +47880,8 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .features__shape-21 {
   position: absolute;
-  left: 30%;
-  top: 64%;
+  left: 27%;
+  top: 72%;
   z-index: -1;
   -moz-animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
   -webkit-animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
