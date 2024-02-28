@@ -48,13 +48,13 @@
                           <div class="img-iconbb"><img src="~/assets/img/home/react-icon.svg" alt="img"></div>
                         </nuxt-link></li>
                       <li><nuxt-link href="/">
-                          <div class="img-iconbb"><img src="~/assets/img/react-icon.png" alt="img"></div>
+                        <div class="img-iconbb"><img src="~/assets/img/home/angular-icon.svg" alt="img"></div>
                         </nuxt-link></li>
                       <li><nuxt-link href="/">
-                          <div class="img-iconbb"><img src="~/assets/img/icon/software-development-outsourcing.png" alt="img"></div>
+                        <div class="img-iconbb"><img src="~/assets/img/home/python.svg" alt="img"></div>
                         </nuxt-link></li>
                       <li><nuxt-link href="/">
-                          <div class="img-iconbb"><img src="~/assets/img/icon/software-product-development.png" alt="img"></div>
+                        <div class="img-iconbb"><img src="~/assets/img/home/microsoft-dot-net-icon.svg" alt="img"></div>
                         </nuxt-link></li>
                     </ul>
                   </div>
@@ -77,16 +77,16 @@
                   <div class="tec-icon pt-20">
                     <ul class="servc-icon-sldr">
                       <li><nuxt-link href="/">
-                          <div class="img-iconbb"><img src="~/assets/img/icon/qa_consulting.png" alt="img"></div>
+                        <div class="img-iconbb"><img src="~/assets/img/home/selenium.svg" alt="img"></div>
                         </nuxt-link></li>
                         <li><nuxt-link href="/">
-                          <div class="img-iconbb"><img src="~/assets/img/icon/qa-outsourcing.png" alt="img"></div>
+                          <div class="img-iconbb"><img src="~/assets/img/home/appium.svg" alt="img"></div>
                         </nuxt-link></li>
                       <li><nuxt-link href="/">
-                          <div class="img-iconbb"><img src="~/assets/img/icon/compliance_assessment.png" alt="img"></div>
+                        <div class="img-iconbb"><img src="~/assets/img/home/cypress.svg" alt="img"></div>
                         </nuxt-link></li>
                       <li><nuxt-link href="/">
-                          <div class="img-iconbb"><img src="~/assets/img/icon/team_augmentation.png" alt="img"></div>
+                        <div class="img-iconbb"><img src="~/assets/img/home/cucumber.svg" alt="img"></div>
                         </nuxt-link></li>
                     </ul>
                   </div>
@@ -139,16 +139,16 @@
                   <div class="tec-icon pt-20">
                     <ul class="servc-icon-sldr">
                       <li><nuxt-link href="/">
-                          <div class="img-iconbb"><img src="~/assets/img/icon/ux.svg" alt="img"></div>
+                        <div class="img-iconbb"><img src="~/assets/img/home/figma.svg" alt="img"></div>
                         </nuxt-link></li>
                       <li><nuxt-link href="/">
-                          <div class="img-iconbb"><img src="~/assets/img/icon/php.svg" alt="img"></div>
+                        <div class="img-iconbb"><img src="~/assets/img/home/marvel.svg" alt="img"></div>
                         </nuxt-link></li>
                       <li><nuxt-link href="/">
-                          <div class="img-iconbb"><img src="~/assets/img/icon/java.svg" alt="img"></div>
+                        <div class="img-iconbb"><img src="~/assets/img/home/photoshop.svg" alt="img"></div>
                         </nuxt-link></li>
                       <li><nuxt-link href="/">
-                          <div class="img-iconbb"><img src="~/assets/img/icon/wordpress.svg" alt="img"></div>
+                        <div class="img-iconbb"><img src="~/assets/img/home/illustrator.svg" alt="img"></div>
                         </nuxt-link></li>
                     </ul>
                   </div>
@@ -171,16 +171,16 @@
                   <div class="tec-icon pt-20">
                     <ul class="servc-icon-sldr">
                       <li><nuxt-link href="/">
-                          <div class="img-iconbb"><img src="~/assets/img/icon/ux.svg" alt="img"></div>
+                        <div class="img-iconbb"><img src="~/assets/img/home/hubspot.svg" alt="img"></div>
                         </nuxt-link></li>
                       <li><nuxt-link href="/">
-                          <div class="img-iconbb"><img src="~/assets/img/icon/php.svg" alt="img"></div>
+                        <div class="img-iconbb"><img src="~/assets/img/home/slack.svg" alt="img"></div>
                         </nuxt-link></li>
                       <li><nuxt-link href="/">
-                          <div class="img-iconbb"><img src="~/assets/img/icon/java.svg" alt="img"></div>
+                        <div class="img-iconbb"><img src="~/assets/img/home/jira.svg" alt="img"></div>
                         </nuxt-link></li>
                       <li><nuxt-link href="/">
-                          <div class="img-iconbb"><img src="~/assets/img/icon/wordpress.svg" alt="img"></div>
+                        <div class="img-iconbb"><img src="~/assets/img/home/hipchat.svg" alt="img"></div>
                         </nuxt-link></li>
                     </ul>
                   </div>
