@@ -45,10 +45,10 @@
                   <div class="tec-icon pt-20">
                     <ul class="servc-icon-sldr">
                       <li><nuxt-link href="/">
-                          <div class="img-iconbb"><img src="~/assets/img/icon/software-consulting.png" alt="img"></div>
+                          <div class="img-iconbb"><img src="~/assets/img/home/react-icon.svg" alt="img"></div>
                         </nuxt-link></li>
                       <li><nuxt-link href="/">
-                          <div class="img-iconbb"><img src="~/assets/img/icon/custom-software-developmen.png" alt="img"></div>
+                          <div class="img-iconbb"><img src="~/assets/img/react-icon.png" alt="img"></div>
                         </nuxt-link></li>
                       <li><nuxt-link href="/">
                           <div class="img-iconbb"><img src="~/assets/img/icon/software-development-outsourcing.png" alt="img"></div>
