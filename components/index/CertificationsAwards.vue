@@ -82,15 +82,8 @@ import brand_7 from "~/assets/img/brand/5/red-hat-logo.png";
 import brand_8 from "~/assets/img/brand/5/ibm_logo.png";
 import brand_9 from "~/assets/img/brand/5/cisco_logo.png";
 import brand_10 from "~/assets/img/brand/5/hp_logo.png";
-import brand_11 from "~/assets/img/brand/5/al_rajhi_bank_logo.png";
-import brand_12 from "~/assets/img/brand/5/bacs.png";
-import brand_13 from "~/assets/img/brand/5/saip_logo.png";
-import brand_14 from "~/assets/img/brand/5/mis_logo.png";
-import brand_15 from "~/assets/img/brand/5/urban-ardware.png";
-import brand_16 from "~/assets/img/brand/5/wiz-motors-ltd.png";
-import brand_17 from "~/assets/img/brand/5/saudi_aramco_logo.png";
-import brand_18 from "~/assets/img/brand/5/uniglass.png";
-import brand_19 from "~/assets/img/brand/5/axa-logo.png";
+import brand_11 from "~/assets/img/brand/5/att-business-logo.png";
+
 
 
 export default {
@@ -127,14 +120,6 @@ export default {
                 { brand: brand_9 },
                 { brand: brand_10 },
                 { brand: brand_11 },
-                { brand: brand_12 },
-                { brand: brand_13 },
-                { brand: brand_14 },
-                { brand: brand_15 },
-                { brand: brand_16 },
-                { brand: brand_17 },
-                { brand: brand_18 },
-                { brand: brand_19 },
                 { brand: brand_2 },
                 { brand: brand_4 },
                 { brand: brand_6 },
