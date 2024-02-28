@@ -9,7 +9,7 @@
               <div class="footer__widget footer__widget-5 footer-col-5-1">
                 <div class="footer__logo">
                   <nuxt-link href="/">
-                    <img width="230px" src="~/assets/img/logo/logo-white.svg" alt="">
+                    <img src="~/assets/img/logo/logo-white.svg" alt="">
                   </nuxt-link>
                 </div>
                 <div class="footer__widget-content">
