@@ -110,13 +110,16 @@
                   <div class="tec-icon pt-20">
                     <ul class="servc-icon-sldr">
                       <li><nuxt-link href="/">
-                          <div class="img-iconbb"><img src="~/assets/img/icon/application_implementation.png" alt="img"></div>
+                        <div class="img-iconbb"><img src="~/assets/img/home/zaproxy.svg" alt="img"></div>
                         </nuxt-link></li>
                       <li><nuxt-link href="/">
-                          <div class="img-iconbb"><img src="~/assets/img/icon/performance-assessment.png" alt="img"></div>
+                        <div class="img-iconbb"><img src="~/assets/img/home/nmap.svg" alt="img"></div>
                         </nuxt-link></li>
                       <li><nuxt-link href="/">
-                          <div class="img-iconbb"><img src="~/assets/img/icon/application-security-services.png" alt="img"></div>
+                        <div class="img-iconbb"><img src="~/assets/img/home/burpsuite-security-software.svg" alt="img"></div>
+                        </nuxt-link></li>
+                        <li><nuxt-link href="/">
+                        <div class="img-iconbb"><img src="~/assets/img/home/metasploit-framework.svg" alt="img"></div>
                         </nuxt-link></li>
                     </ul>
                   </div>
@@ -203,16 +206,16 @@
                   <div class="tec-icon pt-20">
                     <ul class="servc-icon-sldr">
                       <li><nuxt-link href="/">
-                          <div class="img-iconbb"><img src="~/assets/img/icon/ux.svg" alt="img"></div>
+                        <div class="img-iconbb"><img src="~/assets/img/home/qlikview.svg" alt="img"></div>
                         </nuxt-link></li>
                       <li><nuxt-link href="/">
-                          <div class="img-iconbb"><img src="~/assets/img/icon/php.svg" alt="img"></div>
+                        <div class="img-iconbb"><img src="~/assets/img/home/power-bi.svg" alt="img"></div>
                         </nuxt-link></li>
                       <li><nuxt-link href="/">
-                          <div class="img-iconbb"><img src="~/assets/img/icon/java.svg" alt="img"></div>
+                        <div class="img-iconbb"><img src="~/assets/img/home/hadoop.svg" alt="img"></div>
                         </nuxt-link></li>
                       <li><nuxt-link href="/">
-                          <div class="img-iconbb"><img src="~/assets/img/icon/wordpress.svg" alt="img"></div>
+                        <div class="img-iconbb"><img src="~/assets/img/home/apache-spark.svg" alt="img"></div>
                         </nuxt-link></li>
                     </ul>
                   </div>
@@ -235,16 +238,16 @@
                   <div class="tec-icon pt-20">
                     <ul class="servc-icon-sldr">
                       <li><nuxt-link href="/">
-                          <div class="img-iconbb"><img src="~/assets/img/icon/ux.svg" alt="img"></div>
+                        <div class="img-iconbb"><img src="~/assets/img/home/zendesk.svg" alt="img"></div>
                         </nuxt-link></li>
                       <li><nuxt-link href="/">
-                          <div class="img-iconbb"><img src="~/assets/img/icon/php.svg" alt="img"></div>
+                        <div class="img-iconbb"><img src="~/assets/img/home/zoho-desk.svg" alt="img"></div>
                         </nuxt-link></li>
                       <li><nuxt-link href="/">
-                          <div class="img-iconbb"><img src="~/assets/img/icon/java.svg" alt="img"></div>
+                        <div class="img-iconbb"><img src="~/assets/img/home/solarwinds.svg" alt="img"></div>
                         </nuxt-link></li>
                       <li><nuxt-link href="/">
-                          <div class="img-iconbb"><img src="~/assets/img/icon/wordpress.svg" alt="img"></div>
+                        <div class="img-iconbb"><img src="~/assets/img/home/syssaid.svg" alt="img"></div>
                         </nuxt-link></li>
                     </ul>
                   </div>
@@ -268,16 +271,16 @@
                   <div class="tec-icon pt-20">
                     <ul class="servc-icon-sldr">
                       <li><nuxt-link href="/">
-                          <div class="img-iconbb"><img src="~/assets/img/icon/ux.svg" alt="img"></div>
+                        <div class="img-iconbb"><img src="~/assets/img/home/puppet.svg" alt="img"></div>
                         </nuxt-link></li>
                       <li><nuxt-link href="/">
-                          <div class="img-iconbb"><img src="~/assets/img/icon/php.svg" alt="img"></div>
+                        <div class="img-iconbb"><img src="~/assets/img/home/saltstack-icon.svg" alt="img"></div>
                         </nuxt-link></li>
                       <li><nuxt-link href="/">
-                          <div class="img-iconbb"><img src="~/assets/img/icon/java.svg" alt="img"></div>
+                        <div class="img-iconbb"><img src="~/assets/img/home/kubernetes.svg" alt="img"></div>
                         </nuxt-link></li>
                       <li><nuxt-link href="/">
-                          <div class="img-iconbb"><img src="~/assets/img/icon/wordpress.svg" alt="img"></div>
+                        <div class="img-iconbb"><img src="~/assets/img/home/terraform.svg" alt="img"></div>
                         </nuxt-link></li>
                     </ul>
                   </div>
@@ -294,23 +297,16 @@
                   <ul class="-service-list">
                     <li> <nuxt-link href="/">Sprinto</nuxt-link> </li>
                     <li> <nuxt-link href="/">Kali Linux.</nuxt-link> </li>
-                    <li> <nuxt-link href="/">Cain and Abel.</nuxt-link> </li>
-                    <!-- <li> <nuxt-link href="/">Metasploit</nuxt-link> </li> -->
                   </ul>
                   <div class="tec-icon pt-20">
                     <ul class="servc-icon-sldr">
                       <li><nuxt-link href="/">
-                          <div class="img-iconbb"><img src="~/assets/img/icon/ux.svg" alt="img"></div>
+                        <div class="img-iconbb"><img src="~/assets/img/home/sprinto-inc.svg" alt="img"></div>
                         </nuxt-link></li>
                       <li><nuxt-link href="/">
-                          <div class="img-iconbb"><img src="~/assets/img/icon/php.svg" alt="img"></div>
+                        <div class="img-iconbb"><img src="~/assets/img/home/kali-linux.svg" alt="img"></div>
                         </nuxt-link></li>
-                      <li><nuxt-link href="/">
-                          <div class="img-iconbb"><img src="~/assets/img/icon/java.svg" alt="img"></div>
-                        </nuxt-link></li>
-                      <li><nuxt-link href="/">
-                          <div class="img-iconbb"><img src="~/assets/img/icon/wordpress.svg" alt="img"></div>
-                        </nuxt-link></li>
+                    
                     </ul>
                   </div>
                   <p class="mt20">With over a decade of expertise in information security and adherence to management best
