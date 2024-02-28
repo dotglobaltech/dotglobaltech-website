@@ -13540,7 +13540,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .header__sticky.header-sticky .logo-border {
-  padding: 14px 0;
+  padding: 6px 0;
 }
 
 .header__sticky.header-sticky .logo-border::after {
