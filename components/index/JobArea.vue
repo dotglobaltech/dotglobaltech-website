@@ -1,5 +1,5 @@
 <template>
-  <section class="servivces__area pt-30">
+  <section class="servivces__area pt-30 wch-bg">
     <div class="container-fluid">
       <div class="row justify-content-center">
         <div class="col-xxl-1 col-lg-1 col-md-1">

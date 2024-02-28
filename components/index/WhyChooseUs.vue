@@ -139,9 +139,10 @@
                   <span class="section__title-6-highlight"> New Project</span>
                   Together
                 </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquet ligula nec leo elementum semper.
+                <p>"Let's Collaborate on Your Next Big Idea!!
+Tell us about your project, goals, and vision. We're excited to partner with you to bring it to life!"
                 </p>
-                <div class="cta__btn-2 text-lg-center"><a aria-current="page" href="/"
+                <div class="cta__btn-2 text-lg-center"><a aria-current="page" href="/contact"
                     class="router-link-active router-link-exact-active tp-btn btn-cta bg-btn lnk"> Request A Quote<i
                       class="fas fa-chevron-right fa-icon"></i><span class="circle"></span></a></div>
               </div>
