@@ -247,7 +247,7 @@
                         <div class="img-iconbb"><img src="~/assets/img/home/solarwinds.svg" alt="img"></div>
                         </nuxt-link></li>
                       <li><nuxt-link href="/">
-                        <div class="img-iconbb"><img src="~/assets/img/home/syssaid.svg" alt="img"></div>
+                        <div class="img-iconbb"><img src="~/assets/img/home/syssaid.jpg" alt="img"></div>
                         </nuxt-link></li>
                     </ul>
                   </div>
