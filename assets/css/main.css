@@ -27872,7 +27872,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .services__item-4 {
   border: 2px solid var(--tp-border-5);
-  background-color: var(--tp-common-white);
+  background: linear-gradient(to bottom,#fdffed 0,#effff8 100%);
   padding: 25px 10px 10px;
   border-radius: 0px 30px;
   position: relative;
@@ -27938,7 +27938,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .services__item-4:hover .services__title-4 a {
-  color: var(--tp-common-white);
+  color: #050748;
 }
 
 .services__item-4:hover .services__thumb-4 {
@@ -29842,6 +29842,9 @@ only screen and (min-width: 576px) and (max-width: 767px),
   border: 1px solid rgba(255, 255, 255, 0.3019607843);
   border-radius: 50%;
   margin-left: -8px;
+  border-color: var(--tp-common-white);
+  background-color: var(--tp-common-purple);
+  color: #ffffff;
 }
 
 [dir=rtl] .services-link-btn i {
@@ -29851,8 +29854,8 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .services-link-btn:hover i {
   border-color: var(--tp-common-white);
-  background-color: var(--tp-common-white);
-  color: var(--tp-common-black);
+  background: linear-gradient(to right, #ffbd84 0%, #ff1f8e 100%);
+  color: #ffffff;
 }
 
 /*----------------------------------------*/
