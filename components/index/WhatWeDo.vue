@@ -37,12 +37,10 @@
                   <h4 class="features__title-7"><nuxt-link href="/software-development">Software Development</nuxt-link>
                   </h4>
                   <ul class="-service-list">
-                    <marquee behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();">
                       <li> <nuxt-link href="/">React</nuxt-link></li>
                       <li> <nuxt-link href="/php">Angular</nuxt-link></li>
                       <li> <nuxt-link href="/">Python</nuxt-link></li>
                       <li> <nuxt-link href="/">.Net</nuxt-link></li>
-                    </marquee>
                   </ul>
                   <div class="tec-icon pt-20">
                     <ul class="servc-icon-sldr">
