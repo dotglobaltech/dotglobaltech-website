@@ -15,7 +15,7 @@ export default {
     return {
       social_links: [
         {
-          link: "http://facebook.com",
+          link: "https://www.facebook.com/profile.php?id=61550086483260",
           target: "_blank",
           icon: "fa-brands fa-facebook-f",
           name: "Facebook",
