@@ -72,7 +72,7 @@
                     <li> <nuxt-link href="/">Selenium</nuxt-link> </li>
                     <li> <nuxt-link href="/">Appium</nuxt-link> </li>
                     <li> <nuxt-link href="/">Cypress</nuxt-link> </li>
-                    <li> <nuxt-link href="/">Cucumber</nuxt-link> </li>
+                    <!-- <li> <nuxt-link href="/">Cucumber</nuxt-link> </li> -->
                   </ul>
                   <div class="tec-icon pt-20">
                     <ul class="servc-icon-sldr">
@@ -102,9 +102,10 @@
                   <h4 class="features__title-7"><nuxt-link href="/application-services">Application Services</nuxt-link>
                   </h4>
                   <ul class="-service-list">
-                    <li> <nuxt-link href="/">Application Implementation</nuxt-link> </li>
-                    <li> <nuxt-link href="/">Application Quality & Performance Assessment</nuxt-link> </li>
-                    <li> <nuxt-link href="/">Application Security Services</nuxt-link> </li>
+                    <li> <nuxt-link href="/">OWASP ZAP</nuxt-link> </li>
+                    <li> <nuxt-link href="/">Nmap</nuxt-link> </li>
+                    <li> <nuxt-link href="/">Burp Suite</nuxt-link> </li>
+                    <!-- <li> <nuxt-link href="/">Metasploit Framework</nuxt-link> </li> -->
                   </ul>
                   <div class="tec-icon pt-20">
                     <ul class="servc-icon-sldr">
@@ -130,12 +131,10 @@
                 <div class="service-card-app hoshd">
                   <h4 class="features__title-7"><nuxt-link href="/ui-ux-design">UI/UX Design</nuxt-link></h4>
                   <ul class="-service-list">
-                    <li> <nuxt-link href="/">User Interface (UI) Design</nuxt-link> </li>
-                    <li> <nuxt-link href="/">User Experience (UX) Design</nuxt-link> </li>
-                    <li> <nuxt-link href="/">Responsive Web Design</nuxt-link> </li>
-                    <li> <nuxt-link href="/">Responsive Web App Design</nuxt-link> </li>
-                    <li> <nuxt-link href="/">E-commerce Website Design</nuxt-link> </li>
-                    <li> <nuxt-link href="/">Website and App Redesign</nuxt-link> </li>
+                    <li> <nuxt-link href="/">Figma</nuxt-link> </li>
+                    <li> <nuxt-link href="/">Marvel</nuxt-link> </li>
+                    <li> <nuxt-link href="/">Photoshop</nuxt-link> </li>
+                    <!-- <li> <nuxt-link href="/">Adobe Illustrator</nuxt-link> </li> -->
                   </ul>
                   <div class="tec-icon pt-20">
                     <ul class="servc-icon-sldr">
@@ -164,10 +163,10 @@
                 <div class="service-card-app hoshd">
                   <h4 class="features__title-7"><nuxt-link href="/">Staff Augmentation</nuxt-link></h4>
                   <ul class="-service-list">
-                    <li><nuxt-link href="/">Software Development & Testing</nuxt-link></li>
-                    <li><nuxt-link href="/">UI & UX Design Outsourcing</nuxt-link> </li>
-                    <li><nuxt-link href="/">Product Engineering</nuxt-link></li>
-                    <li><nuxt-link href="/">DevOps Engineering</nuxt-link></li>
+                    <li><nuxt-link href="/">Hubspot</nuxt-link></li>
+                    <li><nuxt-link href="/">Slack </nuxt-link> </li>
+                    <li><nuxt-link href="/">Jira</nuxt-link></li>
+                    <!-- <li><nuxt-link href="/">HipChat</nuxt-link></li> -->
                   </ul>
                   <div class="tec-icon pt-20">
                     <ul class="servc-icon-sldr">
@@ -196,13 +195,10 @@
                 <div class="service-card-app hoshd">
                   <h4 class="features__title-7"><nuxt-link href="/data-analytics">Data Analytics</nuxt-link></h4>
                   <ul class="-service-list">
-                    <li><nuxt-link href="/">Data Science</nuxt-link></li>
-                    <li><nuxt-link href="/">Data Management</nuxt-link></li>
-                    <li><nuxt-link href="/">Big Data</nuxt-link> </li>
-                    <li><nuxt-link href="/">Data Intelligence</nuxt-link> </li>
-                    <li><nuxt-link href="/">Data Warehousing</nuxt-link> </li>
-                    <li><nuxt-link href="/">Data Analytics As a Service</nuxt-link></li>
-                    <li><nuxt-link href="/">Machine Learning & Deep Learning</nuxt-link></li>
+                    <li><nuxt-link href="/">QlikView</nuxt-link></li>
+                    <li><nuxt-link href="/">Power BI</nuxt-link></li>
+                    <li><nuxt-link href="/">Hadoop</nuxt-link> </li>
+                    <!-- <li><nuxt-link href="/">Apache Spark</nuxt-link> </li> -->
                   </ul>
                   <div class="tec-icon pt-20">
                     <ul class="servc-icon-sldr">
@@ -231,10 +227,10 @@
                 <div class="service-card-app hoshd">
                   <h4 class="features__title-7"><nuxt-link href="/">Help Desk Services</nuxt-link></h4>
                   <ul class="-service-list">
-                    <li> <nuxt-link href="/">IT Help Desk Services</nuxt-link> </li>
-                    <li> <nuxt-link href="/">Help Desk Outsourcing</nuxt-link> </li>
-                    <li> <nuxt-link href="/">NOC Outsourcing</nuxt-link> </li>
-                    <li> <nuxt-link href="/">Help Desk Outsourcing for MSP</nuxt-link> </li>
+                    <li> <nuxt-link href="/">Zendesk</nuxt-link> </li>
+                    <li> <nuxt-link href="/">Zoho Desk</nuxt-link> </li>
+                    <li> <nuxt-link href="/">Solarwinds</nuxt-link> </li>
+                    <!-- <li> <nuxt-link href="/">SysAid</nuxt-link> </li> -->
                   </ul>
                   <div class="tec-icon pt-20">
                     <ul class="servc-icon-sldr">
@@ -264,12 +260,10 @@
                   <h4 class="features__title-7"><nuxt-link href="/infrastructure-services">Infrastructure
                       Services</nuxt-link></h4>
                   <ul class="-service-list">
-                    <li> <nuxt-link href="/">Managed IT Support</nuxt-link> </li>
-                    <li> <nuxt-link href="/">Networking Management Services</nuxt-link> </li>
-                    <li> <nuxt-link href="/">Cloud Consulting & Management</nuxt-link> </li>
-                    <li> <nuxt-link href="/">DevOps Consulting & Implementation</nuxt-link> </li>
-                    <li> <nuxt-link href="/">Data Center Support & Management</nuxt-link> </li>
-                    <li> <nuxt-link href="/">Virtual Desktop Consulting, Implementation & Support</nuxt-link> </li>
+                    <li> <nuxt-link href="/">Puppet</nuxt-link> </li>
+                    <li> <nuxt-link href="/">SaltStack</nuxt-link> </li>
+                    <li> <nuxt-link href="/">Kubernetes</nuxt-link> </li>
+                    <!-- <li> <nuxt-link href="/">Terraform</nuxt-link> </li> -->
                   </ul>
                   <div class="tec-icon pt-20">
                     <ul class="servc-icon-sldr">
@@ -298,14 +292,10 @@
                 <div class="service-card-app hoshd">
                   <h4 class="features__title-7"><nuxt-link href="/cybersecurity">Cybersecurity Services</nuxt-link></h4>
                   <ul class="-service-list">
-                    <li> <nuxt-link href="/">Managed Security Services</nuxt-link> </li>
-                    <li> <nuxt-link href="/">Security Testing</nuxt-link> </li>
-                    <li> <nuxt-link href="/">Security Assessment</nuxt-link> </li>
-                    <li> <nuxt-link href="/">Compliance Assessment</nuxt-link> </li>
-                    <li> <nuxt-link href="/">Security Code Review</nuxt-link> </li>
-                    <li> <nuxt-link href="/">Information Security Consulting</nuxt-link> </li>
-                    <li> <nuxt-link href="/">Penetration Testing</nuxt-link> </li>
-
+                    <li> <nuxt-link href="/">Sprinto</nuxt-link> </li>
+                    <li> <nuxt-link href="/">Kali Linux.</nuxt-link> </li>
+                    <li> <nuxt-link href="/">Cain and Abel.</nuxt-link> </li>
+                    <!-- <li> <nuxt-link href="/">Metasploit</nuxt-link> </li> -->
                   </ul>
                   <div class="tec-icon pt-20">
                     <ul class="servc-icon-sldr">
