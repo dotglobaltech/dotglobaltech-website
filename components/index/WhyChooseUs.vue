@@ -49,8 +49,7 @@
               data-sal-duration="1000">
               <div class="about__features-icon">
                 <span>
-                  <img width="35" height="35" src="~/assets/img/home/agile.svg" alt="img">
- 
+                  <img width="35" height="35" src="~/assets/img/home/agile.svg">
                 </span>
               </div>
               <div class="about__features-content">
