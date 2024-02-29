@@ -2,7 +2,7 @@
   <section class="servivces__area pt-30 wch-bg">
     <div class="container-fluid">
       <div class="row justify-content-center">
-        <div class="col-xxl-1 col-lg-1 col-md-1">
+        <div class="col-xxl-1 col-lg-1 col-4 col-sm-4 col-md-3">
           <div class="services__item-4 mb-30 transition-3 fix">
             <div class="services__thumb-4 include-bg transition-3">
               <img src="~/assets/img/services/staffing.svg" alt="">
@@ -20,7 +20,7 @@
           </div>
         </div>
 
-        <div class="col-xxl-1 col-lg-1 col-md-1">
+        <div class="col-xxl-1 col-lg-1 col-4 col-sm-4 col-md-3">
           <div class="services__item-4 mb-30 transition-3 fix">
             <div class="services__thumb-4 include-bg transition-3">
               <img src="~/assets/img/services/ai-ml.svg" alt="">
@@ -38,7 +38,7 @@
           </div>
         </div>
 
-        <div class="col-xxl-1 col-lg-1 col-md-1">
+        <div class="col-xxl-1 col-lg-1 col-4 col-sm-4 col-md-3">
           <div class="services__item-4 mb-30 transition-3 fix">
             <div class="services__thumb-4 include-bg transition-3">
               <img src="~/assets/img/services/ar.svg" alt="">
@@ -57,7 +57,7 @@
         </div>
 
 
-        <div class="col-xxl-1 col-lg-1 col-md-1">
+        <div class="col-xxl-1 col-lg-1 col-4 col-sm-4 col-md-3">
           <div class="services__item-4 mb-30 transition-3 fix">
             <div class="services__thumb-4 include-bg transition-3">
               <img src="~/assets/img/services/vr.svg" alt="">
@@ -76,7 +76,7 @@
         </div>
 
 
-        <div class="col-xxl-1 col-lg-1 col-md-1">
+        <div class="col-xxl-1 col-lg-1 col-4 col-sm-4 col-md-3">
           <div class="services__item-4 mb-30 transition-3 fix">
             <div class="services__thumb-4 include-bg transition-3">
               <img src="~/assets/img/services/metaverse.svg" alt="">
@@ -95,7 +95,7 @@
         </div>
 
 
-        <div class="col-xxl-1 col-lg-1 col-md-1">
+        <div class="col-xxl-1 col-lg-1 col-4 col-sm-4 col-md-3">
           <div class="services__item-4 mb-30 transition-3 fix">
             <div class="services__thumb-4 include-bg transition-3">
               <img src="~/assets/img/services/iot.svg" alt="">
@@ -114,7 +114,7 @@
         </div>
 
 
-        <div class="col-xxl-1 col-lg-1 col-md-1">
+        <div class="col-xxl-1 col-lg-1 col-4 col-sm-4 col-md-3">
           <div class="services__item-4 mb-30 transition-3 fix">
             <div class="services__thumb-4 include-bg transition-3">
               <img src="~/assets/img/services/bigdata.svg" alt="">
@@ -133,7 +133,7 @@
         </div>
 
 
-        <div class="col-xxl-1 col-lg-1 col-md-1">
+        <div class="col-xxl-1 col-lg-1 col-4 col-sm-4 col-md-3">
           <div class="services__item-4 mb-30 transition-3 fix">
             <div class="services__thumb-4 include-bg transition-3">
               <img src="~/assets/img/services/web.svg" alt="">
@@ -152,7 +152,7 @@
         </div>
 
 
-        <div class="col-xxl-1 col-lg-1 col-md-1">
+        <div class="col-xxl-1 col-lg-1 col-4 col-sm-4 col-md-3">
           <div class="services__item-4 mb-30 transition-3 fix">
             <div class="services__thumb-4 include-bg transition-3">
               <img src="~/assets/img/services/blockchain.svg" alt="">
@@ -171,7 +171,7 @@
         </div>
 
 
-        <div class="col-xxl-1 col-lg-1 col-md-1">
+        <div class="col-xxl-1 col-lg-1 col-4 col-sm-4 col-md-3">
           <div class="services__item-4 mb-30 transition-3 fix">
             <div class="services__thumb-4 include-bg transition-3">
               <img src="~/assets/img/services/rpa.svg" alt="">

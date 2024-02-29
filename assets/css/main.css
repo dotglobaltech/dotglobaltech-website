@@ -42682,6 +42682,17 @@ only screen and (min-width: 576px) and (max-width: 767px),
     margin-top: 20px;
   }
 
+  span.circle {
+    background: rgba(255, 255, 255, 0.2);
+    display: block;
+    position: absolute;
+    top: -10%;
+    right: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
   .subscribe__input button:hover {
     background-color: var(--tp-common-white);
     color: var(--tp-common-black-9);
@@ -47699,6 +47710,8 @@ only screen and (min-width: 576px) and (max-width: 767px),
     margin-bottom: 40px;
   }
 }
+
+
 
 .features__btn a {
   color: var(--tp-common-blue-3);
