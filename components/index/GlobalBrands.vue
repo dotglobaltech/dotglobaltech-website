@@ -1,5 +1,5 @@
 <template>
-  <section class="elements__carousel-area topbrands-bg pt-110 pb-70">
+  <section class="elements__carousel-area topbrands-bg pt-65 pb-70">
     <div class="container justify-content-top">
       <div class="row">
         <div class="col-xxl-12">

@@ -1,5 +1,5 @@
 <template>
-  <section id="tpabout" class="elements__carousel-area whatwe-bg pt-120 pb-80">
+  <section id="tpabout" class="elements__carousel-area whatwe-bg pt-60 pb-80">
     <div class="container justify-content-top">
       <div class="row">
         <div class="col-xxl-12">

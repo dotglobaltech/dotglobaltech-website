@@ -1,5 +1,5 @@
 <template>
-  <section class="counter__area counter__overlay-10 about__area wch-bg pb-100 pt-100 p-relative">
+  <section class="counter__area counter__overlay-10 about__area wch-bg pb-65 pt-100 p-relative">
     <div class="container">
       <div class="counter__inner-10">
         <div class="counter__inner-10-shape include-bg" :style="{ backgroundImage: `url(${bg})` }">

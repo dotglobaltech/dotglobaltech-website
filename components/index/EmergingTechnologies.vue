@@ -44,7 +44,7 @@
     },
 }">
                             <swiper-slide>
-                                <section :class="`pricing__area p-relative z-index-1 black-bg-5 ${el_style ? 'pt-100 pb-50' : 'pt-80 pb-50'
+                                <section :class="`pricing__area p-relative z-index-1 black-bg-5 ${el_style ? 'pt-100 pb-50' : 'pt-50 pb-50'
                                     }`">
                                     <div class="pricing__shape">
                                         <img class="pricing__shape-1" src="~/assets/img/price/price-shape-1.png" alt="" />
@@ -92,7 +92,7 @@
                             </swiper-slide>
 
                             <swiper-slide>
-                                <section :class="`pricing__area p-relative z-index-1 black-bg-5 ${el_style ? 'pt-100 pb-50' : 'pt-80 pb-50'
+                                <section :class="`pricing__area p-relative z-index-1 black-bg-5 ${el_style ? 'pt-100 pb-50' : 'pt-50 pb-50'
                                     }`">
                                     <div class="pricing__shape">
                                         <img class="pricing__shape-1" src="~/assets/img/price/price-shape-1.png" alt="" />
@@ -141,7 +141,7 @@
                             </swiper-slide>
 
                             <swiper-slide>
-                                <section :class="`pricing__area p-relative z-index-1 black-bg-5 ${el_style ? 'pt-100 pb-50' : 'pt-80 pb-50'
+                                <section :class="`pricing__area p-relative z-index-1 black-bg-5 ${el_style ? 'pt-100 pb-50' : 'pt-50 pb-50'
                                     }`">
                                     <div class="pricing__shape">
                                         <img class="pricing__shape-1" src="~/assets/img/price/price-shape-1.png" alt="" />
@@ -194,7 +194,7 @@
 
 
                             <swiper-slide>
-                                <section :class="`pricing__area p-relative z-index-1 black-bg-5 ${el_style ? 'pt-100 pb-50' : 'pt-80 pb-50'
+                                <section :class="`pricing__area p-relative z-index-1 black-bg-5 ${el_style ? 'pt-100 pb-50' : 'pt-50 pb-50'
                                     }`">
                                     <div class="pricing__shape">
                                         <img class="pricing__shape-1" src="~/assets/img/price/price-shape-1.png" alt="" />
@@ -241,7 +241,7 @@
 
 
                             <swiper-slide>
-                                <section :class="`pricing__area p-relative z-index-1 black-bg-5 ${el_style ? 'pt-100 pb-50' : 'pt-80 pb-50'
+                                <section :class="`pricing__area p-relative z-index-1 black-bg-5 ${el_style ? 'pt-100 pb-50' : 'pt-50 pb-50'
                                     }`">
                                     <div class="pricing__shape">
                                         <img class="pricing__shape-1" src="~/assets/img/price/price-shape-1.png" alt="" />
@@ -290,7 +290,7 @@
 
 
                             <swiper-slide>
-                                <section :class="`pricing__area p-relative z-index-1 black-bg-5 ${el_style ? 'pt-100 pb-50' : 'pt-80 pb-50'
+                                <section :class="`pricing__area p-relative z-index-1 black-bg-5 ${el_style ? 'pt-100 pb-50' : 'pt-50 pb-50'
                                     }`">
                                     <div class="pricing__shape">
                                         <img class="pricing__shape-1" src="~/assets/img/price/price-shape-1.png" alt="" />

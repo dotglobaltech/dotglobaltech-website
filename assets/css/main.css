@@ -11300,6 +11300,8 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
     font-weight: 500;
     font-family: var(--tp-ff-poppins);
     line-height: normal;
+    text-align: center;
+    padding-bottom: 16px;
   }
 }
 
@@ -11353,6 +11355,7 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
   font-size: 20px;
   line-height: 1.5;
   color: var(--tp-text-1);
+  text-align: justify;
 }
 
 @media (max-width: 575px) {
@@ -41520,6 +41523,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 @media (max-width: 575px) {
   .cta__title-5 {
     font-size: 38px;
+    text-align: center;
   }
 }
 
@@ -42177,6 +42181,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   color: #6a6a8e;
   display: inline-block;
   margin-top: 20px;
+  text-align: justify;
 }
 
 .cta__content-6 {

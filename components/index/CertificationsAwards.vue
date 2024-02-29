@@ -1,5 +1,5 @@
 <template>
-    <section :class="`brand__area wide-bg pt-100 pb-100 ${spacing ? '' : ''} ${el_style ? '' : ''
+    <section :class="`brand__area wide-bg pt-65 pb-100 ${spacing ? '' : ''} ${el_style ? '' : ''
         }`">
         <div class="container-fluid g-0">
             <div v-if="el_style" class="row gx-0">
