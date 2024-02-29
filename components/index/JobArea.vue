@@ -30,10 +30,10 @@
             </div>
             <div class="services__content-4 transition-3">
               <h4 class="services__title-4">
-                <nuxt-link href="/">AI/ML</nuxt-link>
+                <nuxt-link href="/artificial-intelligence">AI/ML</nuxt-link>
               </h4>
             </div>
-            <nuxt-link href="/" class="services-link-btn"> <i class="fa-regular fa-arrow-right"></i>
+            <nuxt-link href="/artificial-intelligence" class="services-link-btn"> <i class="fa-regular fa-arrow-right"></i>
             </nuxt-link>
           </div>
         </div>
@@ -86,10 +86,10 @@
             </div>
             <div class="services__content-4 transition-3">
               <h4 class="services__title-4">
-                <nuxt-link href="/">Metaverse</nuxt-link>
+                <nuxt-link href="/metaverse-as-a-service">Metaverse</nuxt-link>
               </h4>
             </div>
-            <nuxt-link href="/" class="services-link-btn"> <i class="fa-regular fa-arrow-right"></i>
+            <nuxt-link href="/metaverse-as-a-service" class="services-link-btn"> <i class="fa-regular fa-arrow-right"></i>
             </nuxt-link>
           </div>
         </div>
@@ -124,10 +124,10 @@
             </div>
             <div class="services__content-4 transition-3">
               <h4 class="services__title-4">
-                <nuxt-link href="/">BigData</nuxt-link>
+                <nuxt-link href="/big-data">BigData</nuxt-link>
               </h4>
             </div>
-            <nuxt-link href="/" class="services-link-btn"> <i class="fa-regular fa-arrow-right"></i>
+            <nuxt-link href="/big-data" class="services-link-btn"> <i class="fa-regular fa-arrow-right"></i>
             </nuxt-link>
           </div>
         </div>
@@ -143,10 +143,10 @@
             </div>
             <div class="services__content-4 transition-3">
               <h4 class="services__title-4">
-                <nuxt-link href="/">Web</nuxt-link>
+                <nuxt-link href="/web-development">Web</nuxt-link>
               </h4>
             </div>
-            <nuxt-link href="/" class="services-link-btn"> <i class="fa-regular fa-arrow-right"></i>
+            <nuxt-link href="/web-development" class="services-link-btn"> <i class="fa-regular fa-arrow-right"></i>
             </nuxt-link>
           </div>
         </div>
@@ -162,10 +162,10 @@
             </div>
             <div class="services__content-4 transition-3">
               <h4 class="services__title-4">
-                <nuxt-link href="/">Blockchain</nuxt-link>
+                <nuxt-link href="/blockchain">Blockchain</nuxt-link>
               </h4>
             </div>
-            <nuxt-link href="/" class="services-link-btn"> <i class="fa-regular fa-arrow-right"></i>
+            <nuxt-link href="/blockchain" class="services-link-btn"> <i class="fa-regular fa-arrow-right"></i>
             </nuxt-link>
           </div>
         </div>
