@@ -30,6 +30,13 @@
                     <img class="logo-light" src="~/assets/img/logo/logo.svg" alt="logo" />
                     <img class="logo-dark" src="~/assets/img/logo/logo-white.svg" alt="logo" />
                   </nuxt-link>
+
+                  <nuxt-link href="/" v-if="header_solid">
+                    <img src="~/assets/img/logo/logo-black.svg" alt="logo" />
+                  </nuxt-link>
+                  <nuxt-link href="/" v-if="header_black">
+                    <img src="~/assets/img/logo/logo-black.svg" alt="logo" />
+                  </nuxt-link>
                 </div>
               </div>
               <div class="col-xxl-7 col-xl-7 col-lg-7 d-none d-lg-block">
