@@ -1,8 +1,9 @@
 <template>
   <LayoutOne>
     <HomeHero />
-    <job-area :style_2="true"/>
+    <CoreServices :style_2="true"/>
     <WhatWeDo />
+    <SoultionSlider />
     <OurSolutions />
     <GlobalBrands />
     <CertificationsAwards />
@@ -20,8 +21,9 @@
 <script setup>
 import LayoutOne from '~/layouts/LayoutOne.vue';
 import HomeHero from '~/components/index/HomeHero.vue'
-import JobArea from '~~/components/index/JobArea.vue';
+import CoreServices from '~~/components/index/CoreServices.vue';
 import WhatWeDo from "~/components/index/WhatWeDo.vue";
+import SoultionSlider from "~/components/index/SoultionSlider.vue";
 import GlobalBrands from "~/components/index/GlobalBrands.vue";
 import OurSolutions from "~/components/index/OurSolutions.vue";
 import CertificationsAwards from '~/components/index/CertificationsAwards.vue';
