@@ -11,10 +11,7 @@
       </div>
       <div class="vision__content">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. consectetur
-          numquam magnam, sed perspiciatis mollitia nesciunt amet, consequuntur
-          error culpa nobis dolore asperiores eum non quasi duis cursus, mi quis
-          viverra ornare, eros dolor interdum nulla, commodo diam libero.
+          Our BMC Helix Discovery Support Services help you discover and catalog all your IT assets, including hardware, software, and services – regardless of their location.
         </p>
 
         <div class="vision__list">

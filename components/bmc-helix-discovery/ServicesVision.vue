@@ -4,8 +4,8 @@
       <div class="row">
         <div class="col-xxl-8 col-xl-9 col-lg-10">
           <div class="tp-section-wrapper-2 mb-60">
-            <span class="tp-section-subtitle-2">Vision for the city</span>
-            <h3 class="tp-section-title-2">Our various types of services especially for you</h3>
+            <h3 class="tp-section-title-2">What is BMC Helix Discovery?</h3>
+            <span class="tp-section-subtitle-2">BMC Helix Discovery is a cloud-native, SaaS-based solution that automates data discovery and application dependency mapping across your entire IT landscape. It provides</span>
           </div>
         </div>
       </div>
@@ -27,7 +27,7 @@
                         d="M10.9961 21.5196C12.0661 21.5196 12.9336 20.6868 12.9336 19.6596C12.9336 18.6323 12.0661 17.7996 10.9961 17.7996C9.92604 17.7996 9.05859 18.6323 9.05859 19.6596C9.05859 20.6868 9.92604 21.5196 10.9961 21.5196Z"
                         stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                     </svg>
-                  </span>Mobile App
+                  </span>Complete inventory management
                 </button>
               </li>
               <li class="nav-item" role="presentation" data-sal="slide-up" data-sal-delay="130" data-sal-duration="1000">
