@@ -10,7 +10,7 @@
       <div class="row justify-content-center">
         <div class="col-xxl-8 col-xl-8 col-lg-10">
           <div class="breadcrumb__content text-center p-relative z-index-1">
-            <h3 class="breadcrumb__title">We Offer a Wide Range of Services</h3>
+            <h3 class="breadcrumb__title">BMC Helix Remedyforce</h3>
             <div class="breadcrumb__list">
               <span><a href="#">Home</a></span>
               <span class="dvdr"><i class="fa-solid fa-circle-small"></i></span>

@@ -7,6 +7,7 @@
     <about-faqs />
     <home-teams :style_2="true" />
     <agency-brands :spacing="true" :style_2="true" />
+    <HomeCTA />
     <FooterFour />
     <footer-eight/>
     <back-to-top />
@@ -21,6 +22,7 @@ import PersonalPortAwards from "~~/components/awards/PersonalPortAwards.vue";
 import AboutFaqs from "~~/components/faqs/AboutFaqs.vue";
 import HomeTeams from "~~/components/teams/HomeTeams.vue";
 import AgencyBrands from '~~/components/brands/AgencyBrands.vue';
+import HomeCTA from "~/components/subscribe/SubscribeNow.vue";
 import FooterFour from '~~/layouts/footers/FooterFour.vue';
 import FooterEight from '~~/layouts/footers/FooterEight.vue';
 import BackToTop from "~~/layouts/footers/component/BackToTop.vue";
@@ -35,6 +37,7 @@ export default {
     AboutFaqs,
     HomeTeams,
     AgencyBrands,
+    HomeCTA,
     FooterFour,
     FooterEight,
   },
