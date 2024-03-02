@@ -5,8 +5,7 @@
     <home-services :style_2="true" />
     <BMCServicesAbout/>
     <services-vision/>
-    <home-portfolio :style_2="true" />
-    <services-support-area/>
+    <HelixFaqArea />
     <HomeCTA />
     <FooterFour />
     <footer-eight/>
@@ -20,8 +19,7 @@ import ServiceBreadcrumb from '~~/components/bmc-helix-discovery/ServiceBreadcru
 import HomeServices from '~~/components/bmc-helix-discovery/HomeServices.vue';
 import BMCServicesAbout from '~~/components/bmc-helix-discovery/BMCServicesAbout.vue';
 import ServicesVision from '~~/components/bmc-helix-discovery/ServicesVision.vue';
-import HomePortfolio from '~~/components/bmc-helix-discovery/HomePortfolio.vue';
-import ServicesSupportArea from '~~/components/bmc-helix-discovery/ServicesSupportArea.vue';
+import HelixFaqArea from '~~/components/bmc-helix-discovery/HelixFaqArea.vue';
 import HomeCTA from "~/components/subscribe/SubscribeNow.vue";
 import FooterFour from '~~/layouts/footers/FooterFour.vue';
 import FooterEight from '~~/layouts/footers/FooterEight.vue';
@@ -34,8 +32,7 @@ export default {
     HomeServices,
     BMCServicesAbout,
     ServicesVision,
-    HomePortfolio,
-    ServicesSupportArea,
+    HelixFaqArea,
     FooterFour,
     FooterEight,
     HomeCTA,

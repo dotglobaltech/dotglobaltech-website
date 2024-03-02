@@ -4,7 +4,8 @@
     <faq-breadcrumb/>
     <faq-thumb/>
     <faq-area/>
-    <footer-six :style_2="true"/>
+    <FooterFour />
+    <footer-eight/>
     <back-to-top/>
   </div>
 </template>
@@ -14,7 +15,8 @@ import HeaderOne from "~~/layouts/headers/HeaderOne.vue";
 import FaqBreadcrumb from '~~/components/breadcrumb/FaqBreadcrumb.vue';
 import FaqThumb from '~~/components/faqs/FaqThumb.vue';
 import FaqArea from '~~/components/faqs/FaqArea.vue';
-import FooterSix from '~~/layouts/footers/FooterSix.vue';
+import FooterFour from '~~/layouts/footers/FooterFour.vue';
+import FooterEight from '~~/layouts/footers/FooterEight.vue';
 import BackToTop from '~~/layouts/footers/component/BackToTop.vue';
 
 export default {
@@ -23,7 +25,8 @@ export default {
     FaqBreadcrumb,
     FaqThumb,
     FaqArea,
-    FooterSix,
+    FooterFour,
+    FooterEight,
     BackToTop,
   },
   setup() {

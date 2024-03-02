@@ -5,8 +5,7 @@
     <home-services :style_2="true" />
     <BMCServicesAbout/>
     <services-vision/>
-    <home-portfolio :style_2="true" />
-    <services-support-area/>
+    <RemedyFaqArea />
     <HomeCTA />
     <FooterFour />
     <footer-eight/>
@@ -20,8 +19,7 @@ import ServiceBreadcrumb from '~~/components/bmc-helix-remedyforce/ServiceBreadc
 import HomeServices from '~~/components/bmc-helix-remedyforce/HomeServices.vue';
 import BMCServicesAbout from '~~/components/bmc-helix-remedyforce/BMCServicesAbout.vue';
 import ServicesVision from '~~/components/bmc-helix-remedyforce/ServicesVision.vue';
-import HomePortfolio from '~~/components/bmc-helix-remedyforce/HomePortfolio.vue';
-import ServicesSupportArea from '~~/components/bmc-helix-remedyforce/ServicesSupportArea.vue';
+import RemedyFaqArea from '~~/components/bmc-helix-remedyforce/RemedyFaqArea.vue';
 import HomeCTA from "~/components/subscribe/SubscribeNow.vue";
 import FooterFour from '~~/layouts/footers/FooterFour.vue';
 import FooterEight from '~~/layouts/footers/FooterEight.vue';
@@ -35,8 +33,7 @@ export default {
     HomeServices,
     BMCServicesAbout,
     ServicesVision,
-    HomePortfolio,
-    ServicesSupportArea,
+    RemedyFaqArea,
     FooterFour,
     FooterEight,
     HomeCTA,
