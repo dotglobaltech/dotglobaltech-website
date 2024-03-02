@@ -45668,7 +45668,8 @@ only screen and (min-width: 576px) and (max-width: 767px),
 @media only screen and (min-width: 576px) and (max-width: 767px),
 (max-width: 575px) {
   .contact__form-3 {
-    padding: 60px 25px 70px 30px;
+    padding: 50px 10px 30px 10px;
+    margin-right: 1px;
   }
 }
 
