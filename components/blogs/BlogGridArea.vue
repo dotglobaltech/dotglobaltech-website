@@ -18,6 +18,7 @@
         </div>
       </div>
 
+
       <div class="row justify-content-center">
         <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6" v-for="blog in blogs.slice(
           (currentPage - 1) * perPage,
@@ -87,12 +88,15 @@
 </template>
 
 <script>
-
+import blogData from '~~/mixins/blogData';
 import BlogPagination from '../common/pagination/BlogPagination.vue';
 import axios from 'axios'
 
 export default {
-  components: { BlogPagination },
+  components: {
+    BlogPagination,
+  },
+  mixins: [blogData],
   data() {
     return {
       blogs: [],
