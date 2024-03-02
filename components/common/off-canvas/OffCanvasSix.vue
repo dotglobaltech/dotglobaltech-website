@@ -276,7 +276,7 @@
                   </span>
                 </div>
                 <div class="footer__info-text-6">
-                  <a href="tel:+966505522815">+966 505522815</a>
+                  <a href="tel:+966502425301">+966 502425301</a>
                 </div>
               </div>
             </div>

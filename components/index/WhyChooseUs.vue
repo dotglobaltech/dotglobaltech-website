@@ -154,7 +154,7 @@ Tell us about your project, goals, and vision. We're excited to partner with you
   </section>
 
   <!-- video modal start -->
-  <video-modal ref="video_modal" video-url="https://www.youtube.com/embed/z4dQmpf5PLM" />
+  <!-- <video-modal ref="video_modal" video-url="https://www.youtube.com/embed/z4dQmpf5PLM" /> -->
   <!-- video modal end -->
 </template>
 

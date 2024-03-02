@@ -60,7 +60,7 @@
             <div class="features__content-13">
               <h3 class="features__title-13">Saudi Arabia</h3>
               <p></p>
-              <p><strong>+966 505522815</strong></p>
+              <p><strong>+966 s502425301</strong></p>
             </div>
           </div>
         </div>
