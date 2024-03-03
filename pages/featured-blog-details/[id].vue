@@ -1,0 +1,54 @@
+<template>
+    <header-one :top_bar="false" :header_solid="true" :commonOffcanvas="true" />
+    <blog-breadcrumb title="Our Blog" subtitle="Blog" />
+    <div>
+        <div v-if="details !== null">
+            <FeaturedBlogDetails v-bind:detailsContent="details" />
+        </div>
+        <HomeCTA />
+        <FooterFour />
+        <footer-eight />
+        <back-to-top />
+    </div>
+</template>
+
+<script>
+import HeaderOne from "~~/layouts/headers/HeaderOne.vue";
+import BlogBreadcrumb from '~~/components/breadcrumb/BlogBreadcrumb.vue';
+import FeaturedBlogDetails from '../../components/blogs/FeaturedBlogDetails.vue';//'../../../components/blogs/FeaturedBlogDetails'
+import HomeCTA from "~/components/subscribe/SubscribeNow.vue";
+import FooterFour from '~~/layouts/footers/FooterFour.vue';
+import FooterEight from '~~/layouts/footers/FooterEight.vue';
+import BackToTop from '~~/layouts/footers/component/BackToTop.vue';
+import axios from 'axios';
+import { useRouter, useRoute } from 'vue-router'
+export default {
+    components: {
+        HeaderOne,
+        BlogBreadcrumb,
+        FeaturedBlogDetails,
+        HomeCTA,
+        FooterFour,
+        FooterEight,
+        BackToTop,
+    },
+
+    data() {
+        return {
+            details: null
+        }
+    },
+
+    created: async function () {
+        const route = useRoute();
+        const slug = route.params.id;
+
+        //onst { slug } = this.$route.params
+        console.log('----details------', this.details);
+
+        const reaponse = await axios.get(`https://evolvestrapi.pbwebvision.in/api/blogs?filters[slug][$eq]=${slug}&populate=*`, { params: { slug } })
+        console.log('----details------', this.details);
+        this.details = reaponse.data.data;
+    }
+};
+</script>
