@@ -21,7 +21,7 @@ export default {
           name: "Facebook",
         },
         {
-          link: "http://twitter.com",
+          link: "https://twitter.com/dotglobaltech",
           target: "_blank",
           icon: "fa-brands fa-twitter",
           name: "Twitter",
