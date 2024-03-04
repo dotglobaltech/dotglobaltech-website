@@ -21,7 +21,7 @@ import FooterFour from '~~/layouts/footers/FooterFour.vue';
 import FooterEight from '~~/layouts/footers/FooterEight.vue';
 import BackToTop from '~~/layouts/footers/component/BackToTop.vue';
 import axios from 'axios';
-import { useRouter, useRoute } from 'vue-router'
+import { useRoute } from 'vue-router'
 export default {
     components: {
         HeaderOne,
@@ -32,22 +32,15 @@ export default {
         FooterEight,
         BackToTop,
     },
-
     data() {
         return {
             details: null
         }
     },
-
     created: async function () {
         const route = useRoute();
         const slug = route.params.id;
-
-        //onst { slug } = this.$route.params
-        console.log('----details------', this.details);
-
         const reaponse = await axios.get(`https://evolvestrapi.pbwebvision.in/api/blogs?filters[slug][$eq]=${slug}&populate=*`, { params: { slug } })
-        console.log('----details------', this.details);
         this.details = reaponse.data.data;
     }
 };
