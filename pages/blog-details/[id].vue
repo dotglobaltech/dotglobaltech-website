@@ -1,9 +1,9 @@
 <template>
     <header-one :top_bar="false" :header_solid="true" :commonOffcanvas="true" />
-    <blog-breadcrumb title="Our Blog" subtitle="Blog" />
+    <blog-details-breadcrumb v-if="details !== null" :pageTitle="details[0].attributes.title" pageDesc="News and Insights"/>
     <div>
         <div v-if="details !== null">
-            <FeaturedBlogDetails v-bind:detailsContent="details" />
+            <BlogDetails v-bind:detailsContent="details" />
         </div>
         <HomeCTA />
         <FooterFour />
@@ -14,8 +14,8 @@
 
 <script>
 import HeaderOne from "~~/layouts/headers/HeaderOne.vue";
-import BlogBreadcrumb from '~~/components/breadcrumb/BlogBreadcrumb.vue';
-import FeaturedBlogDetails from '../../components/blogs/FeaturedBlogDetails.vue';//'../../../components/blogs/FeaturedBlogDetails'
+import BlogDetailsBreadcrumb from '~~/components/blog-grid/BlogDetailsBreadcrumb.vue';
+import BlogDetails from '~~/components/blog-grid/BlogDetails.vue';
 import HomeCTA from "~/components/subscribe/SubscribeNow.vue";
 import FooterFour from '~~/layouts/footers/FooterFour.vue';
 import FooterEight from '~~/layouts/footers/FooterEight.vue';
@@ -25,8 +25,8 @@ import { useRoute } from 'vue-router'
 export default {
     components: {
         HeaderOne,
-        BlogBreadcrumb,
-        FeaturedBlogDetails,
+        BlogDetailsBreadcrumb,
+        BlogDetails,
         HomeCTA,
         FooterFour,
         FooterEight,
@@ -40,7 +40,7 @@ export default {
     created: async function () {
         const route = useRoute();
         const slug = route.params.id;
-        const reaponse = await axios.get(`https://evolvestrapi.pbwebvision.in/api/blogs?filters[slug][$eq]=${slug}&populate=*`, { params: { slug } })
+        const reaponse = await axios.get(`https://cms.dotglobaltech.com/api/blogs?filters[slug][$eq]=${slug}&populate=*`, { params: { slug } })
         this.details = reaponse.data.data;
     }
 };

@@ -8,16 +8,15 @@
               <a href="#">Blogs</a>
             </div>
             <h3 class="breadcrumb__title">
-              Investment Trend <br />
-              Monitor: Top Trends in 2022
+              {{ pageTitle }}
             </h3>
 
             <div class="breadcrumb__list">
               <span><a href="#">Home</a></span>
               <span class="dvdr"><i class="fa-solid fa-circle-small"></i></span>
-              <span><a href="#">Business</a></span>
+              <span><a href="#">Blogs</a></span>
               <span class="dvdr"><i class="fa-solid fa-circle-small"></i></span>
-              <span>Investment Trend Monitor: Top Trends in 2022 </span>
+              <span>{{ pageDesc }}</span>
             </div>
           </div>
         </div>
@@ -27,5 +26,8 @@
 </template>
 
 <script>
-export default {};
+export default {
+  name: 'PageTitle',
+  props: ['pageTitle', 'pageDesc']
+};
 </script>

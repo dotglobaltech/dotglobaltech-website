@@ -6792,6 +6792,10 @@ span.circle2{background: rgba(255, 255, 255, 0.2); display: block; position: abs
   background: linear-gradient(180deg, #E0EFFF, #FFEFF5);
 }
 
+.blog-bg-4 {
+  background-color: var(--tp-grey-4);
+}
+
 .form-bg-4 {
   background: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
 }
