@@ -282,7 +282,7 @@ export default {
           submenus: [
             { title: "About Us", link: "/about" },
             { title: "Blogs", link: "/blogs" },
-            { title: "case Studies", link: "/case-studies" },
+            { title: "Case Studies", link: "/case-studies" },
             { title: "Portfolio", link: "/portfolio-2" },
             { title: "Job Opening", link: "/job-opening" },
             { title: "Testimonials", link: "/testimonials" },
