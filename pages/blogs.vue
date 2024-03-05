@@ -5,7 +5,6 @@
     <blog-grid-area />
     <HomeCTA />
     <FooterFour />
-    <BrandStyle />
     <FooterEight />
     <back-to-top />
   </div>
@@ -18,11 +17,10 @@ import BlogGridArea from '~~/components/blog-grid/BlogGridArea.vue';
 import HomeCTA from "~/components/subscribe/SubscribeNow.vue";
 import FooterFour from '~~/layouts/footers/FooterFour.vue';
 import FooterEight from '~~/layouts/footers/FooterEight.vue';
-import BrandStyle from '~/components/index/BrandStyle.vue';
 import BackToTop from '~~/layouts/footers/component/BackToTop.vue';
 
 export default {
-  components: { HeaderOne, BlogBreadcrumb, BlogGridArea, HomeCTA, FooterFour, FooterEight, BrandStyle, BackToTop, },
+  components: { HeaderOne, BlogBreadcrumb, BlogGridArea, HomeCTA, FooterFour, FooterEight, BackToTop, },
   setup() {
     useHead({
       title: "Blogs - Dot Global Technologies",
