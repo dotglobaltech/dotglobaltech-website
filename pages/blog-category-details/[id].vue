@@ -1,7 +1,6 @@
 <template>
     <header-one :top_bar="false" :header_solid="true" :commonOffcanvas="true" />
-    <blog-details-breadcrumb v-if="details !== null" :pageTitle="details[0].attributes.title"
-        pageDesc="News and Insights" />
+    <blog-details-breadcrumb />
     <div>
         <div v-if="category !== null">
             <BlogGridCategoryArea v-bind:detailsContent="category" />
