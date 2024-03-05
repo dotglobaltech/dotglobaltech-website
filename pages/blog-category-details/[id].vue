@@ -1,10 +1,10 @@
 <template>
     <header-one :top_bar="false" :header_solid="true" :commonOffcanvas="true" />
-    <blog-details-breadcrumb />
+    <blog-breadcrumb title="Our Blog" subtitle="Blog" />
     <div>
         <div v-if="category !== null">
-            <BlogGridCategoryArea v-bind:detailsContent="category" />
-        </div>
+      <BlogGridCategoryArea v-bind:detailsContent="category" />
+    </div>
         <HomeCTA />
         <FooterFour />
         <footer-eight />
@@ -14,9 +14,9 @@
 
 <script>
 import HeaderOne from "~~/layouts/headers/HeaderOne.vue";
-import BlogDetailsBreadcrumb from '~~/components/blog-grid/BlogDetailsBreadcrumb.vue';
+import BlogBreadcrumb from '~~/components/blog-grid/BlogBreadcrumb.vue';
 import BlogGridCategoryArea from '~~/components/blog-grid/BlogGridCategoryArea.vue';
-import HomeCTA from "~/components/subscribe/SubscribeNow.vue";
+import HomeCTA from "~~/components/subscribe/SubscribeNow.vue";
 import FooterFour from '~~/layouts/footers/FooterFour.vue';
 import FooterEight from '~~/layouts/footers/FooterEight.vue';
 import BackToTop from '~~/layouts/footers/component/BackToTop.vue';
@@ -25,7 +25,7 @@ import { useRoute } from 'vue-router'
 export default {
     components: {
         HeaderOne,
-        BlogDetailsBreadcrumb,
+        BlogBreadcrumb,
         BlogGridCategoryArea,
         HomeCTA,
         FooterFour,
@@ -33,15 +33,25 @@ export default {
         BackToTop,
     },
     data() {
-        return {
-            category: null,
-        }
-    },
-    created: async function () {
+    return {
+      category: null,
+    };
+  },
+  mounted() {
+    this.fetchCategories();
+  },
+    methods: {
+    async fetchCategories() {
+      try {
         const route = useRoute();
         const slug = route.params.id;
-        const reaponse = await axios.get(`https://cms.dotglobaltech.com/api/blogs?filters[slug][$eq]=${slug}&populate=deep,5`, { params: { slug } })
-        this.details = reaponse.data.data;
-    }
+        const reaponse = await axios.get(`https://cms.dotglobaltech.com/api/blog-categories?filters[slug][$eq]=${slug}&populate=deep,5`, { params: { slug } })
+        this.category = reaponse.data.data.sort((b, a) => a.id - b.id);
+        this.rows = this.category?.length;
+      } catch (error) {
+        console.error(error);
+      }
+    },
+  },
 };
 </script>
