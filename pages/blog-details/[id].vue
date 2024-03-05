@@ -1,6 +1,7 @@
 <template>
     <header-one :top_bar="false" :header_solid="true" :commonOffcanvas="true" />
-    <blog-details-breadcrumb v-if="details !== null" :pageTitle="details[0].attributes.title" pageDesc="News and Insights"/>
+    <blog-details-breadcrumb v-if="details !== null" :pageTitle="details[0].attributes.title"
+        pageDesc="News and Insights" />
     <div>
         <div v-if="details !== null">
             <BlogDetails v-bind:detailsContent="details" />

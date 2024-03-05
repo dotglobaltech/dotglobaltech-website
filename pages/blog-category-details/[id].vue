@@ -1,15 +1,15 @@
 <template>
-    <header-one :top_bar="false" :header_solid="true" :commonOffcanvas="true" />
-    <blog-breadcrumb title="Our Blog" subtitle="Blog" />
-    <div>
-        <div v-if="category !== null">
+  <header-one :top_bar="false" :header_solid="true" :commonOffcanvas="true" />
+  <blog-breadcrumb title="Our Blog" subtitle="Blog" />
+  <div>
+    <div v-if="category !== null">
       <BlogGridCategoryArea v-bind:detailsContent="category" />
     </div>
-        <HomeCTA />
-        <FooterFour />
-        <footer-eight />
-        <back-to-top />
-    </div>
+    <HomeCTA />
+    <FooterFour />
+    <footer-eight />
+    <back-to-top />
+  </div>
 </template>
 
 <script>
@@ -23,16 +23,16 @@ import BackToTop from '~~/layouts/footers/component/BackToTop.vue';
 import axios from 'axios';
 import { useRoute } from 'vue-router'
 export default {
-    components: {
-        HeaderOne,
-        BlogBreadcrumb,
-        BlogGridCategoryArea,
-        HomeCTA,
-        FooterFour,
-        FooterEight,
-        BackToTop,
-    },
-    data() {
+  components: {
+    HeaderOne,
+    BlogBreadcrumb,
+    BlogGridCategoryArea,
+    HomeCTA,
+    FooterFour,
+    FooterEight,
+    BackToTop,
+  },
+  data() {
     return {
       category: null,
     };
@@ -40,7 +40,7 @@ export default {
   mounted() {
     this.fetchCategories();
   },
-    methods: {
+  methods: {
     async fetchCategories() {
       try {
         const route = useRoute();
