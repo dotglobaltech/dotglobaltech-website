@@ -1,6 +1,6 @@
 <template>
   <header-one :top_bar="false" :header_solid="true" :commonOffcanvas="true" />
-  <blog-breadcrumb title="Our Blog" subtitle="Blog" />
+  <blog-breadcrumb title="Our Blog categories" subtitle="Blog" />
   <div>
     <div v-if="category !== null">
       <BlogGridCategoryArea v-bind:detailsContent="category" />
