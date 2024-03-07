@@ -40350,8 +40350,8 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .brand__item-5 {
-  width: 260px !important;
-  height: 160px;
+  width: 170px !important;
+  height: 110px;
   border: 1px solid rgba(4, 18, 31, 0.1019607843);
   text-align: center;
   line-height: 160px;
@@ -40496,7 +40496,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .brand__style-square .brand__item-5 {
-  border-radius: 0;
+  border-radius: 8pv;
 }
 
 /*----------------------------------------*/
