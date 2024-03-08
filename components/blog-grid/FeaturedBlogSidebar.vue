@@ -37,7 +37,7 @@
       <div class="sidebar__widget-content">
         <ul>
           <li v-for="featuredcategory in featuredcategories" :key="featuredcategory.id">
-            <router-link :to="`/blog-category-details/${featuredcategory.attributes.slug}`">
+            <router-link :to="`/featured-blog-category-details/${featuredcategory.attributes.slug}`">
               {{ featuredcategory.attributes.name }}</router-link>
           </li>
         </ul>
