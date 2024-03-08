@@ -1,7 +1,6 @@
 <template>
     <header-one :top_bar="false" :header_solid="true" :commonOffcanvas="true" />
-    <blog-details-breadcrumb v-if="details !== null" :pageTitle="details[0].attributes.title"
-        pageDesc="News and Insights" />
+    <DetailsBreadcrumb v-if="details !== null" :pageTitle="details[0].attributes.title" pageDesc="News and Insights" />
     <div>
         <div v-if="details !== null">
             <CaseDetails v-bind:detailsContent="details" />
@@ -15,7 +14,7 @@
 
 <script>
 import HeaderOne from "~~/layouts/headers/HeaderOne.vue";
-import BlogDetailsBreadcrumb from '~~/components/case-studies/BlogDetailsBreadcrumb.vue';
+import DetailsBreadcrumb from '~~/components/case-studies/DetailsBreadcrumb.vue';
 import CaseDetails from '~~/components/case-studies/CaseDetails.vue';
 import HomeCTA from "~/components/subscribe/SubscribeNow.vue";
 import FooterFour from '~~/layouts/footers/FooterFour.vue';
@@ -26,7 +25,7 @@ import { useRoute } from 'vue-router'
 export default {
     components: {
         HeaderOne,
-        BlogDetailsBreadcrumb,
+        DetailsBreadcrumb,
         CaseDetails,
         HomeCTA,
         FooterFour,
