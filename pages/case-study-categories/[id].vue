@@ -1,9 +1,9 @@
 <template>
   <header-one :top_bar="false" :header_solid="true" :commonOffcanvas="true" />
-  <blog-breadcrumb title="Case Studies Category" subtitle="Blog" />
+  <Breadcrumb title="Case Studies Category" subtitle="Cast Studies" />
   <div>
     <div v-if="category !== null">
-      <CaseStudiesCategoryArea v-bind:detailsContent="category" />
+      <CategoryGridContents v-bind:detailsContent="category" />
     </div>
     <HomeCTA />
     <FooterFour />
@@ -14,8 +14,8 @@
 
 <script>
 import HeaderOne from "~~/layouts/headers/HeaderOne.vue";
-import BlogBreadcrumb from '~~/components/case-studies/BlogBreadcrumb.vue';
-import CaseStudiesCategoryArea from '~~/components/case-studies/CaseStudiesCategoryArea.vue';
+import Breadcrumb from '~~/components/case-studies/Breadcrumb.vue';
+import CategoryGridContents from '~~/components/case-studies/CategoryGridContents.vue';
 import HomeCTA from "~~/components/subscribe/SubscribeNow.vue";
 import FooterFour from '~~/layouts/footers/FooterFour.vue';
 import FooterEight from '~~/layouts/footers/FooterEight.vue';
@@ -25,8 +25,8 @@ import { useRoute } from 'vue-router'
 export default {
   components: {
     HeaderOne,
-    BlogBreadcrumb,
-    CaseStudiesCategoryArea,
+    Breadcrumb,
+    CategoryGridContents,
     HomeCTA,
     FooterFour,
     FooterEight,

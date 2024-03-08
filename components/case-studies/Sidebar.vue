@@ -37,7 +37,7 @@
       <div class="sidebar__widget-content">
         <ul>
           <li v-for="casestudiescategory in casestudiescategories" :key="casestudiescategory.id">
-            <router-link :to="`/case-studies-category-details/${casestudiescategory.attributes.slug}`">
+            <router-link :to="`/case-study-categories/${casestudiescategory.attributes.slug}`">
               {{ casestudiescategory.attributes.name }}</router-link>
           </li>
         </ul>
