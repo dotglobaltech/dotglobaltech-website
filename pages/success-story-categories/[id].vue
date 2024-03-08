@@ -1,6 +1,6 @@
 <template>
   <header-one :top_bar="false" :header_solid="true" :commonOffcanvas="true" />
-  <Breadcrumb title="Case Studies Category" subtitle="Cast Studies" />
+  <Breadcrumb title="Success Stories Category" subtitle="Success Stories Category" />
   <div>
     <div v-if="category !== null">
       <CategoryGridContents v-bind:detailsContent="category" />
@@ -45,7 +45,7 @@ export default {
       try {
         const route = useRoute();
         const slug = route.params.id;
-        const reaponse = await axios.get(`https://cms.dotglobaltech.com/api/case-study-categories?filters[slug][$eq]=${slug}&populate=deep,5`, { params: { slug } })
+        const reaponse = await axios.get(`https://cms.dotglobaltech.com/api/successcategories?filters[slug][$eq]=${slug}&populate=deep,5`, { params: { slug } })
         this.category = reaponse.data.data.sort((b, a) => a.id - b.id);
         this.rows = this.category?.length;
       } catch (error) {
