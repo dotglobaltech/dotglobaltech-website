@@ -2,8 +2,8 @@
   <section class="blog__grid grey-bg-4 pt-90 pb-100">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6" v-for="featuredblog in details[0].attributes?.featured_blogs?.data"
-          :key="featuredblog.id">
+        <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6"
+          v-for="featuredblog in details[0].attributes?.featured_blogs?.data" :key="featuredblog.id">
           <div class="blog__item-10 white-bg transition-3 mb-30 fix">
             <div class="blog__thumb-10 w-img fix">
               <NuxtLink :to="'/featured-blog-details/' + featuredblog.attributes.slug" class="d-block">

@@ -68,7 +68,7 @@
 import FeaturedBlogSidebar from '~~/components/blog-grid/FeaturedBlogSidebar.vue';
 
 export default {
-    name: 'BlogDetails',
+    name: 'featuredBlogDetails',
     components: { FeaturedBlogSidebar },
     props: ['detailsContent'],
     data: function () {

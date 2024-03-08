@@ -4,7 +4,8 @@
       <h3 class="sidebar__widget-title">Recent Post</h3>
       <div class="sidebar__widget-content">
         <div class="sidebar__post">
-          <div class="rc__post d-flex align-items-center" v-for="featuredblog in featuredblogs.slice(0, 3)" :key="featuredblog.id">
+          <div class="rc__post d-flex align-items-center" v-for="featuredblog in featuredblogs.slice(0, 3)"
+            :key="featuredblog.id">
             <div class="rc__post-thumb">
               <nuxt-link :to="'/featured-blog-details/' + featuredblog.attributes.slug">
                 <img :src="featuredblog.attributes.image.data.attributes.url" alt="blog">
@@ -51,7 +52,7 @@
 import axios from 'axios'
 
 export default {
-  name: 'BlogSidebar',
+  name: 'FeaturedBlogSidebar',
   data() {
     return {
       featuredcategories: [],
