@@ -6,14 +6,14 @@
           :key="featuredblog.id">
           <div class="blog__item-10 white-bg transition-3 mb-30 fix">
             <div class="blog__thumb-10 w-img fix">
-              <NuxtLink :to="'/blog-details/' + featuredblog.attributes.slug" class="d-block">
+              <NuxtLink :to="'/featured-blog-details/' + featuredblog.attributes.slug" class="d-block">
                 <img :src="featuredblog?.attributes?.image?.data?.attributes?.url" alt="blog">
               </NuxtLink>
             </div>
             <div class="blog__content-10">
               <div class="blog__content-10-top">
                 <h3 class="blog__title-10">
-                  <NuxtLink :to="'/blog-details/' + featuredblog.attributes.slug">
+                  <NuxtLink :to="'/featured-blog-details/' + featuredblog.attributes.slug">
                     {{ featuredblog.attributes.title }}
                   </NuxtLink>
                 </h3>
