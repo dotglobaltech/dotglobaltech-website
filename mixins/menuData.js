@@ -284,6 +284,7 @@ export default {
             { title: "Blogs", link: "/blogs" },
             { title: "Case Studies", link: "/case-studies" },
             { title: "Success Story", link: "/success-story" },
+            { title: "Featured Blog", link: "/featured-blog" },
             { title: "Portfolio", link: "/portfolio-2" },
             { title: "Job Opening", link: "/job-opening" },
             { title: "Testimonials", link: "/testimonials" },
