@@ -51,7 +51,7 @@
                                 </div>
                                 <div class="col-lg-4">
                                     <!-- blog sidebar start -->
-                                    <blog-sidebar />
+                                    <Sidebar />
                                     <!-- blog sidebar end -->
                                 </div>
                             </div>
@@ -65,11 +65,11 @@
 </template>
 
 <script>
-import BlogSidebar from '~~/components/blog-grid/BlogSidebar.vue';
+import Sidebar from '~~/components/case-studies/Sidebar.vue';
 
 export default {
-    name: 'BlogDetails',
-    components: { BlogSidebar },
+    name: 'CaseDetails',
+    components: { Sidebar },
     props: ['detailsContent'],
     data: function () {
         return {

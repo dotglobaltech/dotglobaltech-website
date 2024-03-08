@@ -15,7 +15,7 @@
 
 <script>
 import HeaderOne from "~~/layouts/headers/HeaderOne.vue";
-import BlogDetailsBreadcrumb from '~~/components/blog-grid/BlogDetailsBreadcrumb.vue';
+import BlogDetailsBreadcrumb from '~~/components/case-studies/BlogDetailsBreadcrumb.vue';
 import CaseDetails from '~~/components/case-studies/CaseDetails.vue';
 import HomeCTA from "~/components/subscribe/SubscribeNow.vue";
 import FooterFour from '~~/layouts/footers/FooterFour.vue';
