@@ -6,14 +6,14 @@
           :key="casestudy.id">
           <div class="blog__item-10 white-bg transition-3 mb-30 fix">
             <div class="blog__thumb-10 w-img fix">
-              <NuxtLink :to="'/case-studies/' + casestudy.attributes.slug" class="d-block">
+              <NuxtLink :to="'/case-details/' + casestudy.attributes.slug" class="d-block">
                 <img :src="casestudy?.attributes?.image?.data?.attributes?.url" alt="blog">
               </NuxtLink>
             </div>
             <div class="blog__content-10">
               <div class="blog__content-10-top">
                 <h3 class="blog__title-10">
-                  <NuxtLink :to="'/case-studies/' + casestudy.attributes.slug">
+                  <NuxtLink :to="'/case-details/' + casestudy.attributes.slug">
                     {{ casestudy.attributes.title }}
                   </NuxtLink>
                 </h3>
