@@ -3,7 +3,7 @@
   <blog-breadcrumb title="Our Blog categories" subtitle="Blog" />
   <div>
     <div v-if="category !== null">
-      <FeaturedBlogGridArea v-bind:detailsContent="category" />
+      <FeaturedBlogGridCategoryArea v-bind:detailsContent="category" />
     </div>
     <HomeCTA />
     <FooterFour />
@@ -15,7 +15,7 @@
 <script>
 import HeaderOne from "~~/layouts/headers/HeaderOne.vue";
 import BlogBreadcrumb from '~~/components/blog-grid/BlogBreadcrumb.vue';
-import FeaturedBlogGridArea from '~~/components/blog-grid/FeaturedBlogGridArea.vue';
+import FeaturedBlogGridCategoryArea from '~~/components/blog-grid/FeaturedBlogGridCategoryArea.vue';
 import HomeCTA from "~~/components/subscribe/SubscribeNow.vue";
 import FooterFour from '~~/layouts/footers/FooterFour.vue';
 import FooterEight from '~~/layouts/footers/FooterEight.vue';
@@ -26,7 +26,7 @@ export default {
   components: {
     HeaderOne,
     BlogBreadcrumb,
-    FeaturedBlogGridArea,
+    FeaturedBlogGridCategoryArea,
     HomeCTA,
     FooterFour,
     FooterEight,
