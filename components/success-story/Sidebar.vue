@@ -7,13 +7,13 @@
           <div class="rc__post d-flex align-items-center" v-for="casestudy in casestudies.slice(0, 3)"
             :key="casestudy.id">
             <div class="rc__post-thumb">
-              <nuxt-link :to="'/success-details/' + casestudy.attributes.slug">
+              <nuxt-link :to="'/case-details/' + casestudy.attributes.slug">
                 <img :src="casestudy.attributes.image.data.attributes.url" alt="blog">
               </nuxt-link>
             </div>
             <div class="rc__post-content">
               <h3 class="rc__post-title">
-                <nuxt-link :to="'/success-details/' + casestudy.attributes.slug">{{ casestudy.attributes.title
+                <nuxt-link :to="'/case-details/' + casestudy.attributes.slug">{{ casestudy.attributes.title
                   }}</nuxt-link>
               </h3>
               <div class="rc__meta">
@@ -37,7 +37,7 @@
       <div class="sidebar__widget-content">
         <ul>
           <li v-for="casestudiescategory in casestudiescategories" :key="casestudiescategory.id">
-            <router-link :to="`/success-story-categories/${casestudiescategory.attributes.slug}`">
+            <router-link :to="`/case-study-categories/${casestudiescategory.attributes.slug}`">
               {{ casestudiescategory.attributes.name }}</router-link>
           </li>
         </ul>
@@ -59,14 +59,14 @@ export default {
     }
   },
   created: async function () {
-    axios.get('https://cms.dotglobaltech.com/api/successstories?populate=*')
+    axios.get('https://cms.dotglobaltech.com/api/case-studies?populate=*')
       .then(response => {
         this.casestudies = response.data.data.sort((b, a) => a.id - b.id);
       })
       .catch(error => {
         console.error(error);
       });
-    const response = await axios.get('https://cms.dotglobaltech.com/api/successcategories?populate=*')
+    const response = await axios.get('https://cms.dotglobaltech.com/api/case-study-categories?populate=*')
     this.casestudiescategories = response.data.data.sort((b, a) => a.id - b.id);
   },
 }

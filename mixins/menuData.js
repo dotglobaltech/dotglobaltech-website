@@ -283,6 +283,7 @@ export default {
             { title: "About Us", link: "/about" },
             { title: "Blogs", link: "/blogs" },
             { title: "Case Studies", link: "/case-studies" },
+            { title: "Success Story", link: "/success-story" },
             { title: "Portfolio", link: "/portfolio-2" },
             { title: "Job Opening", link: "/job-opening" },
             { title: "Testimonials", link: "/testimonials" },
