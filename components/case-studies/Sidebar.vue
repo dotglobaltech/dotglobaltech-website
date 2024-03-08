@@ -51,7 +51,7 @@
 import axios from 'axios'
 
 export default {
-  name: 'BlogSidebar',
+  name: 'Sidebar',
   data() {
     return {
       casestudiescategories: [],
