@@ -68,7 +68,7 @@
 import Sidebar from '~~/components/case-studies/Sidebar.vue';
 
 export default {
-    name: 'CaseDetails',
+    name: 'SuccessDetails',
     components: { Sidebar },
     props: ['detailsContent'],
     data: function () {

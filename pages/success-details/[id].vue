@@ -3,7 +3,7 @@
     <DetailsBreadcrumb v-if="details !== null" :pageTitle="details[0].attributes.title" pageDesc="News and Insights" />
     <div>
         <div v-if="details !== null">
-            <CaseDetails v-bind:detailsContent="details" />
+            <SuccessDetails v-bind:detailsContent="details" />
         </div>
         <HomeCTA />
         <FooterFour />
@@ -15,7 +15,7 @@
 <script>
 import HeaderOne from "~~/layouts/headers/HeaderOne.vue";
 import DetailsBreadcrumb from '~~/components/success-story/DetailsBreadcrumb.vue';
-import CaseDetails from '~~/components/success-story/CaseDetails.vue';
+import SuccessDetails from '~~/components/success-story/SuccessDetails.vue';
 import HomeCTA from "~/components/subscribe/SubscribeNow.vue";
 import FooterFour from '~~/layouts/footers/FooterFour.vue';
 import FooterEight from '~~/layouts/footers/FooterEight.vue';
@@ -26,7 +26,7 @@ export default {
     components: {
         HeaderOne,
         DetailsBreadcrumb,
-        CaseDetails,
+        SuccessDetails,
         HomeCTA,
         FooterFour,
         FooterEight,
