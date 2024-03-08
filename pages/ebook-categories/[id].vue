@@ -1,6 +1,6 @@
 <template>
   <header-one :top_bar="false" :header_solid="true" :commonOffcanvas="true" />
-  <Breadcrumb title="Case Studies Category" subtitle="Cast Studies" />
+  <Breadcrumb title="eBook" subtitle="eBook" />
   <div>
     <div v-if="category !== null">
       <CategoryGridContents v-bind:detailsContent="category" />
