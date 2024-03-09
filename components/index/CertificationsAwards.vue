@@ -32,30 +32,30 @@
                     <div :class="`brand__slider-5 ${square ? square : ''}`">
                         <div class="brand__slider-5">
                             <swiper class="brand__slider-active-5" :freeMode="true" :loop="true" :autoplay="{
-                                delay: 1,
-                                pauseOnMouseEnter: true,
-                            }" :slidesPerView="1" :centeredSlides="true" :centeredSlidesBounds="true" :speed="4000"
-                                :modules="modules" :shortSwipes="false" :longSwipes="false" :allowTouchMove="false"
-                                :grabCursor="false" :breakpoints="{
-                                    '0': {
-                                        slidesPerView: 1,
-                                    },
-                                    '576': {
-                                        slidesPerView: 2,
-                                    },
-                                    '768': {
-                                        slidesPerView: 4,
-                                    },
-                                    '991': {
-                                        slidesPerView: 5,
-                                    },
-                                    '1200': {
-                                        slidesPerView: 7,
-                                    },
-                                }">
-                                <swiper-slide v-for="(brand, i) in brand_1_data" :key="i">
+        delay: 1,
+        pauseOnMouseEnter: true,
+    }" :slidesPerView="1" :centeredSlides="true" :centeredSlidesBounds="true" :speed="4000" :modules="modules"
+                                :shortSwipes="false" :longSwipes="false" :allowTouchMove="false" :grabCursor="false"
+                                :breakpoints="{
+        '0': {
+            slidesPerView: 1,
+        },
+        '576': {
+            slidesPerView: 2,
+        },
+        '768': {
+            slidesPerView: 4,
+        },
+        '991': {
+            slidesPerView: 5,
+        },
+        '1200': {
+            slidesPerView: 7,
+        },
+    }" v-if="partners !== null">
+                                <swiper-slide v-for="slide in partners.partnerSlides" :key="slide.id">
                                     <div class="brand__item-5">
-                                        <img :src="brand.brand" alt="brand" />
+                                        <img :src="slide.image.data.attributes.url" alt="Variety Product">
                                     </div>
                                 </swiper-slide>
                             </swiper>
@@ -66,28 +66,24 @@
         </div>
     </section>
 </template>
-  
+
 <script>
 // external
 import { Swiper, SwiperSlide } from "swiper/vue";
 import { Autoplay } from 'swiper';
 // internal
-import brand_1 from "~/assets/img/brand/5/apache.png";
-import brand_2 from "~/assets/img/brand/5/dell-technologies-logo.png";
-import brand_3 from "~/assets/img/brand/5/googlecloudlogo.png";
-import brand_4 from "~/assets/img/brand/5/microsoft-logo.png";
-import brand_5 from "~/assets/img/brand/5/nutanix-logo.png";
-import brand_6 from "~/assets/img/brand/5/vmware.png";
-import brand_7 from "~/assets/img/brand/5/red-hat-logo.png";
-import brand_8 from "~/assets/img/brand/5/ibm_logo.png";
-import brand_9 from "~/assets/img/brand/5/cisco_logo.png";
-import brand_10 from "~/assets/img/brand/5/hp_logo.png";
-import brand_11 from "~/assets/img/brand/5/att-business-logo.png";
-
-
+import axios from 'axios'
 
 export default {
     components: { Swiper, SwiperSlide },
+    data: () => ({
+        partners: null,
+    }),
+    created: async function () {
+        const response = await axios.get('https://cms.dotglobaltech.com/api/partner?populate=partnerSlides.image')
+        const { data: { attributes } } = response.data
+        this.partners = attributes
+    },
     props: {
         spacing: {
             type: Boolean,
@@ -105,36 +101,6 @@ export default {
             type: String,
             default: "",
         },
-    },
-    data() {
-        return {
-            brand_1_data: [
-                { brand: brand_1 },
-                { brand: brand_2 },
-                { brand: brand_3 },
-                { brand: brand_4 },
-                { brand: brand_5 },
-                { brand: brand_6 },
-                { brand: brand_7 },
-                { brand: brand_8 },
-                { brand: brand_9 },
-                { brand: brand_10 },
-                { brand: brand_11 },
-            ],
-            brand_2_data: [
-                { brand: brand_1 },
-                { brand: brand_2 },
-                { brand: brand_3 },
-                { brand: brand_4 },
-                { brand: brand_5 },
-                { brand: brand_6 },
-                { brand: brand_7 },
-                { brand: brand_8 },
-                { brand: brand_9 },
-                { brand: brand_10 },
-                { brand: brand_11 },
-            ],
-        };
     },
     setup() {
 
