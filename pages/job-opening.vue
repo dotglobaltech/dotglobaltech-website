@@ -34,7 +34,7 @@ export default {
   },
   setup() {
     useHead({
-      title: "Job - ",
+      title: "Job - Dot Global Technologies",
     });
   },
 };
