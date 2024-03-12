@@ -25,7 +25,7 @@
       </div>
 
       <div class="row" v-if="teams !== null">
-        <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6" v-for="team in teams.singleTeam" :key="team.id">
+        <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6" v-for="team in teams.singleTeam.slice(0, 4)" :key="team.id">
           <div class="team__item-4 p-relative z-index-1 fix mb-40">
             <div class="team__thumb-4 w-img fix">
               <img :src="team.image.data.attributes.url" alt="teams">
