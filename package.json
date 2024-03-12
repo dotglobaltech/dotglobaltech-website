@@ -15,6 +15,7 @@
     "@pinia/nuxt": "^0.4.6",
     "@yeger/vue-masonry-wall": "^3.4.3",
     "bootstrap": "^5.2.3",
+    "nuxt-seo": "^1.6.1",
     "parallax-js": "^3.1.0",
     "pinia": "^2.0.30",
     "sal.js": "^0.8.5",
