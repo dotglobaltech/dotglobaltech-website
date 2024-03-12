@@ -10,7 +10,7 @@
             <div class="col-xl-6 col-lg-7 col-md-9">
               <div class="job__content">
                 <h3 class="job__title">
-                  <nuxt-link :to="`/career-details/${joblisting.attributes.slug}`">
+                  <nuxt-link :to="`/job-details/${joblisting.attributes.slug}`">
                     {{ joblisting.attributes.title }}
                   </nuxt-link>
                 </h3>
