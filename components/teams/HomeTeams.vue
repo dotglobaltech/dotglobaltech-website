@@ -36,9 +36,9 @@
               </h3>
               <span class="team__designation-4">{{ team.designation }}</span>
               <p>{{ team.shortDesc }}</p>
-              <div class="team__social-4">
+              <div class="team__social-10 d-flex justify-content-center">
                 <a :href="team.linkedin" target="_blank">
-                  <i class="fa-brands fa-linkedin-f"></i></a>
+                  <i class="fa-brands fa-linkedin"></i></a>
               </div>
             </div>
           </div>
