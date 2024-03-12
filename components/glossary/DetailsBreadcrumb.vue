@@ -5,7 +5,7 @@
         <div class="col-xxl-12">
           <div class="breadcrumb__content p-relative z-index-1">
             <div class="postbox__category">
-              <a href="#">Case Studies</a>
+              <a href="#">Glossary</a>
             </div>
             <h3 class="breadcrumb__title">
               {{ pageTitle }}
@@ -14,7 +14,7 @@
             <div class="breadcrumb__list">
               <span><a href="#">Home</a></span>
               <span class="dvdr"><i class="fa-solid fa-circle-small"></i></span>
-              <span><a href="#">Case Studies</a></span>
+              <span><a href="#">Glossary</a></span>
               <span class="dvdr"><i class="fa-solid fa-circle-small"></i></span>
               <span>{{ pageDesc }}</span>
             </div>

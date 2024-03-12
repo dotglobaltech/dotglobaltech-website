@@ -59,14 +59,14 @@ export default {
     }
   },
   created: async function () {
-    axios.get('https://cms.dotglobaltech.com/api/successstories?populate=*')
+    axios.get('https://cms.dotglobaltech.com/api/glossaries?populate=*')
       .then(response => {
         this.successstories = response.data.data.sort((b, a) => a.id - b.id);
       })
       .catch(error => {
         console.error(error);
       });
-    const response = await axios.get('https://cms.dotglobaltech.com/api/successcategories?populate=*')
+    const response = await axios.get('https://cms.dotglobaltech.com/api/glossary-categories?populate=*')
     this.successcategories = response.data.data.sort((b, a) => a.id - b.id);
   },
 }

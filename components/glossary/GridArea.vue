@@ -18,7 +18,7 @@
           <div class="single-blog-post bg-FAFAFA pt-1">
             <div class="row contents">
               <div class="col-sm-3" v-for="glossData in glossary.data" :key="glossData.id">
-                <NuxtLink class="text-decoration-underline" :to="'/glossary/' + glossData.attributes.slug">
+                <NuxtLink class="text-decoration-underline" :to="'/glossary-details/' + glossData.attributes.slug">
                   {{ glossData.attributes.title }}
                 </NuxtLink>
               </div>
