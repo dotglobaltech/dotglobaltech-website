@@ -16,6 +16,7 @@
     "@yeger/vue-masonry-wall": "^3.4.3",
     "axios": "^1.6.7",
     "bootstrap": "^5.2.3",
+    "caniuse-lite": "^1.0.30001597",
     "parallax-js": "^3.1.0",
     "pinia": "^2.0.30",
     "sal.js": "^0.8.5",

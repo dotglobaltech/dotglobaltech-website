@@ -31174,7 +31174,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   font-size: 14px;
   letter-spacing: -0.04em;
   color: var(--tp-common-white);
-  margin-bottom: 54px;
+  margin-bottom: 10px;
   -webkit-transform: translateY(20px);
   -moz-transform: translateY(20px);
   -ms-transform: translateY(20px);
