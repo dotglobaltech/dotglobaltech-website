@@ -26,7 +26,6 @@ import HomeCTA from "~/components/subscribe/SubscribeNow.vue";
 import FooterFour from '~~/layouts/footers/FooterFour.vue';
 import FooterEight from '~~/layouts/footers/FooterEight.vue';
 import BackToTop from "~~/layouts/footers/component/BackToTop.vue";
-import axios from 'axios';
 
 export default {
   components: {
