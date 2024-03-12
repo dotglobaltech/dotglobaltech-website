@@ -38,7 +38,7 @@
                                 :shortSwipes="false" :longSwipes="false" :allowTouchMove="false" :grabCursor="false"
                                 :breakpoints="{
         '0': {
-            slidesPerView: 1,
+            slidesPerView: 2,
         },
         '576': {
             slidesPerView: 2,
