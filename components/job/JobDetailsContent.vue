@@ -1,14 +1,14 @@
 <template>
-  <section class="job__details-area pt-120 pb-140">
+  <section class="job__details-area pt-100 pb-70">
     <div class="container">
       <div class="row">
         <div class="col-xxl-12">
           <div class="job__details-wrapper">
             <div class="job__details-content mb-50">
               <div class="job__details-tag mb-10">
-                <span>Trainee</span>
+                Job Status: <span>{{ details[0].attributes.JobStatus }}</span>
               </div>
-              <h3 class="job__details-title">Javascript Developer (Full-Time)</h3>
+              <h3 class="job__details-title">{{ details[0].attributes.title }}</h3>
               <div class="job__meta-wrapper job__details-meta mb-60 d-sm-flex flex-wrap align-items-center">
                 <div class="job__meta-item">
                   <span>
@@ -19,7 +19,7 @@
                       <path d="M10.5826 10.2259L8.41256 8.93093C8.03456 8.70693 7.72656 8.16793 7.72656 7.72693V4.85693"
                         stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                     </svg>
-                    Full-Time
+                    {{ details[0].attributes.EmploymentType }}
                   </span>
                   <span>
                     <svg width="14" height="16" viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -30,17 +30,18 @@
                         d="M1.16997 5.54414C2.54932 -0.519378 11.5326 -0.512376 12.9049 5.55114C13.7101 9.10803 11.4976 12.1188 9.55807 13.9812C8.15072 15.3396 5.92416 15.3396 4.50981 13.9812C2.57732 12.1188 0.36477 9.10103 1.16997 5.54414Z"
                         stroke="currentColor" stroke-width="1.5" />
                     </svg>
-                    Hawthorne, CA, United states
+                    {{ details[0].attributes.Location }}
                   </span>
                   <span>
                     <svg width="14" height="16" viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M7.32662 7.74699C9.18975 7.74699 10.7001 6.23662 10.7001 4.37349C10.7001 2.51036 9.18975 1 7.32662 1C5.46349 1 3.95312 2.51036 3.95312 4.37349C3.95312 6.23662 5.46349 7.74699 7.32662 7.74699Z"
                         stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                      <path d="M12.8072 15C12.8072 12.3889 10.1613 10.2771 6.90361 10.2771C3.64597 10.2771 1 12.3889 1 15"
+                      <path
+                        d="M12.8072 15C12.8072 12.3889 10.1613 10.2771 6.90361 10.2771C3.64597 10.2771 1 12.3889 1 15"
                         stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                     </svg>
-                    No. of Vacancies: 2
+                    No. of Vacancies: {{ details[0].attributes.JobPosition }}
                   </span>
                   <span>
                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -61,111 +62,50 @@
                       <path d="M1.51562 7.48898C3.13088 8.56698 4.95432 9.21798 6.81365 9.42098" stroke="currentColor"
                         stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
                     </svg>
-                    Experience: Fresher
+                    Experience: {{ details[0].attributes.Experience }}
                   </span>
                 </div>
                 <div class="job__tag">
-                  <span>Design </span>
+                  Role Category: <span>{{ details[0].attributes.RoleCategory }}</span>
+                </div>
+                <div class="job__tag">
+                  Work Mode: <span>{{ details[0].attributes.WorkMode }}</span>
                 </div>
               </div>
-              <div class="job__details-thumb m-img mb-60">
+              <!-- <div class="job__details-thumb m-img mb-60">
                 <img src="~/assets/img/job/details/job-details-1.jpg" alt="">
-              </div>
-              <p>We’re a collective of thinkers and tinkerers—designers, engineers, writers, and strategists building the
-                platform to change the way apps are built. Our work is inspired by a shared belief that app creation
-                should be simple, accessible, and enjoyable to everyone on the planet.</p>
+              </div> -->
             </div>
             <div class="job__details-about mb-35">
-              <h3 class="job__details-about-title">About the role</h3>
-              <p>Erat eleifend lacus mattis at porttitor at mauris vel pharetra. Consequat, dictum et magna augue. Risus
-                maecenas morbi ante scelerisque consequat. Id mi porttitor dui platea mauris. Accumsan, consequat feugiat
-                at vitae laoreet pulvinar volutpat.A place where each of us can do our best work, and feel good about it.
-                As Peter Drucker famously said, culture “eats strategy for breakfast,” so we do our best to maintain a
-                healthy work environment that is conducive to business.</p>
+              <p v-html="details[0].attributes.detailsText"></p>
             </div>
-            <div class="job__details-list-wrapper">
-              <div class="row">
-                <div class="col-lg-6">
-                  <div class="job__details-list mb-60">
-                    <h3 class="job__details-list-title">Career Benefits</h3>
-                    <ul>
-                      <li>Experiences in docker development techniques.</li>
-                      <li>Since we are an agile team, you will learn and practice Agile.</li>
-                      <li>Experiences in docker development techniques.</li>
-                      <li>Opportunities to expand your knowledge.</li>
-                      <li>A Certificate will be provided after completion.</li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="col-lg-6">
-                  <div class="job__details-list mb-60">
-                    <h3 class="job__details-list-title">Offer Great Benefits.</h3>
-                    <ul>
-                      <li>Company-wide 401(k) plan</li>
-                      <li>Life & disability insurance offered</li>
-                      <li>Ompetitive compensation—salary, bonus, equity</li>
-                      <li>Medical, dental, and vision; flex spending account</li>
-                      <li>Flexible paid time off & sick leave</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="job__details-list mb-40">
-              <h3 class="job__details-list-title-2">Educational Requirements</h3>
-              <ul>
-                <li>Experiences in competitive programming will get priority access.</li>
-                <li>Bachelor of Science (BSc) in Computer Science & Engineering or equivalent field.</li>
-                <li>A good profile with StackOverflow and Hackathon will get priority access</li>
-              </ul>
-            </div>
-            <div class="job__details-info-wrapper">
-              <div class="job__details-info">
-                <h3 class="job__details-info-title">Salary range: –</h3>
-                <p><span>$80k to $100k</span> (Based on your experience).</p>
-              </div>
-              <div class="job__details-info">
-                <h3 class="job__details-info-title">Working days</h3>
-                <p>Weekly 05 days. Sunday To Thursday. <span>09 AM to 06 PM</span>.(Launch Break 01 Hour)</p>
-              </div>
-            </div>
-            <div class="job__details-deadline">
-              <p>Application Deadline: <span>October 24, 2022</span></p>
-            </div>
+
             <div class="job__details-cv">
               <p>Please, upload your CV in PDF format.</p>
-          </div>
-          <div class="job__details-btn">
-            <button @click="handleApplyForm" type="button" class="tp-btn job-form-open-btn">Apply for this position</button>
-          </div>
+            </div>
 
-          <div v-if="showForm" class="job__form job-apply-form mt-40">
-            <h3 class="job__form-title">Personal Details</h3>
-            <!-- form start -->
-            <job-apply-form />
-            <!-- form end -->
+            <div class="job__details-btn">
+              <button @click="handleApplyForm" type="button" class="tp-btn job-form-open-btn">Apply for this
+                position</button>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
 </template>
 
 <script>
-import JobApplyForm from '../forms/JobApplyForm.vue';
 
 export default {
-  components: { JobApplyForm },
-  data () {
-    return {
-      showForm:false,
-    }
+  name: 'BlogDetails',
+  props: ['detailsContent'],
+  components: {
   },
-  methods : {
-    handleApplyForm () {
-      this.showForm = !this.showForm
+  data: function () {
+    return {
+      details: this.detailsContent
     }
   }
 }

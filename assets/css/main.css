@@ -53671,7 +53671,8 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   line-height: 1;
   color: var(--tp-common-white);
   background-color: var(--tp-common-purple);
-  padding: 8px 17px 10px;
+  padding: 10px 20px 10px;
+  border-radius: 5px;
 }
 
 .job__details-title {

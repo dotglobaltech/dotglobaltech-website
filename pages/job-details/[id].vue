@@ -1,9 +1,9 @@
 <template>
     <header-one :top_bar="false" :header_solid="true" :commonOffcanvas="true" />
     <div>
-        <!-- <div v-if="details !== null">
+        <div v-if="details !== null">
             <JobDetailsContent v-bind:detailsContent="details" />
-        </div> -->
+        </div>
         <HomeCTA />
         <FooterFour />
         <footer-eight />
@@ -13,7 +13,7 @@
 
 <script>
 import HeaderOne from "~~/layouts/headers/HeaderOne.vue";
-// import JobDetailsContent from '~~/components/job/JobDetailsContent.vue';
+import JobDetailsContent from '~~/components/job/JobDetailsContent.vue';
 import HomeCTA from "~/components/subscribe/SubscribeNow.vue";
 import FooterFour from '~~/layouts/footers/FooterFour.vue';
 import FooterEight from '~~/layouts/footers/FooterEight.vue';
@@ -23,7 +23,7 @@ import { useRoute } from 'vue-router'
 export default {
     components: {
         HeaderOne,
-        // JobDetailsContent,
+        JobDetailsContent,
         HomeCTA,
         FooterFour,
         FooterEight,
