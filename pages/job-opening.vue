@@ -3,7 +3,7 @@
     <header-one :top_bar="false" :header_solid="true" :commonOffcanvas="true" />
     <job-section-title/>
     <job-thumb-area/>
-    <job-area :style_2="true"/>
+    <job-list :style_2="true"/>
     <HomeCTA />
     <FooterFour />
     <FooterEight />
@@ -15,7 +15,7 @@
 import HeaderOne from "~~/layouts/headers/HeaderOne.vue";
 import JobSectionTitle from '~~/components/job/JobSectionTitle.vue';
 import JobThumbArea from '~~/components/job/JobThumbArea.vue';
-import JobArea from '~~/components/job-position/JobArea.vue';
+import JobList from '~~/components/job/JobList.vue';
 import HomeCTA from "~/components/subscribe/SubscribeNow.vue";
 import FooterFour from '~~/layouts/footers/FooterFour.vue';
 import FooterEight from '~~/layouts/footers/FooterEight.vue';
@@ -26,7 +26,7 @@ export default {
     HeaderOne,
     JobSectionTitle,
     JobThumbArea,
-    JobArea,
+    JobList,
     HomeCTA,
     FooterFour,
     FooterEight,

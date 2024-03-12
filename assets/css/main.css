@@ -12091,7 +12091,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .d-sm-flex {
 display: flex !important;
-justify-content: center;
+justify-content: flex-start;
 }
 
 .tp-section-title {
