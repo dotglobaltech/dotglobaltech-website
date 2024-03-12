@@ -20,7 +20,7 @@ export default defineNuxtConfig({
   ],
   app: {
     head: {
-      title: "EvolveBPM - Revenue Impact Solution in USA",
+      title: "Dot Global Technologies - Revenue Impact Solution in USA",
       link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'}],
       script: [
         {
