@@ -44608,6 +44608,84 @@ only screen and (min-width: 576px) and (max-width: 767px),
   background-size: 150% 150%;
 }
 
+.bg-FAFAFA {
+  background-color: #fafafa;
+}
+
+pagination-area {
+  margin-top: 20px;
+  padding-top: 30px;
+  border-top: 1px solid #eeeeee;
+}
+
+.pagination-area .nav-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.pagination-area .page-numbers {
+  width: 33px;
+  height: 33px;
+  border: none;
+  display: block;
+  line-height: 35px;
+  position: relative;
+  text-align: center;
+  border-radius: 50%;
+  color: var(--paragraphColor);
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#eaeef3));
+  background: linear-gradient(180deg, #ffffff 0%, #eaeef3 100%);
+  -webkit-box-shadow: 0 5px 15px 0 rgba(107, 124, 147, 0.15), 0 2px 4px 0 rgba(107, 124, 147, 0.2), inset 0 -2px 0 0 #c2cfde;
+  box-shadow: 0 5px 15px 0 rgba(107, 124, 147, 0.15), 0 2px 4px 0 rgba(107, 124, 147, 0.2), inset 0 -2px 0 0 #c2cfde;
+  font-size: 15px;
+  font-weight: 700;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.pagination-area .page-numbers.next {
+  margin-left: auto;
+}
+
+.pagination-area .page-numbers:hover {
+  color: var(--mainColor);
+}
+
+.glossary-category {
+  border-radius: 9px 9px 0px 0px;
+  background: var(--gradient, linear-gradient(153deg, #715CF3 0%, #5C99F3 100%));
+  width: 3%;
+  text-align: center;
+  color: #fff;
+  font-weight: normal;
+  font-size: 18px;
+  margin-bottom: auto;
+  font-weight: 500;
+  padding: 8px 0px 5px 0px;
+}
+
+.single-blog-post {
+  margin-bottom: 25px;
+  background: #f9f9fd;
+  padding: 20px 20px 20px 20px;
+  border-radius: 15px;
+}
+
+.single-blog-post .contents {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.ml-5 {
+  margin-left: 45px;
+}
+
 .review__skill-item p {
   margin-bottom: 0;
   font-size: 16px;
