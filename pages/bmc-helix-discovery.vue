@@ -2,8 +2,8 @@
   <div>
     <header-one :top_bar="false" :commonOffcanvas="true" />
     <service-breadcrumb/>
+    <BMCHelixDicoveryAbout/>
     <home-services :style_2="true" />
-    <BMCServicesAbout/>
     <services-vision/>
     <HelixFaqArea />
     <HomeCTA />
@@ -16,8 +16,8 @@
 <script>
 import HeaderOne from "~~/layouts/headers/HeaderOne.vue";
 import ServiceBreadcrumb from '~~/components/bmc-helix-discovery/ServiceBreadcrumb.vue';
+import BMCHelixDicoveryAbout from '~~/components/bmc-helix-discovery/BMCHelixDicoveryAbout.vue';
 import HomeServices from '~~/components/bmc-helix-discovery/HomeServices.vue';
-import BMCServicesAbout from '~~/components/bmc-helix-discovery/BMCServicesAbout.vue';
 import ServicesVision from '~~/components/bmc-helix-discovery/ServicesVision.vue';
 import HelixFaqArea from '~~/components/bmc-helix-discovery/HelixFaqArea.vue';
 import HomeCTA from "~/components/subscribe/SubscribeNow.vue";
@@ -29,8 +29,8 @@ export default {
   components: {
     HeaderOne,
     ServiceBreadcrumb,
+    BMCHelixDicoveryAbout,
     HomeServices,
-    BMCServicesAbout,
     ServicesVision,
     HelixFaqArea,
     FooterFour,
@@ -41,7 +41,7 @@ export default {
 
   setup() {
     useHead({
-      title: "Services - Creative Agency & Portfolio Vue Nuxt 3 Template",
+      title: "BMC Helix Discovery - Dot Global Technologies",
     });
   },
 };

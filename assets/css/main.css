@@ -12041,9 +12041,9 @@ only screen and (min-width: 576px) and (max-width: 767px),
   display: inline-block;
   font-family: var(--tp-ff-space);
   font-weight: 500;
-  font-size: 14px;
+  font-size: 20px;
   letter-spacing: 0.04em;
-  color: var(--tp-common-black);
+  color: var(--tp-common-purple);
 }
 
 .tp-section-subtitle-2.is-uppercase {
@@ -12103,11 +12103,11 @@ justify-content: flex-start;
 .tp-section-title-2 {
   font-family: var(--tp-ff-space);
   font-weight: 700;
-  font-size: 60px;
+  font-size: 42px;
   line-height: 1;
   letter-spacing: -0.04em;
   color: var(--tp-common-black);
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -23622,7 +23622,8 @@ only screen and (min-width: 576px) and (max-width: 767px),
   font-size: 16px;
   line-height: 1.62;
   margin-bottom: 42px;
-  padding-right: 150px;
+  padding-right: 100px;
+  text-align: left;
 }
 
 [dir=rtl] .about__wrapper-14 p {
