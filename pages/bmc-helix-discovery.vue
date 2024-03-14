@@ -1,15 +1,15 @@
 <template>
   <div>
     <header-one :top_bar="false" :commonOffcanvas="true" />
-    <service-breadcrumb/>
-    <BMCHelixDicoveryAbout/>
-    <home-services :style_2="true" />
-    <services-vision/>
+    <service-breadcrumb />
+    <BMCHelixDicoveryAbout />
+    <ServicesKeyFeatures />
+    <services-vision />
     <HelixFaqArea />
     <HomeCTA />
     <FooterFour />
-    <footer-eight/>
-    <back-to-top/>
+    <footer-eight />
+    <back-to-top />
   </div>
 </template>
 
@@ -17,7 +17,7 @@
 import HeaderOne from "~~/layouts/headers/HeaderOne.vue";
 import ServiceBreadcrumb from '~~/components/bmc-helix-discovery/ServiceBreadcrumb.vue';
 import BMCHelixDicoveryAbout from '~~/components/bmc-helix-discovery/BMCHelixDicoveryAbout.vue';
-import HomeServices from '~~/components/bmc-helix-discovery/HomeServices.vue';
+import ServicesKeyFeatures from '~~/components/bmc-helix-discovery/ServicesKeyFeatures.vue';
 import ServicesVision from '~~/components/bmc-helix-discovery/ServicesVision.vue';
 import HelixFaqArea from '~~/components/bmc-helix-discovery/HelixFaqArea.vue';
 import HomeCTA from "~/components/subscribe/SubscribeNow.vue";
@@ -30,7 +30,7 @@ export default {
     HeaderOne,
     ServiceBreadcrumb,
     BMCHelixDicoveryAbout,
-    HomeServices,
+    ServicesKeyFeatures,
     ServicesVision,
     HelixFaqArea,
     FooterFour,
