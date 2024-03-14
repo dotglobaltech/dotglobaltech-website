@@ -23,7 +23,7 @@ export default {
   components: { HeaderOne, Breadcrumb, GridArea, HomeCTA, FooterFour, FooterEight, BackToTop, },
   setup() {
     useHead({
-      title: "Case Studies - Dot Global Technologies",
+      title: "Glossary - Dot Global Technologies",
     });
   },
 };

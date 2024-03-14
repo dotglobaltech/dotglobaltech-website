@@ -5,7 +5,7 @@
         <div class="nav-links">
           <ul v-for="category in categories" :key="category.id">
             <!-- <li> -->
-            <NuxtLink :to="`/glossary-category-details/${category.attributes.slug}`" class="page-numbers">{{
+            <NuxtLink :to="`/glossary-categories/${category.attributes.slug}`" class="page-numbers">{{
             category.attributes.name }}</NuxtLink>
             <!-- </li> -->
           </ul>
