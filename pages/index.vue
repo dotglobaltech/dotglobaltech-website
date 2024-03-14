@@ -1,14 +1,14 @@
 <template>
   <LayoutOne>
     <HomeHero />
-    <CoreServices :style_2="true"/>
+    <CoreServices :style_2="true" />
     <WhatWeDo />
     <SoultionSlider />
     <OurSolutions />
     <GlobalBrands />
     <CertificationsAwards />
     <EmergingTechnologies />
-    <!-- <TrustedClients /> -->
+    <TrustedClients />
     <!-- <FunFact /> -->
     <WhyChooseUs />
     <LetsWorkTogether />
@@ -27,7 +27,7 @@ import SoultionSlider from "~/components/index/SoultionSlider.vue";
 import GlobalBrands from "~/components/index/GlobalBrands.vue";
 import OurSolutions from "~/components/index/OurSolutions.vue";
 import CertificationsAwards from '~/components/index/CertificationsAwards.vue';
-// import TrustedClients from '~/components/index/TrustedClients.vue';
+import TrustedClients from '~/components/index/TrustedClients.vue';
 import EmergingTechnologies from '~/components/index/EmergingTechnologies.vue';
 // import FunFact from '~/components/index/FunFact.vue';
 import WhyChooseUs from '~/components/index/WhyChooseUs.vue';
