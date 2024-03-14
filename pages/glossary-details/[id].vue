@@ -1,6 +1,7 @@
 <template>
     <header-one :top_bar="false" :header_solid="true" :commonOffcanvas="true" />
-    <DetailsBreadcrumb v-if="details !== null" :pageTitle="details[0].attributes.title" pageDesc="News and Insights" />
+    <DetailsBreadcrumb v-if="details !== null" :pageTitle="details[0].attributes.title" pageDesc="News and Insights"
+        :style="{ backgroundImage: `url(${bg})` }" />
     <div>
         <div v-if="details !== null">
             <GlossaryDetails v-bind:detailsContent="details" />
@@ -20,8 +21,10 @@ import HomeCTA from "~/components/subscribe/SubscribeNow.vue";
 import FooterFour from '~~/layouts/footers/FooterFour.vue';
 import FooterEight from '~~/layouts/footers/FooterEight.vue';
 import BackToTop from '~~/layouts/footers/component/BackToTop.vue';
+import bg from '~/assets/img/contact/contact-bg.png';
 import axios from 'axios';
 import { useRoute } from 'vue-router'
+
 export default {
     components: {
         HeaderOne,
@@ -34,7 +37,8 @@ export default {
     },
     data() {
         return {
-            details: null
+            details: null,
+            bg,
         }
     },
     created: async function () {

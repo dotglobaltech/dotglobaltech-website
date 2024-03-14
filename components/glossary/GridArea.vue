@@ -3,13 +3,13 @@
     <div class="container">
       <div class="pagination-area">
         <div class="nav-links">
-        <ul v-for="category in categories" :key="category.id">
-          <!-- <li> -->
+          <ul v-for="category in categories" :key="category.id">
+            <!-- <li> -->
             <NuxtLink :to="`/glossary-category-details/${category.attributes.slug}`" class="page-numbers">{{
-          category.attributes.name }}</NuxtLink>
-          <!-- </li> -->
-        </ul>
-      </div>
+            category.attributes.name }}</NuxtLink>
+            <!-- </li> -->
+          </ul>
+        </div>
       </div>
 
       <div class="row justify-content-center pt-50">

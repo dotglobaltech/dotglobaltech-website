@@ -4,17 +4,16 @@
       <h3 class="sidebar__widget-title">Recent Post</h3>
       <div class="sidebar__widget-content">
         <div class="sidebar__post">
-          <div class="rc__post d-flex align-items-center" v-for="successstory in successstories.slice(0, 3)"
-            :key="successstory.id">
+          <div class="rc__post d-flex align-items-center" v-for="glossary in glossaries.slice(0, 3)" :key="glossary.id">
             <div class="rc__post-thumb">
-              <nuxt-link :to="'/success-details/' + successstory.attributes.slug">
-                <img :src="successstory.attributes.image.data.attributes.url" alt="blog">
+              <nuxt-link :to="'/glossary-details/' + glossary.attributes.slug">
+                <img :src="glossary.attributes.image.data.attributes.url" alt="blog">
               </nuxt-link>
             </div>
             <div class="rc__post-content">
               <h3 class="rc__post-title">
-                <nuxt-link :to="'/success-details/' + successstory.attributes.slug">
-                  {{ successstory.attributes.title }}</nuxt-link>
+                <nuxt-link :to="'/glossary-details/' + glossary.attributes.slug">
+                  {{ glossary.attributes.title }}</nuxt-link>
               </h3>
               <div class="rc__meta">
                 <span>
@@ -24,7 +23,7 @@
                       stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                     <path d="M7.5 3.59961V7.49961L10.1 8.79961" stroke="currentColor" stroke-width="1.5"
                       stroke-linecap="round" stroke-linejoin="round" />
-                  </svg>{{ successstory.attributes.date }}
+                  </svg>{{ glossary.attributes.date }}
                 </span>
               </div>
             </div>
@@ -36,9 +35,9 @@
       <h3 class="sidebar__widget-title">Category</h3>
       <div class="sidebar__widget-content">
         <ul>
-          <li v-for="successcategory in successcategories" :key="successcategory.id">
-            <router-link :to="`/success-story-categories/${successcategory.attributes.slug}`">
-              {{ successcategory.attributes.name }}</router-link>
+          <li v-for="glossarycategory in glossarycategories" :key="glossarycategory.id">
+            <router-link :to="`/glossary-categories/${glossarycategory.attributes.slug}`">
+              {{ glossarycategory.attributes.name }}</router-link>
           </li>
         </ul>
       </div>
@@ -54,20 +53,20 @@ export default {
   name: 'Sidebar',
   data() {
     return {
-      successcategories: [],
-      successstories: [],
+      glossarycategories: [],
+      glossaries: [],
     }
   },
   created: async function () {
     axios.get('https://cms.dotglobaltech.com/api/glossaries?populate=*')
       .then(response => {
-        this.successstories = response.data.data.sort((b, a) => a.id - b.id);
+        this.glossaries = response.data.data.sort((b, a) => a.id - b.id);
       })
       .catch(error => {
         console.error(error);
       });
     const response = await axios.get('https://cms.dotglobaltech.com/api/glossary-categories?populate=*')
-    this.successcategories = response.data.data.sort((b, a) => a.id - b.id);
+    this.glossarycategories = response.data.data.sort((a, b) => a.id - b.id);
   },
 }
 </script>
