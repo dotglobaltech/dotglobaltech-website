@@ -1,5 +1,5 @@
 <template>
-  <section class="history__area pt-30 pb-80">
+  <section class="history__area pt-30 pb-50">
     <div class="container">
       <div class="row">
         <div class="col-xxl-6 col-xl-6 col-lg-6">

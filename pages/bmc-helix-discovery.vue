@@ -7,6 +7,7 @@
     <services-vision />
     <WhyChooseDGT />
     <DiscoveryKeyFeatures />
+    <Faq />
     <HomeCTA />
     <FooterFour />
     <footer-eight />
@@ -22,6 +23,7 @@ import ServicesKeyFeatures from '~~/components/bmc-helix-discovery/ServicesKeyFe
 import ServicesVision from '~~/components/bmc-helix-discovery/ServicesVision.vue';
 import WhyChooseDGT from '~~/components/bmc-helix-discovery/WhyChooseDGT.vue';
 import DiscoveryKeyFeatures from '~~/components/bmc-helix-discovery/DiscoveryKeyFeatures.vue';
+import Faq from '~~/components/bmc-helix-discovery/Faq.vue';
 import HomeCTA from "~/components/subscribe/SubscribeNow.vue";
 import FooterFour from '~~/layouts/footers/FooterFour.vue';
 import FooterEight from '~~/layouts/footers/FooterEight.vue';
@@ -36,6 +38,7 @@ export default {
     ServicesVision,
     WhyChooseDGT,
     DiscoveryKeyFeatures,
+    Faq,
     FooterFour,
     FooterEight,
     HomeCTA,

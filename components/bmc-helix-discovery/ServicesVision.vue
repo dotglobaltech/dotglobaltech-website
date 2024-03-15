@@ -1,5 +1,5 @@
 <template>
-  <section class="services__area p-relative z-index-1 pt-50 pb-90">
+  <section class="services__area p-relative z-index-1 pt-50 pb-50">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-xxl-8 col-xl-8 col-lg-10 col-md-10">
@@ -35,14 +35,14 @@
                 </h3>
                 <p>{{ item.subtitle }}</p>
 
-                <div class="services__btn-7">
+                <!-- <div class="services__btn-7">
                   <nuxt-link href="/service-details" class="tp-link-btn-3">
                     Learn More
                     <span>
                       <i class="fa-regular fa-arrow-right"></i>
                     </span>
                   </nuxt-link>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>

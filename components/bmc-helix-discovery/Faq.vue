@@ -20,8 +20,8 @@
 </template>
 
 <script>
-import commonFaq from '~~/mixins/commonFaq';
-import SingleFaq from './SingleFaq.vue';
+import commonFaq from '~~/mixins/DiscoveryFAQ';
+import SingleFaq from './Faq/SingleFaq.vue';
 
 export default {
   props: {

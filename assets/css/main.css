@@ -11359,7 +11359,7 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
   font-size: 20px;
   line-height: 1.5;
   color: var(--tp-text-1);
-  text-align: justify;
+  text-align: center;
 }
 
 @media (max-width: 575px) {
