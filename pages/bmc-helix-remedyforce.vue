@@ -1,36 +1,44 @@
 <template>
   <div>
     <header-one :top_bar="false" :commonOffcanvas="true" />
-    <service-breadcrumb/>
-    <home-services :style_2="true" />
-    <services-vision/>
-    <RemedyFaqArea />
+    <service-breadcrumb />
+    <BMCHelixDicoveryAbout />
+    <ServicesKeyFeatures />
+    <services-vision />
+    <WhyChooseDGT />
+    <DiscoveryKeyFeatures />
+    <Faq />
     <HomeCTA />
     <FooterFour />
-    <footer-eight/>
-    <back-to-top/>
+    <footer-eight />
+    <back-to-top />
   </div>
 </template>
 
 <script>
 import HeaderOne from "~~/layouts/headers/HeaderOne.vue";
 import ServiceBreadcrumb from '~~/components/bmc-helix-remedyforce/ServiceBreadcrumb.vue';
-import HomeServices from '~~/components/bmc-helix-remedyforce/HomeServices.vue';
+import BMCHelixDicoveryAbout from '~~/components/bmc-helix-remedyforce/BMCHelixDicoveryAbout.vue';
+import ServicesKeyFeatures from '~~/components/bmc-helix-remedyforce/ServicesKeyFeatures.vue';
 import ServicesVision from '~~/components/bmc-helix-remedyforce/ServicesVision.vue';
-import RemedyFaqArea from '~~/components/bmc-helix-remedyforce/RemedyFaqArea.vue';
+import WhyChooseDGT from '~~/components/bmc-helix-remedyforce/WhyChooseDGT.vue';
+import DiscoveryKeyFeatures from '~~/components/bmc-helix-remedyforce/DiscoveryKeyFeatures.vue';
+import Faq from '~~/components/bmc-helix-remedyforce/Faq.vue';
 import HomeCTA from "~/components/subscribe/SubscribeNow.vue";
 import FooterFour from '~~/layouts/footers/FooterFour.vue';
 import FooterEight from '~~/layouts/footers/FooterEight.vue';
 import BackToTop from '~~/layouts/footers/component/BackToTop.vue';
 
-
 export default {
   components: {
     HeaderOne,
     ServiceBreadcrumb,
-    HomeServices,
+    BMCHelixDicoveryAbout,
+    ServicesKeyFeatures,
     ServicesVision,
-    RemedyFaqArea,
+    WhyChooseDGT,
+    DiscoveryKeyFeatures,
+    Faq,
     FooterFour,
     FooterEight,
     HomeCTA,
@@ -39,7 +47,7 @@ export default {
 
   setup() {
     useHead({
-      title: "Services - Creative Agency & Portfolio Vue Nuxt 3 Template",
+      title: "BMC Helix Remedyforce - Dot Global Technologies",
     });
   },
 };
