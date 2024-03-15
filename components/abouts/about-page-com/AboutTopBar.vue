@@ -9,7 +9,7 @@
           <div class="about__heading-content text-center p-relative z-index-1">
             <span class="about__heading-subtitle">About us</span>
             <h3 class="about__heading-title">
-              Need a design expert? You found one.
+              Need a design expert?
             </h3>
           </div>
         </div>
