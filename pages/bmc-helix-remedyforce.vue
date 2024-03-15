@@ -3,7 +3,6 @@
     <header-one :top_bar="false" :commonOffcanvas="true" />
     <service-breadcrumb/>
     <home-services :style_2="true" />
-    <BMCServicesAbout/>
     <services-vision/>
     <RemedyFaqArea />
     <HomeCTA />
@@ -17,7 +16,6 @@
 import HeaderOne from "~~/layouts/headers/HeaderOne.vue";
 import ServiceBreadcrumb from '~~/components/bmc-helix-remedyforce/ServiceBreadcrumb.vue';
 import HomeServices from '~~/components/bmc-helix-remedyforce/HomeServices.vue';
-import BMCServicesAbout from '~~/components/bmc-helix-remedyforce/BMCServicesAbout.vue';
 import ServicesVision from '~~/components/bmc-helix-remedyforce/ServicesVision.vue';
 import RemedyFaqArea from '~~/components/bmc-helix-remedyforce/RemedyFaqArea.vue';
 import HomeCTA from "~/components/subscribe/SubscribeNow.vue";
@@ -31,7 +29,6 @@ export default {
     HeaderOne,
     ServiceBreadcrumb,
     HomeServices,
-    BMCServicesAbout,
     ServicesVision,
     RemedyFaqArea,
     FooterFour,

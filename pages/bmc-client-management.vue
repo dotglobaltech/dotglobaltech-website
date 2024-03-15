@@ -3,7 +3,6 @@
     <header-one :top_bar="false" :commonOffcanvas="true" />
     <service-breadcrumb/>
     <home-services :style_2="true" />
-    <BMCServicesAbout/>
     <services-vision/>
     <home-portfolio :style_2="true" />
     <services-support-area/>
@@ -18,7 +17,6 @@
 import HeaderOne from "~~/layouts/headers/HeaderOne.vue";
 import ServiceBreadcrumb from '~~/components/bmc-client-management/ServiceBreadcrumb.vue';
 import HomeServices from '~~/components/bmc-client-management/HomeServices.vue';
-import BMCServicesAbout from '~~/components/bmc-client-management/BMCServicesAbout.vue';
 import ServicesVision from '~~/components/bmc-client-management/ServicesVision.vue';
 import HomePortfolio from '~~/components/bmc-client-management/HomePortfolio.vue';
 import ServicesSupportArea from '~~/components/bmc-client-management/ServicesSupportArea.vue';
@@ -32,7 +30,6 @@ export default {
     HeaderOne,
     ServiceBreadcrumb,
     HomeServices,
-    BMCServicesAbout,
     ServicesVision,
     HomePortfolio,
     ServicesSupportArea,
