@@ -5,13 +5,12 @@
         <div class="col-xxl-8 col-xl-8 col-lg-10 col-md-10">
           <div class="section__title-wrapper-7 mb-60 text-center">
             <div class="section__title-wrapper-7 mb-40">
-              <span class="section__title-pre-7">Why Choose Dot Global Technologies</span>
+              <span class="section__title-pre-7">
+                Why Choose Dot Global Technologies
+              </span>
               <h3 class="section__title-7">
-                as Your BMC Helix ITSM Partner?
-
+                As Your BMC Helix ITSM Partner?
                 <span class="section__title-7-highlight">
-                  
-
                   <svg width="240" height="22" viewBox="0 0 240 22" fill="none">
                     <path fill-rule="evenodd" clip-rule="evenodd"
                       d="M0.440833 21.1152C78.9497 6.16225 158.05 4.53412 235.949 13.8239C237.497 14.0088 239.796 12.4065 239.988 9.93474C240.181 7.4176 238.026 5.44088 236.474 5.2332C157.99 -5.31675 79.1936 0.359501 0.316568 19.7785C-0.184784 19.9023 -0.0511379 21.2092 0.440833 21.1152Z"
@@ -19,6 +18,7 @@
                   </svg>
                 </span>
               </h3>
+              <p>We go beyond just being a vendor; we're your trusted advisor on your ITSM journey. Here's what sets us apart:</p>
             </div>
           </div>
         </div>
@@ -46,9 +46,11 @@
                 </div>
                 <div class="about__list-content">
                   <h3 class="about__list-title">Unmatched Expertise
-</h3>
+                  </h3>
                   <p>
-                    OOur team comprises BMC-certified consultants with extensive experience in implementing and optimizing BMC Helix ITSM for businesses of all sizes. We can leverage this expertise to ensure a smooth and successful implementation tailored to your specific needs.
+                    Our team comprises BMC-certified consultants with extensive experience in implementing and
+                    optimizing BMC Helix ITSM for businesses of all sizes. We can leverage this expertise to ensure a
+                    smooth and successful implementation tailored to your specific needs.
                   </p>
                 </div>
               </div>
@@ -59,7 +61,9 @@
                 <div class="about__list-content">
                   <h3 class="about__list-title">Customized Solutions</h3>
                   <p>
-                    As the best BMC Helix ITSM Support Service Provider in India, we understand that a one-size-fits-all approach doesn't work. We tailor BMC Helix ITSM to your business-specific workflows and needs, ensuring a perfect fit for your unique processes and IT infrastructure.
+                    As the best BMC Helix ITSM Support Service Provider in India, we understand that a one-size-fits-all
+                    approach doesn't work. We tailor BMC Helix ITSM to your business-specific workflows and needs,
+                    ensuring a perfect fit for your unique processes and IT infrastructure.
                   </p>
                 </div>
               </div>
@@ -70,8 +74,9 @@
                 <div class="about__list-content">
                   <h3 class="about__list-title">Flexible Deployment Options</h3>
                   <p>
-                    Choose between on-premise or cloud-based deployment to suit your IT infrastructure preferences. Whether you have an existing on-premise environment or prefer the scalability and agility of the cloud, we can accommodate your needs.
-
+                    Choose between on-premise or cloud-based deployment to suit your IT infrastructure preferences.
+                    Whether you have an existing on-premise environment or prefer the scalability and agility of the
+                    cloud, we can accommodate your needs.
                   </p>
                 </div>
               </div>
