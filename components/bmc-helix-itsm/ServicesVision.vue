@@ -1,46 +1,31 @@
 <template>
-  <section class="services__area p-relative z-index-1 pt-110 pb-90">
-    <div class="services__shape">
-      <img
-        class="services__shape-10"
-        src="~/assets/img/services/7/services-shape-1.png"
-        alt="services__shape"
-      />
-    </div>
+  <section class="services__area p-relative z-index-1 pt-50 pb-50">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-xxl-8 col-xl-8 col-lg-10 col-md-10">
           <div class="section__title-wrapper-7 mb-60 text-center">
-            <span class="section__title-pre-7">Join 0ur Community</span>
+            <!-- <span class="section__title-pre-7">Join 0ur Community</span> -->
             <h3 class="section__title-7">
-              Amazing
+              What is
               <span class="section__title-7-highlight">
-                services
+                BMC Helix Discovery?
                 <svg width="240" height="22" viewBox="0 0 240 22" fill="none">
-                  <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
+                  <path fill-rule="evenodd" clip-rule="evenodd"
                     d="M0.440833 21.1152C78.9497 6.16225 158.05 4.53412 235.949 13.8239C237.497 14.0088 239.796 12.4065 239.988 9.93474C240.181 7.4176 238.026 5.44088 236.474 5.2332C157.99 -5.31675 79.1936 0.359501 0.316568 19.7785C-0.184784 19.9023 -0.0511379 21.2092 0.440833 21.1152Z"
-                    fill="currentColor"
-                  />
+                    fill="currentColor" />
                 </svg>
               </span>
-              to build busines growth
             </h3>
+            <p>BMC Helix Discovery is a cloud-native, SaaS-based solution that automates data discovery and application
+              dependency mapping across your entire IT landscape. It provides:</p>
           </div>
         </div>
       </div>
       <div class="services__item-wrapper-7">
         <div class="row">
-          <div
-            v-for="item in service_data"
-            :key="item.id"
-            class="col-xxl-4 col-xl-4 col-lg-4 col-md-6"
-          >
-            <div
-              class="services__item-7 text-center mb-60"
-              data-sal="slide-up" :data-sal-delay="item.delay" data-sal-duration="1000"
-            >
+          <div v-for="item in service_data" :key="item.id" class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+            <div class="services__item-7 text-center mb-60" data-sal="slide-up" :data-sal-delay="item.delay"
+              data-sal-duration="1000">
               <div class="services__icon-7">
                 <span v-html="item.icon"> </span>
               </div>
@@ -50,14 +35,14 @@
                 </h3>
                 <p>{{ item.subtitle }}</p>
 
-                <div class="services__btn-7">
+                <!-- <div class="services__btn-7">
                   <nuxt-link href="/service-details" class="tp-link-btn-3">
                     Learn More
                     <span>
                       <i class="fa-regular fa-arrow-right"></i>
                     </span>
                   </nuxt-link>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
@@ -83,9 +68,8 @@ export default {
                   <path opacity="0.5" d="M6.92871 26.9995H21.1647" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                   <path opacity="0.5" d="M10.8105 16.6074H17.2815" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>`,
-          title: "Beautiful Pages",
-          subtitle:
-            "Understand the business model of your product. Know your customers, value propositions.",
+          title: "Complete inventory management",
+          subtitle: "Our BMC Helix Discovery Support Services help you discover and catalog all your IT assets, including hardware, software, and services – regardless of their location.",
         },
         {
           id: 2,
@@ -96,9 +80,8 @@ export default {
                   <path opacity="0.4" d="M7.5 20.5H19.2" stroke="#04121F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                   <path d="M16.6 1H10.1C3.6 1 1 3.6 1 10.1V17.9C1 24.4 3.6 27 10.1 27H17.9C24.4 27 27 24.4 27 17.9V11.4" stroke="#04121F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>`,
-          title: "Easy Invoicing",
-          subtitle:
-            "Understand the business model of your product. Know your customers, value propositions.",
+          title: "Crystal-clear dependency mapping",
+          subtitle: "Visualize the intricate relationships between your applications and infrastructure components, enabling faster troubleshooting and root cause analysis.",
         },
         {
           id: 3,
@@ -110,53 +93,8 @@ export default {
                   <path d="M22.281 13.077L18.758 16.6L9.91797 25.427C10.828 24.491 11.4 23.204 11.4 21.8V9.24204L14.923 5.71905C16.301 4.34105 18.147 4.34105 19.525 5.71905L22.281 8.47504C23.659 9.85304 23.659 11.699 22.281 13.077Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                   <path opacity="0.4" d="M6.19941 23.1C6.91738 23.1 7.49941 22.518 7.49941 21.8C7.49941 21.082 6.91738 20.5 6.19941 20.5C5.48144 20.5 4.89941 21.082 4.89941 21.8C4.89941 22.518 5.48144 23.1 6.19941 23.1Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>`,
-          title: "CMS & Style Guide",
-          subtitle:
-            "Understand the business model of your product. Know your customers, value propositions.",
-        },
-        {
-          id: 4,
-          delay: "190",
-          icon: `<svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-                  <path opacity="0.4" d="M12.5547 1.32324H9.987C3.56772 1.32324 1 3.89096 1 10.3102V18.0134C1 24.4327 3.56772 27.0004 9.987 27.0004H17.6901C24.1094 27.0004 26.6772 24.4327 26.6772 18.0134V15.4457" stroke="#04121F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                  <path d="M19.0257 2.63208L8.90885 12.7489C8.5237 13.134 8.13854 13.8915 8.06151 14.4436L7.50945 18.308C7.30403 19.7074 8.2926 20.6831 9.69201 20.4905L13.5564 19.9385C14.0956 19.8614 14.8531 19.4763 15.2511 19.0911L25.3679 8.97433C27.114 7.22829 27.9356 5.19979 25.3679 2.63208C22.8002 0.0643622 20.7717 0.886031 19.0257 2.63208Z" stroke="#04121F" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                  <path opacity="0.4" d="M17.5752 4.08252C18.4354 7.15094 20.8362 9.55175 23.9175 10.4248" stroke="#04121F" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>`,
-          title: "Manage Expenses",
-          subtitle:
-            "Understand the business model of your product. Know your customers, value propositions.",
-        },
-        {
-          id: 5,
-          delay: "210",
-          icon: `<svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-                    <path
-                      d="M2.97748 18.651L9.3544 25.0343C11.9727 27.6552 16.224 27.6552 18.8564 25.0343L25.0362 18.8483C27.6546 16.2274 27.6546 11.9718 25.0362 9.33681L18.6453 2.96763C17.3079 1.62898 15.4638 0.910335 13.5775 1.00897L6.53898 1.34716C3.72357 1.47398 1.48532 3.71446 1.34454 6.51859L1.0067 13.5641C0.922233 15.4664 1.64016 17.3124 2.97748 18.651Z"
-                      stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                    <path opacity="0.5"
-                      d="M10.4802 14.0016C12.4238 14.0016 13.9995 12.4244 13.9995 10.4788C13.9995 8.53325 12.4238 6.95605 10.4802 6.95605C8.53657 6.95605 6.96094 8.53325 6.96094 10.4788C6.96094 12.4244 8.53657 14.0016 10.4802 14.0016Z"
-                      stroke="white" stroke-width="2" stroke-linecap="round" />
-                    <path opacity="0.5" d="M15.4072 21.0471L21.0381 15.4106" stroke="white" stroke-width="2"
-                      stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
-                  </svg>`,
-          title: "Powerful Blog",
-          subtitle:
-            "Understand the business model of your product. Know your customers, value propositions.",
-        },
-        {
-          id: 6,
-          delay: "230",
-          icon: `<svg width="28" height="29" viewBox="0 0 28 29" fill="none">
-                    <path opacity="0.4"
-                      d="M22.4104 20.2784L22.9174 24.3863C23.0474 25.4652 21.8905 26.2192 20.9675 25.6602L15.5206 22.4233C14.9227 22.4233 14.3377 22.3844 13.7657 22.3064C14.7277 21.1754 15.2997 19.7454 15.2997 18.1984C15.2997 14.5066 12.1018 11.5167 8.14987 11.5167C6.64192 11.5167 5.25097 11.9457 4.094 12.6996C4.055 12.3747 4.04199 12.0496 4.04199 11.7117C4.04199 5.79684 9.17684 1 15.5206 1C21.8644 1 26.9993 5.79684 26.9993 11.7117C26.9993 15.2216 25.1924 18.3285 22.4104 20.2784Z"
-                      stroke="#04121F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                    <path
-                      d="M15.2996 18.1983C15.2996 19.7453 14.7276 21.1753 13.7656 22.3063C12.4787 23.8662 10.4377 24.8671 8.14978 24.8671L4.75688 26.8821C4.1849 27.233 3.45692 26.7521 3.53492 26.0891L3.85991 23.5282C2.11796 22.3193 1 20.3823 1 18.1983C1 15.9104 2.22197 13.8955 4.09391 12.6995C5.25088 11.9456 6.64183 11.5166 8.14978 11.5166C12.1017 11.5166 15.2996 14.5064 15.2996 18.1983Z"
-                      stroke="#04121F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                </svg>`,
-          title: "Expert Support",
-          subtitle:
-            "Understand the business model of your product. Know your customers, value propositions.",
+          title: "Robust compliance and security tools",
+          subtitle: "As BMC Helix Discovery Third-Party Vendor, we ensure adherence to security and compliance standards with automated audit reports, data provenance tracking, and advanced security features.",
         },
       ],
     };
