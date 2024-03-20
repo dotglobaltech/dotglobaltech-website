@@ -47,7 +47,7 @@ export default {
 
   setup() {
     useHead({
-      title: "BMC Helix Discovery - Dot Global Technologies",
+      title: "BMC Control-M - Dot Global Technologies",
     });
   },
 };
