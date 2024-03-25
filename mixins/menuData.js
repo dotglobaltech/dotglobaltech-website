@@ -10,7 +10,7 @@ export default {
           mega_menus: [
             {
               title: "BMC",
-              link: "#",
+              link: "/bmc",
               submenus: [
                 { title: "BMC Helix ITSM", link: "/bmc-helix-itsm" },
                 { title: "BMC Helix Remedyforce", link: "/bmc-helix-remedyforce" },
@@ -39,7 +39,7 @@ export default {
             },
             {
               title: "ServiceNow",
-              link: "#",
+              link: "servicenow",
               submenus: [
                 { title: "ServiceNow It Service Management", link: "/servicenow-it-service-management" },
                 { title: "ServiceNow IT Workflows", link: "/servicenow-it-workflows" },
@@ -51,7 +51,7 @@ export default {
             },
             {
               title: "AWS",
-              link: "#",
+              link: "aws",
               submenus: [
                 { title: "Aws Consulting", link: "/aws-consulting" },
                 { title: "Aws Cloud Migration", link: "/aws-cloud-migration" },
@@ -63,7 +63,7 @@ export default {
             },
             {
               title: "SAP",
-              link: "#",
+              link: "sap",
               submenus: [
                 { title: "Sap Hana", link: "/sap-hana" },
                 { title: "Sap Crm", link: "/sap-crm" },
@@ -75,7 +75,7 @@ export default {
             },
             {
               title: "Analytics",
-              link: "#",
+              link: "analytics",
               submenus: [
                 { title: "Qlikview", link: "/qlikview" },
                 { title: "Tableau", link: "/tableau" },
@@ -86,7 +86,7 @@ export default {
             },
             {
               title: "Microsoft Dynamics 365",
-              link: "#",
+              link: "microsoft dynamics 365",
               submenus: [
                 { title: "Business Central", link: "/business-central" },
                 { title: "Finance", link: "/finance" },
@@ -101,7 +101,7 @@ export default {
             },
             {
               title: "Oracle",
-              link: "#",
+              link: "oracle",
               submenus: [
                 { title: "OCI AI Services", link: "/oci-ai-services" },
                 { title: "Application Development", link: "/application-development" },

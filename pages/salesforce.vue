@@ -2,7 +2,7 @@
   <div>
     <header-one :top_bar="false" :commonOffcanvas="true" />
     <service-breadcrumb />
-    <BMCHelixDicoveryAbout />
+    <salesforceAbout />
     <ServicesKeyFeatures />
     <services-vision />
     <WhyChooseDGT />
@@ -18,7 +18,7 @@
 <script>
 import HeaderOne from "~~/layouts/headers/HeaderOne.vue";
 import ServiceBreadcrumb from '~~/components/salesforce/ServiceBreadcrumb.vue';
-import BMCHelixDicoveryAbout from '~~/components/salesforce/BMCHelixDicoveryAbout.vue';
+import salesforceAbout from '~~/components/salesforce/salesforceAbout.vue';
 import ServicesKeyFeatures from '~~/components/salesforce/ServicesKeyFeatures.vue';
 import ServicesVision from '~~/components/salesforce/ServicesVision.vue';
 import WhyChooseDGT from '~~/components/salesforce/WhyChooseDGT.vue';
@@ -33,7 +33,7 @@ export default {
   components: {
     HeaderOne,
     ServiceBreadcrumb,
-    BMCHelixDicoveryAbout,
+    salesforceAbout,
     ServicesKeyFeatures,
     ServicesVision,
     WhyChooseDGT,
@@ -47,7 +47,7 @@ export default {
 
   setup() {
     useHead({
-      title: "BMC Helix Discovery - Dot Global Technologies",
+      title: "Salesforce - Dot Global Technologies",
     });
   },
 };

@@ -14,7 +14,7 @@
             <div class="breadcrumb__list">
               <span><a href="#">Home</a></span>
               <span class="dvdr"><i class="fa-solid fa-circle-small"></i></span>
-              <span>Services</span>
+              <span>what we do</span>
             </div>
           </div>
         </div>

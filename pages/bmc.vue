@@ -17,13 +17,13 @@
 
 <script>
 import HeaderOne from "~~/layouts/headers/HeaderOne.vue";
-import ServiceBreadcrumb from '~~/components/bmc-main/ServiceBreadcrumb.vue';
-import BMCAbout from '~~/components/bmc-main/BMCAbout.vue';
-import ServicesKeyFeatures from '~~/components/bmc-main/ServicesKeyFeatures.vue';
-import ServicesVision from '~~/components/bmc-main/ServicesVision.vue';
-import WhyChooseDGT from '~~/components/bmc-main/WhyChooseDGT.vue';
-import DiscoveryKeyFeatures from '~~/components/bmc-main/DiscoveryKeyFeatures.vue';
-import Faq from '~~/components/bmc-main/Faq.vue';
+import ServiceBreadcrumb from '~~/components/bmc/ServiceBreadcrumb.vue';
+import BMCAbout from '~~/components/bmc/BMCAbout.vue';
+import ServicesKeyFeatures from '~~/components/bmc/ServicesKeyFeatures.vue';
+import ServicesVision from '~~/components/bmc/ServicesVision.vue';
+import WhyChooseDGT from '~~/components/bmc/WhyChooseDGT.vue';
+import DiscoveryKeyFeatures from '~~/components/bmc/DiscoveryKeyFeatures.vue';
+import Faq from '~~/components/bmc/Faq.vue';
 import HomeCTA from "~/components/subscribe/SubscribeNow.vue";
 import FooterFour from '~~/layouts/footers/FooterFour.vue';
 import FooterEight from '~~/layouts/footers/FooterEight.vue';
