@@ -26,7 +26,7 @@ export default {
             },
             {
               title: "Salesforce",
-              link: "#",
+              link: "/salesforce",
               submenus: [
                 { title: "Salesforce Sales Cloud", link: "/salesforce-sales-cloud" },
                 { title: "Salesforce Service Cloud", link: "/salesforce-service-cloud" },
