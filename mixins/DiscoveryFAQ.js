@@ -4,9 +4,9 @@ export default {
       faq_items: [
         {
           id:"One",
-          title: "What is the cost of BMC Helix Discovery?",
+          title: "What is BMC Helix Remedyforce?",
           show: true,
-          desc: "As your trusted BMC Helix Discovery Partner, we understand that pricing needs vary based on your specific requirements. Contact Dot Global Technologies today for a personalized quote tailored to your unique needs and budget.",
+          desc: "BMC Helix Remedyforce is a comprehensive IT service management solution that easily scales to meet the needs of mid-sized businesses.It integrates seamlessly with Salesforce to combine IT operations management (ITOM) and cognitive capabilities, ensuring improved security, compliance, and productivity for your business.",
           parent:"faqaccordion",
         },
         {

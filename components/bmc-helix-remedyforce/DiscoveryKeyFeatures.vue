@@ -4,8 +4,8 @@
       <div class="row">
         <div class="col-xxl-6 col-xl-6 col-lg-6">
           <div class="section__title-wrapper-4 mb-60">
-            <span class="section__title-pre-4">Key Features</span>
-            <h3 class="section__title-4">That Elevate Your IT Operations</h3>
+            <span class="section__title-pre-4">Dot Global Technologies: Your Trusted BMC Helix Remedyforce Partner</span>
+            <h3 class="section__title-4">Experienced BMC Helix Remedyforce Consultants</h3>
           </div>
           <div class="history__thumb-wrapper d-sm-flex pr-70">
             <div class="history__thumb">
@@ -42,10 +42,8 @@
         <div class="col-xxl-10 col-xl-10 col-lg-11">
           <div class="features__offer text-center mt-20" data-sal="slide-up" data-sal-delay="190"
             data-sal-duration="1000">
-            <span>Ready to unlock the transformative power of BMC Helix Discovery for your organization?</span>
-            <p><nuxt-link href="/contact">Contact</nuxt-link> Dot Global Technologies today for a free consultation and
-              discuss how our comprehensive suite of BMC Helix Discovery services can help you achieve your IT goals.
-            </p>
+            <span>Ready to transform your ITSM and take your customer service to the next level?</span>
+            <p><nuxt-link href="/contact">Contact</nuxt-link> Dot Global Technologies today! We are excited to help you craft a customized solution that empowers you to achieve your ITSM goals. Let Dot Global Technologies be your guide to a world of efficient, effective, and customer-centric service management.</p>
           </div>
         </div>
       </div>
@@ -65,30 +63,20 @@ export default {
       history_lists: [
         {
           delay: ".3s",
-          title: "Effortless, agentless discovery",
-          text: "Eliminate manual data collection, saving time and resources.",
+          title: "We Guide You Through Every Step Of The Journey",
+          text: "From initial implementation and customization to ongoing support and BMC Helix Remedyforce Training, we are here to help you succeed with BMC Helix Remedyforce.",
         },
         {
           delay: ".5s",
-          title: "Advanced security and compliance",
-          text: "Protect your data and ensure regulatory adherence with robust security features.",
+          title: "Benefit From Our Expertise",
+          text: "Our BMC-certified consultant team has extensive experience helping businesses of all sizes get the most out of BMC Helix Remedyforce. Our technical expertise, comprehensive implementation, and ongoing support experience make us the best BMC Helix Remedyforce Support Service Provider.",
         },
         {
           delay: ".7s",
-          title: "Seamless integration",
-          text: "Integrate BMC Helix Discovery with your existing IT tools and workflows for a smooth transition.",
+          title: "Proven Track Record",
+          text: "We have successfully guided and assisted organizations of various sizes to achieve their ITSM goals. We analyze the unique challenges that modern-day enterprises face, and we are committed to providing solutions that meet their specific needs.",
         },
-        {
-          delay: ".9s",
-          title: "Operational infrastructure support",
-          text: "Gain insights into your IT infrastructure performance and optimize resource allocation.",
-        },
-        {
-          delay: ".11s",
-          title: "Effective risk management",
-          text: "Proactively identify and mitigate potential IT risks.",
-        },
-      ]
+       ]
     }
   }
 }

@@ -2,7 +2,7 @@
   <div>
     <header-one :top_bar="false" :commonOffcanvas="true" />
     <service-breadcrumb />
-    <BMCHelixDicoveryAbout />
+    <BMCHelixcontrolMAbout />
     <ServicesKeyFeatures />
     <services-vision />
     <WhyChooseDGT />
@@ -18,7 +18,7 @@
 <script>
 import HeaderOne from "~~/layouts/headers/HeaderOne.vue";
 import ServiceBreadcrumb from '~~/components/bmc-control-m/ServiceBreadcrumb.vue';
-import BMCHelixDicoveryAbout from '~~/components/bmc-control-m/BMCHelixDicoveryAbout.vue';
+import BMCHelixcontrolMAbout from '~~/components/bmc-control-m/BMCHelixcontrolMAbout.vue';
 import ServicesKeyFeatures from '~~/components/bmc-control-m/ServicesKeyFeatures.vue';
 import ServicesVision from '~~/components/bmc-control-m/ServicesVision.vue';
 import WhyChooseDGT from '~~/components/bmc-control-m/WhyChooseDGT.vue';
@@ -33,7 +33,7 @@ export default {
   components: {
     HeaderOne,
     ServiceBreadcrumb,
-    BMCHelixDicoveryAbout,
+    BMCHelixcontrolMAbout,
     ServicesKeyFeatures,
     ServicesVision,
     WhyChooseDGT,

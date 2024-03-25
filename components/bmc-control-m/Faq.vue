@@ -20,7 +20,7 @@
 </template>
 
 <script>
-import commonFaq from '~~/mixins/DiscoveryFAQ';
+import commonFaq from '~~/mixins/bmccontrolM';
 import SingleFaq from './Faq/SingleFaq.vue';
 
 export default {

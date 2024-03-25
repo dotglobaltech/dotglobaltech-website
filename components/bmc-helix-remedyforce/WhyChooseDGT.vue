@@ -5,11 +5,10 @@
         <div class="col-xxl-8 col-xl-8 col-lg-10 col-md-10">
           <div class="section__title-wrapper-7 mb-60 text-center">
             <div class="section__title-wrapper-7 mb-40">
-              <span class="section__title-pre-7">Why Choose Dot Global Technologies</span>
+              <span class="section__title-pre-7"></span>
               <h3 class="section__title-7">
-                As Your BMC Helix Discovery
+                Effective Communication
                 <span class="section__title-7-highlight">
-                  Vendor?
                   <svg width="240" height="22" viewBox="0 0 240 22" fill="none">
                     <path fill-rule="evenodd" clip-rule="evenodd"
                       d="M0.440833 21.1152C78.9497 6.16225 158.05 4.53412 235.949 13.8239C237.497 14.0088 239.796 12.4065 239.988 9.93474C240.181 7.4176 238.026 5.44088 236.474 5.2332C157.99 -5.31675 79.1936 0.359501 0.316568 19.7785C-0.184784 19.9023 -0.0511379 21.2092 0.440833 21.1152Z"
@@ -43,13 +42,9 @@
                   <span></span>
                 </div>
                 <div class="about__list-content">
-                  <h3 class="about__list-title">Experience you can trust</h3>
+                  <h3 class="about__list-title">Collaborate Seamlessly With Customers</h3>
                   <p>
-                    Our team of certified BMC Helix Discovery experts possesses extensive experience in designing,
-                    implementing, and managing the solution, ensuring a smooth and successful journey. The extensive
-                    experience and expertise in implementation and support make us the best BMC Helix Discovery
-                    Third-Party Vendor in india.
-                  </p>
+                    Keep them informed through multiple channels like email, chat, and self-service portals.</p>
                 </div>
               </div>
               <div class="about__list-item d-flex align-items-start">
@@ -57,11 +52,9 @@
                   <span></span>
                 </div>
                 <div class="about__list-content">
-                  <h3 class="about__list-title">Tailored solutions for your unique needs</h3>
+                  <h3 class="about__list-title">Improve First Call Resolution</h3>
                   <p>
-                    We go beyond the one-size-fits-all approach, customizing our services to your specific requirements
-                    and maximizing your ROI.
-                  </p>
+                    With BMC Helix Remedyforce, you can empower your agents with the information they need to resolve service issues quickly and efficiently.</p>
                 </div>
               </div>
               <div class="about__list-item d-flex align-items-start">
@@ -69,12 +62,9 @@
                   <span></span>
                 </div>
                 <div class="about__list-content">
-                  <h3 class="about__list-title">Comprehensive support that lasts</h3>
+                  <h3 class="about__list-title">Enhance Customer Satisfaction</h3>
                   <p>
-                    We are the most trusted BMC Helix Discovery Support Service provider, offering ongoing support, BMC
-                    Helix Discovery Trainings, and maintenance to ensure the continued success of your BMC Helix
-                    Discovery implementation.
-                  </p>
+                    Foster positive customer relationships with clear and timely communication.</p>
                 </div>
               </div>
             </div>

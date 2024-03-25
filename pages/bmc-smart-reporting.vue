@@ -1,26 +1,30 @@
 <template>
   <div>
     <header-one :top_bar="false" :commonOffcanvas="true" />
-    <service-breadcrumb/>
-    <home-services :style_2="true" />
-    <services-vision/>
-    <home-portfolio :style_2="true" />
-    <services-support-area/>
+    <service-breadcrumb />
+    <BMCHelixsmartreportingAbout />
+    <ServicesKeyFeatures />
+    <services-vision />
+    <WhyChooseDGT />
+    <DiscoveryKeyFeatures />
+    <Faq />
     <HomeCTA />
     <FooterFour />
-    <footer-eight/>
-    <back-to-top/>
+    <footer-eight />
+    <back-to-top />
   </div>
 </template>
 
 <script>
 import HeaderOne from "~~/layouts/headers/HeaderOne.vue";
 import ServiceBreadcrumb from '~~/components/bmc-smart-reporting/ServiceBreadcrumb.vue';
-import HomeServices from '~~/components/bmc-smart-reporting/HomeServices.vue';
+import BMCHelixsmartreportingAbout from '~~/components/bmc-smart-reporting/BMCHelixsmartreportingAbout.vue';
+import ServicesKeyFeatures from '~~/components/bmc-smart-reporting/ServicesKeyFeatures.vue';
 import ServicesVision from '~~/components/bmc-smart-reporting/ServicesVision.vue';
-import HomePortfolio from '~~/components/bmc-smart-reporting/HomePortfolio.vue';
-import ServicesSupportArea from '~~/components/bmc-smart-reporting/ServicesSupportArea.vue';
-import HomeCTA from "~/components/index/HomeCTA.vue";
+import WhyChooseDGT from '~~/components/bmc-smart-reporting/WhyChooseDGT.vue';
+import DiscoveryKeyFeatures from '~~/components/bmc-smart-reporting/DiscoveryKeyFeatures.vue';
+import Faq from '~~/components/bmc-smart-reporting/Faq.vue';
+import HomeCTA from "~/components/subscribe/SubscribeNow.vue";
 import FooterFour from '~~/layouts/footers/FooterFour.vue';
 import FooterEight from '~~/layouts/footers/FooterEight.vue';
 import BackToTop from '~~/layouts/footers/component/BackToTop.vue';
@@ -29,10 +33,12 @@ export default {
   components: {
     HeaderOne,
     ServiceBreadcrumb,
-    HomeServices,
+    BMCHelixsmartreportingAbout,
+    ServicesKeyFeatures,
     ServicesVision,
-    HomePortfolio,
-    ServicesSupportArea,
+    WhyChooseDGT,
+    DiscoveryKeyFeatures,
+    Faq,
     FooterFour,
     FooterEight,
     HomeCTA,
@@ -41,7 +47,7 @@ export default {
 
   setup() {
     useHead({
-      title: "Services - Creative Agency & Portfolio Vue Nuxt 3 Template",
+      title: "BMC smart reporting - Dot Global Technologies",
     });
   },
 };

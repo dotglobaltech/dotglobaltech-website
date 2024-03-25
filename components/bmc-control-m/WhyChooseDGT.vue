@@ -7,9 +7,10 @@
             <div class="section__title-wrapper-7 mb-40">
               <span class="section__title-pre-7">Why Choose Dot Global Technologies</span>
               <h3 class="section__title-7">
-                As Your BMC Helix Discovery
+                As Your BMC Helix Control-M
                 <span class="section__title-7-highlight">
                   Vendor?
+                  <P>At Dot Global Technologies, the best BMC Helix Control-M Third Party Vendor in Bengaluru, we strive to provide next-to-none customer service and technical expertise to help you leverage the full potential of BMC Helix Control-M. Here's what sets us apart:</P>
                   <svg width="240" height="22" viewBox="0 0 240 22" fill="none">
                     <path fill-rule="evenodd" clip-rule="evenodd"
                       d="M0.440833 21.1152C78.9497 6.16225 158.05 4.53412 235.949 13.8239C237.497 14.0088 239.796 12.4065 239.988 9.93474C240.181 7.4176 238.026 5.44088 236.474 5.2332C157.99 -5.31675 79.1936 0.359501 0.316568 19.7785C-0.184784 19.9023 -0.0511379 21.2092 0.440833 21.1152Z"
@@ -43,13 +44,9 @@
                   <span></span>
                 </div>
                 <div class="about__list-content">
-                  <h3 class="about__list-title">Experience you can trust</h3>
+                  <h3 class="about__list-title">Unmatched Expertise</h3>
                   <p>
-                    Our team of certified BMC Helix Discovery experts possesses extensive experience in designing,
-                    implementing, and managing the solution, ensuring a smooth and successful journey. The extensive
-                    experience and expertise in implementation and support make us the best BMC Helix Discovery
-                    Third-Party Vendor in india.
-                  </p>
+                    Our team comprises BMC-certified professionals with extensive experience implementing and supporting BMC Helix Control-M solutions. </p>
                 </div>
               </div>
               <div class="about__list-item d-flex align-items-start">
@@ -57,11 +54,9 @@
                   <span></span>
                 </div>
                 <div class="about__list-content">
-                  <h3 class="about__list-title">Tailored solutions for your unique needs</h3>
+                  <h3 class="about__list-title">Customizable Solutions</h3>
                   <p>
-                    We go beyond the one-size-fits-all approach, customizing our services to your specific requirements
-                    and maximizing your ROI.
-                  </p>
+                    As the best BMC Helix Control-M Third-Party Vendor in India, we deploy our BMC-certified IT professionals to tailor the solution to your business-specific needs. We ensure that the solution perfectly fits your unique business processes.</p>
                 </div>
               </div>
               <div class="about__list-item d-flex align-items-start">
@@ -69,12 +64,10 @@
                   <span></span>
                 </div>
                 <div class="about__list-content">
-                  <h3 class="about__list-title">Comprehensive support that lasts</h3>
+                  <h3 class="about__list-title">Flexible Deployment Options</h3>
                   <p>
-                    We are the most trusted BMC Helix Discovery Support Service provider, offering ongoing support, BMC
-                    Helix Discovery Trainings, and maintenance to ensure the continued success of your BMC Helix
-                    Discovery implementation.
-                  </p>
+                    As the best BMC Helix Control-M Support Service Provider, we offer both on-premise and cloud-based deployments to suit your IT infrastructure and preferences.
+                 </p>
                 </div>
               </div>
             </div>

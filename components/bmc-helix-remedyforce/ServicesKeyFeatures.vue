@@ -51,8 +51,8 @@ export default {
             <path opacity="0.4" d="M38.5975 32.1286L37.1631 34.5236C35.1419 37.9292 36.7067 40.7197 40.6405 40.7197C44.5742 40.7197 46.139 37.9292 44.1178 34.5236L42.6834 32.1286C41.5533 30.239 39.7059 30.239 38.5975 32.1286Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
             <path opacity="0.4" d="M1.21484 22.1312C13.2986 18.8134 26.0344 18.7036 38.1616 21.8456L39.2483 22.1312" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>`,
-          title: "Optimize performance",
-          description: "Gain real-time insights into your entire IT ecosystem, from multi-cloud environments to hybrid deployments and on-premises assets.",
+          title: "Automate Routine Tasks",
+          description: " Reduce manual work and free up your IT team to focus on more strategic initiatives. Through our incredible BMC Helix Remedyforce Managed Services, we implement workflow automation and help you streamline your routine tasks like never before.",
         },
         {
           icon: `<svg width="32" height="40" viewBox="0 0 32 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -60,8 +60,8 @@ export default {
             <path opacity="0.4" d="M19.7637 7.65088H12.2637" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
             <path opacity="0.4" d="M15.9941 33.4891C17.5992 33.4891 18.9004 32.1706 18.9004 30.5441C18.9004 28.9176 17.5992 27.5991 15.9941 27.5991C14.3891 27.5991 13.0879 28.9176 13.0879 30.5441C13.0879 32.1706 14.3891 33.4891 15.9941 33.4891Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>`,
-          title: "Reduce costs",
-          description: "Eliminate manual data collection and streamline operations with automated discovery and dependency mapping.",
+          title: "Improve Efficiency",
+          description: "Streamline workflows and processes to get things done faster and with fewer errors.",
         },
         {
           icon: `<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -70,8 +70,8 @@ export default {
               <path opacity="0.4" d="M10.5 29.5H27.6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
               <path d="M23.8 1H14.3C4.8 1 1 4.8 1 14.3V25.7C1 35.2 4.8 39 14.3 39H25.7C35.2 39 39 35.2 39 25.7V16.2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>`,
-          title: "Enhance security and compliance",
-          description: "Through our unmatched BMC Helix Discovery Managed Services ensure regulatory adherence and mitigate security risks with comprehensive asset management and audit support.",
+          title: "Boost ROI",
+          description: "Maximize the return on your investment in IT service management with increased efficiency and productivity.",
         },
       ],
     };

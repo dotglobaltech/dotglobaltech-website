@@ -1,115 +1,48 @@
 <template>
-  <section class="vision__area vision__style-2 pt-110 pb-110 grey-bg-4">
+  <section class="services__area p-relative z-index-1 pt-50 pb-50">
     <div class="container">
-      <div class="row">
-        <div class="col-xxl-8 col-xl-9 col-lg-10">
-          <div class="tp-section-wrapper-2 mb-60">
-            <span class="tp-section-subtitle-2">Vision for the city</span>
-            <h3 class="tp-section-title-2">Our various types of services especially for you</h3>
+      <div class="row justify-content-center">
+        <div class="col-xxl-8 col-xl-8 col-lg-10 col-md-10">
+          <div class="section__title-wrapper-7 mb-60 text-center">
+            <!-- <span class="section__title-pre-7">Join 0ur Community</span> -->
+            <h3 class="section__title-7">
+              What is
+              <span class="section__title-7-highlight">
+                BMC Helix Client Management?
+                <svg width="240" height="22" viewBox="0 0 240 22" fill="none">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M0.440833 21.1152C78.9497 6.16225 158.05 4.53412 235.949 13.8239C237.497 14.0088 239.796 12.4065 239.988 9.93474C240.181 7.4176 238.026 5.44088 236.474 5.2332C157.99 -5.31675 79.1936 0.359501 0.316568 19.7785C-0.184784 19.9023 -0.0511379 21.2092 0.440833 21.1152Z"
+                    fill="currentColor" />
+                </svg>
+              </span>
+            </h3>
+            <p>BMC Helix Client Management is a comprehensive solution for managing desktops, mobiles, and laptops. </p>
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-xxl-3 col-xl-4 col-lg-4 col-md-5">
-          <div class="vision__tab tp-tab">
-            <ul class="nav nav-tabs flex-column" id="visionTab" role="tablist">
-              <li class="nav-item" role="presentation" data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000">
-                <button class="nav-link" id="environment-tab" data-bs-toggle="tab" data-bs-target="#environment"
-                  type="button" role="tab" aria-controls="environment" aria-selected="true">
-                  <span>
-                    <svg width="22" height="26" viewBox="0 0 22 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path
-                        d="M21 7V19C21 23.8 19.75 25 14.75 25H7.25C2.25 25 1 23.8 1 19V7C1 2.2 2.25 1 7.25 1H14.75C19.75 1 21 2.2 21 7Z"
-                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                      <path opacity="0.4" d="M13.5117 5.20044H8.51172" stroke="currentColor" stroke-width="1.5"
-                        stroke-linecap="round" stroke-linejoin="round" />
-                      <path opacity="0.4"
-                        d="M10.9961 21.5196C12.0661 21.5196 12.9336 20.6868 12.9336 19.6596C12.9336 18.6323 12.0661 17.7996 10.9961 17.7996C9.92604 17.7996 9.05859 18.6323 9.05859 19.6596C9.05859 20.6868 9.92604 21.5196 10.9961 21.5196Z"
-                        stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                    </svg>
-                  </span>Mobile App
-                </button>
-              </li>
-              <li class="nav-item" role="presentation" data-sal="slide-up" data-sal-delay="130" data-sal-duration="1000">
-                <button class="nav-link active" id="crime-tab" data-bs-toggle="tab" data-bs-target="#crime" type="button"
-                  role="tab" aria-controls="crime" aria-selected="false">
-                  <span>
-                    <svg width="24" height="27" viewBox="0 0 24 27" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M13.2222 1L1 15.6667H12L10.7778 25.4444L23 10.7778H12L13.2222 1Z" stroke="currentColor"
-                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                    </svg>
-                  </span>Speed Optimized
-                </button>
-              </li>
-              <li class="nav-item" role="presentation" data-sal="slide-up" data-sal-delay="150" data-sal-duration="1000">
-                <button class="nav-link" id="land-tab" data-bs-toggle="tab" data-bs-target="#land" type="button"
-                  role="tab" aria-controls="land" aria-selected="false">
-                  <span>
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path opacity="0.4"
-                        d="M19.6906 7.6C21.5132 7.6 22.9906 6.12254 22.9906 4.3C22.9906 2.47746 21.5132 1 19.6906 1C17.8681 1 16.3906 2.47746 16.3906 4.3C16.3906 6.12254 17.8681 7.6 19.6906 7.6Z"
-                        stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                      <path opacity="0.4" d="M6.5 13.1006H12" stroke="currentColor" stroke-width="1.5"
-                        stroke-linecap="round" stroke-linejoin="round" />
-                      <path opacity="0.4" d="M6.5 17.5H16.4" stroke="currentColor" stroke-width="1.5"
-                        stroke-linecap="round" stroke-linejoin="round" />
-                      <path d="M14.2 1H8.7C3.2 1 1 3.2 1 8.7V15.3C1 20.8 3.2 23 8.7 23H15.3C20.8 23 23 20.8 23 15.3V9.8"
-                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                    </svg>
-                  </span>No Skills Needed
-                </button>
-              </li>
-              <li class="nav-item" role="presentation" data-sal="slide-up" data-sal-delay="170" data-sal-duration="1000">
-                <button class="nav-link" id="education-tab" data-bs-toggle="tab" data-bs-target="#education" type="button"
-                  role="tab" aria-controls="education" aria-selected="false">
-                  <span>
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path opacity="0.4"
-                        d="M19.5202 11.652C22.4709 11.652 23.6966 10.5171 22.6071 6.79468C21.8694 4.28656 19.7131 2.13026 17.205 1.39258C13.4826 0.303087 12.3477 1.52877 12.3477 4.47949V7.74799C12.3477 10.5171 13.4825 11.652 15.7523 11.652H19.5202Z"
-                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                      <path
-                        d="M21.4297 14.7162C20.3742 19.9708 15.3353 23.784 9.60407 22.8534C5.30283 22.1611 1.8414 18.6997 1.13777 14.3985C0.218507 8.68995 4.00905 3.65103 9.24091 2.58423"
-                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                    </svg>
-                  </span>Google Analytics
-                </button>
-              </li>
-              <li class="nav-item" role="presentation" data-sal="slide-up" data-sal-delay="190" data-sal-duration="1000">
-                <button class="nav-link" id="law-tab" data-bs-toggle="tab" data-bs-target="#law" type="button" role="tab"
-                  aria-controls="law" aria-selected="false">
-                  <span>
-                    <svg width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path
-                        d="M23 18V4C23 2 21.8387 1 19.516 1H14.8707C12.548 1 11.3867 2 11.3867 4V18C11.3867 20 12.548 21 14.8707 21H19.516C21.8387 21 23 20 23 18Z"
-                        stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
-                      <path opacity="0.4" d="M11.3867 5H17.1934" stroke="currentColor" stroke-width="1.5"
-                        stroke-linecap="round" />
-                      <path opacity="0.4" d="M11.3867 17H16.032" stroke="currentColor" stroke-width="1.5"
-                        stroke-linecap="round" />
-                      <path opacity="0.4" d="M11.3867 12.95L17.1934 13" stroke="currentColor" stroke-width="1.5"
-                        stroke-linecap="round" />
-                      <path opacity="0.4" d="M11.3867 9H14.8707" stroke="currentColor" stroke-width="1.5"
-                        stroke-linecap="round" />
-                      <path
-                        d="M4.43754 1C2.54457 1 1 2.33 1 3.95V16.91C1 17.36 1.22065 18.04 1.48776 18.43L2.44005 19.79C3.5317 21.36 5.33176 21.36 6.42342 19.79L7.37571 18.43C7.64281 18.04 7.86346 17.36 7.86346 16.91V3.95C7.86346 2.33 6.31889 1 4.43754 1Z"
-                        stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
-                      <path opacity="0.4" d="M7.86346 6H1" stroke="currentColor" stroke-width="1.5"
-                        stroke-linecap="round" />
-                    </svg>
-                  </span>Pixel Perfect
-                </button>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-xxl-9 col-xl-8 col-lg-8 col-md-7">
-          <div class="vision__tab-content pl-70">
-            <div class="tab-content" id="visionTabContent">
-              <single-tab-item id="environment" :img="img_1" :active="false" />
-              <single-tab-item id="crime" :img="img_2" :active="true" />
-              <single-tab-item id="land" :img="img_3" :active="false" />
-              <single-tab-item id="education" :img="img_4" :active="false" />
-              <single-tab-item id="law" :img="img_5" :active="false" />
+      <div class="services__item-wrapper-7">
+        <div class="row">
+          <div v-for="item in service_data" :key="item.id" class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+            <div class="services__item-7 text-center mb-60" data-sal="slide-up" :data-sal-delay="item.delay"
+              data-sal-duration="1000">
+              <div class="services__icon-7">
+                <span v-html="item.icon"> </span>
+              </div>
+              <div class="services__content-7">
+                <h3 class="services__title-7">
+                  <nuxt-link href="/service-details">{{ item.title }}</nuxt-link>
+                </h3>
+                <p>{{ item.subtitle }}</p>
+
+                <!-- <div class="services__btn-7">
+                  <nuxt-link href="/service-details" class="tp-link-btn-3">
+                    Learn More
+                    <span>
+                      <i class="fa-regular fa-arrow-right"></i>
+                    </span>
+                  </nuxt-link>
+                </div> -->
+              </div>
             </div>
           </div>
         </div>
@@ -119,22 +52,51 @@
 </template>
 
 <script>
-// internal
-import img_1 from "~/assets/img/vision/2/vision-1.jpg";
-import img_2 from "~/assets/img/vision/2/vision-2.jpg";
-import img_3 from "~/assets/img/vision/2/vision-3.jpg";
-import img_4 from "~/assets/img/vision/2/vision-4.jpg";
-import img_5 from "~/assets/img/vision/2/vision-5.jpg";
-import SingleTabItem from './SingleTabItem.vue';
-import SalScrollAnimationMixin from '~/mixins/SalScrollAnimationMixin';
+import SalScrollAnimationMixin from "~/mixins/SalScrollAnimationMixin";
 
 export default {
-  mixins:[SalScrollAnimationMixin],
-  components: { SingleTabItem },
+  mixins: [SalScrollAnimationMixin],
   data() {
     return {
-      img_1, img_2, img_3, img_4, img_5
-    }
-  }
-}
+      service_data: [
+        {
+          id: 1,
+          delay: "130",
+          icon: `<svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+                  <path d="M20.1296 23.0769H7.96432C7.42077 23.0769 6.8125 22.6483 6.63132 22.1287L1.2734 7.08594C0.509833 4.92955 1.40282 4.26705 3.24056 5.59206L8.28787 9.21634C9.12909 9.8009 10.0868 9.50212 10.4492 8.55384L12.7269 2.4614C13.4517 0.512865 14.6552 0.512865 15.38 2.4614L17.6578 8.55384C18.0201 9.50212 18.9778 9.8009 19.8061 9.21634L24.5428 5.82588C26.5617 4.37097 27.5324 5.11142 26.7041 7.46265L21.4756 22.1546C21.2815 22.6483 20.6732 23.0769 20.1296 23.0769Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path opacity="0.5" d="M6.92871 26.9995H21.1647" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path opacity="0.5" d="M10.8105 16.6074H17.2815" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>`,
+          title: "",
+          subtitle: "",
+        },
+        {
+          id: 2,
+          delay: "150",
+          icon: `<svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+                  <path opacity="0.4" d="M23.1002 8.8C25.2541 8.8 27.0002 7.05391 27.0002 4.9C27.0002 2.74609 25.2541 1 23.1002 1C20.9463 1 19.2002 2.74609 19.2002 4.9C19.2002 7.05391 20.9463 8.8 23.1002 8.8Z" stroke="#04121F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path opacity="0.4" d="M7.5 15.3003H14" stroke="#04121F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path opacity="0.4" d="M7.5 20.5H19.2" stroke="#04121F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M16.6 1H10.1C3.6 1 1 3.6 1 10.1V17.9C1 24.4 3.6 27 10.1 27H17.9C24.4 27 27 24.4 27 17.9V11.4" stroke="#04121F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>`,
+          title: "",
+          subtitle: "",
+        },
+        {
+          id: 3,
+          delay: "170",
+          icon: `<svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+                  <path d="M11.4 4.25V21.8C11.4 23.204 10.828 24.491 9.91798 25.427L9.86601 25.479C9.74901 25.596 9.61901 25.713 9.50201 25.804C9.11201 26.142 8.66998 26.402 8.21498 26.584C8.07198 26.649 7.929 26.701 7.786 26.753C7.279 26.922 6.733 27 6.2 27C5.849 27 5.49802 26.961 5.16002 26.896C4.99102 26.857 4.822 26.818 4.653 26.766C4.445 26.701 4.25001 26.636 4.05501 26.545C4.05501 26.532 4.055 26.532 4.042 26.545C3.678 26.363 3.32701 26.155 3.00201 25.908L2.989 25.895C2.82 25.765 2.66402 25.635 2.52102 25.479C2.37802 25.323 2.235 25.167 2.092 24.998C1.845 24.673 1.63701 24.322 1.45501 23.958C1.46801 23.945 1.46801 23.945 1.45501 23.945C1.45501 23.945 1.455 23.932 1.442 23.919C1.364 23.737 1.29899 23.542 1.23399 23.347C1.18199 23.178 1.14298 23.009 1.10398 22.84C1.03898 22.502 1 22.151 1 21.8V4.25C1 2.3 2.3 1 4.25 1H8.15C10.1 1 11.4 2.3 11.4 4.25Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path opacity="0.5" d="M27.0002 19.8501V23.7501C27.0002 25.7001 25.7002 27.0001 23.7502 27.0001H6.2002C6.7332 27.0001 7.2792 26.9221 7.7862 26.7531C7.9292 26.7011 8.07218 26.6491 8.21518 26.5841C8.67018 26.4021 9.11221 26.1421 9.50221 25.8041C9.61921 25.7131 9.74921 25.5961 9.86621 25.4791L9.91818 25.4271L18.7582 16.6001H23.7502C25.7002 16.6001 27.0002 17.9001 27.0002 19.8501Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M4.65338 26.7662C3.87338 26.5322 3.1324 26.1032 2.5214 25.4792C1.8974 24.8682 1.46838 24.1272 1.23438 23.3472C1.74137 24.9722 3.02838 26.2592 4.65338 26.7662Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M22.281 13.077L18.758 16.6L9.91797 25.427C10.828 24.491 11.4 23.204 11.4 21.8V9.24204L14.923 5.71905C16.301 4.34105 18.147 4.34105 19.525 5.71905L22.281 8.47504C23.659 9.85304 23.659 11.699 22.281 13.077Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path opacity="0.4" d="M6.19941 23.1C6.91738 23.1 7.49941 22.518 7.49941 21.8C7.49941 21.082 6.91738 20.5 6.19941 20.5C5.48144 20.5 4.89941 21.082 4.89941 21.8C4.89941 22.518 5.48144 23.1 6.19941 23.1Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>`,
+          title: "",
+          subtitle: " ",
+        },
+      ],
+    };
+  },
+};
 </script>
