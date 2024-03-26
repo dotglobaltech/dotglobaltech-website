@@ -2,7 +2,7 @@
   <div>
     <header-one :top_bar="false" :commonOffcanvas="true" />
     <service-breadcrumb />
-    <BMCHelixDicoveryAbout />
+    <sapAbout />
     <ServicesKeyFeatures />
     <services-vision />
     <WhyChooseDGT />
@@ -17,13 +17,13 @@
 
 <script>
 import HeaderOne from "~~/layouts/headers/HeaderOne.vue";
-import ServiceBreadcrumb from '~~/components/aws-main/ServiceBreadcrumb.vue';
-import BMCHelixDicoveryAbout from '~~/components/aws-main/BMCHelixDicoveryAbout.vue';
-import ServicesKeyFeatures from '~~/components/aws-main/ServicesKeyFeatures.vue';
-import ServicesVision from '~~/components/aws-main/ServicesVision.vue';
-import WhyChooseDGT from '~~/components/aws-main/WhyChooseDGT.vue';
-import DiscoveryKeyFeatures from '~~/components/aws-main/DiscoveryKeyFeatures.vue';
-import Faq from '~~/components/aws-main/Faq.vue';
+import ServiceBreadcrumb from '~~/components/sap/ServiceBreadcrumb.vue';
+import sapAbout from '~~/components/sap/sapAbout.vue';
+import ServicesKeyFeatures from '~~/components/sap/ServicesKeyFeatures.vue';
+import ServicesVision from '~~/components/sap/ServicesVision.vue';
+import WhyChooseDGT from '~~/components/sap/WhyChooseDGT.vue';
+import DiscoveryKeyFeatures from '~~/components/sap/DiscoveryKeyFeatures.vue';
+import Faq from '~~/components/sap/Faq.vue';
 import HomeCTA from "~/components/subscribe/SubscribeNow.vue";
 import FooterFour from '~~/layouts/footers/FooterFour.vue';
 import FooterEight from '~~/layouts/footers/FooterEight.vue';
@@ -33,7 +33,7 @@ export default {
   components: {
     HeaderOne,
     ServiceBreadcrumb,
-    BMCHelixDicoveryAbout,
+    sapAbout,
     ServicesKeyFeatures,
     ServicesVision,
     WhyChooseDGT,
@@ -47,7 +47,7 @@ export default {
 
   setup() {
     useHead({
-      title: "AWS- Dot Global Technologies",
+      title: "sap - Dot Global Technologies",
     });
   },
 };
