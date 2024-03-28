@@ -7388,6 +7388,16 @@ html .mt20 {
   height: 23px;
 }
 
+.video-banner {
+  position: relative;
+  overflow: hidden;
+}
+.video-banner__video {
+  width: 100%;
+  height: 100vh; /* Adjust height as needed */
+  object-fit: cover; /* Cover the whole area without losing aspect ratio */
+}
+
 .tp-swiper-fraction-divide::after {
   position: absolute;
   content: "";
@@ -18384,7 +18394,7 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
   font-weight: 500;
   position: relative;
   top: 0;
-  animation: slide 12s steps(4) infinite;
+  /* animation: slide 12s steps(4) infinite; */
 }
 @keyframes slide {
   100%{

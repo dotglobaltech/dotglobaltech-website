@@ -1,5 +1,6 @@
 <template>
   <LayoutOne>
+    <!-- <HomeHeroDemo /> -->
     <HomeHero />
     <CoreServices :style_2="true" />
     <WhatWeDo />
@@ -20,6 +21,7 @@
 
 <script setup>
 import LayoutOne from '~/layouts/LayoutOne.vue';
+// import HomeHeroDemo from '~/components/index/HomeHeroDemo.vue'
 import HomeHero from '~/components/index/HomeHero.vue'
 import CoreServices from '~~/components/index/CoreServices.vue';
 import WhatWeDo from "~/components/index/WhatWeDo.vue";
