@@ -2,7 +2,7 @@
   <div>
     <header-one :top_bar="false" :commonOffcanvas="true" />
     <service-breadcrumb />
-    <BMCHelixDicoveryAbout />
+    <awsAbout />
     <ServicesKeyFeatures />
     <services-vision />
     <WhyChooseDGT />
@@ -18,7 +18,7 @@
 <script>
 import HeaderOne from "~~/layouts/headers/HeaderOne.vue";
 import ServiceBreadcrumb from '~~/components/aws/ServiceBreadcrumb.vue';
-import BMCHelixDicoveryAbout from '~~/components/aws/BMCHelixDicoveryAbout.vue';
+import awsAbout from '~~/components/aws/awsAbout.vue';
 import ServicesKeyFeatures from '~~/components/aws/ServicesKeyFeatures.vue';
 import ServicesVision from '~~/components/aws/ServicesVision.vue';
 import WhyChooseDGT from '~~/components/aws/WhyChooseDGT.vue';
@@ -33,7 +33,7 @@ export default {
   components: {
     HeaderOne,
     ServiceBreadcrumb,
-    BMCHelixDicoveryAbout,
+    awsAbout,
     ServicesKeyFeatures,
     ServicesVision,
     WhyChooseDGT,
