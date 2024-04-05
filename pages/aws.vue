@@ -1,13 +1,13 @@
 <template>
   <div>
     <header-one :top_bar="false" :commonOffcanvas="true" />
-    <service-breadcrumb />
+    <ServiceBreadcrumb />
     <awsAbout />
-    <WhyChooseDGT />
+    <CloudMigration />
     <WhyChooseUs />
-    <DiscoveryKeyFeatures />
-    <services-vision />
-    <Faq />
+    <BenefitsofAWS />
+    <UnlockAWS />
+    <Faq /> 
     <HomeCTA />
     <FooterFour />
     <footer-eight />
@@ -19,10 +19,10 @@
 import HeaderOne from "~~/layouts/headers/HeaderOne.vue";
 import ServiceBreadcrumb from '~~/components/aws/ServiceBreadcrumb.vue';
 import awsAbout from '~~/components/aws/awsAbout.vue';
-import WhyChooseDGT from '~~/components/aws/WhyChooseDGT.vue';
+import CloudMigration from '~~/components/aws/CloudMigration.vue';
 import WhyChooseUs from '~~/components/aws/WhyChooseUs.vue';
-import DiscoveryKeyFeatures from '~~/components/aws/DiscoveryKeyFeatures.vue';
-import ServicesVision from '~~/components/aws/ServicesVision.vue';
+import BenefitsofAWS from '~~/components/aws/BenefitsofAWS.vue';
+import UnlockAWS from '~~/components/aws/UnlockAWS.vue';
 import Faq from '~~/components/aws/Faq.vue';
 import HomeCTA from "~/components/subscribe/SubscribeNow.vue";
 import FooterFour from '~~/layouts/footers/FooterFour.vue';
@@ -34,10 +34,10 @@ export default {
     HeaderOne,
     ServiceBreadcrumb,
     awsAbout,
-    WhyChooseDGT,
+    CloudMigration,
     WhyChooseUs,
-    DiscoveryKeyFeatures,
-    ServicesVision,
+    BenefitsofAWS,
+    UnlockAWS,
     Faq,
     HomeCTA,
     FooterFour,

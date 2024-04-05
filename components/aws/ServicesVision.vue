@@ -21,17 +21,59 @@
       </div>
       <div class="services__item-wrapper-7">
         <div class="row">
-          <div v-for="item in service_data" :key="item.id" class="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
-            <div class="services__item-7 text-center mb-60" data-sal="slide-up" :data-sal-delay="item.delay"
+          <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
+            <div class="services__item-7 text-center mb-60" data-sal="slide-up" data-sal-delay="150"
               data-sal-duration="1000">
               <div class="services__icon-7">
-                <span v-html="item.icon"> </span>
+                <span><img src="~/assets/img/icon/services/8/services-1.svg" alt=""></span>
               </div>
-              <div class="services__content-7">
+              <div class="services__content-7" style="height: 350px;">
                 <h3 class="services__title-7">
-                  <nuxt-link href="/service-details">{{ item.title }}</nuxt-link>
+                  Agility<br>Unleashed
                 </h3>
-                <p>{{ item.subtitle }}</p>
+                <p>Respond to market shifts in real-time, scaling your resources up or down with incredible ease.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
+            <div class="services__item-7 text-center mb-60" data-sal="slide-up" data-sal-delay="150"
+              data-sal-duration="1000">
+              <div class="services__icon-7">
+                <span><img src="~/assets/img/icon/services/8/services-1.svg" alt=""></span>
+              </div>
+              <div class="services__content-7" style="height: 350px;">
+                <h3 class="services__title-7">
+                  Cost Savings Galore
+                </h3>
+                <p>Ditch the upfront infrastructure costs and pay only for what you use, finally breaking free from the shackles of traditional IT.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
+            <div class="services__item-7 text-center mb-60" data-sal="slide-up" data-sal-delay="150"
+              data-sal-duration="1000">
+              <div class="services__icon-7">
+                <span><img src="~/assets/img/icon/services/8/services-1.svg" alt=""></span>
+              </div>
+              <div class="services__content-7" style="height: 350px;">
+                <h3 class="services__title-7">
+                  Fort Knox Security
+                </h3>
+                <p>Leverage AWS's robust security infrastructure and best practices, putting your data at ease in a virtual vault.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
+            <div class="services__item-7 text-center mb-60" data-sal="slide-up" data-sal-delay="150"
+              data-sal-duration="1000">
+              <div class="services__icon-7">
+                <span><img src="~/assets/img/icon/services/8/services-1.svg" alt=""></span>
+              </div>
+              <div class="services__content-7" style="height: 350px;">
+                <h3 class="services__title-7">
+                  Innovation Playground
+                </h3>
+                <p>Dive into a vast ocean of cutting-edge cloud services, fueling your creativity and turning your wildest ideas into reality.</p>
               </div>
             </div>
           </div>

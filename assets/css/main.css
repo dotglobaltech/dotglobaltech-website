@@ -25946,6 +25946,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .about__list-content p {
   font-size: 16px;
   line-height: 1.5;
+  text-align: justify;
 }
 
 .about__list-2 {
@@ -48093,8 +48094,8 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .features__offer {
   background-color: #F8F4EE;
-  border-radius: 100px;
-  padding: 20px 0;
+  border-radius: 25px;
+  padding: 20px 15px;
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px),
