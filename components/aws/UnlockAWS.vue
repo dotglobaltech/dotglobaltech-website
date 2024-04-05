@@ -3,16 +3,6 @@
     <div class="container">
       <div class="row">
         <div class="col-xxl-6 col-xl-6 col-lg-6">
-          <div class="section__title-wrapper-4 mb-60">
-            <span class="tp-section-subtitle-2">Benefits of Switching To AWS</span>
-            <p>There are many benefits to adopting AWS for businesses of all sizes. Let's go through some significant
-              advantages:</p>
-          </div>
-          <div class="about__thumb-14 m-img">
-            <img class="about-img-1" src="~/assets/img/image-here.png" alt="">
-          </div>
-        </div>
-        <div class="col-xxl-6 col-xl-6 col-lg-6">
           <div class="history__list pl-65 pr-90">
             <div class="history__list-item d-flex align-items-start">
               <div class="history__list-content">
@@ -77,6 +67,14 @@
                   DSS.</li>
               </div>
             </div>
+          </div>
+        </div>
+        <div class="col-xxl-6 col-xl-6 col-lg-6">
+          <div class="section__title-wrapper-4 mb-60">
+            <span class="tp-section-subtitle-2">Unlock AWS To Its Fullest Potential with Dot Global Technologies</span>
+          </div>
+          <div class="about__thumb-14 m-img">
+            <img class="about-img-1" src="~/assets/img/image-here.png" alt="">
           </div>
         </div>
       </div>

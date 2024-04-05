@@ -140,7 +140,7 @@
           <div class="section__title-wrapper-7 mb-60 text-center">
             <div class="section__title-wrapper-7 mb-40">
               <h3 class="section__title-7">
-                Cutting-Edge Cloud-Native Solutions: 
+                Cutting-Edge Cloud-Native Solutions:
                 <span class="section__title-7-highlight">
                   Pushing the Boundaries
                   <svg width="240" height="22" viewBox="0 0 240 22" fill="none">
@@ -177,7 +177,9 @@
                 <div class="about__list-content">
                   <h3 class="about__list-title">Serverless revolution</h3>
                   <p>
-                    Ditch the heavy server management and embrace the future of cloud computing with serverless architectures built for agility and cost efficiency. We execute every <strong>AWS implementation</strong> project by leveraging product expertise to ensure customer success.
+                    Ditch the heavy server management and embrace the future of cloud computing with serverless
+                    architectures built for agility and cost efficiency. We execute every <strong>AWS
+                      implementation</strong> project by leveraging product expertise to ensure customer success.
                   </p>
                 </div>
               </div>
@@ -188,7 +190,8 @@
                 <div class="about__list-content">
                   <h3 class="about__list-title">IoT and ML powerhouses</h3>
                   <p>
-                    Connect the dots with groundbreaking IoT solutions and harness the power of machine learning to unlock deeper insights and drive intelligent decisions.
+                    Connect the dots with groundbreaking IoT solutions and harness the power of machine learning to
+                    unlock deeper insights and drive intelligent decisions.
                   </p>
                 </div>
               </div>

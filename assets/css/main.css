@@ -45533,7 +45533,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .history__list-item {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .history__list-item:last-child {
