@@ -12050,8 +12050,9 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .tp-section-subtitle-2 {
   display: inline-block;
   font-family: var(--tp-ff-space);
-  font-weight: 500;
-  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  font-size: 25px;
   letter-spacing: 0.04em;
   color: var(--tp-common-purple);
 }
@@ -23631,9 +23632,9 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .about__wrapper-14 p {
   font-size: 16px;
   line-height: 1.62;
-  margin-bottom: 42px;
+  margin-bottom: 12px;
   padding-right: 100px;
-  text-align: left;
+  text-align: justify;
 }
 
 [dir=rtl] .about__wrapper-14 p {
