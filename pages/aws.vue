@@ -3,9 +3,10 @@
     <header-one :top_bar="false" :commonOffcanvas="true" />
     <service-breadcrumb />
     <awsAbout />
+    <WhyChooseDGT />
+    <WhyChooseUs />
     <ServicesKeyFeatures />
     <services-vision />
-    <WhyChooseDGT />
     <DiscoveryKeyFeatures />
     <Faq />
     <HomeCTA />
@@ -19,9 +20,10 @@
 import HeaderOne from "~~/layouts/headers/HeaderOne.vue";
 import ServiceBreadcrumb from '~~/components/aws/ServiceBreadcrumb.vue';
 import awsAbout from '~~/components/aws/awsAbout.vue';
+import WhyChooseDGT from '~~/components/aws/WhyChooseDGT.vue';
+import WhyChooseUs from '~~/components/aws/WhyChooseUs.vue';
 import ServicesKeyFeatures from '~~/components/aws/ServicesKeyFeatures.vue';
 import ServicesVision from '~~/components/aws/ServicesVision.vue';
-import WhyChooseDGT from '~~/components/aws/WhyChooseDGT.vue';
 import DiscoveryKeyFeatures from '~~/components/aws/DiscoveryKeyFeatures.vue';
 import Faq from '~~/components/aws/Faq.vue';
 import HomeCTA from "~/components/subscribe/SubscribeNow.vue";
@@ -37,6 +39,7 @@ export default {
     ServicesKeyFeatures,
     ServicesVision,
     WhyChooseDGT,
+    WhyChooseUs,
     DiscoveryKeyFeatures,
     Faq,
     FooterFour,
