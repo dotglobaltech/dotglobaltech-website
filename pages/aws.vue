@@ -6,7 +6,7 @@
     <CloudMigration />
     <WhyChooseUs />
     <BenefitsofAWS />
-    <UnlockAWS />
+    <UnlockAWSFullest />
     <Faq /> 
     <HomeCTA />
     <FooterFour />
@@ -22,7 +22,7 @@ import awsAbout from '~~/components/aws/awsAbout.vue';
 import CloudMigration from '~~/components/aws/CloudMigration.vue';
 import WhyChooseUs from '~~/components/aws/WhyChooseUs.vue';
 import BenefitsofAWS from '~~/components/aws/BenefitsofAWS.vue';
-import UnlockAWS from '~~/components/aws/UnlockAWS.vue';
+import UnlockAWSFullest from '~~/components/aws/UnlockAWSFullest.vue';
 import Faq from '~~/components/aws/Faq.vue';
 import HomeCTA from "~/components/subscribe/SubscribeNow.vue";
 import FooterFour from '~~/layouts/footers/FooterFour.vue';
@@ -37,7 +37,7 @@ export default {
     CloudMigration,
     WhyChooseUs,
     BenefitsofAWS,
-    UnlockAWS,
+    UnlockAWSFullest,
     Faq,
     HomeCTA,
     FooterFour,
