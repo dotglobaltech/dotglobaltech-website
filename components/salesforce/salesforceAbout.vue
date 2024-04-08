@@ -10,8 +10,7 @@
               <img class="about__shape-9" src="~/assets/img/about/14/about-shape-2.png" alt="">
             </div>
             <div class="about__thumb-14 m-img">
-              <img class="about-img-1" src="~/assets/img/about/14/about-img-1.jpg" alt="">
-              <img class="about-img-2" src="~/assets/img/about/14/about-img-2.jpg" alt="">
+              <img class="about-img-1" src="~/assets/img/image-here.png" alt="">
             </div>
           </div>
         </div>
@@ -19,7 +18,7 @@
           <div class="about__wrapper-14 pl-75 pt-45" data-sal="slide-up" data-sal-delay="150" data-sal-duration="1000">
             <div class="tp-section-wrapper-2 mb-40">
               <span class="tp-section-subtitle-2">Dot Global Technologies</span>
-              <h3 class="tp-section-title-2">Your Reliable Salesforce Service Provider</h3>
+              <h3>Your Reliable Salesforce Service Provider</h3>
               <p>Elevate your business with Dot Global Technologies, your trusted partner for professional Salesforce consulting and implementation services across diverse industries. As leading <B>Salesforce vendors</B>, we offer unparalleled expertise to optimize and tailor Salesforce to meet your unique business requirements.</p>
               <h4>Comprehensive Salesforce Services</h4>
               <p>Whether you are a small business venturing into Salesforce or a large enterprise seeking refinement, as a reputed Salesforce Third-Party Vendor, we guide you through every implementation stage. From strategic planning to post-installation support, we ensure a seamless Salesforce experience.</p>
