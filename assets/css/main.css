@@ -15346,9 +15346,10 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 
 .main-menu ul li .mega-menu {
   position: absolute;
-  top: 100%;
-  left: 0;
-  padding: 30px 40px;
+  top: 103%;
+  left: -145px;
+  width: 1466px;
+  padding: 30px 20px;
   background: #FFFFFF;
   box-shadow: 0px 20px 30px rgba(3, 4, 28, 0.1);
   visibility: hidden;
