@@ -67,8 +67,6 @@
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                       data-bs-target="#collapse4" aria-expanded="true" aria-controls="collapse4">
                       Q4: Is BMC Helix ITSM cloud-based or on-premise?
-
-
                       <span class="accordion-btn"></span>
                     </button>
                   </h2>
@@ -95,12 +93,10 @@
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                       data-bs-target="#collapse5" aria-expanded="true" aria-controls="collapse5">
                       Q5: How to use BMC Helix ITSM?
-
-
                       <span class="accordion-btn"></span>
                     </button>
                   </h2>
-                  <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading1"
+                  <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading1"
                     data-bs-parent="#parentAccordion">
                     <div class="accordion-body">
                       <p><strong>Ans: </strong> BMC Helix ITSM is designed with user-friendliness in mind, empowering even non-technical users to contribute:</p>
