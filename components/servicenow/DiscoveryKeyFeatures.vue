@@ -1,7 +1,7 @@
 <template>
-  <section class="history__area pt-30 pb-50">
+  <section class="history__area pt-0 pb-0">
     <div class="container">
-      <div class="row">
+      <!-- <div class="row">
         <div class="col-xxl-6 col-xl-6 col-lg-6">
           <div class="section__title-wrapper-4 mb-60">
             <span class="section__title-pre-4">Key Features</span>
@@ -48,7 +48,7 @@
             </p>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </section>
 </template>
@@ -62,33 +62,7 @@ export default {
   data() {
     return {
       thumb_bg,
-      history_lists: [
-        {
-          delay: ".3s",
-          title: "Effortless, agentless discovery",
-          text: "Eliminate manual data collection, saving time and resources.",
-        },
-        {
-          delay: ".5s",
-          title: "Advanced security and compliance",
-          text: "Protect your data and ensure regulatory adherence with robust security features.",
-        },
-        {
-          delay: ".7s",
-          title: "Seamless integration",
-          text: "Integrate BMC Helix Discovery with your existing IT tools and workflows for a smooth transition.",
-        },
-        {
-          delay: ".9s",
-          title: "Operational infrastructure support",
-          text: "Gain insights into your IT infrastructure performance and optimize resource allocation.",
-        },
-        {
-          delay: ".11s",
-          title: "Effective risk management",
-          text: "Proactively identify and mitigate potential IT risks.",
-        },
-      ]
+
     }
   }
 }
