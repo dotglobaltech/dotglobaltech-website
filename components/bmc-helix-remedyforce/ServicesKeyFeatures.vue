@@ -1,7 +1,25 @@
 <template>
   <section :class="`services__area ${style_2 ? 'pb-110' : el_style ? 'pt-110 pb-90' : 'pb-50'}`">
     <div class="container">
-      <div class="row pt-80">
+      <div class="row justify-content-center pt-100">
+        <div class="col-xxl-12 col-xl-12 col-lg-10 col-md-10">
+          <div class="section__title-wrapper-7 mb-60 text-center">
+            <h3 class="section__title-7">
+              Unleash The Potential Of
+              <span class="section__title-7-highlight">
+                BMC Helix Remedyforce
+                <svg width="240" height="22" viewBox="0 0 240 22" fill="none">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M0.440833 21.1152C78.9497 6.16225 158.05 4.53412 235.949 13.8239C237.497 14.0088 239.796 12.4065 239.988 9.93474C240.181 7.4176 238.026 5.44088 236.474 5.2332C157.99 -5.31675 79.1936 0.359501 0.316568 19.7785C-0.184784 19.9023 -0.0511379 21.2092 0.440833 21.1152Z"
+                    fill="currentColor" />
+                </svg>
+              </span>
+              <h4>Streamlined Service Management</h4>
+            </h3>
+          </div>
+        </div>
+      </div>
+      <div class="row">
         <div v-for="(item, i) in service_data" :key="i" class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
           <div :class="`services__item-9 ${style_2 ? 'services__item-style-2' : ''} mb-30 transition-3`">
             <div class="services__item-9-top d-flex align-items-start justify-content-between">
@@ -11,11 +29,8 @@
                   <img src="~/assets/img/services/9/services-icon-shape.png" alt="shape" />
                 </span>
               </div>
-              <div class="services__btn-9">
-                <i class="fa-light fa-arrow-up-right"></i>
-              </div>
             </div>
-            <div class="services__content-9">
+            <div class="services__content-9" style="height:250px;">
               <h3 class="services__title-9">
                 {{ item.title }}
               </h3>

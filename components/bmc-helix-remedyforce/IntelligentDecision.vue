@@ -5,8 +5,9 @@
         <div class="col-xxl-8 col-xl-8 col-lg-10 col-md-10">
           <div class="section__title-wrapper-7 mb-60 text-center">
             <h3 class="section__title-7">
+              Intelligent 
               <span class="section__title-7-highlight">
-                Enhanced IT Capabilities
+                Decision-Making
                 <svg width="240" height="22" viewBox="0 0 240 22" fill="none">
                   <path fill-rule="evenodd" clip-rule="evenodd"
                     d="M0.440833 21.1152C78.9497 6.16225 158.05 4.53412 235.949 13.8239C237.497 14.0088 239.796 12.4065 239.988 9.93474C240.181 7.4176 238.026 5.44088 236.474 5.2332C157.99 -5.31675 79.1936 0.359501 0.316568 19.7785C-0.184784 19.9023 -0.0511379 21.2092 0.440833 21.1152Z"
@@ -25,7 +26,7 @@
               <div class="services__icon-7">
                 <span v-html="item.icon"> </span>
               </div>
-              <div class="services__content-7" style="height:300px;">
+              <div class="services__content-7" style="height:250px;">
                 <h3 class="services__title-7">
                  {{ item.title }}
                 </h3>
@@ -55,8 +56,8 @@ export default {
                   <path opacity="0.5" d="M6.92871 26.9995H21.1647" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                   <path opacity="0.5" d="M10.8105 16.6074H17.2815" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>`,
-          title: "Gain Flexibility",
-          subtitle: "We are BMC Helix Remedyforce Vendors experienced in customization, development, and implementation of a scalable and customizable solution that adapts to changing needs and requirements.",
+          title: "Gain Real-Time Insights",
+          subtitle: "Leverage service analytics to understand your service performance and identify areas for improvement.",
         },
         {
           id: 2,
@@ -67,8 +68,8 @@ export default {
                   <path opacity="0.4" d="M7.5 20.5H19.2" stroke="#04121F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                   <path d="M16.6 1H10.1C3.6 1 1 3.6 1 10.1V17.9C1 24.4 3.6 27 10.1 27H17.9C24.4 27 27 24.4 27 17.9V11.4" stroke="#04121F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>`,
-          title: "Speed Up Service Delivery",
-          subtitle: "Resolve issues and fulfill requests faster with improved automation and collaboration.",
+          title: "Make Data-Driven Decisions",
+          subtitle: "Use data to inform your decisions and ensure their alignment with your business goals.",
         },
         {
           id: 3,
@@ -80,8 +81,8 @@ export default {
                   <path d="M22.281 13.077L18.758 16.6L9.91797 25.427C10.828 24.491 11.4 23.204 11.4 21.8V9.24204L14.923 5.71905C16.301 4.34105 18.147 4.34105 19.525 5.71905L22.281 8.47504C23.659 9.85304 23.659 11.699 22.281 13.077Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                   <path opacity="0.4" d="M6.19941 23.1C6.91738 23.1 7.49941 22.518 7.49941 21.8C7.49941 21.082 6.91738 20.5 6.19941 20.5C5.48144 20.5 4.89941 21.082 4.89941 21.8C4.89941 22.518 5.48144 23.1 6.19941 23.1Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>`,
-          title: "Empower Your It Team",
-          subtitle: "Provide your team with the necessary tools and resources to deliver exceptional service.",
+          title: "Proactively Address Issues",
+          subtitle: "The best ITSM solution helps you rectify potential problems before they arise and impact your customers.",
         },
       ],
     };
