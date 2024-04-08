@@ -2,12 +2,12 @@
   <section class="services__area p-relative z-index-1 pt-50 pb-50">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-xxl-8 col-xl-8 col-lg-10 col-md-10">
+        <div class="col-xxl-12 col-xl-12 col-lg-10 col-md-10">
           <div class="section__title-wrapper-7 mb-60 text-center">
             <!-- <span class="section__title-pre-7">Join 0ur Community</span> -->
             <h3 class="section__title-7">
-              SAP Cloud: 
-               <span class="section__title-7-highlight">
+              SAP Cloud:
+              <span class="section__title-7-highlight">
                 Unveiling Features and Benefits
                 <svg width="240" height="22" viewBox="0 0 240 22" fill="none">
                   <path fill-rule="evenodd" clip-rule="evenodd"
@@ -16,33 +16,26 @@
                 </svg>
               </span>
             </h3>
-            <p>SAP Cloud, a cloud-based enterprise resource planning (ERP) solutions suite, is revolutionizing business operations. By ditching the limitations of on-premise software, SAP Cloud empowers organizations with agility, scalability, and real-time insights, propelling them toward new heights of success. </p>
-          <P>Let's delve into the key features and benefits that make SAP Cloud such a game-changer:</P>
+            <p>SAP Cloud, a cloud-based enterprise resource planning (ERP) solutions suite, is revolutionizing business
+              operations. By ditching the limitations of on-premise software, SAP Cloud empowers organizations with
+              agility, scalability, and real-time insights, propelling them toward new heights of success. </p>
+            <P>Let's delve into the key features and benefits that make SAP Cloud such a game-changer:</P>
           </div>
         </div>
       </div>
       <div class="services__item-wrapper-7">
-        <div class="row">
+        <div class="row justify-content-center">
           <div v-for="item in service_data" :key="item.id" class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
             <div class="services__item-7 text-center mb-60" data-sal="slide-up" :data-sal-delay="item.delay"
               data-sal-duration="1000">
               <div class="services__icon-7">
                 <span v-html="item.icon"> </span>
               </div>
-              <div class="services__content-7">
+              <div class="services__content-7" style="height:300px;">
                 <h3 class="services__title-7">
                   <nuxt-link href="/service-details">{{ item.title }}</nuxt-link>
                 </h3>
                 <p>{{ item.subtitle }}</p>
-
-                <!-- <div class="services__btn-7">
-                  <nuxt-link href="/service-details" class="tp-link-btn-3">
-                    Learn More
-                    <span>
-                      <i class="fa-regular fa-arrow-right"></i>
-                    </span>
-                  </nuxt-link>
-                </div> -->
               </div>
             </div>
           </div>

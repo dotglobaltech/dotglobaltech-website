@@ -10,8 +10,7 @@
               <img class="about__shape-9" src="~/assets/img/about/14/about-shape-2.png" alt="">
             </div>
             <div class="about__thumb-14 m-img">
-              <img class="about-img-1" src="~/assets/img/about/14/about-img-1.jpg" alt="">
-              <img class="about-img-2" src="~/assets/img/about/14/about-img-2.jpg" alt="">
+              <img class="about-img-1" src="~/assets/img/image-here.png" alt="">
             </div>
           </div>
         </div>
@@ -19,17 +18,14 @@
           <div class="about__wrapper-14 pl-75 pt-45" data-sal="slide-up" data-sal-delay="150" data-sal-duration="1000">
             <div class="tp-section-wrapper-2 mb-40">
               <span class="tp-section-subtitle-2">Dot Global Technologies</span>
-              <h3 class="tp-section-title-2">Your Preferred SAP Service Provider in the Cloud Era</h3>
+              <h3>Your Preferred SAP Service Provider in the Cloud Era</h3>
               <h4>Unlocking Business Agility Through Unmatched SAP Expertise</h4>
-              <p>In today's data-driven landscape, navigating the world of SAP can be complex. That's where Dot Global Technologies steps in, your trusted partner for all things SAP, particularly <B>SAP Analytics Cloud Solution</B>. </p>
-              <P>We're a leading <B>SAP Service Provider</B>, empowering businesses worldwide to unlock the transformative power of their data and achieve operational excellence.</P>
-              <h3 class="tp-section-title-2">Unparalleled SAP Implementation Expertise at Your Fingertips</h3>
+              <p>In today's data-driven landscape, navigating the world of SAP can be complex. That's where Dot Global
+                Technologies steps in, your trusted partner for all things SAP, particularly <B>SAP Analytics Cloud
+                  Solution</B>. </p>
+              <P>We're a leading <B>SAP Service Provider</B>, empowering businesses worldwide to unlock the
+                transformative power of their data and achieve operational excellence.</P>
             </div>
-
-            <!-- <div class="about-btn">
-              <nuxt-link href="/services" class="tp-btn">Our Services</nuxt-link>
-            </div> -->
-
           </div>
         </div>
       </div>

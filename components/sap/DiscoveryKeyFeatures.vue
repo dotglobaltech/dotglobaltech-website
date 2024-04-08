@@ -8,15 +8,14 @@
             <h3 class="section__title-4">Benifits</h3>
           </div>
           <div class="history__thumb-wrapper d-sm-flex pr-70">
-            <div class="history__thumb">
-              <img src="~/assets/img/history/history-1.jpg" alt="">
-            </div>
-            <div class="history__thumb-right-wrapper">
-              <div class="history__thumb-right p-relative include-bg" :style="{ backgroundImage: `url(${thumb_bg})` }">
-                76+
+            <div class="about__thumb-wrapper-14 p-relative" data-sal="slide-up" data-sal-delay="130"
+              data-sal-duration="1000">
+              <div class="about__shape">
+                <img class="about__shape-8" src="~/assets/img/about/14/about-shape-1.png" alt="">
+                <img class="about__shape-9" src="~/assets/img/about/14/about-shape-2.png" alt="">
               </div>
-              <div class="history-thumb-text">
-                <p>Winning Awards</p>
+              <div class="about__thumb-14 m-img">
+                <img class="about-img-1" src="~/assets/img/image-here.png" alt="">
               </div>
             </div>
           </div>
@@ -42,13 +41,15 @@
         <div class="col-xxl-10 col-xl-10 col-lg-11">
           <div class="features__offer text-center mt-20" data-sal="slide-up" data-sal-delay="190"
             data-sal-duration="1000">
-            <span>Ready to Embrace a Data-Driven Future with SAP?</span>
-            <p><nuxt-link href="/contact">Contact</nuxt-link> Dot Global Technologies today, and let us guide you on your journey. We'll answer your questions about SAP pricing and discuss the intricacies of SAP analytics cloud AWS platform implementation. 
-            </p>
+            <span>Sustainable Future</span>
+            <p>SAP Cloud's energy-efficient infrastructure and reduced paper waste lead to a more sustainable business
+              model.</p>
+            <p>SAP Cloud offers various features and benefits that cater to the diverse needs of businesses of all sizes
+              and industries. By embracing SAP Cloud, you unlock opportunities to streamline operations, optimize costs,
+              and propel your business towards a thriving future.</p>
           </div>
         </div>
       </div>
-         <P> We are the leading SAP Third Party Vendor helping our clients navigate the SAP Cloud implementation voyage. Let's build a future-proof enterprise together!</P>
     </div>
   </section>
 </template>
