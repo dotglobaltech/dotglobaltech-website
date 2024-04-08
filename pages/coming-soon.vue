@@ -1,6 +1,6 @@
 <template>
   <!-- header start -->
-  <header-fourteen />
+  <header-one :top_bar="false" :commonOffcanvas="true" />
   <!-- header end -->
   <section class="coming__area coming__height d-flex align-items-center">
     <div class="coming__shape">
@@ -19,7 +19,7 @@
               data-countdown
               data-date="Sep 30 2024 20:20:22"
             >
-            <timer endDateTime="2023-05-31T23:59:59.999Z" />
+            <timer endDateTime="2024-05-31T23:59:59.999Z" />
             </div>
             <h3 class="coming__title">
               Our website is <br />
@@ -27,19 +27,19 @@
             </h3>
             <p>
               We will be here soon with something amazing technology and
-              analytics. Subscribe to be notified.
+              analytics.
             </p>
 
-            <div class="coming__form">
+            <!-- <div class="coming__form">
               <form action="#">
                 <div class="coming__input">
                   <input type="email" placeholder="Enter Your Email" />
                   <button type="submit" class="tp-btn">Subscribe</button>
                 </div>
               </form>
-            </div>
+            </div> -->
 
-            <div class="coming__social">
+            <div class="footer__social-9">
               <social />
             </div>
           </div>
@@ -55,13 +55,13 @@
 </template>
 
 <script>
-import HeaderFourteen from "~~/layouts/headers/HeaderFourteen.vue";
+import HeaderOne from "~~/layouts/headers/HeaderTwo.vue";
 import Social from "~~/components/social/Social.vue";
 import Timer from '~~/components/common/Timer.vue';
 
 export default {
   components: {
-    HeaderFourteen,
+    HeaderOne,
     Social,
     Timer,
   },

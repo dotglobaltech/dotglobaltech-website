@@ -11,13 +11,7 @@
                 </NuxtLink>
               </div>
             </div>
-            <div class="col-xxl-5 col-xl-5 col-lg-3 d-none d-lg-block">
-              <div class="header__welcome">
-                <p class="d-none d-xl-inline-block">We are a law firm located in Berlin.</p>
-                <p><i class="fa-light fa-clock"></i> Sunday-Thures 10am-07pm</p>
-              </div>
-            </div>
-            <div class="col-xxl-5 col-xl-5 col-lg-6 col-md-8 col-6">
+            <div class="col-xxl-10 col-xl-10 col-lg-10 col-md-8 col-6">
               <div class="header__top-right-4 d-flex align-items-center justify-content-end">
                 <div class="header__info-wrapper-4 d-flex align-items-center justify-content-end">
                   <div class="header__info-item d-none d-lg-flex align-items-center">
@@ -37,7 +31,7 @@
                     </div>
                     <div class="header__info-content">
                       <h4>Call us:</h4>
-                      <p><a href="tel:964-742-44-763">+964 742 44 763</a></p>
+                      <p><a href="tel:+919606028218">+91 96060 28218</a></p>
                     </div>
                   </div>
                   <div class="header__info-item d-none d-lg-flex align-items-center">
@@ -56,7 +50,7 @@
                     </div>
                     <div class="header__info-content">
                       <h4>Email us:</h4>
-                      <p><a href="mailto:harry@lawyer.com">harry@lawyer.com</a></p>
+                      <p><a href="mailto:info@dotglobaltech.com">info@dotglobaltech.com</a></p>
                     </div>
                   </div>
                 </div>
@@ -72,100 +66,14 @@
           </div>
         </div>
       </div>
-      <div :class="`header__style-4 header__sticky ${isSticky ? 'header-sticky' : ''}`" id="header-sticky">
-        <div class="container">
-          <div class="mega-menu-wrapper p-relative">
-            <div class="row align-items-center">
-              <div class="col-xxl-2 col-xl-2 col-lg-2 col-6">
-                <div class="logo">
-                  <NuxtLink to="/">
-                    <img src="~/assets/img/logo/logo-black.svg" alt="">
-                  </NuxtLink>
-                </div>
-              </div>
-              <div class="col-xxl-8 col-xl-7 col-lg-7 d-none d-lg-block">
-                <div class="main-menu main-menu-4 main-menu-ff-space">
-                  <nav id="mobile-menu">
-                    <!-- menus start -->
-                    <menus />
-                    <!-- menus end -->
-                  </nav>
-                </div>
-              </div>
-              <div class="col-xxl-2 col-xl-3 col-lg-3 col-6">
-                <div class="header__style-4-right d-flex align-items-center justify-content-end">
-                  <div class="header__btn-4 text-end d-none d-lg-block">
-                    <nuxt-link href="/contact" class="tp-btn-brown">Free Consultation</nuxt-link>
-                  </div>
-                  <div class="header__hamburger ml-50 d-lg-none">
-                    <button @click="handleOpenSidebar" type="button" class="hamburger-btn hamburger-btn-brown offcanvas-open-btn">
-                      <span></span>
-                      <span></span>
-                      <span></span>
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="header__bottom-4 d-none d-lg-block">
-        <div class="container">
-          <div class="mega-menu-wrapper p-relative">
-            <div class="row align-items-center">
-              <div class="col-xxl-8 col-xl-9 col-lg-9">
-                <div class="main-menu main-menu-4 main-menu-ff-space">
-                  <nav>
-                    <!-- menus start -->
-                    <menus />
-                    <!-- menus end -->
-                  </nav>
-                </div>
-              </div>
-              <div class="col-xxl-4 col-xl-3 col-lg-3">
-                <div class="header__btn-4 text-end">
-                  <nuxt-link href="/contact" class="tp-btn-brown">Free Consultation</nuxt-link>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
   </header>
-
-  <!-- off canvas full start -->
-  <off-canvas-two ref="off_canvas"/>
-  <!-- off canvas full end -->
 </template>
-
 <script>
-import menus from './menus.vue';
-import OffCanvasTwo from '~~/components/common/off-canvas/OffCanvasTwo.vue';
+
 
 export default {
-  components: { menus, OffCanvasTwo },
-  data() {
-    return {
-      isSticky: false,
-    }
-  },
-  methods: {
-    handleSticky() {
-      if (window.scrollY > 80) {
-        this.isSticky = true;
-      } else {
-        this.isSticky = false;
-      }
-    },
-    handleOpenSidebar(){
-      this.$refs.off_canvas.openOffcanvas();
-    }
-  },
-  mounted() {
-    window.addEventListener("scroll", this.handleSticky);
-  },
+  
 }
 </script>
 

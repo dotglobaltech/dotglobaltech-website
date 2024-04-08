@@ -54909,7 +54909,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 /*  37. COMING CSS START
 /*----------------------------------------*/
 .coming__height {
-  min-height: 950px;
+  min-height: 150px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
