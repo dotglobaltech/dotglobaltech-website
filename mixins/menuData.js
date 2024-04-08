@@ -116,7 +116,7 @@ export default {
           id: 2,
           title: "Offering",
           megaMenu: true,
-          link: "/coming-soon",
+          link: "/",
           mega_menus: [
             {
               title: "Solution",
@@ -199,11 +199,11 @@ export default {
           id: 3,
           title: "Innovation",
           megaMenu: true,
-          link: "/coming-soon",
+          link: "/",
           mega_menus: [
             {
               title: "Technology",
-              link: "/coming-soon",
+              link: "/",
               submenus: [
                 { title: "Cloud", link: "/coming-soon" },
             { title: "Software as a Service(SAAS)", link: "/coming-soon"},
@@ -231,7 +231,7 @@ export default {
             },
             {
               title: "Industries",
-              link: "/coming-soon",
+              link: "/",
               submenus: [
                 { title: "Financial Services", link: "/coming-soon" },
                 { title: "Banking", link: "/coming-soon" },
@@ -259,7 +259,7 @@ export default {
           id: 4,
           hasDropdown: true,
           title: "Staff Augmentation",
-          link: "/coming-soon",
+          link: "/",
           submenus: [
             { title: "Java", link: "/coming-soon" },
             { title: ".NET", link: "/coming-soon" },
@@ -278,19 +278,19 @@ export default {
           id: 5,
           hasDropdown: true,
           title: "Company",
-          link: "/coming-soon",
+          link: "/",
           submenus: [
-            { title: "About Us", link:"/coming-soon"},
-            { title: "Blogs", link: "/coming-soon" },
-            { title: "Case Studies", link: "/coming-soon" },
-            { title: "Success Story", link:"/coming-soon" },
-            { title: "eBook", link: "/coming-soon" },
-            { title: "Glossary", link: "/coming-soon" },
-            { title: "Job Opening", link: "/coming-soon" },
-            { title: "Testimonials", link: "/coming-soon" },
+            { title: "About Us", link: "/about" },
+            { title: "Blogs", link: "/blogs" },
+            { title: "Case Studies", link: "/case-studies" },
+            { title: "Success Story", link: "/success-story" },
+            { title: "eBook", link: "/ebook" },
+            { title: "Glossary", link: "/glossary" },
+            { title: "Job Opening", link: "/job-opening" },
+            { title: "Testimonials", link: "/testimonials" },
             { title: "Company Brouchure", link: "/coming-soon" },
-            { title: "Free Trail", link: "/coming-soon"},
-            { title: "Contact Us", link: "/coming-soon"},
+            { title: "Free Trail", link: "/freetrail" },
+            { title: "Contact Us", link: "/contact" },
           ],
         },
         // {
