@@ -6,7 +6,6 @@
     <ServicesKeyFeatures />
     <services-vision />
     <WhyChooseDGT />
-    <DiscoveryKeyFeatures />
     <Faq />
     <HomeCTA />
     <FooterFour />
@@ -22,7 +21,6 @@ import servicenowAbout from '~~/components/servicenow/servicenowAbout.vue';
 import ServicesKeyFeatures from '~~/components/servicenow/ServicesKeyFeatures.vue';
 import ServicesVision from '~~/components/servicenow/ServicesVision.vue';
 import WhyChooseDGT from '~~/components/servicenow/WhyChooseDGT.vue';
-import DiscoveryKeyFeatures from '~~/components/servicenow/DiscoveryKeyFeatures.vue';
 import Faq from '~~/components/servicenow/Faq.vue';
 import HomeCTA from "~/components/subscribe/SubscribeNow.vue";
 import FooterFour from '~~/layouts/footers/FooterFour.vue';
@@ -37,7 +35,6 @@ export default {
     ServicesKeyFeatures,
     ServicesVision,
     WhyChooseDGT,
-    DiscoveryKeyFeatures,
     Faq,
     HomeCTA,
     FooterFour,
@@ -47,7 +44,7 @@ export default {
 
   setup() {
     useHead({
-      title: "BMC Helix Discovery - Dot Global Technologies",
+      title: "ServiceNow - Dot Global Technologies",
     });
   },
 };
