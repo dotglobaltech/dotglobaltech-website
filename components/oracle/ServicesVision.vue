@@ -27,7 +27,7 @@
               <div class="services__icon-7">
                 <span v-html="item.icon"> </span>
               </div>
-              <div class="services__content-7">
+              <div class="services__content-7" style="height:300px;">
                 <h3 class="services__title-7">
                   <nuxt-link href="/service-details">{{ item.title }}</nuxt-link>
                 </h3>
