@@ -39,9 +39,9 @@ export default {
     WhyChooseDGT,
     DiscoveryKeyFeatures,
     Faq,
+    HomeCTA,
     FooterFour,
     FooterEight,
-    HomeCTA,
     BackToTop,
   },
 
