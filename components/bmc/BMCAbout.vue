@@ -10,8 +10,7 @@
               <img class="about__shape-9" src="~/assets/img/about/14/about-shape-2.png" alt="">
             </div>
             <div class="about__thumb-14 m-img">
-              <img class="about-img-1" src="~/assets/img/about/14/about-img-1.jpg" alt="">
-              <img class="about-img-2" src="~/assets/img/about/14/about-img-2.jpg" alt="">
+              <img class="about-img-1" src="~/assets/img/image-here.png" alt="">
             </div>
           </div>
         </div>
@@ -21,17 +20,17 @@
               <span class="tp-section-subtitle-2">Dot Global Technologies</span>
               <h3 class="tp-section-title-2">Your Trusted Partner for BMC Managed Services</h3>
               <p>Dot Global Technologies is a leading BMC partner, helping businesses of all sizes leverage the power of BMC solutions to modernize their operations and achieve their strategic goals. </p>
-              <p> We empower global clients as <B>BMC third-party vendors,</B> facilitating their transition from traditional IT environments to digital organizations. BMC's globally recognized brand offers cutting-edge technology for various operational needs, including workflow automation, improved service delivery, and more.</p>
-              <p> As <B>BMC Consultants</B>, we walk alongside our clients throughout their digital transformation journey. Recognized for years as a leading BMC Solution Managed Service Provider, we work closely with clients to understand their unique operational requirements. We then recommend, optimize, and customize appropriate BMC Solutions to perfectly match their needs.</p>
-              <p>We further invest in our clients' success by offering comprehensive <B>BMC Trainings</B> to responsible IT team members. As a reputed <B>BMC third-party vendor in India</B>, we organize these tailored programs to enhance the skills of IT professionals, enabling them to leverage the full potential of their BMC Solutions.</p>
-              <p>As we are globally-recognized <B>BMC service providers</B>, our team of BMC-certified experts excels in customization and implementation, ensuring clients receive the best-suited solutions to:</p>
+              <p> We empower global clients as <strong>BMC third-party vendors,</strong> facilitating their transition from traditional IT environments to digital organizations. BMC's globally recognized brand offers cutting-edge technology for various operational needs, including workflow automation, improved service delivery, and more.</p>
+              <p> As <strong>BMC Consultants</strong>, we walk alongside our clients throughout their digital transformation journey. Recognized for years as a leading BMC Solution Managed Service Provider, we work closely with clients to understand their unique operational requirements. We then recommend, optimize, and customize appropriate BMC Solutions to perfectly match their needs.</p>
+              <p>We further invest in our clients' success by offering comprehensive <strong>BMC Trainings</strong> to responsible IT team members. As a reputed <strong>BMC third-party vendor in India</strong>, we organize these tailored programs to enhance the skills of IT professionals, enabling them to leverage the full potential of their BMC Solutions.</p>
+              <p>As we are globally-recognized <strong>BMC service providers</strong>, our team of BMC-certified experts excels in customization and implementation, ensuring clients receive the best-suited solutions to:</p>
                 <li> Boost service delivery efficiency and quality.</li>
                 <li>Optimize IT operations and resource utilization.</li>
                  <li>Automate routine tasks and workflows.</li>
                  <li>Gain real-time insights and data-driven decision-making.</li>
                  <li>Enhance security posture and mitigate risks.</li>
                  <li> Reduce operational costs and improve ROI.</li>
-               <p> AS <B>BMC vendors</B>, we utilize our deep BMC expertise with a commitment to client success and empower businesses to achieve their digital transformation goals and thrive in a competitive landscape.
+               <p> AS <strong>BMC vendors</strong>, we utilize our deep BMC expertise with a commitment to client success and empower businesses to achieve their digital transformation goals and thrive in a competitive landscape.
               </p>
             </div>
 
