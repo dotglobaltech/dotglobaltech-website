@@ -29,17 +29,15 @@
                   <h2 class="accordion-header" id="heading1">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                       data-bs-target="#collapse2" aria-expanded="true" aria-controls="collapse2">
-                      Q2: What does ServiceNow implementation cost?
+                      Q2: What are the benefits of SAP?
+
                       <span class="accordion-btn"></span>
                     </button>
                   </h2>
                   <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading1"
                     data-bs-parent="#parentAccordion">
                     <div class="accordion-body">
-                      <p><strong>Ans:</strong> Dot Global Technologies, your trusted ServiceNow consultant, composes
-                        custom plans based on your needs and project scope, maximizing your ServiceNow ROI. We strive to
-                        offer ServiceNow customization, deployment, and support services at the most reasonable and
-                        competitive prices.</p>
+                      <p><strong>Ans:</strong> SAP empowers businesses with increased efficiency, improved decision-making, enhanced customer experiences, and streamlined operations.</p>
                     </div>
                   </div>
                 </div>
@@ -48,45 +46,16 @@
                   <h2 class="accordion-header" id="heading1">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                       data-bs-target="#collapse3" aria-expanded="true" aria-controls="collapse3">
-                      Q3: What are the types of integration in ServiceNow?
+                      Q3: Is SAP cloud-based?
+
                       <span class="accordion-btn"></span>
                     </button>
                   </h2>
                   <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading1"
                     data-bs-parent="#parentAccordion">
                     <div class="accordion-body">
-                      <p><strong>Ans:</strong> Here are the common types of integration in ServiceNow:
-                      </p>
-                      <ul>
-                        <li><strong>Sending out ServiceNow data:</strong> Share your platform's magic with other systems
-                          like a generous chef.</li>
-                        <li><strong>Welcoming external data:</strong> Invite information from outside to dance with
-                          ServiceNow's internal rhythm.</li>
-                        <li><strong>Bridging the on-premise gap:</strong> The MID Server builds a friendly bridge for
-                          old-school systems to join the party.</li>
-
-                        <li><strong>Automating data handshakes:</strong> Let business rules choreograph seamless data
-                          exchanges, keeping everything flowing smoothly.</li>
-                        <li><strong>Bulk data migration:</strong> Bring a whole crowd of data from outside in with one
-                          grand import set.</li>
-                        <li><strong>Coding custom connections:</strong> Write your script to control every step for
-                          intricate data dances.</li>
-                        <li><strong>Plug-and-play integrations:</strong> Skip the setup and waltz right in with
-                          pre-built connectivity for popular apps.</li>
-                        <li><strong>IntegrationHub maestro:</strong> Get a central conductor to manage all your data
-                          partnerships effortlessly.</li>
-                      </ul>
-
-                      <br>
-
-                      <h4>Choosing the appropriate integration method depends on factors such as:</h4>
-                      <ul>
-                        <li>The systems required to integrate</li>
-                        <li>The complexity of the data and processes involved</li>
-                        <li>The level of control and customization required</li>
-                        <li>The security and compliance requirements of your organization</li>
-                      </ul>
-                    </div>
+                      <p><strong>Ans:</strong> Yes, SAP offers various cloud-based solutions, including SAP Analytics Cloud and SAP S/4HANA.</p>
+                      </div>
                   </div>
                 </div>
 
@@ -94,37 +63,35 @@
                   <h2 class="accordion-header" id="heading1">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                       data-bs-target="#collapse4" aria-expanded="true" aria-controls="collapse4">
-                      Q4: Why do you need a ServiceNow third-party vendor?
+                      Q4: How much does SAP cost?
+
                       <span class="accordion-btn"></span>
                     </button>
                   </h2>
                   <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading1"
                     data-bs-parent="#parentAccordion">
                     <div class="accordion-body">
-                      <p><strong>Ans:</strong> You require a <strong>ServiceNow third-party vendor</strong> for several
-                        compelling reasons:
+                      <p><strong>Ans:</strong> SAP pricing depends on your specific needs and requirements. Contact Dot Global Technologies for a personalized quote.
                       </p>
-                      <ul>
-                        <li><strong>Expertise:</strong> Navigates complex setups & customizations with seasoned
-                          knowledge.</li>
-                        <li><strong>Efficiency:</strong> A ready-made team saves time & resources on hiring & training.
-                        </li>
-                        <li><strong>Scalability:</strong> Flexible support models suit large projects & ongoing
-                          maintenance.</li>
-                        <li><strong>Objectivity:</strong> A fresh perspective identifies improvement opportunities.</li>
-                        <li><strong>Cost-effectiveness:</strong> Optimizes workflows, minimizes mistakes, and boosts
-                          ROI.</li>
-                        <li><strong>Specialized resources:</strong> Offers niche skills like security, governance, and
-                          industry integrations.</li>
-                        <li><strong>Reduced risk:</strong> Proven track record & best practices mitigate implementation
-                          & instability risks.</li>
-                      </ul>
-                      <br>
-                      <p>Ultimately, the decision to work with a <strong>ServiceNow third-party vendor</strong> can be a
-                        game-changer, as they focus on your business-specific needs, budget, and available resources.
-                        Remember, a good <strong>ServiceNow vendor</strong>, like Dot Global Technologies, is a partner
-                        in your ServiceNow success, not just a provider of services.</p>
-                    </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="heading1">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapse5" aria-expanded="true" aria-controls="collapse5">
+                      Q5: Why choose DGT as your SAP Consultant?
+
+
+                      <span class="accordion-btn"></span>
+                    </button>
+                  </h2>
+                  <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading1"
+                    data-bs-parent="#parentAccordion">
+                    <div class="accordion-body">
+                      <p><strong>Ans: </strong> Dot Global Technologies provides comprehensive expertise, a client-centric approach, and a proven track record of success. We are your trusted partner for driving digital transformation with SAP.
+                      </p>
+                      </div>
                   </div>
                 </div>
               </div>
