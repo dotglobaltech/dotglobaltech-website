@@ -10,8 +10,7 @@
               <img class="about__shape-9" src="~/assets/img/about/14/about-shape-2.png" alt="">
             </div>
             <div class="about__thumb-14 m-img">
-              <img class="about-img-1" src="~/assets/img/about/14/about-img-1.jpg" alt="">
-              <img class="about-img-2" src="~/assets/img/about/14/about-img-2.jpg" alt="">
+              <img class="about-img-1" src="~/assets/img/image-here.png" alt="">
             </div>
           </div>
         </div>
@@ -19,15 +18,13 @@
           <div class="about__wrapper-14 pl-75 pt-45" data-sal="slide-up" data-sal-delay="150" data-sal-duration="1000">
             <div class="tp-section-wrapper-2 mb-40">
               <span class="tp-section-subtitle-2">Propel Your Business with Dot Global Technologies</span>
-              <h3 class="tp-section-title-2">Your Preferred Oracle Cloud Service Provider</h3>
-              <p>Staying ahead of the curve in today's digital landscape requires robust, scalable technology. Oracle, a household name in enterprise software, delivers a powerful, holistic suite of cloud solutions waiting to unleash your business potential. That's where Dot Global Technologies, your trusted <B>Oracle cloud service provider</B>, steps in.
+              <h3>Your Preferred Oracle Cloud Service Provider</h3>
+              <p>Staying ahead of the curve in today's digital landscape requires robust, scalable technology. Oracle, a
+                household name in enterprise software, delivers a powerful, holistic suite of cloud solutions waiting to
+                unleash your business potential. That's where Dot Global Technologies, your trusted <B>Oracle cloud
+                  service provider</B>, steps in.
               </p>
             </div>
-
-            <!-- <div class="about-btn">
-              <nuxt-link href="/services" class="tp-btn">Our Services</nuxt-link>
-            </div> -->
-
           </div>
         </div>
       </div>

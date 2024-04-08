@@ -2,13 +2,12 @@
   <section class="services__area p-relative z-index-1 pt-50 pb-50">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-xxl-8 col-xl-8 col-lg-10 col-md-10">
+        <div class="col-xxl-10 col-xl-10 col-lg-10 col-md-10">
           <div class="section__title-wrapper-7 mb-60 text-center">
-            <!-- <span class="section__title-pre-7">Join 0ur Community</span> -->
             <h3 class="section__title-7">
-              What is
+              Unlocking the 
               <span class="section__title-7-highlight">
-                BMC Helix Discovery?
+                Oracle Universe
                 <svg width="240" height="22" viewBox="0 0 240 22" fill="none">
                   <path fill-rule="evenodd" clip-rule="evenodd"
                     d="M0.440833 21.1152C78.9497 6.16225 158.05 4.53412 235.949 13.8239C237.497 14.0088 239.796 12.4065 239.988 9.93474C240.181 7.4176 238.026 5.44088 236.474 5.2332C157.99 -5.31675 79.1936 0.359501 0.316568 19.7785C-0.184784 19.9023 -0.0511379 21.2092 0.440833 21.1152Z"
@@ -16,13 +15,12 @@
                 </svg>
               </span>
             </h3>
-            <p>BMC Helix Discovery is a cloud-native, SaaS-based solution that automates data discovery and application
-              dependency mapping across your entire IT landscape. It provides:</p>
+            <p>Experience the transformative power of Oracle Cloud, a comprehensive platform spanning:</p>
           </div>
         </div>
       </div>
       <div class="services__item-wrapper-7">
-        <div class="row">
+        <div class="row justify-content-center">
           <div v-for="item in service_data" :key="item.id" class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
             <div class="services__item-7 text-center mb-60" data-sal="slide-up" :data-sal-delay="item.delay"
               data-sal-duration="1000">
@@ -34,15 +32,6 @@
                   <nuxt-link href="/service-details">{{ item.title }}</nuxt-link>
                 </h3>
                 <p>{{ item.subtitle }}</p>
-
-                <!-- <div class="services__btn-7">
-                  <nuxt-link href="/service-details" class="tp-link-btn-3">
-                    Learn More
-                    <span>
-                      <i class="fa-regular fa-arrow-right"></i>
-                    </span>
-                  </nuxt-link>
-                </div> -->
               </div>
             </div>
           </div>

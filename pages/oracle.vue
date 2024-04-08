@@ -3,7 +3,6 @@
     <header-one :top_bar="false" :commonOffcanvas="true" />
     <service-breadcrumb />
     <oracleAbout />
-    <ServicesKeyFeatures />
     <services-vision />
     <WhyChooseDGT />
     <DiscoveryKeyFeatures />
@@ -19,7 +18,6 @@
 import HeaderOne from "~~/layouts/headers/HeaderOne.vue";
 import ServiceBreadcrumb from '~~/components/oracle/ServiceBreadcrumb.vue';
 import oracleAbout from '~~/components/oracle/oracleAbout.vue';
-import ServicesKeyFeatures from '~~/components/oracle/ServicesKeyFeatures.vue';
 import ServicesVision from '~~/components/oracle/ServicesVision.vue';
 import WhyChooseDGT from '~~/components/oracle/WhyChooseDGT.vue';
 import DiscoveryKeyFeatures from '~~/components/oracle/DiscoveryKeyFeatures.vue';
@@ -34,7 +32,6 @@ export default {
     HeaderOne,
     ServiceBreadcrumb,
     oracleAbout,
-    ServicesKeyFeatures,
     ServicesVision,
     WhyChooseDGT,
     DiscoveryKeyFeatures,
