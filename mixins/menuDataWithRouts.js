@@ -63,14 +63,14 @@ export default {
             },
             {
               title: "SAP",
-              link: "/coming-soon",
+              link: "/sap",
               submenus: [
-                { title: "Sap Hana", link: "/coming-soon" },
-                { title: "Sap Crm", link: "/coming-soon" },
-                { title: "Sap Erp", link: "/coming-soon" },
-                { title: "Sap Hr", link: "/coming-soon" },
-                { title: "Sap Business Objects", link: "/coming-soon" },
-                { title: "Sap Plm", link: "/coming-soon" },
+                { title: "Sap Hana", link: "/sap-hana" },
+                { title: "Sap Crm", link: "/sap-crm" },
+                { title: "Sap Erp", link: "/sap-erp" },
+                { title: "Sap Hr", link: "/sap-hr" },
+                { title: "Sap Business Objects", link: "/sap-business-objects" },
+                { title: "Sap Plm", link: "/sap-plm" },
               ],
             },
             {
