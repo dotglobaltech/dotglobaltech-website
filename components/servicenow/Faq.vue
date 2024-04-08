@@ -94,12 +94,12 @@
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="heading1">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                      data-bs-target="#collapse3" aria-expanded="true" aria-controls="collapse3">
+                      data-bs-target="#collapse4" aria-expanded="true" aria-controls="collapse4">
                       Q4: Why do you need a ServiceNow third-party vendor?
                       <span class="accordion-btn"></span>
                     </button>
                   </h2>
-                  <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading1"
+                  <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading1"
                     data-bs-parent="#parentAccordion">
                     <div class="accordion-body">
                       <p><strong>Ans:</strong> You require a <strong>ServiceNow third-party vendor</strong> for several

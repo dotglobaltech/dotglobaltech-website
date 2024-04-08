@@ -1,78 +1,51 @@
 <template>
-  <section class="about__area p-relative z-index-1 pt-50 pb-50">
+  <section class="history__area pt-30 pb-50">
     <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-xxl-8 col-xl-8 col-lg-10 col-md-10">
-          <div class="section__title-wrapper-7 mb-60 text-center">
-            <div class="section__title-wrapper-7 mb-40">
-              <span class="section__title-pre-7">Why Choose Dot Global Technologies</span>
-              <h3 class="section__title-7">
-                As Your ServiceNow Implementation 
-                  <span class="section__title-7-highlight">
-                    Partner
-                  <svg width="240" height="22" viewBox="0 0 240 22" fill="none">
-                    <path fill-rule="evenodd" clip-rule="evenodd"
-                      d="M0.440833 21.1152C78.9497 6.16225 158.05 4.53412 235.949 13.8239C237.497 14.0088 239.796 12.4065 239.988 9.93474C240.181 7.4176 238.026 5.44088 236.474 5.2332C157.99 -5.31675 79.1936 0.359501 0.316568 19.7785C-0.184784 19.9023 -0.0511379 21.2092 0.440833 21.1152Z"
-                      fill="currentColor" />
-                  </svg>
-                </span>
-              </h3>
+      <div class="row">
+        <div class="col-xxl-6 col-xl-6 col-lg-6">
+          <div class="section__title-wrapper-4 mb-60">
+            <span class="section__title-pre-4">Key Features</span>
+            <h3 class="section__title-4">That Elevate Your IT Operations</h3>
+          </div>
+          <div class="history__thumb-wrapper d-sm-flex pr-70">
+            <div class="history__thumb">
+              <img src="~/assets/img/history/history-1.jpg" alt="">
+            </div>
+            <div class="history__thumb-right-wrapper">
+              <div class="history__thumb-right p-relative include-bg" :style="{ backgroundImage: `url(${thumb_bg})` }">
+                76+
+              </div>
+              <div class="history-thumb-text">
+                <p>Winning Awards</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xxl-6 col-xl-6 col-lg-6">
+          <div class="history__list pl-65 pr-90">
+            <div v-for="(item, i) in history_lists" :key="i" class="history__list-item d-flex align-items-start">
+              <div class="history__list-content">
+                <div class="history__list-dot">
+                  <span></span>
+                </div>
+                <div class="history__list-content-inner" data-sal="slide-left" data-sal-delay="130"
+                  data-sal-duration="1000">
+                  <h4 class="history__list-title">{{ item.title }}</h4>
+                  <p>{{ item.text }}</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-xxl-6 col-lg-6">
-          <div class="about__thumb-wrapper-14 p-relative" data-sal="slide-up" data-sal-delay="130"
+      <div class="row justify-content-center pt-30">
+        <div class="col-xxl-10 col-xl-10 col-lg-11">
+          <div class="features__offer text-center mt-20" data-sal="slide-up" data-sal-delay="190"
             data-sal-duration="1000">
-            <div class="about__shape">
-              <img class="about__shape-8" src="~/assets/img/about/14/about-shape-1.png" alt="">
-              <img class="about__shape-9" src="~/assets/img/about/14/about-shape-2.png" alt="">
-            </div>
-            <div class="about__thumb-14 m-img">
-              <img class="about-img-1" src="~/assets/img/about/14/about-img-1.jpg" alt="">
-              <img class="about-img-2" src="~/assets/img/about/14/about-img-2.jpg" alt="">
-            </div>
-          </div>
-        </div>
-        <div class="col-xxl-6 col-lg-6">
-          <div class="about__wrapper-7 pt-35">
-            <div class="about__list about__list-counter">
-              <div class="about__list-item d-flex align-items-start">
-                <div class="about__list-icon">
-                  <span></span>
-                </div>
-                <div class="about__list-content">
-                  <h3 class="about__list-title">Symphony of Experience </h3>
-                  <p>
-                    We've conducted countless ServiceNow implementations across industries, ensuring flawless performances. With our <B>ServiceNow application performance monitoring</B>, you can rest assured that you get the best out of your investment.
-                    </p>
-                </div>
-              </div>
-              <div class="about__list-item d-flex align-items-start">
-                <div class="about__list-icon">
-                  <span></span>
-                </div>
-                <div class="about__list-content">
-                  <h3 class="about__list-title">From Overture to Encore </h3>
-                  <p>
-                    We handle everything, from initial implementation and configuration, customization and development, to ongoing support and <B>ServiceNow training</B>. 
-                   </p>
-                </div>
-              </div>
-              <div class="about__list-item d-flex align-items-start">
-                <div class="about__list-icon">
-                  <span></span>
-                </div>
-                <div class="about__list-content">
-                  <h3 class="about__list-title">Expert Ensemble </h3>
-                  <p>
-                    Our certified consultants are passionate ServiceNow masters dedicated to your IT success. We execute every ServiceNow implementation project by prioritizing customer success.</P>
-                    <P>Ready to compose a masterpiece of efficiency and productivity? Contact Dot Global Technologies today for a free consultation, and let our experts orchestrate your ServiceNow transformation.
-                   </p>
-                </div>
-              </div>
-            </div>
+            <span>Ready to unlock the transformative power of BMC Helix Discovery for your organization?</span>
+            <p><nuxt-link href="/contact">Contact</nuxt-link> Dot Global Technologies today for a free consultation and
+              discuss how our comprehensive suite of BMC Helix Discovery services can help you achieve your IT goals.
+            </p>
           </div>
         </div>
       </div>
@@ -81,7 +54,42 @@
 </template>
 
 <script>
+import thumb_bg from '~/assets/img/history/history-2.jpg';
+import SalScrollAnimationMixin from "~/mixins/SalScrollAnimationMixin";
+
 export default {
-  name: 'Why Choose Us'
-};
+  mixins: [SalScrollAnimationMixin],
+  data() {
+    return {
+      thumb_bg,
+      history_lists: [
+        {
+          delay: ".3s",
+          title: "Effortless, agentless discovery",
+          text: "Eliminate manual data collection, saving time and resources.",
+        },
+        {
+          delay: ".5s",
+          title: "Advanced security and compliance",
+          text: "Protect your data and ensure regulatory adherence with robust security features.",
+        },
+        {
+          delay: ".7s",
+          title: "Seamless integration",
+          text: "Integrate BMC Helix Discovery with your existing IT tools and workflows for a smooth transition.",
+        },
+        {
+          delay: ".9s",
+          title: "Operational infrastructure support",
+          text: "Gain insights into your IT infrastructure performance and optimize resource allocation.",
+        },
+        {
+          delay: ".11s",
+          title: "Effective risk management",
+          text: "Proactively identify and mitigate potential IT risks.",
+        },
+      ]
+    }
+  }
+}
 </script>

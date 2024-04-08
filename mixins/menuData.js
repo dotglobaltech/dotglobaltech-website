@@ -39,7 +39,7 @@ export default {
             },
             {
               title: "ServiceNow",
-              link: "/servicenow",
+              link: "/snow",
               submenus: [
                 { title: "ServiceNow It Service Management", link: "/coming-soon" },
                 { title: "ServiceNow IT Workflows", link: "/coming-soon" },
