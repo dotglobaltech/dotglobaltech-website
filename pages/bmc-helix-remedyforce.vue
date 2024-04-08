@@ -6,6 +6,7 @@
     <ServicesKeyFeatures />
     <services-vision />
     <WhyChooseDGT />
+    <IntelligentDecision />
     <DiscoveryKeyFeatures />
     <Faq />
     <HomeCTA />
@@ -22,6 +23,7 @@ import BMCHelixremedyforceAbout from '~~/components/bmc-helix-remedyforce/BMCHel
 import ServicesKeyFeatures from '~~/components/bmc-helix-remedyforce/ServicesKeyFeatures.vue';
 import ServicesVision from '~~/components/bmc-helix-remedyforce/ServicesVision.vue';
 import WhyChooseDGT from '~~/components/bmc-helix-remedyforce/WhyChooseDGT.vue';
+import IntelligentDecision from '~~/components/bmc-helix-remedyforce/IntelligentDecision.vue';
 import DiscoveryKeyFeatures from '~~/components/bmc-helix-remedyforce/DiscoveryKeyFeatures.vue';
 import Faq from '~~/components/bmc-helix-remedyforce/Faq.vue';
 import HomeCTA from "~/components/subscribe/SubscribeNow.vue";
@@ -37,6 +39,7 @@ export default {
     ServicesKeyFeatures,
     ServicesVision,
     WhyChooseDGT,
+    IntelligentDecision,
     DiscoveryKeyFeatures,
     Faq,
     FooterFour,
