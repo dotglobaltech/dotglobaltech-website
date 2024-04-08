@@ -4,8 +4,8 @@
     <service-breadcrumb />
     <oracleAbout />
     <services-vision />
-    <WhyChooseDGT />
-    <DiscoveryKeyFeatures />
+    <oraclecloudservices />
+    <whychooseDGT />
     <Faq />
     <HomeCTA />
     <FooterFour />
@@ -19,8 +19,8 @@ import HeaderOne from "~~/layouts/headers/HeaderOne.vue";
 import ServiceBreadcrumb from '~~/components/oracle/ServiceBreadcrumb.vue';
 import oracleAbout from '~~/components/oracle/oracleAbout.vue';
 import ServicesVision from '~~/components/oracle/ServicesVision.vue';
-import WhyChooseDGT from '~~/components/oracle/WhyChooseDGT.vue';
-import DiscoveryKeyFeatures from '~~/components/oracle/DiscoveryKeyFeatures.vue';
+import oraclecloudservices from '~~/components/oracle/oraclecloudservices.vue';
+import whychooseDGT from '~~/components/oracle/whychooseDGT.vue';
 import Faq from '~~/components/oracle/Faq.vue';
 import HomeCTA from "~/components/subscribe/SubscribeNow.vue";
 import FooterFour from '~~/layouts/footers/FooterFour.vue';
@@ -33,8 +33,8 @@ export default {
     ServiceBreadcrumb,
     oracleAbout,
     ServicesVision,
-    WhyChooseDGT,
-    DiscoveryKeyFeatures,
+    oraclecloudservices,
+    whychooseDGT,
     Faq,
     FooterFour,
     FooterEight,

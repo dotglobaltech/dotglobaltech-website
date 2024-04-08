@@ -21,8 +21,8 @@
               <h3>Your Preferred Oracle Cloud Service Provider</h3>
               <p>Staying ahead of the curve in today's digital landscape requires robust, scalable technology. Oracle, a
                 household name in enterprise software, delivers a powerful, holistic suite of cloud solutions waiting to
-                unleash your business potential. That's where Dot Global Technologies, your trusted <B>Oracle cloud
-                  service provider</B>, steps in.
+                unleash your business potential. That's where Dot Global Technologies, your trusted <strong>Oracle cloud
+                  service provider</strong>, steps in.
               </p>
             </div>
           </div>

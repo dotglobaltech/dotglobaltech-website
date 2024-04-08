@@ -13,14 +13,15 @@
                   <h2 class="accordion-header" id="heading1">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                       data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
-                      Q1: What is SAP?
+                      Q1: What is Oracle Cloud?
+
                       <span class="accordion-btn"></span>
                     </button>
                   </h2>
                   <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="heading1"
                     data-bs-parent="#parentAccordion">
                     <div class="accordion-body">
-                      <p><strong>Ans:</strong> SAP is a leading Enterprise Resource Planning (ERP) software provider, helping businesses seamlessly manage their data and operations.</p>
+                      <p><strong>Ans:</strong> Oracle Cloud is a comprehensive suite of cloud-based services encompassing everything from Infrastructure as a Service (IaaS) and Platform as a Service (PaaS) to Software as a Service (SaaS). It is a secure, scalable, and flexible online platform for hosting your applications, data, and business processes.</p>
                     </div>
                   </div>
                 </div>
@@ -29,7 +30,7 @@
                   <h2 class="accordion-header" id="heading1">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                       data-bs-target="#collapse2" aria-expanded="true" aria-controls="collapse2">
-                      Q2: What are the benefits of SAP?
+                      Q2: How Much Does Oracle Cloud Cost?
 
                       <span class="accordion-btn"></span>
                     </button>
@@ -37,7 +38,7 @@
                   <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading1"
                     data-bs-parent="#parentAccordion">
                     <div class="accordion-body">
-                      <p><strong>Ans:</strong> SAP empowers businesses with increased efficiency, improved decision-making, enhanced customer experiences, and streamlined operations.</p>
+                      <p><strong>Ans:</strong> Oracle Cloud pricing is flexible and depends on your specific needs. Factors like your chosen services, resource usage, and subscription model influence it. However, Oracle offers various pricing options, including pay-as-you-go, subscription-based, and committed-use models, allowing you to tailor your spending to your budget. Dot Global Technologies, your trusted Oracle Cloud third-party vendors, customize the solution to your business-specific needs. </p>
                     </div>
                   </div>
                 </div>
@@ -46,7 +47,8 @@
                   <h2 class="accordion-header" id="heading1">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                       data-bs-target="#collapse3" aria-expanded="true" aria-controls="collapse3">
-                      Q3: Is SAP cloud-based?
+                      Q3: What Business Outcomes Can You Achieve By Adopting Oracle Cloud?
+
 
                       <span class="accordion-btn"></span>
                     </button>
@@ -54,46 +56,26 @@
                   <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading1"
                     data-bs-parent="#parentAccordion">
                     <div class="accordion-body">
-                      <p><strong>Ans:</strong> Yes, SAP offers various cloud-based solutions, including SAP Analytics Cloud and SAP S/4HANA.</p>
+                      <p><strong>Ans:</strong> Adopting Oracle Cloud unlocks a plethora of benefits:</p>
+                      <ul>
+                        <li><strong>Increased Agility:</strong> Respond quickly to market changes and scale your operations efficiently.</li>
+                        <li><strong>Improved Efficiency:</strong>Streamline workflows, automate tasks, and boost productivity.</li>
+                        <li><strong>Enhanced Innovation:</strong>  Access cutting-edge technologies like AI and machine learning to drive continuous improvement.</li>
+
+                        <li><strong>Reduced Costs:</strong> Minimize IT infrastructure investments and enjoy predictable pay-as-you-go models.</li>
+                        <li><strong>Global Reach:</strong> Expand your business reach with a worldwide network of data centers.</li>
+                        <li><strong>Boosted Security:</strong> Benefit from multi-layered security features and rigorous compliance adherence.</li>
+                        
+                      </ul>
+
+                      <br>
                       </div>
                   </div>
                 </div>
 
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="heading1">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                      data-bs-target="#collapse4" aria-expanded="true" aria-controls="collapse4">
-                      Q4: How much does SAP cost?
-
-                      <span class="accordion-btn"></span>
-                    </button>
-                  </h2>
-                  <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading1"
-                    data-bs-parent="#parentAccordion">
-                    <div class="accordion-body">
-                      <p><strong>Ans:</strong> SAP pricing depends on your specific needs and requirements. Contact Dot Global Technologies for a personalized quote.
-                      </p>
-                      </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="heading1">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                      data-bs-target="#collapse5" aria-expanded="true" aria-controls="collapse5">
-                      Q5: Why choose DGT as your SAP Consultant?
-
-
-                      <span class="accordion-btn"></span>
-                    </button>
-                  </h2>
-                  <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading1"
-                    data-bs-parent="#parentAccordion">
-                    <div class="accordion-body">
-                      <p><strong>Ans: </strong> Dot Global Technologies provides comprehensive expertise, a client-centric approach, and a proven track record of success. We are your trusted partner for driving digital transformation with SAP.
-                      </p>
-                      </div>
-                  </div>
-                </div>
+                
+                
+                
               </div>
             </div>
           </div>
