@@ -1,21 +1,18 @@
 <template>
   <section :class="`services__area ${style_2 ? 'pb-110' : el_style ? 'pt-110 pb-90' : 'pb-50'}`">
     <div class="container">
-      <div class="row pt-80">
+      <div class="row justify-content-center pt-80">
         <div v-for="(item, i) in service_data" :key="i" class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
           <div :class="`services__item-9 ${style_2 ? 'services__item-style-2' : ''} mb-30 transition-3`">
             <div class="services__item-9-top d-flex align-items-start justify-content-between">
               <div class="services__icon-9">
                 <span>
                   <span v-html="item.icon"></span>
-                  <img src="~/assets/img/services/9/services-icon-shape.png" alt="shape" />
+                  <img src="~/assets/img/services/9/services-icon-shape.png" alt="" />
                 </span>
               </div>
-              <div class="services__btn-9">
-                <i class="fa-light fa-arrow-up-right"></i>
-              </div>
             </div>
-            <div class="services__content-9">
+            <div class="services__content-9" style="height:300px;">
               <h3 class="services__title-9">
                 {{ item.title }}
               </h3>
