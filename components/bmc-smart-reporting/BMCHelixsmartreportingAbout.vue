@@ -10,8 +10,7 @@
               <img class="about__shape-9" src="~/assets/img/about/14/about-shape-2.png" alt="">
             </div>
             <div class="about__thumb-14 m-img">
-              <img class="about-img-1" src="~/assets/img/about/14/about-img-1.jpg" alt="">
-              <img class="about-img-2" src="~/assets/img/about/14/about-img-2.jpg" alt="">
+              <img class="about-img-1" src="~/assets/img/image-here.png" alt="">
             </div>
           </div>
         </div>

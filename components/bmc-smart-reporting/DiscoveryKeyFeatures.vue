@@ -8,13 +8,9 @@
             <h3 class="section__title-4">Benefits of Using BMC Smart Reporting</h3>
           </div>
           <div class="history__thumb-wrapper d-sm-flex pr-70">
-            <div class="history__thumb">
-              <img src="~/assets/img/history/history-1.jpg" alt="">
-            </div>
-            <div class="history__thumb-right-wrapper">
-              <div class="history__thumb-right p-relative include-bg" :style="{ backgroundImage: `url(${thumb_bg})` }">
-                76+
-              </div>
+            <div class="about__thumb-14 m-img">
+              <img class="about-img-1" src="~/assets/img/image-here.png" alt="">
+             
               <div class="history-thumb-text">
                 <p>Winning Awards</p>
               </div>
