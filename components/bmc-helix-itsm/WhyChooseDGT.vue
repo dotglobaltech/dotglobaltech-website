@@ -48,7 +48,7 @@
                   <h3 class="about__list-title">Unmatched Expertise
                   </h3>
                   <p>
-                    Our team comprises BMC-certified consultants with extensive experience in implementing and
+                    Our team comprises<strong>BMC-certified consultants</strong>  with extensive experience in implementing and
                     optimizing BMC Helix ITSM for businesses of all sizes. We can leverage this expertise to ensure a
                     smooth and successful implementation tailored to your specific needs.
                   </p>
@@ -61,7 +61,7 @@
                 <div class="about__list-content">
                   <h3 class="about__list-title">Customized Solutions</h3>
                   <p>
-                    As the best BMC Helix ITSM Support Service Provider in India, we understand that a one-size-fits-all
+                    As the best<strong>BMC Helix ITSM Support Service Provider in India</strong> , we understand that a one-size-fits-all
                     approach doesn't work. We tailor BMC Helix ITSM to your business-specific workflows and needs,
                     ensuring a perfect fit for your unique processes and IT infrastructure.
                   </p>

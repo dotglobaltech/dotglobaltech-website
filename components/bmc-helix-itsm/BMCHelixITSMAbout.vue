@@ -20,7 +20,7 @@
               <span class="tp-section-subtitle-2">Dot Global Technologies</span>
               <h3>Your Trusted BMC Helix ITSM Partner</h3>
               <h4>Empowering Businesses with Intelligent Service Management</h4>
-              <p>At Dot Global Technologies, a leading BMC Helix ITSM Service Provider, we're proud to offer the
+              <p>At Dot Global Technologies, a leading <strong>BMC Helix ITSM Service Provider</strong>, we're proud to offer the
                 industry-acclaimed service management solution designed to revolutionize your operations.</p>
               <h4>Introducing BMC Helix ITSM</h4>
               <p>BMC Helix ITSM is a powerful, people-centric platform that leverages cutting-edge technologies like AI
