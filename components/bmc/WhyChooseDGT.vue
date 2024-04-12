@@ -16,8 +16,8 @@
                       fill="currentColor" />
                   </svg>
                 </span>
-                <p> Here are significant reasons why our delighted global clientele considers us the best BMC
-                  third-party vendor in Bengaluru: </p>
+                <p> Here are significant reasons why our delighted global clientele considers us the best <strong>BMC
+                  third-party vendor in Bengaluru:</strong> </p>
               </h3>
             </div>
           </div>

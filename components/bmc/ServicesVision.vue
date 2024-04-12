@@ -41,8 +41,8 @@
       <div class="row justify-content-center col-xxl-12 col-xl-12 col-lg-12 col-md-12">
         <div class="section__title-wrapper-7 mb-60 text-center">
           <span class="section__title-pre-7">Get Started Today!</span>
-          <p>Contact Dot Global Technologies, the best BMC service providers in India, to discuss your specific needs
-            and learn how we can help you leverage the power of BMC solutions at affordable BMC pricing. Don't miss out
+          <p>Contact Dot Global Technologies, the best <strong>BMC service providers in India</strong>, to discuss your specific needs
+            and learn how we can help you leverage the power of BMC solutions at affordable<strong>BMC pricing</strong> . Don't miss out
             on the opportunity to transform your business with BMC and Dot Global Technologies.</p>
         </div>
       </div>
