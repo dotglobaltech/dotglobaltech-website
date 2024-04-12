@@ -2,22 +2,21 @@
   <section class="about__area p-relative z-index-1 pt-50 pb-50">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-xxl-8 col-xl-8 col-lg-10 col-md-10">
+        <div class="col-xxl-10 col-xl-10 col-lg-10 col-md-10">
           <div class="section__title-wrapper-7 mb-60 text-center">
             <div class="section__title-wrapper-7 mb-40">
               <span class="section__title-pre-7">Why Choose Dot Global Technologies</span>
               <h3 class="section__title-7">
-                As Your BMC Helix Control-M
+                As Your BMC
                 <span class="section__title-7-highlight">
-                  Vendor?
-                  <P>At Dot Global Technologies, the best BMC Helix Control-M Third Party Vendor in Bengaluru, we strive to provide next-to-none customer service and technical expertise to help you leverage the full potential of BMC Helix Control-M. Here's what sets us apart:</P>
+                  Helix Control-M Vendor?
                   <svg width="240" height="22" viewBox="0 0 240 22" fill="none">
                     <path fill-rule="evenodd" clip-rule="evenodd"
                       d="M0.440833 21.1152C78.9497 6.16225 158.05 4.53412 235.949 13.8239C237.497 14.0088 239.796 12.4065 239.988 9.93474C240.181 7.4176 238.026 5.44088 236.474 5.2332C157.99 -5.31675 79.1936 0.359501 0.316568 19.7785C-0.184784 19.9023 -0.0511379 21.2092 0.440833 21.1152Z"
                       fill="currentColor" />
                   </svg>
                 </span>
-              </h3>
+                <P>At Dot Global Technologies, the best BMC Helix Control-M Third Party Vendor in Bengaluru, we strive to provide next-to-none customer service and technical expertise to help you leverage the full potential of BMC Helix Control-M. Here's what sets us apart:</P>              </h3>
             </div>
           </div>
         </div>
@@ -31,8 +30,7 @@
               <img class="about__shape-9" src="~/assets/img/about/14/about-shape-2.png" alt="">
             </div>
             <div class="about__thumb-14 m-img">
-              <img class="about-img-1" src="~/assets/img/about/14/about-img-1.jpg" alt="">
-              <img class="about-img-2" src="~/assets/img/about/14/about-img-2.jpg" alt="">
+              <img class="about-img-1" src="~/assets/img/image-here.png" alt="">
             </div>
           </div>
         </div>
