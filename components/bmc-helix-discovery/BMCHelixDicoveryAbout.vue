@@ -22,9 +22,9 @@
               <h4>Enabling Unparalleled Visibility & Control Over Your IT Infrastructure</h4>
               <p>In the modern digital era, optimizing the performance of your IT infrastructure is paramount. BMC Helix
                 Discovery, the game-changer from BMC Software, can be the most appropriate solution.
-                Dot Global Technologies have been a globally recognized BMC Helix Discovery service provider, mastering
+                Dot Global Technologies have been a globally recognized<strong>BMC Helix Discovery service provider</strong> , mastering
                 customization, development, implementation, and maintenance of BMC solutions for years. Dot Global
-                Technologies, your trusted BMC Helix Discovery Consultant, empowers you to:</p>
+                Technologies, your trusted <strong>BMC Helix Discovery Consultant</strong>, empowers you to:</p>
             </div>
           </div>
         </div>

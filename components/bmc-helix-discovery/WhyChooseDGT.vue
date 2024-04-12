@@ -46,8 +46,8 @@
                   <p>
                     Our team of certified BMC Helix Discovery experts possesses extensive experience in designing,
                     implementing, and managing the solution, ensuring a smooth and successful journey. The extensive
-                    experience and expertise in implementation and support make us the best BMC Helix Discovery
-                    Third-Party Vendor in india.
+                    experience and expertise in implementation and support make us the best<strong>BMC Helix Discovery
+                    Third-Party Vendor in india.</strong> 
                   </p>
                 </div>
               </div>
@@ -70,7 +70,7 @@
                 <div class="about__list-content">
                   <h3 class="about__list-title">Comprehensive support that lasts</h3>
                   <p>
-                    We are the most trusted BMC Helix Discovery Support Service provider, offering ongoing support, BMC
+                    We are the most trusted<strong>BMC Helix Discovery Support Service provider</strong> , offering ongoing support, BMC
                     Helix Discovery Trainings, and maintenance to ensure the continued success of your BMC Helix
                     Discovery implementation.
                   </p>
