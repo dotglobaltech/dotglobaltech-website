@@ -4,11 +4,10 @@
       <div class="row justify-content-center">
         <div class="col-xxl-10 col-xl-10 col-lg-10 col-md-10">
           <div class="section__title-wrapper-7 mb-60 text-center">
-            <!-- <span class="section__title-pre-7">Join 0ur Community</span> -->
             <h3 class="section__title-7">
-              BMC Solutions 
+              BMC Solutions
               <span class="section__title-7-highlight">
-                Implementation 
+                Implementation
                 <svg width="240" height="22" viewBox="0 0 240 22" fill="none">
                   <path fill-rule="evenodd" clip-rule="evenodd"
                     d="M0.440833 21.1152C78.9497 6.16225 158.05 4.53412 235.949 13.8239C237.497 14.0088 239.796 12.4065 239.988 9.93474C240.181 7.4176 238.026 5.44088 236.474 5.2332C157.99 -5.31675 79.1936 0.359501 0.316568 19.7785C-0.184784 19.9023 -0.0511379 21.2092 0.440833 21.1152Z"
@@ -16,7 +15,8 @@
                 </svg>
               </span>
             </h3>
-            <p>We have a proven track record of success, with extensive experience in implementing, customizing, and supporting a wide range of BMC products, including:</p>
+            <p>We have a proven track record of success, with extensive experience in implementing, customizing, and
+              supporting a wide range of BMC products, including:</p>
           </div>
         </div>
       </div>
@@ -28,7 +28,7 @@
               <div class="services__icon-7">
                 <span v-html="item.icon"> </span>
               </div>
-              <div class="services__content-7" style="height:300px;">
+              <div class="services__content-7" style="height:230px;">
                 <h3 class="services__title-7">
                   <nuxt-link href="/service-details">{{ item.title }}</nuxt-link>
                 </h3>
@@ -36,6 +36,14 @@
               </div>
             </div>
           </div>
+        </div>
+      </div>
+      <div class="row justify-content-center col-xxl-12 col-xl-12 col-lg-12 col-md-12">
+        <div class="section__title-wrapper-7 mb-60 text-center">
+          <span class="section__title-pre-7">Get Started Today!</span>
+          <p>Contact Dot Global Technologies, the best BMC service providers in India, to discuss your specific needs
+            and learn how we can help you leverage the power of BMC solutions at affordable BMC pricing. Don't miss out
+            on the opportunity to transform your business with BMC and Dot Global Technologies.</p>
         </div>
       </div>
     </div>
@@ -148,7 +156,7 @@ export default {
                   <path d="M22.281 13.077L18.758 16.6L9.91797 25.427C10.828 24.491 11.4 23.204 11.4 21.8V9.24204L14.923 5.71905C16.301 4.34105 18.147 4.34105 19.525 5.71905L22.281 8.47504C23.659 9.85304 23.659 11.699 22.281 13.077Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                   <path opacity="0.4" d="M6.19941 23.1C6.91738 23.1 7.49941 22.518 7.49941 21.8C7.49941 21.082 6.91738 20.5 6.19941 20.5C5.48144 20.5 4.89941 21.082 4.89941 21.8C4.89941 22.518 5.48144 23.1 6.19941 23.1Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>`,
-          title: "BMC Helix Digital WorkPlace",
+          title: "BMC Helix DWP",
           subtitle: "Empower your employees with self-service tools for a seamless work experience.",
         },
         {
