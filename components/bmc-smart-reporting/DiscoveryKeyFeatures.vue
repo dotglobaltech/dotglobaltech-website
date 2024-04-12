@@ -57,7 +57,7 @@ export default {
         {
           delay: ".3s",
           title: "Improved Decision-Making",
-          text: "Gain valuable insights from your IT data to make better decisions for your business. Being a reputed BMC Smart Reporting Third-Party Vendor in India, we take pride in empowering our clients to make data-driven, well-informed decisions by leveraging the smart reporting tool.",
+          text: "Gain valuable insights from your IT data to make better decisions for your business. Being a reputed  BMC Smart Reporting Third-Party Vendor in India, we take pride in empowering our clients to make data-driven, well-informed decisions by leveraging the smart reporting tool.",
         },
         {
           delay: ".5s",

@@ -43,7 +43,7 @@
                 <div class="about__list-content">
                   <h3 class="about__list-title">Experienced BMC Smart Reporting Experts</h3>
                   <p>
-                    Our team is BMC-certified and has years of experience helping businesses get the most out of Smart Reporting. We are the best BMC Smart Reporting Support Service Provider with technical expertise and a successful track record of solution deployment and support.
+                    Our team is BMC-certified and has years of experience helping businesses get the most out of Smart Reporting. We are the best<strong>BMC Smart Reporting Support Service Provider</strong>  with technical expertise and a successful track record of solution deployment and support.
                   </p>
                 </div>
               </div>
@@ -65,7 +65,7 @@
                 <div class="about__list-content">
                   <h3 class="about__list-title">Comprehensive Services</h3>
                   <p>
-                    Dot Global Technologies has been the most effective BMC Smart Reporting third-party vendor for many years. As the most trusted BMC Smart Reporting Vendor, we offer a complete range of services, such as development, customization, implementation, technical support, and BMC Smart Reporting Training to upskill your workforce.
+                    Dot Global Technologies has been the most effective <strong>BMC Smart Reporting third-party vendor</strong> for many years. As the most trusted<strong>BMC Smart Reporting Vendor</strong> , we offer a complete range of services, such as development, customization, implementation, technical support, and BMC Smart Reporting Training to upskill your workforce.
                   </p>
                 </div>
               </div>

@@ -21,8 +21,8 @@
               <h3>Empower Your Business with Dot Global Technologies</h3>
               <h4>Premier BMC Helix Remedyforce Service Provider</h4>
               <p>Revolutionize your IT service management (ITSM) with BMC Helix Remedyforce, a powerful, cloud-based
-                solution built on the Salesforce platform. Dot Global Technologies, a leading BMC Helix Remedyforce
-                service provider, empowers businesses to deliver exceptional customer service, gain a competitive edge,
+                solution built on the Salesforce platform. Dot Global Technologies, <strong>a leading BMC Helix Remedyforce
+                service provider</strong>, empowers businesses to deliver exceptional customer service, gain a competitive edge,
                 and achieve their ITSM goals.</p>
             </div>
           </div>
