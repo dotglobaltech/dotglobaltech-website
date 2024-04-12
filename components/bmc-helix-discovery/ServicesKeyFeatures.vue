@@ -11,11 +11,8 @@
                   <img src="~/assets/img/services/9/services-icon-shape.png" alt="shape" />
                 </span>
               </div>
-              <div class="services__btn-9">
-                <i class="fa-light fa-arrow-up-right"></i>
-              </div>
             </div>
-            <div class="services__content-9">
+            <div class="services__content-9" style="height:180px;">
               <h3 class="services__title-9">
                 {{ item.title }}
               </h3>

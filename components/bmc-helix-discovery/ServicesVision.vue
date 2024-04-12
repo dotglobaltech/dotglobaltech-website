@@ -2,7 +2,7 @@
   <section class="services__area p-relative z-index-1 pt-50 pb-50">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-xxl-8 col-xl-8 col-lg-10 col-md-10">
+        <div class="col-xxl-10 col-xl-10 col-lg-10 col-md-10">
           <div class="section__title-wrapper-7 mb-60 text-center">
             <!-- <span class="section__title-pre-7">Join 0ur Community</span> -->
             <h3 class="section__title-7">
@@ -29,20 +29,11 @@
               <div class="services__icon-7">
                 <span v-html="item.icon"> </span>
               </div>
-              <div class="services__content-7">
+              <div class="services__content-7" style="height:320px;">
                 <h3 class="services__title-7">
                   <nuxt-link href="/service-details">{{ item.title }}</nuxt-link>
                 </h3>
                 <p>{{ item.subtitle }}</p>
-
-                <!-- <div class="services__btn-7">
-                  <nuxt-link href="/service-details" class="tp-link-btn-3">
-                    Learn More
-                    <span>
-                      <i class="fa-regular fa-arrow-right"></i>
-                    </span>
-                  </nuxt-link>
-                </div> -->
               </div>
             </div>
           </div>
