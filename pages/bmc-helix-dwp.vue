@@ -3,8 +3,6 @@
     <header-one :top_bar="false" :commonOffcanvas="true" />
     <service-breadcrumb />
     <BMCHelixDWPAbout />
-    <ServicesKeyFeatures />
-    <services-vision />
     <WhyChooseDGT />
     <DiscoveryKeyFeatures />
     <Faq />
@@ -19,8 +17,6 @@
 import HeaderOne from "~~/layouts/headers/HeaderOne.vue";
 import ServiceBreadcrumb from '~~/components/bmc-helix-dwp/ServiceBreadcrumb.vue';
 import BMCHelixDWPAbout from '~~/components/bmc-helix-dwp/BMCHelixDWPAbout.vue';
-import ServicesKeyFeatures from '~~/components/bmc-helix-dwp/ServicesKeyFeatures.vue';
-import ServicesVision from '~~/components/bmc-helix-dwp/ServicesVision.vue';
 import WhyChooseDGT from '~~/components/bmc-helix-dwp/WhyChooseDGT.vue';
 import DiscoveryKeyFeatures from '~~/components/bmc-helix-dwp/DiscoveryKeyFeatures.vue';
 import Faq from '~~/components/bmc-helix-dwp/Faq.vue';
@@ -34,8 +30,6 @@ export default {
     HeaderOne,
     ServiceBreadcrumb,
     BMCHelixDWPAbout,
-    ServicesKeyFeatures,
-    ServicesVision,
     WhyChooseDGT,
     DiscoveryKeyFeatures,
     Faq,

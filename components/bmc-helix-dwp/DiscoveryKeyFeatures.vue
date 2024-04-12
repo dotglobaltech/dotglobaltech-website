@@ -8,16 +8,8 @@
             <h3 class="section__title-4">Benefits of DWP for Your Business</h3>
           </div>
           <div class="history__thumb-wrapper d-sm-flex pr-70">
-            <div class="history__thumb">
-              <img src="~/assets/img/history/history-1.jpg" alt="">
-            </div>
-            <div class="history__thumb-right-wrapper">
-              <div class="history__thumb-right p-relative include-bg" :style="{ backgroundImage: `url(${thumb_bg})` }">
-                76+
-              </div>
-              <div class="history-thumb-text">
-                <p>Winning Awards</p>
-              </div>
+            <div class="about__thumb-14 m-img">
+              <img class="about-img-1" src="~/assets/img/image-here.png" alt="">
             </div>
           </div>
         </div>
@@ -43,7 +35,7 @@
           <div class="features__offer text-center mt-20" data-sal="slide-up" data-sal-delay="190"
             data-sal-duration="1000">
             <span></span>
-            <p><nuxt-link href="/contact">Contact Dot Global Technologies</nuxt-link> today and let us help you create a seamless and efficient digital workplace experience for your employeesOur dedicated customer support team is here to answer your questions and let you know what best we offer to be the best BMC Helix Digital Workplace Consultant
+            <p><nuxt-link href="/contact">Contact Dot Global Technologies</nuxt-link> today and let us help you create a seamless and efficient digital workplace experience for your employeesOur dedicated customer support team is here to answer your questions and let you know what best we offer to be the best BMC Helix Digital Workplace Consultant.
            </p>
           </div>
         </div>
