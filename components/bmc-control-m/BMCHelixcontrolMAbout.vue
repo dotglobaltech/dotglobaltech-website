@@ -20,7 +20,7 @@
               <span class="tp-section-subtitle-2">Unleash Efficiency with Powerful Workflow Orchestration </span>
               <h3>Introducing BMC Helix Control-M by Dot Global Technologies</h3>
               <h4>Empowering Your Business With Unparalleled Control And Automation</h4>
-              <p>Dot Global Technologies has been a leading BMC Helix Control-M Service Provider specializing in customization, development, deployment, training, and support for BMC Helix Control-M. </p>
+              <p>Dot Global Technologies has been a leading <strong>BMC Helix Control-M Service Provider</strong> specializing in customization, development, deployment, training, and support for BMC Helix Control-M. </p>
               </div>
           </div>
         </div>

@@ -16,7 +16,7 @@
                       fill="currentColor" />
                   </svg>
                 </span>
-                <P>At Dot Global Technologies, the best BMC Helix Control-M Third Party Vendor in Bengaluru, we strive to provide next-to-none customer service and technical expertise to help you leverage the full potential of BMC Helix Control-M. Here's what sets us apart:</P>              </h3>
+                <P>At Dot Global Technologies, the best <strong>BMC Helix Control-M Third Party Vendor in Bengaluru</strong>, we strive to provide next-to-none customer service and technical expertise to help you leverage the full potential of BMC Helix Control-M. Here's what sets us apart:</P>              </h3>
             </div>
           </div>
         </div>
@@ -54,7 +54,7 @@
                 <div class="about__list-content">
                   <h3 class="about__list-title">Customizable Solutions</h3>
                   <p>
-                    As the best BMC Helix Control-M Third-Party Vendor in India, we deploy our BMC-certified IT professionals to tailor the solution to your business-specific needs. We ensure that the solution perfectly fits your unique business processes.</p>
+                    As the best<strong>BMC Helix Control-M Third-Party Vendor in India</strong> , we deploy our BMC-certified IT professionals to tailor the solution to your business-specific needs. We ensure that the solution perfectly fits your unique business processes.</p>
                 </div>
               </div>
               <div class="about__list-item d-flex align-items-start">
@@ -64,7 +64,7 @@
                 <div class="about__list-content">
                   <h3 class="about__list-title">Flexible Deployment Options</h3>
                   <p>
-                    As the best BMC Helix Control-M Support Service Provider, we offer both on-premise and cloud-based deployments to suit your IT infrastructure and preferences.
+                    As the best <strong>BMC Helix Control-M Support Service Provider</strong>, we offer both on-premise and cloud-based deployments to suit your IT infrastructure and preferences.
                  </p>
                 </div>
               </div>
