@@ -4,8 +4,8 @@
       <div class="row">
         <div class="col-xxl-6 col-xl-6 col-lg-6">
           <div class="section__title-wrapper-4 mb-60">
-            <span class="section__title-pre-4">Dot Global Technologies: Your Trusted BMC Helix Remedyforce Partner</span>
-            <h3 class="section__title-4">Experienced BMC Helix Remedyforce Consultants</h3>
+            <span class="section__title-pre-4">Your Trusted BMC Helix Remedyforce Partner</span>
+            <h3>Experienced BMC Helix Remedyforce Consultants</h3>
           </div>
           <div class="history__thumb-wrapper d-sm-flex pr-70">
             <div class="about__thumb-14 m-img">
