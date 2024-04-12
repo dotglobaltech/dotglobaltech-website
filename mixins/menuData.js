@@ -86,7 +86,7 @@ export default {
             },
             {
               title: "Microsoft Dynamics 365",
-              link: "/microsoft dynamics 365",
+              link: "/coming-soon",
               submenus: [
                 { title: "Business Central", link: "/coming-soon" },
                 { title: "Finance", link: "/coming-soon" },
