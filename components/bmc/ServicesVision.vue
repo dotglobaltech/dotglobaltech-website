@@ -2,13 +2,13 @@
   <section class="services__area p-relative z-index-1 pt-50 pb-50">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-xxl-8 col-xl-8 col-lg-10 col-md-10">
+        <div class="col-xxl-10 col-xl-10 col-lg-10 col-md-10">
           <div class="section__title-wrapper-7 mb-60 text-center">
             <!-- <span class="section__title-pre-7">Join 0ur Community</span> -->
             <h3 class="section__title-7">
-              What is
+              BMC Solutions 
               <span class="section__title-7-highlight">
-                BMC Helix Discovery?
+                Implementation 
                 <svg width="240" height="22" viewBox="0 0 240 22" fill="none">
                   <path fill-rule="evenodd" clip-rule="evenodd"
                     d="M0.440833 21.1152C78.9497 6.16225 158.05 4.53412 235.949 13.8239C237.497 14.0088 239.796 12.4065 239.988 9.93474C240.181 7.4176 238.026 5.44088 236.474 5.2332C157.99 -5.31675 79.1936 0.359501 0.316568 19.7785C-0.184784 19.9023 -0.0511379 21.2092 0.440833 21.1152Z"
@@ -16,8 +16,7 @@
                 </svg>
               </span>
             </h3>
-            <p>BMC Helix Discovery is a cloud-native, SaaS-based solution that automates data discovery and application
-              dependency mapping across your entire IT landscape. It provides:</p>
+            <p>We have a proven track record of success, with extensive experience in implementing, customizing, and supporting a wide range of BMC products, including:</p>
           </div>
         </div>
       </div>
@@ -34,15 +33,6 @@
                   <nuxt-link href="/service-details">{{ item.title }}</nuxt-link>
                 </h3>
                 <p>{{ item.subtitle }}</p>
-
-                <!-- <div class="services__btn-7">
-                  <nuxt-link href="/service-details" class="tp-link-btn-3">
-                    Learn More
-                    <span>
-                      <i class="fa-regular fa-arrow-right"></i>
-                    </span>
-                  </nuxt-link>
-                </div> -->
               </div>
             </div>
           </div>
@@ -68,8 +58,8 @@ export default {
                   <path opacity="0.5" d="M6.92871 26.9995H21.1647" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                   <path opacity="0.5" d="M10.8105 16.6074H17.2815" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>`,
-          title: "Complete inventory management",
-          subtitle: "Our BMC Helix Discovery Support Services help you discover and catalog all your IT assets, including hardware, software, and services – regardless of their location.",
+          title: "BMC Helix ITSM",
+          subtitle: "Revolutionize service management and empower your users with intelligent workflows.",
         },
         {
           id: 2,
