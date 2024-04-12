@@ -21,27 +21,18 @@
         </div>
       </div>
       <div class="services__item-wrapper-7">
-        <div class="row">
+        <div class="row justify-content-center">
           <div v-for="item in service_data" :key="item.id" class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
             <div class="services__item-7 text-center mb-60" data-sal="slide-up" :data-sal-delay="item.delay"
               data-sal-duration="1000">
               <div class="services__icon-7">
                 <span v-html="item.icon"> </span>
               </div>
-              <div class="services__content-7">
+              <div class="services__content-7" style="height: 360px;">
                 <h3 class="services__title-7">
                   <nuxt-link href="/service-details">{{ item.title }}</nuxt-link>
                 </h3>
                 <p>{{ item.subtitle }}</p>
-
-                <!-- <div class="services__btn-7">
-                  <nuxt-link href="/service-details" class="tp-link-btn-3">
-                    Learn More
-                    <span>
-                      <i class="fa-regular fa-arrow-right"></i>
-                    </span>
-                  </nuxt-link>
-                </div> -->
               </div>
             </div>
           </div>

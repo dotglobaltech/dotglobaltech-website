@@ -15,7 +15,7 @@ export default {
                 { title: "BMC Helix ITSM", link: "/bmc-helix-itsm" },
                 { title: "BMC Helix Remedyforce", link: "/bmc-helix-remedyforce" },
                 { title: "BMC Helix Discovery", link: "/bmc-helix-discovery" },
-                { title: "BMC Truesight", link: "/bmc-truesight" },
+                { title: "BMC Truesight", link: "/coming-soon" },
                 { title: "BMC Control-M", link: "/bmc-control-m" },
                 { title: "BMC Smart Reporting", link: "/bmc-smart-reporting" },
                 { title: "BMC Client Management", link: "/bmc-client-management" },
