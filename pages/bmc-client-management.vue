@@ -3,8 +3,6 @@
     <header-one :top_bar="false" :commonOffcanvas="true" />
     <service-breadcrumb />
     <BMCHelixclientmanagementAbout />
-    <ServicesKeyFeatures />
-    <services-vision />
     <WhyChooseDGT />
     <DiscoveryKeyFeatures />
     <Faq />
@@ -19,8 +17,6 @@
 import HeaderOne from "~~/layouts/headers/HeaderOne.vue";
 import ServiceBreadcrumb from '~~/components/bmc-client-management/ServiceBreadcrumb.vue';
 import BMCHelixclientmanagementAbout from '~~/components/bmc-client-management/BMCHelixclientmanagementAbout.vue';
-import ServicesKeyFeatures from '~~/components/bmc-client-management/ServicesKeyFeatures.vue';
-import ServicesVision from '~~/components/bmc-client-management/ServicesVision.vue';
 import WhyChooseDGT from '~~/components/bmc-client-management/WhyChooseDGT.vue';
 import DiscoveryKeyFeatures from '~~/components/bmc-client-management/DiscoveryKeyFeatures.vue';
 import Faq from '~~/components/bmc-client-management/Faq.vue';
@@ -34,8 +30,6 @@ export default {
     HeaderOne,
     ServiceBreadcrumb,
     BMCHelixclientmanagementAbout,
-    ServicesKeyFeatures,
-    ServicesVision,
     WhyChooseDGT,
     DiscoveryKeyFeatures,
     Faq,
