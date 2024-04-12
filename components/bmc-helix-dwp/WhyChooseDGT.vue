@@ -51,7 +51,7 @@
                   <h3 class="about__list-title">Experienced Team</h3>
                   <p>
                     Our team of BMC-certified experts has extensive experience deploying and supporting DWP solutions.
-                    We are BMC Helix Digital Workplace Partners with a proven track record of success.
+                    We are<strong>BMC Helix Digital Workplace Partners</strong>  with a proven track record of success.
                   </p>
                 </div>
               </div>
@@ -63,7 +63,7 @@
                   <h3 class="about__list-title">Comprehensive Services</h3>
                   <p>
                     We offer a full range of DWP services, including consulting, implementation, training, and support.
-                    As a leading BMC Helix Digital Workplace Third-party Vendor, we can tailor our services to your
+                    As a leading<strong>BMC Helix Digital Workplace Third-party Vendor</strong> , we can tailor our services to your
                     specific requirements</p>
                 </div>
               </div>
@@ -75,7 +75,7 @@
                   <h3 class="about__list-title">Successful History</h3>
                   <p>
                     We have been successfully helping businesses of all sizes achieve their DWP goals. Our expertise as
-                    BMC Helix Digital Workplace Support Services providers ensures your DWP environment runs smoothly
+                    <strong>BMC Helix Digital Workplace Support Services</strong> providers ensures your DWP environment runs smoothly
                     and delivers maximum value.
                   </p>
                 </div>
@@ -88,8 +88,8 @@
                   <h3 class="about__list-title">Competitive Pricing</h3>
                   <p>
                     We offer competitive pricing for our DWP services, ensuring you get the most value for your
-                    investment. As the most trusted BMC Helix Digital Workplace Managed Services, we offer a customized
-                    quote to suit your needs.
+                    investment. As the most trusted<strong>BMC Helix Digital Workplace Managed Services, we offer a customized
+                    quote to suit your needs.</strong> 
                   </p>
                 </div>
               </div>

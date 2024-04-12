@@ -20,7 +20,7 @@
               <span class="tp-section-subtitle-2">Dot Global Technologies</span>
               <h3>Your Trusted BMC Helix Digital Workplace Partner</h3>
               <h4>Empowering Businesses with a Modern Digital Workplace</h4>
-              <p>Dot Global Technologies is a leading BMC Helix Digital Workplace (DWP) Service Provider. We help businesses leverage the power of DWP to create a consumer-oriented, intelligent, and intuitive work experience for their employees.</p>
+              <p>Dot Global Technologies is a leading <strong>BMC Helix Digital Workplace (DWP) Service Provider</strong>. We help businesses leverage the power of DWP to create a consumer-oriented, intelligent, and intuitive work experience for their employees.</p>
               <h4>What is BMC Helix Digital Workplace?</h4>
               <p>DWP is a comprehensive solution for IT Service Management (ITSM) that streamlines workflows and simplifies service delivery. It offers a single point of access for employees to request IT services, access knowledge articles, and manage their IT needs.</p>
             </div>
