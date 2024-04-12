@@ -13,7 +13,8 @@
                   <h2 class="accordion-header" id="heading1">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                       data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
-                      Q1:  What is BMC Helix ITSM?
+                      Q1:  What is DWP? 
+
 
                       <span class="accordion-btn"></span>
                     </button>
@@ -21,7 +22,7 @@
                   <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="heading1"
                     data-bs-parent="#parentAccordion">
                     <div class="accordion-body">
-                      <p><strong>Ans:</strong> BMC Helix ITSM is a leading service management solution that empowers businesses to deliver exceptional IT services through automation, intelligent insights, and a user-centric approach.</p>
+                      <p><strong>Ans:</strong> BMC Helix Digital Workplace is a workflow automation solution for Information Technology Service Management (ITSM).</p>
                     </div>
                   </div>
                 </div>
@@ -30,7 +31,8 @@
                   <h2 class="accordion-header" id="heading1">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                       data-bs-target="#collapse2" aria-expanded="true" aria-controls="collapse2">
-                      Q2: What are the benefits of using BMC Helix ITSM?
+                      Q2: What are the benefits of DWP? 
+
 
 
                       <span class="accordion-btn"></span>
@@ -39,7 +41,14 @@
                   <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading1"
                     data-bs-parent="#parentAccordion">
                     <div class="accordion-body">
-                      <p><strong>Ans:</strong> Benefits include increased efficiency, improved user experience, enhanced problem-solving, better decision-making, and reduced costs.</p>
+                      <p><strong>Ans:</strong> BMC Helix Digital Workplace offers the following benefits to your businesses:</p>
+                    <ul>
+                      <li>Improved productivity, </li>
+                      <li>Streamlined operations, </li>
+                      <li>Better visibility, and </li>
+                      <li>Reduced costs.</li>
+                    </ul>
+                    <br>
                     </div>
                   </div>
                 </div>
@@ -48,7 +57,8 @@
                   <h2 class="accordion-header" id="heading1">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                       data-bs-target="#collapse3" aria-expanded="true" aria-controls="collapse3">
-                      Q3: How much does BMC Helix ITSM cost?
+                      Q3: How much does DWP cost? 
+
 
                       <span class="accordion-btn"></span>
                     </button>
@@ -56,8 +66,7 @@
                   <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading1"
                     data-bs-parent="#parentAccordion">
                     <div class="accordion-body">
-                      <p><strong>Ans:</strong> BMC Helix ITSM Pricing varies based on your specific requirements. Contact us for a customized quote.
-                       </p>
+                      <p><strong>Ans:</strong> <strong>BMC Helix Digital WorkPlace Pricing</strong>is customized based on your needs.</p>
                       </div>
                   </div>
                 </div>
@@ -66,46 +75,32 @@
                   <h2 class="accordion-header" id="heading1">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                       data-bs-target="#collapse4" aria-expanded="true" aria-controls="collapse4">
-                      Q4: Is BMC Helix ITSM cloud-based or on-premise?
+                      Q4:  Is DWP cloud-based? 
+
                       <span class="accordion-btn"></span>
                     </button>
                   </h2>
                   <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading1"
                     data-bs-parent="#parentAccordion">
                     <div class="accordion-body">
-                      <p><strong>Ans:</strong> BMC Helix ITSM offers the best of both worlds:Cloud-first experience
-                      </p>
-                      <ul>
-                      <li>Enjoy a modern, cloud-optimized design with unmatched support services and operational experience.</li>
-                      <li>Leverage omni-channel communication through platforms like Slack, Skype, and chatbots for seamless user interaction.</li>
-                      <li>Automate digital processes with conversational bots and Robotic Process Automation (RPA) capabilities.</li>
-                      <li>The entire BMC Helix ITSM suite, encompassing roles like IT director, service desk manager, and change manager, is available as cloud-based digital service management tools.</li>
-                     </ul>
-                     <br>
+                      <p><strong>Ans:</strong> BMC Helix Digital Workplace (DWP) is accessible from anywhere on various devices.</p>
                     </div>
-                    <strong>On-premise option</strong>
-                    <p>If you have existing on-premise infrastructure preferences, BMC Helix ITSM can still be deployed to suit your needs.</p>
-                     
                   </div>
                 </div>
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="heading1">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                       data-bs-target="#collapse5" aria-expanded="true" aria-controls="collapse5">
-                      Q5: How to use BMC Helix ITSM?
+                      Q5: Why do I need a BMC Helix Digital Workplace service provider? 
+
                       <span class="accordion-btn"></span>
                     </button>
                   </h2>
                   <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading1"
                     data-bs-parent="#parentAccordion">
                     <div class="accordion-body">
-                      <p><strong>Ans: </strong> BMC Helix ITSM is designed with user-friendliness in mind, empowering even non-technical users to contribute:</p>
-                      <ul>
-                        <li><strong>Visual drag-and-drop tools</strong>Configure complex enterprise applications with ease using intuitive drag-and-drop design features.</li>
-                          <li><strong>Seamless integrations</strong>Link BMC Helix ITSM to leading third-party services and critical systems through drag-and-drop connectors and a robust integration service.This user-friendly approach, combined with the expertise of a BMC Helix ITSM Vendor, allows Agile DevOps enterprises to enhance their service delivery and overall quality. </li>
-                         <p>BMC Helix ITSM Consultants can also guide your journey towards becoming an autonomous digital enterprise through strong governance and compliance practices. Additionally, BMC Helix streamlines change request submission with a guided procedure, ensuring efficient change management.</p>
-                      </ul>
-                        <br>
+                      <p><strong>Ans: </strong> It would be best if you had a trusted guide throughout your BMC Helix DWP journey to design, develop, and customize the solution to your business-specific needs, deploy it, provide ongoing technical support, manage the solution for you, and upskill your team through well-designed and well-delivered <strong>BMC Helix Digital WorkPlace Training.</strong>As <strong>BMC Helix Digital Workplace Partners,</strong> Dot Global Technologies remain with you throughout your voyage to digitalization and success.</p>
+                      
                     </div>
                   </div>
                 </div>
