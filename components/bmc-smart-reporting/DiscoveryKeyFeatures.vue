@@ -10,10 +10,6 @@
           <div class="history__thumb-wrapper d-sm-flex pr-70">
             <div class="about__thumb-14 m-img">
               <img class="about-img-1" src="~/assets/img/image-here.png" alt="">
-             
-              <div class="history-thumb-text">
-                <p>Winning Awards</p>
-              </div>
             </div>
           </div>
         </div>
@@ -39,7 +35,7 @@
           <div class="features__offer text-center mt-20" data-sal="slide-up" data-sal-delay="190"
             data-sal-duration="1000">
             <span>Ready to Get Started?</span>
-            <p><nuxt-link href="/contact">Contact Dot Global Technologies</nuxt-link>today to learn more about how we can help you unlock the power of BMC Smart Reporting. Our friendly and technically sound Customer Support Team will be happy to resolve your queries, schedule your meetings with our experts, and guide you to get a customized quote tailored to your business-specific requirements.
+            <p><nuxt-link href="/contact">Contact Dot Global Technologies</nuxt-link> today to learn more about how we can help you unlock the power of BMC Smart Reporting. Our friendly and technically sound Customer Support Team will be happy to resolve your queries, schedule your meetings with our experts, and guide you to get a customized quote tailored to your business-specific requirements.
             </p>
           </div>
         </div>

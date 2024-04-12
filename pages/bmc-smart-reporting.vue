@@ -3,8 +3,6 @@
     <header-one :top_bar="false" :commonOffcanvas="true" />
     <service-breadcrumb />
     <BMCHelixsmartreportingAbout />
-    <ServicesKeyFeatures />
-    <services-vision />
     <WhyChooseDGT />
     <DiscoveryKeyFeatures />
     <Faq />
@@ -19,8 +17,6 @@
 import HeaderOne from "~~/layouts/headers/HeaderOne.vue";
 import ServiceBreadcrumb from '~~/components/bmc-smart-reporting/ServiceBreadcrumb.vue';
 import BMCHelixsmartreportingAbout from '~~/components/bmc-smart-reporting/BMCHelixsmartreportingAbout.vue';
-import ServicesKeyFeatures from '~~/components/bmc-smart-reporting/ServicesKeyFeatures.vue';
-import ServicesVision from '~~/components/bmc-smart-reporting/ServicesVision.vue';
 import WhyChooseDGT from '~~/components/bmc-smart-reporting/WhyChooseDGT.vue';
 import DiscoveryKeyFeatures from '~~/components/bmc-smart-reporting/DiscoveryKeyFeatures.vue';
 import Faq from '~~/components/bmc-smart-reporting/Faq.vue';
@@ -34,8 +30,6 @@ export default {
     HeaderOne,
     ServiceBreadcrumb,
     BMCHelixsmartreportingAbout,
-    ServicesKeyFeatures,
-    ServicesVision,
     WhyChooseDGT,
     DiscoveryKeyFeatures,
     Faq,

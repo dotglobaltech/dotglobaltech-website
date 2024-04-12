@@ -18,14 +18,11 @@
           <div class="about__wrapper-14 pl-75 pt-45" data-sal="slide-up" data-sal-delay="150" data-sal-duration="1000">
             <div class="tp-section-wrapper-2 mb-40">
               <span class="tp-section-subtitle-2">Dot Global Technologies </span>
-              <h3 class="tp-section-title-2">Your One-Stop Shop for BMC Smart Reporting</h3>
+              <h3>Your One-Stop Shop for BMC Smart Reporting</h3>
               <p>Are you having trouble creating reports with BMC Smart Reporting? Dot Global Technologies can help! Through our BMC Smart Reporting Managed Services, we specialize in making this powerful reporting tool accessible to everyone, even non-technical users.</p>
+              <h3>What is BMC Smart Reporting?</h3>
+              <p>Think of it as a drag-and-drop report builder specifically designed for BMC Remedy users. It lets you easily create reports, dashboards, and visualizations to analyze your IT data. As a globally acclaimed BMC Smart Reporting Consultant, we help our clients get the best out of their investments through a complete range of services.</p>
             </div>
-
-            <!-- <div class="about-btn">
-              <nuxt-link href="/services" class="tp-btn">Our Services</nuxt-link>
-            </div> -->
-
           </div>
         </div>
       </div>
