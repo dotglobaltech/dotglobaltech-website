@@ -38,9 +38,7 @@
                     </div>
                     <div class="about__list-content">
                       <h3 class="about__list-title"></h3>
-                      <p>Minimize risks, maintain compliance, and cut costs with the help of experienced BMC Helix
-                        Client
-                        Management Vendors.</p>
+                      <p>Minimize risks, maintain compliance, and cut costs with the help of experienced<strong>BMC Helix Client Management Vendors.</strong> </p>
                     </div>
                   </div>
                   <div class="about__list-item d-flex align-items-start">
@@ -50,10 +48,10 @@
                     <div class="about__list-content">
                       <h3 class="about__list-title"></h3>
                       <p>Ensure device adherence to regulations with accurate hardware assessments from us, the most
-                        trusted BMC Helix Client Management Third-Party Vendors.</p>
+                        trusted <strong>BMC Helix Client Management Third-Party Vendors.</strong></p>
                     </div>
                   </div>
-                  <p>We are the most experienced BMC Helix Client Management Support Service provider in Bengaluru,
+                  <p>We are the most experienced<strong>BMC Helix Client Management Support Service provider in Bengaluru,</strong> 
                     helping you throughout the transition to IT endpoint management. We partner our clients to let them
                     achieve the best possible business outcomes through our comprehensive range of services.</p>
                 </div>
