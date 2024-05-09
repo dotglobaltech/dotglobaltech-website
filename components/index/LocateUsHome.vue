@@ -28,9 +28,24 @@
               </span>
             </div>
             <div class="features__content-13">
-              <h3 class="features__title-13">INDIA (HQ)</h3>
+              <h3 class="features__title-13">India (HQ)</h3>
               <p>Dot Global Tech, 669/M, 7th Main Rd, near Bangalore Development Authority Complex, HBR Layout 2nd Block, 1st Stage, HBR Layout, Bengaluru, Karnataka 560043.</p>
               <p><strong>+91 96060 28218</strong></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+          <div class="features__item-13 d-flex align-items-start mb-40">
+            <div class="features__icon-13">
+              <span>
+                <img src="~/assets/img/home/location-cons-4.svg" alt="Top-Notch Global Brands" />
+              </span>
+            </div>
+            <div class="features__content-13">
+              <h3 class="features__title-13">France</h3>
+              <p>20, Avenue Jean Jaures, Champagnole - 39300.</p>
+              <p><strong>+33623874960</strong></p>
             </div>
           </div>
         </div>
