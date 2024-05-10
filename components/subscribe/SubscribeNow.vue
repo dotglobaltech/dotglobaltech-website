@@ -6,8 +6,9 @@
             <div class="row align-items-center">
                 <div class="col-xxl-6 col-xl-6 col-lg-8">
                     <h3 class="cta__title-5">Get New Insights Weekly</h3>
-                    <div class="cta__content-5"><span>Newsletter dolor sit amet, consectetur adipiscing elit,
-                            sed do eiusmod tempor incididunt. Enter your email.</span>
+                    <div class="cta__content-5"><span>Stay ahead of the curve with our weekly insights delivered straight to
+                            your inbox. Sign up now to receive the latest trends, analysis, and expert perspectives on the
+                            IT Industry. Enter your email to subscribe.</span>
                     </div>
                 </div>
 
@@ -27,7 +28,7 @@
                             </div>
                             <div v-if="show" class="alert alert-success" style="margin-top: 10px" role="alert">
                                 <strong>Thank you for subscribing!</strong><br>You will now receive our newsletter at {{
-        form.email }}
+                                form.email }}
                             </div>
                         </form>
                     </div>

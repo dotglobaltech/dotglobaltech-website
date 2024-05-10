@@ -36,7 +36,7 @@ import WhyChooseUs from '~/components/index/WhyChooseUs.vue';
 import LetsWorkTogether from '~/components/index/LetsWorkTogether.vue';
 import LocateUsHome from "~/components/index/LocateUsHome.vue";
 // import LocateUs from "~/components/index/LocateUs.vue";
-import HomeCTA from "~/components/index/HomeCTA.vue";
+import HomeCTA from "~/components/subscribe/SubscribeNow.vue";
 
 useHead({
   title: "Dot Global Technologies - ",

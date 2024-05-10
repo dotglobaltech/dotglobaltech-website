@@ -140,7 +140,7 @@ export default {
           };
 
           axios
-              .post('https://forms.antixxtechhub.in/contact-us-form', payload)
+              .post('https://forms.dotglobaltech.com/contact-us-form', payload)
               .then((response) => {
                   this.isButtonDisabled = false;
                   this.show = false;

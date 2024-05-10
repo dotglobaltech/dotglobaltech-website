@@ -20,7 +20,7 @@
         </div>
       </div>
       <div :class="`header__bottom header__sticky ${header_solid ? '' : `header__bottom-border${transparent ? '-3' : ''}`
-        } ${isSticky ? 'header-sticky' : ''}`" id="header-sticky">
+      } ${isSticky ? 'header-sticky' : ''}`" id="header-sticky">
         <div class="container">
           <div class="mega-menu-wrapper p-relative">
             <div class="row align-items-center">
@@ -54,10 +54,11 @@
                   <div class="header__action d-none d-xl-block">
                     <ul>
                       <div class="tp-header-transparent">
-                        <a @click.prevent="handleSearch" href="#" class="router-link-active router-link-exact-active tp-btn btn-project bg-btn lnk">
+                        <a @click.prevent="handleSearch" href="#"
+                          class="router-link-active router-link-exact-active tp-btn btn-project bg-btn lnk">
                           Start a Project
                           <i class="fas fa-chevron-right fa-icon"></i>
-                        <span class="circle"></span>
+                          <span class="circle"></span>
                         </a>
                       </div>
                       <!-- <li>
@@ -69,7 +70,7 @@
                       </li> -->
                       <li>
                         <button @click="handleOffCanvas" type="button" :class="`hamburger-btn ${header_solid || header_black ? 'hamburger-btn-black' : ''
-                          } offcanvas-open-btn`">
+      } offcanvas-open-btn`">
                           <span></span>
                           <span></span>
                           <span></span>
@@ -79,7 +80,7 @@
                   </div>
                   <div class="header__hamburger ml-50 d-xl-none">
                     <button @click="handleOffCanvas" type="button" :class="`hamburger-btn ${header_solid || header_black ? 'hamburger-btn-black' : ''
-                      } offcanvas-open-btn`">
+      } offcanvas-open-btn`">
                       <span></span>
                       <span></span>
                       <span></span>

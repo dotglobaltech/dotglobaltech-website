@@ -522,7 +522,7 @@
         </div>
 
         <div class="offcanvas__btn-3  pt-30">
-          <nuxt-link href="/" class="tp-btn btn-cta bg-btn lnk">
+          <nuxt-link href="/contact" class="tp-btn btn-cta bg-btn lnk">
             Start A Project
             <i class="fas fa-chevron-right fa-icon">
             </i><span class="circle"></span>
