@@ -28305,13 +28305,13 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .services__icon-7 {
-  margin-bottom: -45px;
+  margin-bottom: 15px;
 }
 
 .services__icon-7 span {
   display: inline-block;
-  width: 90px;
-  height: 90px;
+  width: 60px;
+  height: 60px;
   line-height: 90px;
   text-align: center;
   color: var(--tp-common-white);

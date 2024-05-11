@@ -17,7 +17,11 @@
       </ul>
       <ul v-if="menu.mega_menus" class="mega-menu">
         <li v-for="(mega, i) in menu.mega_menus" :key="i">
+
           <NuxtLink :to="mega.link" class="mega-menu-title">
+            <div class="services__icon-9">
+                <span v-html="mega.icon"> </span>
+              </div>
             {{ mega.title }}
           </NuxtLink>
           <ul>
@@ -38,5 +42,6 @@ import menuData from "~~/mixins/menuData";
 
 export default {
   mixins: [menuData],
+
 };
 </script>

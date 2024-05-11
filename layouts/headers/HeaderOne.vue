@@ -41,7 +41,7 @@
               </div>
               <div class="col-xxl-7 col-xl-7 col-lg-7 d-none d-lg-block">
                 <div class="main-menu pl-0 main-menu-ff-space">
-                  <nav id="mobile-menu">
+                  <nav id="mobile-menu-float-link">
                     <!-- menus start -->
                     <menus />
                     <!-- menus end -->
