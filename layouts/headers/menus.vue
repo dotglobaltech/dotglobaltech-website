@@ -14,7 +14,7 @@
       <ul v-if="menu.mega_menus" class="mega-menu">
         <li v-for="(mega, i) in menu.mega_menus" :key="i">
           <div class="award__icon-5">
-            <img class="award__icon-5" :src="mega.icon" alt="icons" />
+            <img class="award__icon-5" :src="mega.icon" />
           </div>
           <NuxtLink :to="mega.link" class="mega-menu-title">
             {{ mega.title }}
@@ -41,6 +41,8 @@ import sap from "~/assets/img/home/sap.svg";
 import analytics from "~/assets/img/home/analytics.svg";
 import dynamic from "~/assets/img/home/dynamic.svg";
 import oracle from "~/assets/img/home/oracle.svg";
+import logowhite from "~/assets/img/logo/Horizontal logo with no background-2.svg";
+
 
 export default {
   data() {
@@ -165,12 +167,12 @@ export default {
           ],
         },
         {
-          id: 2,
           title: "Offering",
           megaMenu: true,
           link: "/",
           mega_menus: [
             {
+              icon: bmc,
               title: "Solution",
               link: "/coming-soon",
               submenus: [
@@ -183,6 +185,13 @@ export default {
                 { title: "Asset Management", link: "/coming-soon" },
                 { title: "Fleet Management", link: "/coming-soon" },
                 { title: "Human Resources", link: "/coming-soon" },
+              ],
+            },
+            {
+              icon: logowhite,
+              title: '',
+              link: "",
+              submenus: [
                 { title: "eLearning", link: "/coming-soon" },
                 { title: "Document Management", link: "/coming-soon" },
                 { title: "Project Management", link: "/coming-soon" },
@@ -194,8 +203,9 @@ export default {
               ],
             },
             {
+              icon: bmc,
               title: "Services",
-              link: "/coming-soon",
+              link: "/",
               submenus: [
                 { title: "Software Development", link: "/coming-soon" },
                 { title: "Web Development", link: "/coming-soon" },
@@ -204,6 +214,14 @@ export default {
                 { title: "Application Services", link: "/coming-soon" },
                 { title: "UI/UX Design", link: "/coming-soon" },
                 { title: "Infrastructure Services", link: "/coming-soon" },
+
+              ],
+            },
+            {
+              icon: logowhite,
+              title: "",
+              link: "",
+              submenus: [
                 { title: "Digital Transformation", link: "/coming-soon" },
                 { title: "Managed IT Services", link: "/coming-soon" },
                 { title: "IT Outsourcing", link: "/coming-soon" },
@@ -223,6 +241,7 @@ export default {
           link: "/",
           mega_menus: [
             {
+              icon: bmc,
               title: "Technology",
               link: "/",
               submenus: [
@@ -236,6 +255,14 @@ export default {
                 { title: "Blockchain", link: "/coming-soon" },
                 { title: "Virtual Reality", link: "/coming-soon" },
                 { title: "Computer Vision", link: "/coming-soon" },
+
+              ],
+            },
+            {
+              icon: logowhite,
+              title: "",
+              link: "/",
+              submenus: [
                 { title: "Microsoft", link: "/coming-soon" },
                 { title: "Azure", link: "/coming-soon" },
                 { title: "Power Apps", link: "/coming-soon" },
@@ -251,6 +278,7 @@ export default {
               ],
             },
             {
+              icon: bmc,
               title: "Industries",
               link: "/",
               submenus: [
@@ -262,6 +290,13 @@ export default {
                 { title: "Fintech", link: "/coming-soon" },
                 { title: "Payments", link: "/coming-soon" },
                 { title: "Retail", link: "/coming-soon" },
+              ],
+            },
+            {
+              icon: logowhite,
+              title: "",
+              link: "/",
+              submenus: [
                 { title: "Healthcare", link: "/coming-soon" },
                 { title: "Manufacturing", link: "/coming-soon" },
                 { title: "Professional Services", link: "/coming-soon" },
