@@ -15346,9 +15346,9 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 
 .main-menu ul li .mega-menu {
   position: absolute;
-  top: 103%;
-  left: -145px;
-  width: 1466px;
+  top: 100%;
+  left: -150px;
+  width: 1475px;
   padding: 30px 20px;
   background: #FFFFFF;
   box-shadow: 0px 20px 30px rgba(3, 4, 28, 0.1);
@@ -15382,11 +15382,11 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 }
 
 .main-menu ul li .mega-menu li .mega-menu-title {
-  font-weight: 500;
+  font-weight: 700;
   font-size: 12px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: #7D7D82;
+  color: #000000;
   cursor: text;
   padding: 0;
   display: inline-block;
@@ -15714,6 +15714,29 @@ only screen and (min-width: 576px) and (max-width: 767px) {
     margin-left: -45px;
   }
 
+  .main-menu ul li .mega-menu {
+    position: absolute;
+    top: 100%;
+    left: -84px;
+    width: 1340px;
+    padding: 30px 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 30px rgba(3, 4, 28, 0.1);
+    visibility: hidden;
+    opacity: 0;
+    transform: scaleY(0);
+    transform-origin: top center;
+    z-index: 99;
+}
+
+.main-menu ul li .mega-menu li ul li a {
+  font-weight: 400;
+  font-size: 11px;
+  color: var(--tp-common-black);
+  padding: 0;
+  position: relative;
+}
+
   [dir=rtl] .main-menu-5 {
     margin-left: 0;
     margin-right: -45px;
@@ -15725,6 +15748,50 @@ only screen and (min-width: 576px) and (max-width: 767px) {
   .main-menu-5 {
     padding-left: 0;
   }
+
+  .main-menu ul li a {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 500;
+    color: var(--tp-common-white);
+    padding: 16px 0;
+    text-align: left;
+}
+
+.main-menu ul li .mega-menu li .mega-menu-title {
+  font-weight: 700;
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #000000;
+  cursor: text;
+  padding: 0;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.main-menu ul li .mega-menu li ul li a {
+  font-weight: 400;
+  font-size: 10px;
+  color: var(--tp-common-black);
+  padding: 0;
+  position: relative;
+}
+
+.main-menu ul li .mega-menu {
+  position: absolute;
+  top: 100%;
+  left: -121px;
+  width: 1178px;
+  padding: 30px 20px;
+  background: #FFFFFF;
+  box-shadow: 0px 20px 30px rgba(3, 4, 28, 0.1);
+  visibility: hidden;
+  opacity: 0;
+  transform: scaleY(0);
+  transform-origin: top center;
+  z-index: 99;
+}
 
   [dir=rtl] .main-menu-5 {
     padding-right: 0;
@@ -41128,7 +41195,8 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .award__icon-5 {
-  margin-bottom: 36px;
+  margin-bottom: 15px;
+  max-width: 130px;
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px),
