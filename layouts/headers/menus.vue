@@ -41,8 +41,11 @@ import sap from "~/assets/img/home/sap.svg";
 import analytics from "~/assets/img/home/analytics.svg";
 import dynamic from "~/assets/img/home/dynamic.svg";
 import oracle from "~/assets/img/home/oracle.svg";
+import solutions from "~/assets/img/home/solutionsicon-01.svg";
+import services from "~/assets/img/home/services-01.svg";
+import technology from "~/assets/img/home/technology.svg";
+import industries from "~/assets/img/home/industries-01.svg";
 import logowhite from "~/assets/img/logo/Horizontal logo with no background-2.svg";
-
 
 export default {
   data() {
@@ -172,7 +175,7 @@ export default {
           link: "/",
           mega_menus: [
             {
-              icon: bmc,
+              icon: solutions,
               title: "Solution",
               link: "/coming-soon",
               submenus: [
@@ -203,8 +206,8 @@ export default {
               ],
             },
             {
-              icon: bmc,
-              title: "Services",
+              icon: services,
+              title: "services",
               link: "/",
               submenus: [
                 { title: "Software Development", link: "/coming-soon" },
@@ -241,7 +244,7 @@ export default {
           link: "/",
           mega_menus: [
             {
-              icon: bmc,
+              icon: technology,
               title: "Technology",
               link: "/",
               submenus: [
@@ -278,7 +281,7 @@ export default {
               ],
             },
             {
-              icon: bmc,
+              icon: industries,
               title: "Industries",
               link: "/",
               submenus: [
