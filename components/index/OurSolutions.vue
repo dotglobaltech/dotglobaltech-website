@@ -4,22 +4,22 @@
     <div v-if="!el_style" class="counter__shape">
 
       <div class="contact__item text-center transition-3 white-bg contact__content features__shape-3">
-        <img class="contact__icon" src="~/assets/img/home/event.svg" alt="">
+        <img class="contact__icon" src="~/assets/img/home/erp.svg" alt="">
         <p>ERP</p>
       </div>
 
       <div class="contact__item text-center transition-3 white-bg contact__content features__shape-13">
-        <img class="contact__icon" src="~/assets/img/home/ecommerce.svg" alt="">
+        <img class="contact__icon" src="~/assets/img/home/operations-management.svg" alt="">
         <p>Operations<br>Management</p>
       </div>
 
       <div class="contact__item text-center transition-3 white-bg contact__content features__shape-14">
-        <img class="contact__icon" src="~/assets/img/home/education.svg" alt="">
+        <img class="contact__icon" src="~/assets/img/home/finance.svg" alt="">
         <p>Financial<br>Management</p>
       </div>
 
       <div class="contact__item text-center transition-3 white-bg contact__content features__shape-15">
-        <img class="contact__icon" src="~/assets/img/home/healthcare.svg" alt="">
+        <img class="contact__icon" src="~/assets/img/home/payment-gateway.svg" alt="">
         <p>Payment<br>Management</p>
       </div>
 
@@ -29,22 +29,22 @@
       </div>
 
       <div class="contact__item text-center transition-3 white-bg contact__content features__shape-17">
-        <img class="contact__icon" src="~/assets/img/home/social-etworking.svg" alt="">
+        <img class="contact__icon" src="~/assets/img/home/data-analytics.svg" alt="">
         <p>Data<br>Analytics</p>
       </div>
 
       <div class="contact__item text-center transition-3 white-bg contact__content features__shape-18">
-        <img class="contact__icon" src="~/assets/img/home/gaming.svg" alt="">
+        <img class="contact__icon" src="~/assets/img/home/asset-management.svg" alt="">
         <p>Asset<br>Management</p>
       </div>
 
       <div class="contact__item text-center transition-3 white-bg contact__content features__shape-19">
-        <img class="contact__icon" src="~/assets/img/home/real-estate.svg" alt="">
+        <img class="contact__icon" src="~/assets/img/home/fleet-management.svg" alt="">
         <p>Fleet<br>Management</p>
       </div>
 
       <div class="contact__item text-center transition-3 white-bg contact__content features__shape-20">
-        <img class="contact__icon" src="~/assets/img/home/finance.svg" alt="">
+        <img class="contact__icon" src="~/assets/img/home/human-resources.svg" alt="">
         <p>Human<br>Resources</p>
       </div>
 
@@ -54,17 +54,17 @@
       </div>
 
       <div class="contact__item text-center transition-3 white-bg contact__content features__shape-22">
-        <img class="contact__icon" src="~/assets/img/home/hospitality.svg" alt="">
+        <img class="contact__icon" src="~/assets/img/home/document-management.svg" alt="">
         <p>Document<br>Management</p>
       </div>
 
       <div class="contact__item text-center transition-3 white-bg contact__content features__shape-23">
-        <img class="contact__icon" src="~/assets/img/home/restaurant.svg" alt="">
+        <img class="contact__icon" src="~/assets/img/home/project-management.svg" alt="">
         <p>Project<br>Management</p>
       </div>
 
       <div class="contact__item text-center transition-3 white-bg contact__content features__shape-24">
-        <img class="contact__icon" src="~/assets/img/home/event.svg" alt="">
+        <img class="contact__icon" src="~/assets/img/home/crm.svg" alt="">
         <p>CRM</p>
       </div>
 
@@ -74,57 +74,57 @@
       </div>
 
       <div class="contact__item text-center transition-3 white-bg contact__content features__shape-26">
-        <img class="contact__icon" src="~/assets/img/home/education.svg" alt="">
+        <img class="contact__icon" src="~/assets/img/home/marketing.svg" alt="">
         <p>Marketing &<br>Advertising</p>
       </div>
 
       <div class="contact__item text-center transition-3 white-bg contact__content features__shape-27">
-        <img class="contact__icon" src="~/assets/img/home/healthcare.svg" alt="">
+        <img class="contact__icon" src="~/assets/img/home/content-management.svg" alt="">
         <p>Content<br>Management</p>
       </div>
 
       <div class="contact__item text-center transition-3 white-bg contact__content features__shape-28">
-        <img class="contact__icon" src="~/assets/img/home/logistics-distribution.svg" alt="">
+        <img class="contact__icon" src="~/assets/img/home/web-portals.svg" alt="">
         <p>Web<br>Portals</p>
       </div>
 
       <div class="contact__item text-center transition-3 white-bg contact__content features__shape-29">
-        <img class="contact__icon" src="~/assets/img/home/social-etworking.svg" alt="">
+        <img class="contact__icon" src="~/assets/img/home/enterprise-application.svg" alt="">
         <p>Enterprise<br>Application</p>
       </div>
 
       <div class="contact__item text-center transition-3 white-bg contact__content features__shape-30">
-        <img class="contact__icon" src="~/assets/img/home/gaming.svg" alt="">
+        <img class="contact__icon" src="~/assets/img/home/mobile-application.svg" alt="">
         <p>Mobile<br>Applications</p>
       </div>
 
       <div class="contact__item text-center transition-3 white-bg contact__content features__shape-31">
-        <img class="contact__icon" src="~/assets/img/home/real-estate.svg" alt="">
+        <img class="contact__icon" src="~/assets/img/home/product-solution.svg" alt="">
         <p>Collaboration &<br>Productivity<br>Solutions</p>
       </div>
 
       <div class="contact__item text-center transition-3 white-bg contact__content features__shape-32">
-        <img class="contact__icon" src="~/assets/img/home/finance.svg" alt="">
+        <img class="contact__icon" src="~/assets/img/home/itsm.svg" alt="">
         <p>ITSM</p>
       </div>
 
       <div class="contact__item text-center transition-3 white-bg contact__content features__shape-33">
-        <img class="contact__icon" src="~/assets/img/home/ondemand.svg" alt="">
+        <img class="contact__icon" src="~/assets/img/home/real-estate.svg" alt="">
         <p>Real<br>Estate</p>
       </div>
 
       <div class="contact__item text-center transition-3 white-bg contact__content features__shape-34">
-        <img class="contact__icon" src="~/assets/img/home/hospitality.svg" alt="">
+        <img class="contact__icon" src="~/assets/img/home/kiosk.svg" alt="">
         <p>Kiosk<br>Software</p>
       </div>
 
       <div class="contact__item text-center transition-3 white-bg contact__content features__shape-35">
-        <img class="contact__icon" src="~/assets/img/home/restaurant.svg" alt="">
+        <img class="contact__icon" src="~/assets/img/home/travel-hospitality.svg" alt="">
         <p>Travel &<br>Hospitality</p>
       </div>
 
       <div class="contact__item text-center transition-3 white-bg contact__content features__shape-36">
-        <img class="contact__icon" src="~/assets/img/home/restaurant.svg" alt="">
+        <img class="contact__icon" src="~/assets/img/home/healthcare.svg" alt="">
         <p>Health &<br>Fitness</p>
       </div>
 
