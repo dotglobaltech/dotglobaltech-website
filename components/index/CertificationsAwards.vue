@@ -53,10 +53,15 @@
             slidesPerView: 7,
         },
     }" v-if="partners !== null">
-                                <swiper-slide v-for="slide in partners.partnerSlides" :key="slide.id">
+                                <swiper-slide v-for="partner in partners.PartnerList" :key="partner.id">
                                     <div class="brand__item-5">
-                                        <img :src="slide.image.data.attributes.url" alt="Variety Product">
+                                        <img :src="partner.image.data.attributes.url" alt="Variety Product">
                                     </div>
+
+                                    <div class="tp-link-btn-2 mt-10 text-center">
+                                        {{ partner.title }}
+                                    </div>
+
                                 </swiper-slide>
                             </swiper>
                         </div>
@@ -80,7 +85,7 @@ export default {
         partners: null,
     }),
     created: async function () {
-        const response = await axios.get('https://cms.dotglobaltech.com/api/partner?populate=partnerSlides.image')
+        const response = await axios.get('https://cms.dotglobaltech.com/api/partner?populate=deep,5')
         const { data: { attributes } } = response.data
         this.partners = attributes
     },
