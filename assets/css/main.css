@@ -15346,9 +15346,9 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 
 .main-menu ul li .mega-menu {
   position: absolute;
-  top: 103%;
-  left: -145px;
-  width: 1466px;
+  top: 100%;
+  left: -150px;
+  width: 1474px;
   padding: 30px 20px;
   background: #FFFFFF;
   box-shadow: 0px 20px 30px rgba(3, 4, 28, 0.1);
@@ -15382,11 +15382,11 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 }
 
 .main-menu ul li .mega-menu li .mega-menu-title {
-  font-weight: 500;
+  font-weight: 700;
   font-size: 12px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: #7D7D82;
+  color: #000000;
   cursor: text;
   padding: 0;
   display: inline-block;
@@ -15714,6 +15714,29 @@ only screen and (min-width: 576px) and (max-width: 767px) {
     margin-left: -45px;
   }
 
+  .main-menu ul li .mega-menu {
+    position: absolute;
+    top: 100%;
+    left: -84px;
+    width: 1340px;
+    padding: 30px 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 30px rgba(3, 4, 28, 0.1);
+    visibility: hidden;
+    opacity: 0;
+    transform: scaleY(0);
+    transform-origin: top center;
+    z-index: 99;
+}
+
+.main-menu ul li .mega-menu li ul li a {
+  font-weight: 400;
+  font-size: 11px;
+  color: var(--tp-common-black);
+  padding: 0;
+  position: relative;
+}
+
   [dir=rtl] .main-menu-5 {
     margin-left: 0;
     margin-right: -45px;
@@ -15725,6 +15748,50 @@ only screen and (min-width: 576px) and (max-width: 767px) {
   .main-menu-5 {
     padding-left: 0;
   }
+
+  .main-menu ul li a {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 500;
+    color: var(--tp-common-white);
+    padding: 16px 0;
+    text-align: left;
+}
+
+.main-menu ul li .mega-menu li .mega-menu-title {
+  font-weight: 700;
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #000000;
+  cursor: text;
+  padding: 0;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.main-menu ul li .mega-menu li ul li a {
+  font-weight: 400;
+  font-size: 10px;
+  color: var(--tp-common-black);
+  padding: 0;
+  position: relative;
+}
+
+.main-menu ul li .mega-menu {
+  position: absolute;
+  top: 100%;
+  left: -121px;
+  width: 1178px;
+  padding: 30px 20px;
+  background: #FFFFFF;
+  box-shadow: 0px 20px 30px rgba(3, 4, 28, 0.1);
+  visibility: hidden;
+  opacity: 0;
+  transform: scaleY(0);
+  transform-origin: top center;
+  z-index: 99;
+}
 
   [dir=rtl] .main-menu-5 {
     padding-right: 0;
@@ -28305,13 +28372,13 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .services__icon-7 {
-  margin-bottom: -45px;
+  margin-bottom: 15px;
 }
 
 .services__icon-7 span {
   display: inline-block;
-  width: 90px;
-  height: 90px;
+  width: 60px;
+  height: 60px;
   line-height: 90px;
   text-align: center;
   color: var(--tp-common-white);
@@ -41128,7 +41195,8 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .award__icon-5 {
-  margin-bottom: 36px;
+  margin-bottom: 15px;
+  max-width: 130px;
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px),
@@ -45864,8 +45932,8 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 
 .contact__icon {
   margin-bottom: 0px;
-  width: 55px;
-  height: 55px;
+  width: 50px;
+  height: 50px;
 }
 
 .contact__input {
@@ -46486,7 +46554,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .contact__item {
-  padding: 20px 20px 20px;
+  padding: 5px 10px 15px 10px;
   box-shadow: 0 4px 8px 0px #662d9169, 5px 8px 30px 0 #0664a47a;
 }
 
@@ -46508,10 +46576,10 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .contact__content p {
-  font-family: var(--tp-ff-space);
+  font-family: var(--tp-ff-poppins);
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.36;
+  font-size: 11px;
+  line-height: 1.3;
   letter-spacing: -0.02em;
   color: var(--tp-common-black);
   margin-bottom: 0;
@@ -47852,8 +47920,8 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .features__shape-3 {
   position: absolute;
-  left: 62%;
-  top: 14%;
+  left: 58%;
+  top: 15%;
   z-index: -1;
   -moz-animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
   -webkit-animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
@@ -47868,8 +47936,8 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .features__shape-13 {
   position: absolute;
-  left: 30%;
-  top: 12%;
+  left: 25%;
+  top: 10%;
   z-index: -1;
   -moz-animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
   -webkit-animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
@@ -47884,8 +47952,8 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .features__shape-14 {
   position: absolute;
-  left: 10%;
-  top: 30%;
+  left: 6%;
+  top: 35%;
   z-index: -1;
   -moz-animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
   -webkit-animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
@@ -47901,7 +47969,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .features__shape-15 {
   position: absolute;
   left: 46%;
-  top: 4%;
+  top: 6%;
   z-index: -1;
   -moz-animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
   -webkit-animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
@@ -47916,8 +47984,8 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .features__shape-16 {
   position: absolute;
-  left: 22%;
-  top: 40%;
+  left: 18%;
+  top: 35%;
   z-index: -1;
   -moz-animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
   -webkit-animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
@@ -47932,8 +48000,8 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .features__shape-17 {
   position: absolute;
-  left: 11%;
-  top: 60%;
+  left: 20%;
+  top: 57%;
   z-index: -1;
   -moz-animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
   -webkit-animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
@@ -47948,7 +48016,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .features__shape-18 {
   position: absolute;
-  left: 47%;
+  left: 45%;
   top: 80%;
   z-index: -1;
   -moz-animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
@@ -47964,8 +48032,8 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .features__shape-19 {
   position: absolute;
-  left: 82%;
-  top: 30%;
+  left: 68%;
+  top: 10%;
   z-index: -1;
   -moz-animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
   -webkit-animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
@@ -47980,8 +48048,8 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .features__shape-20 {
   position: absolute;
-  left: 65%;
-  top: 70%;
+  left: 86%;
+  top: 58%;
   z-index: -1;
   -moz-animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
   -webkit-animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
@@ -47996,8 +48064,8 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .features__shape-21 {
   position: absolute;
-  left: 27%;
-  top: 72%;
+  left: 37%;
+  top: 15%;
   z-index: -1;
   -moz-animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
   -webkit-animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
@@ -48012,7 +48080,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .features__shape-22 {
   position: absolute;
-  left: 80%;
+  left: 75%;
   top: 60%;
   z-index: -1;
   -moz-animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
@@ -48028,8 +48096,8 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .features__shape-23 {
   position: absolute;
-  left: 68%;
-  top: 40%;
+  left: 67%;
+  top: 79%;
   z-index: -1;
   -moz-animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
   -webkit-animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
@@ -48039,6 +48107,214 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .features__shape-23:hover {
+  background: #fff;
+}
+
+.features__shape-24 {
+  position: absolute;
+  left: 65%;
+  top: 55%;
+  z-index: -1;
+  -moz-animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
+  -webkit-animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
+  animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
+  border-radius: 15px;
+  background: linear-gradient(to bottom,#fdffed 0,#effff8 100%);
+}
+
+.features__shape-24:hover {
+  background: #fff;
+}
+
+.features__shape-25 {
+  position: absolute;
+  left: 34%;
+  top: 74%;
+  z-index: -1;
+  -moz-animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
+  -webkit-animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
+  animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
+  border-radius: 15px;
+  background: linear-gradient(to bottom,#fdffed 0,#effff8 100%);
+}
+
+.features__shape-25:hover {
+  background: #fff;
+}
+
+.features__shape-26 {
+  position: absolute;
+  left: 9%;
+  top: 60%;
+  z-index: -1;
+  -moz-animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
+  -webkit-animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
+  animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
+  border-radius: 15px;
+  background: linear-gradient(to bottom,#fdffed 0,#effff8 100%);
+}
+
+.features__shape-26:hover {
+  background: #fff;
+}
+
+.features__shape-27 {
+  position: absolute;
+  left: 23%;
+  top: 79%;
+  z-index: -1;
+  -moz-animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
+  -webkit-animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
+  animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
+  border-radius: 15px;
+  background: linear-gradient(to bottom,#fdffed 0,#effff8 100%);
+}
+
+.features__shape-27:hover {
+  background: #fff;
+}
+
+.features__shape-28 {
+  position: absolute;
+  left: 30%;
+  top: 32%;
+  z-index: -1;
+  -moz-animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
+  -webkit-animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
+  animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
+  border-radius: 15px;
+  background: linear-gradient(to bottom,#fdffed 0,#effff8 100%);
+}
+
+.features__shape-28:hover {
+  background: #fff;
+}
+
+.features__shape-29 {
+  position: absolute;
+  left: 57%;
+  top: 75%;
+  z-index: -1;
+  -moz-animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
+  -webkit-animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
+  animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
+  border-radius: 15px;
+  background: linear-gradient(to bottom,#fdffed 0,#effff8 100%);
+}
+
+.features__shape-29:hover {
+  background: #fff;
+}
+
+.features__shape-30 {
+  position: absolute;
+  left: 75%;
+  top: 35%;
+  z-index: -1;
+  -moz-animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
+  -webkit-animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
+  animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
+  border-radius: 15px;
+  background: linear-gradient(to bottom,#fdffed 0,#effff8 100%);
+}
+
+.features__shape-30:hover {
+  background: #fff;
+}
+
+.features__shape-31 {
+  position: absolute;
+  left: 86%;
+  top: 35%;
+  z-index: -1;
+  -moz-animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
+  -webkit-animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
+  animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
+  border-radius: 15px;
+  background: linear-gradient(to bottom,#fdffed 0,#effff8 100%);
+}
+
+.features__shape-31:hover {
+  background: #fff;
+}
+
+.features__shape-32 {
+  position: absolute;
+  left: 30%;
+  top: 55%;
+  z-index: -1;
+  -moz-animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
+  -webkit-animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
+  animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
+  border-radius: 15px;
+  background: linear-gradient(to bottom,#fdffed 0,#effff8 100%);
+}
+
+.features__shape-32:hover {
+  background: #fff;
+}
+
+.features__shape-33 {
+  position: absolute;
+  left: 65%;
+  top: 32%;
+  z-index: -1;
+  -moz-animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
+  -webkit-animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
+  animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
+  border-radius: 15px;
+  background: linear-gradient(to bottom,#fdffed 0,#effff8 100%);
+}
+
+.features__shape-33:hover {
+  background: #fff;
+}
+
+.features__shape-34 {
+  position: absolute;
+  left: 80%;
+  top: 11%;
+  z-index: -1;
+  -moz-animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
+  -webkit-animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
+  animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
+  border-radius: 15px;
+  background: linear-gradient(to bottom,#fdffed 0,#effff8 100%);
+}
+
+.features__shape-34:hover {
+  background: #fff;
+}
+
+.features__shape-35 {
+  position: absolute;
+  left: 13%;
+  top: 80%;
+  z-index: -1;
+  -moz-animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
+  -webkit-animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
+  animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
+  border-radius: 15px;
+  background: linear-gradient(to bottom,#fdffed 0,#effff8 100%);
+}
+
+.features__shape-35:hover {
+  background: #fff;
+}
+
+.features__shape-36 {
+  position: absolute;
+  left: 15%;
+  top: 11%;
+  z-index: -1;
+  -moz-animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
+  -webkit-animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
+  animation: tpupdown 1s ease-in-out 1s forwards infinite alternate;
+  border-radius: 15px;
+  background: linear-gradient(to bottom,#fdffed 0,#effff8 100%);
+}
+
+.features__shape-36:hover {
   background: #fff;
 }
 

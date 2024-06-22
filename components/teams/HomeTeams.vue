@@ -2,12 +2,6 @@
   <section class="team__area pt-120 pb-80">
     <div class="container">
       <div v-if="el_style" class="row">
-        <div class="col-xl-12">
-          <div class="tp-section-wrapper-3 mb-50 text-center">
-            <span class="tp-section-subtitle-3">Our Team</span>
-            <h3 class="tp-section-title-3">Team Overlay Style</h3>
-          </div>
-        </div>
       </div>
       <div v-if="!el_style" class="row align-items-end">
         <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-7">

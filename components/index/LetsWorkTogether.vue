@@ -96,7 +96,7 @@
         <div class="col-xl-6 col-lg-6">
           <div class="contact__form-3 ml-30">
             <!-- form start -->
-            <help-center-form />
+            <HomepageForm />
             <!-- form end -->
             <p class="ajax-response"></p>
           </div>
@@ -107,10 +107,10 @@
 </template>
   
 <script>
-import HelpCenterForm from '../forms/HelpCenterForm.vue';
+import HomepageForm from '../forms/HomepageForm.vue';
 
 export default {
-  components: { HelpCenterForm },
+  components: { HomepageForm },
 
 }
 </script>

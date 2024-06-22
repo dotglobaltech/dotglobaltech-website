@@ -20,14 +20,14 @@
         </div>
       </div>
       <div :class="`header__bottom header__sticky ${header_solid ? '' : `header__bottom-border${transparent ? '-3' : ''}`
-        } ${isSticky ? 'header-sticky' : ''}`" id="header-sticky">
+      } ${isSticky ? 'header-sticky' : ''}`" id="header-sticky">
         <div class="container">
           <div class="mega-menu-wrapper p-relative">
             <div class="row align-items-center">
               <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-4 col-sm-5 col-8">
                 <div class="logo logo-border">
                   <nuxt-link href="/" v-if="!header_solid && !header_black">
-                    <img class="logo-light" src="~/assets/img/logo/logo.svg" alt="logo" />
+                    <img class="logo-light" src="~/assets/img/logo/logo-white.svg" alt="logo" />
                     <img class="logo-dark" src="~/assets/img/logo/logo-white.svg" alt="logo" />
                   </nuxt-link>
 
@@ -41,7 +41,7 @@
               </div>
               <div class="col-xxl-7 col-xl-7 col-lg-7 d-none d-lg-block">
                 <div class="main-menu pl-0 main-menu-ff-space">
-                  <nav id="mobile-menu">
+                  <nav id="mobile-menu-float-link">
                     <!-- menus start -->
                     <menus />
                     <!-- menus end -->
@@ -54,10 +54,11 @@
                   <div class="header__action d-none d-xl-block">
                     <ul>
                       <div class="tp-header-transparent">
-                        <a @click.prevent="handleSearch" href="#" class="router-link-active router-link-exact-active tp-btn btn-project bg-btn lnk">
+                        <a @click.prevent="handleSearch" href="#"
+                          class="router-link-active router-link-exact-active tp-btn btn-project bg-btn lnk">
                           Start a Project
                           <i class="fas fa-chevron-right fa-icon"></i>
-                        <span class="circle"></span>
+                          <span class="circle"></span>
                         </a>
                       </div>
                       <!-- <li>
@@ -69,7 +70,7 @@
                       </li> -->
                       <li>
                         <button @click="handleOffCanvas" type="button" :class="`hamburger-btn ${header_solid || header_black ? 'hamburger-btn-black' : ''
-                          } offcanvas-open-btn`">
+      } offcanvas-open-btn`">
                           <span></span>
                           <span></span>
                           <span></span>
@@ -79,7 +80,7 @@
                   </div>
                   <div class="header__hamburger ml-50 d-xl-none">
                     <button @click="handleOffCanvas" type="button" :class="`hamburger-btn ${header_solid || header_black ? 'hamburger-btn-black' : ''
-                      } offcanvas-open-btn`">
+      } offcanvas-open-btn`">
                       <span></span>
                       <span></span>
                       <span></span>
