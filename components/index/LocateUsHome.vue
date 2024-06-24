@@ -29,7 +29,7 @@
             </div>
             <div class="features__content-13">
               <h3 class="features__title-13">India (HQ)</h3>
-              <p>Dot Global Tech, 669/M, 7th Main Rd, near Bangalore Development Authority Complex, HBR Layout 2nd Block, 1st Stage, HBR Layout, Bengaluru, Karnataka 560043.</p>
+              <p>Dot Global Tech, 669/M, 7th Main Rd, near Bangalore Development Authority Complex, 2nd Block, 1st Stage, HBR Layout, Bengaluru, Karnataka 560043.</p>
               <p><strong>+91 96060 28218</strong></p>
             </div>
           </div>

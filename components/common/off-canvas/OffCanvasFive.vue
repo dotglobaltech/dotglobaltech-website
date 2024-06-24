@@ -134,7 +134,7 @@
                 </div>
                 <div class="footer__info-text-6">
                   <a target="_blank" href="">Dot Global Tech, 669/M, 7th Main Rd, near Bangalore Development Authority
-                    Complex, HBR Layout 2nd Block, 1st Stage, HBR Layout, Bengaluru, Karnataka 560043.</a>
+                    Complex, 2nd Block, 1st Stage, HBR Layout, Bengaluru, Karnataka 560043.</a>
                 </div>
               </div>
               <div class="footer__info-item-6 d-flex align-items-start">
