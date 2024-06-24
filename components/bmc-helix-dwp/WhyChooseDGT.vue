@@ -31,7 +31,7 @@
               <img class="about__shape-9" src="~/assets/img/about/14/about-shape-2.png" alt="">
             </div>
             <div class="about__thumb-14 m-img">
-              <img class="about-img-1" src="~/assets/img/image-here.png" alt="">
+              <img class="about-img-1" src="~/assets/img/bmc-helix-dwp/Why_Choose.png" alt="Why_Choose">
             </div>
             <p>Want to unlock your business's full potential with BMC Helix Digital Workplace? Look no further than
                 Dot Global Technologies! We are your one-stop shop for all things DWP. Our team of BMC-certified experts
