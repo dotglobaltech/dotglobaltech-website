@@ -29,7 +29,7 @@
               <img class="about__shape-9" src="~/assets/img/about/14/about-shape-2.png" alt="">
             </div>
             <div class="about__thumb-14 m-img">
-              <img class="about-img-1" src="~/assets/img/image-here.png" alt="">
+              <img class="about-img-1" src="~/assets/img/bmc-smart-reporting/Why_Choose_DGT.png" alt="Why_Choose_DGT">
             </div>
           </div>
         </div>
