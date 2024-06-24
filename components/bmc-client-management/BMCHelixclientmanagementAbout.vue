@@ -10,7 +10,7 @@
               <img class="about__shape-9" src="~/assets/img/about/14/about-shape-2.png" alt="">
             </div>
             <div class="about__thumb-14 m-img">
-              <img class="about-img-1" src="~/assets/img/image-here.png" alt="">
+              <img class="about-img-1" src="~/assets/img/bmc-helix-client-management/Trust_dgt.png" alt="Trust_dgt">
             </div>
           </div>
         </div>
