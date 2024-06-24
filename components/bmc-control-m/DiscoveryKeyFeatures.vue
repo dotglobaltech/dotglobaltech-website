@@ -9,7 +9,7 @@
           </div>
           <div class="history__thumb-wrapper d-sm-flex pr-70">
             <div class="about__thumb-14 m-img">
-              <img class="about-img-1" src="~/assets/img/image-here.png" alt="">
+              <img class="about-img-1" src="~/assets/img/bmc-control-M/Services.png" alt="Services">
             </div>
           </div>
         </div>
