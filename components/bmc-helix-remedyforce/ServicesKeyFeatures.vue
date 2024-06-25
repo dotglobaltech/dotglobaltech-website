@@ -8,7 +8,7 @@
               <div class="services__icon-9">
                 <span>
                   <span>
-                    <img src="~/assets/img/bmc-helix-remedyforce/Automate_Routine_Tasks-01.svg" alt="" />
+                    <img src="~/assets/img/bmc-helix-remedyforce/Automate_Routine_Tasks.svg" alt="" />
                   </span>
                   <img src="~/assets/img/services/9/services-icon-shape.png" alt="" />
                 </span>
@@ -31,7 +31,7 @@
               <div class="services__icon-9">
                 <span>
                   <span>
-                    <img src="~/assets/img/bmc-helix-remedyforce/Improve_Efficiency-01.svg" alt="" />
+                    <img src="~/assets/img/bmc-helix-remedyforce/Improve_Efficiency.svg" alt="" />
                   </span>
                   <img src="~/assets/img/services/9/services-icon-shape.png" alt="" />
                 </span>
@@ -54,7 +54,7 @@
               <div class="services__icon-9">
                 <span>
                   <span>
-                    <img src="~/assets/img/bmc-helix-remedyforce/Boost_ROI-01.svg" alt="" />
+                    <img src="~/assets/img/bmc-helix-remedyforce/Boost_ROI.svg" alt="" />
                   </span>
                   <img src="~/assets/img/services/9/services-icon-shape.png" alt="" />
                 </span>
