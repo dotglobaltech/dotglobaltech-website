@@ -2,7 +2,7 @@
   <div>
     <header-one :top_bar="false" :commonOffcanvas="true" />
     <service-breadcrumb />
-    <BMCHelixDicoveryAbout />
+    <BMCHelixtruesightAbout />
     <ServicesKeyFeatures />
     <services-vision />
     <WhyChooseDGT />
@@ -18,7 +18,7 @@
 <script>
 import HeaderOne from "~~/layouts/headers/HeaderOne.vue";
 import ServiceBreadcrumb from '~~/components/bmc-truesight/ServiceBreadcrumb.vue';
-import BMCHelixDicoveryAbout from '~~/components/bmc-truesight/BMCHelixDicoveryAbout.vue';
+import BMCHelixDicoveryAbout from '~~/components/bmc-truesight/BMCHelixtruesightAbout.vue';
 import ServicesKeyFeatures from '~~/components/bmc-truesight/ServicesKeyFeatures.vue';
 import ServicesVision from '~~/components/bmc-truesight/ServicesVision.vue';
 import WhyChooseDGT from '~~/components/bmc-truesight/WhyChooseDGT.vue';
@@ -33,7 +33,7 @@ export default {
   components: {
     HeaderOne,
     ServiceBreadcrumb,
-    BMCHelixDicoveryAbout,
+    BMCHelixtruesightAbout,
     ServicesKeyFeatures,
     ServicesVision,
     WhyChooseDGT,
