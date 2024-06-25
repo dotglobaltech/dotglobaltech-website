@@ -1,7 +1,7 @@
 <template>
   <div>
     <header-one :top_bar="false" :commonOffcanvas="true" />
-    <service-breadcrumb/>
+    <cloudservice-breadcrumb/>
     <home-services :style_2="true" />
     <BMCServicesAbout/>
     <services-vision/>
@@ -16,7 +16,7 @@
 
 <script>
 import HeaderOne from "~~/layouts/headers/HeaderOne.vue";
-import ServiceBreadcrumb from '~~/components/salesforce-service-cloud/ServiceBreadcrumb.vue';
+import ServiceBreadcrumb from '~~/components/salesforce-service-cloud/cloudServiceBreadcrumb.vue';
 import HomeServices from '~~/components/salesforce-service-cloud/HomeServices.vue';
 import BMCServicesAbout from '~~/components/salesforce-service-cloud/BMCServicesAbout.vue';
 import ServicesVision from '~~/components/salesforce-service-cloud/ServicesVision.vue';
@@ -30,7 +30,7 @@ import BackToTop from '~~/layouts/footers/component/BackToTop.vue';
 export default {
   components: {
     HeaderOne,
-    ServiceBreadcrumb,
+    cloudServiceBreadcrumb,
     HomeServices,
     BMCServicesAbout,
     ServicesVision,
