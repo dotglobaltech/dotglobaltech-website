@@ -31,7 +31,7 @@
               <div class="services__icon-9">
                 <span>
                   <span>
-                    <img src="~/assets/img/bmc-helix-discovery/Reduce_costs-01.svg" alt="" />
+                    <img src="~/assets/img/bmc-helix-discovery/Reduce_costs.svg" alt="" />
                   </span>
                   <img src="~/assets/img/services/9/services-icon-shape.png" alt="" />
                 </span>
@@ -54,7 +54,7 @@
               <div class="services__icon-9">
                 <span>
                   <span>
-                    <img src="~/assets/img/bmc-helix-discovery/Enhance_security_and_compliance-01.svg" alt="" />
+                    <img src="~/assets/img/bmc-helix-discovery/Enhance_security_and_compliance.svg" alt="" />
                   </span>
                   <img src="~/assets/img/services/9/services-icon-shape.png" alt="" />
                 </span>
