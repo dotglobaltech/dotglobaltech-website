@@ -24,7 +24,7 @@
             <div class="services__item-7 text-center mb-60" data-sal="slide-up" data-sal-duration="1000">
               <div class="services__icon-7">
                 <span>
-                  <img src="~/assets/img/bmc-helix-itsm/Enhanced_User_Experience-01.svg" alt="" />
+                  <img src="~/assets/img/bmc-helix-itsm/Effortless_Service_Requests.svg" alt="" />
                 </span>
               </div>
               <div class="services__content-7" style="height:420px;">
@@ -43,17 +43,74 @@
             <div class="services__item-7 text-center mb-60" data-sal="slide-up" data-sal-duration="1000">
               <div class="services__icon-7">
                 <span>
-                  <img src="~/assets/img/bmc-helix-itsm/Enhanced_User_Experience-01.svg" alt="" />
+                  <img src="~/assets/img/bmc-helix-itsm/Predictive_Service_Management.svg" alt="" />
                 </span>
               </div>
               <div class="services__content-7" style="height:420px;">
                 <h3 class="services__title-7">
-                  Effortless Service Requests
+                  Productive Service Management
                 </h3>
-                <p>Users can easily submit requests and resolve common IT issues independently through self-service
-                  options, while automation streamlines service delivery and frees agents for complex tasks. We take
-                  pride in being the most preferred BMC Helix ITSM Third-Party vendor, helping our clients take their
-                  service management to new heights.</p>
+                <p>Benefit from the proven capabilities of BMC Remedy now with enhanced mobility, scalability, and agility for exceptional IT support that adapts to your needs. As BMC Helix ITSM Vendors, we possess technical expertise and capabilities to help clients get the most out of their investments.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+            <div class="services__item-7 text-center mb-60" data-sal="slide-up" data-sal-duration="1000">
+              <div class="services__icon-7">
+                <span>
+                  <img src="~/assets/img/bmc-helix-itsm/Asset_Management.svg" alt="" />
+                </span>
+              </div>
+              <div class="services__content-7" style="height:420px;">
+                <h3 class="services__title-7">
+                  Effective IT Asset Management
+                </h3>
+                <p>Gain comprehensive lifecycle management of IT assets, ensuring compliance, optimizing software licenses, and informing strategic IT decisions through better asset data. Leverage automation for streamlined management and improved efficiency.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+            <div class="services__item-7 text-center mb-60" data-sal="slide-up" data-sal-duration="1000">
+              <div class="services__icon-7">
+                <span>
+                  <img src="~/assets/img/bmc-helix-itsm/Problem_Management.svg" alt="" />
+                </span>
+              </div>
+              <div class="services__content-7" style="height:420px;">
+                <h3 class="services__title-7">
+                  Intelligent Incident & Problem Management
+                </h3>
+                <p>We are the most trusted BMC Helix ITSM Third Party Vendor in India, empowering clients through ground-breaking features of the solution we deploy. AI helps identify recurring incidents, automates tasks, and prioritizes issues, while real-time correlation allows proactive problem-solving.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+            <div class="services__item-7 text-center mb-60" data-sal="slide-up" data-sal-duration="1000">
+              <div class="services__icon-7">
+                <span>
+                  <img src="~/assets/img/bmc-helix-itsm/Effortless_Change_Management.svg" alt="" />
+                </span>
+              </div>
+              <div class="services__content-7" style="height:420px;">
+                <h3 class="services__title-7">
+                 Effortless Change Management
+                </h3>
+                <p>Drag-and-drop functionality simplifies change requests, automates conflict detection, and streamlines the approval process for smooth implementations.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+            <div class="services__item-7 text-center mb-60" data-sal="slide-up" data-sal-duration="1000">
+              <div class="services__icon-7">
+                <span>
+                  <img src="~/assets/img/bmc-helix-itsm/Actionable_Reporting_&_Analytics.svg" alt="" />
+                </span>
+              </div>
+              <div class="services__content-7" style="height:420px;">
+                <h3 class="services__title-7">
+                 Actionable Reporting & Analytics
+                </h3>
+                <p>Gain valuable insights through powerful analytics, customized reports, and clear visualizations for effective data communication.</p>
               </div>
             </div>
           </div>

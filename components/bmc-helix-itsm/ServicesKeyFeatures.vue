@@ -31,7 +31,7 @@
               <div class="services__icon-9">
                 <span>
                   <span>
-                    <img src="~/assets/img/bmc-helix-itsm/Streamlined_Workflows-01.svg" alt="" />
+                    <img src="~/assets/img/bmc-helix-itsm/Streamlined_Workflows.svg" alt="" />
                   </span>
                   <img src="~/assets/img/services/9/services-icon-shape.png" alt="" />
                 </span>
@@ -54,7 +54,7 @@
               <div class="services__icon-9">
                 <span>
                   <span>
-                    <img src="~/assets/img/bmc-helix-itsm/Enhanced_User_Experience-01.svg" alt="" />
+                    <img src="~/assets/img/bmc-helix-itsm/Enhanced_User_Experience.svg" alt="" />
                   </span>
                   <img src="~/assets/img/services/9/services-icon-shape.png" alt="" />
                 </span>
@@ -77,7 +77,7 @@
               <div class="services__icon-9">
                 <span>
                   <span>
-                    <img src="~/assets/img/bmc-helix-itsm/Unified_Knowledge_Management-01.svg" alt="" />
+                    <img src="~/assets/img/bmc-helix-itsm/Unified_Knowledge_Management.svg" alt="" />
                   </span>
                   <img src="~/assets/img/services/9/services-icon-shape.png" alt="" />
                 </span>
